@@ -1,8 +1,4 @@
-<!doctype html>
-<html lang="no">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <title>Reisekalkulatoren</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
@@ -211,8 +207,6 @@ details.how li{margin:4px 0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
-</head>
-<body>
 
 <header class="top">
   <div class="top-in">
@@ -422,6 +416,9 @@ function tegnKart(){
 
 /* ---------- detalj ---------- */
 function ikon(t){ return ({bil:'Bil', fly:'Fly', buss:'Buss', tog:'Tog', ferge:'Ferge', transfer:'Transfer', taxi:'Taxi', gange:'Til fots'})[t] || esc(t || ''); }
+function stegHtml(s){
+  return `<li><span class="ic">${ikon(s.type)}</span>${s.tid ? `<b style="font-weight:600;margin-right:6px">${esc(s.tid)}</b>` : ''}${esc(s.fra || '')}${s.til ? ' → ' + esc(s.til) : ''}${s.detalj || s.varighet ? `<div class="d">${esc([s.detalj, s.varighet].filter(Boolean).join(' · '))}</div>` : ''}</li>`;
+}
 function altListe(navn, liste, valgtId, type, r){
   if (!Array.isArray(liste) || !liste.length) return `<p class="faded">Ingen alternativer funnet.</p>`;
   return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" style="cursor:default"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
@@ -450,10 +447,21 @@ function tegnDetalj(){
     else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
     if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>`;
     if (Array.isArray(be.rute) && be.rute.length) {
-      h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + be.rute.map(s => `<li><span class="ic">${ikon(s.type)}</span>${esc(s.fra || '')}${s.til ? ' → ' + esc(s.til) : ''}${s.detalj || s.varighet ? `<div class="d">${esc([s.detalj, s.varighet].filter(Boolean).join(' · '))}</div>` : ''}</li>`).join('') + `</ul>`;
+      const harRetning = be.rute.some(s => s && s.retning);
+      h += `<h2 class="sec">Reiserute</h2>`;
+      if (harRetning) {
+        [['ut', 'Utreise'], ['hjem', 'Hjemreise']].forEach(([key, lbl]) => {
+          const steg = be.rute.filter(s => (s.retning || 'ut') === key);
+          if (!steg.length) return;
+          h += `<h3 style="margin:14px 0 6px;font-size:14px;opacity:.75">${lbl}</h3><ul class="steps">` + steg.map(stegHtml).join('') + `</ul>`;
+        });
+      } else {
+        h += `<ul class="steps">` + be.rute.map(stegHtml).join('') + `</ul>`;
+      }
     }
+    const netter = r.netter ?? Math.max(0, (+r.dager || 0) - 1);
     h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', be.fly, b.fly?.id, 'fly', r);
-    h += `<h2 class="sec">Hotell <small>${r.dager || '?'} netter</small></h2>` + altListe('hotell', be.hotell, b.hotell?.id, 'hotell', r);
+    h += `<h2 class="sec">Hotell <small>${netter || '?'} netter</small></h2>` + altListe('hotell', be.hotell, b.hotell?.id, 'hotell', r);
     h += `<h2 class="sec">Transport på stedet</h2>` + altListe('transport', be.transport, b.transport?.id, 'transport', r);
     const dl = be.daglig || [], fa = be.faste || [];
     if (dl.length || fa.length) {
@@ -524,5 +532,4 @@ lastData(true);
 setInterval(() => lastData(false), 5 * 60 * 1000);
 </script>
 
-</body>
-</html>
+</body></html>
