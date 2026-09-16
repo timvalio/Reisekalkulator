@@ -2,33 +2,189 @@
   "reiser": [
     {
       "id": "paris-parrot-workshop-mu3jbk3b",
-      "avreise": "",
+      "avreise": "2026-10-19",
+      "beregning": {
+        "antakelser": [
+          "Reisen er lagt opp som én overnatting: avreise fra Alta ettermiddag 19. oktober, retur fra Paris kvelden 20. oktober etter møtet.",
+          "Ingen reisefølge er nevnt, så reisen er beregnet for 1 person.",
+          "Hotellstandard satt til «bra» (4-stjerners, sentralt) siden ingen standard var oppgitt.",
+          "Avreisested satt til Alta — klart billigere enn Kittilä på denne datoen."
+        ],
+        "daglig": [
+          {
+            "navn": "Mat og drikke",
+            "notat": "anslag, 1 reisende, Paris-priser",
+            "prisDag": 500
+          }
+        ],
+        "dato": "2026-09-16T05:15:00.000Z",
+        "faste": [
+          {
+            "navn": "Parkering Alta lufthavn",
+            "notat": "Makspris 299 kr/døgn, ca. 2 døgn (Avinor/OnePark)",
+            "pris": 600
+          },
+          {
+            "navn": "Drivstoff Kautokeino–Alta t/r",
+            "notat": "260 km × 2 kr/km",
+            "pris": 520
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 16.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Paris%20on%202026-10-19%20through%202026-10-20",
+            "navn": "SAS / Air France via Oslo",
+            "notat": "Avgang Alta 14:30, ankomst Paris CDG 19:40 samme dag, 1 mellomlanding (40 min Oslo)",
+            "pris": 3943,
+            "rute": "Alta–Oslo–Paris CDG",
+            "selskap": "SAS/Air France"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 16.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Paris%20on%202026-10-19%20through%202026-10-20",
+            "navn": "SAS via Tromsø/Oslo/Arlanda",
+            "notat": "Avgang Alta 07:30, ankomst Paris 16:35, 3 mellomlandinger — reserve om f1 blir fulltegnet",
+            "pris": 4298,
+            "rute": "Alta–Tromsø–Oslo–Stockholm–Paris CDG",
+            "selskap": "SAS"
+          }
+        ],
+        "forslag": "Fra Kautokeino kjører du de rundt 130 km til Alta lufthavn (ca. 2 timer). Herfra går det fly med mellomlanding i Oslo videre til Paris CDG — et godt alternativ er SAS/Air France med avgang 14:30 fra Alta og landing i Paris 19:40 samme kveld, så du rekker godt frem til møtet morgenen etter. Alta er klart billigere enn Kittilä på denne datoen (rundt 3 900 kr mot 5 400 kr tur/retur), så Alta er lagt til grunn.\n\nBo gjerne i 10. arrondissement rundt Gare de l'Est, rett i nærheten av Parrot sitt hovedkontor på Quai de Jemmapes — da slipper du å bruke tid på transport om morgenen før møtet. Le Grand Quartier og Hotel Aulivia Opéra ligger begge under en kilometer unna og har gode vurderinger, mens NH Paris Gare de l'Est ligger bokstavelig talt rett ved togstasjonen.\n\nFra flyplassen til hotellet tar RER B-toget deg inn til byen på under en time for rundt 150 kr, eller du kan bestille taxi/VTC direkte for rundt 700–800 kr hvis du heller vil slippe bytter med bagasje etter en lang reisedag.\n\nSiden møtedatoen er fastsatt (20. oktober), er det ingen fleksibilitet i datoene — bestill flyet i god tid, siden prisene på denne ruten har en tendens til å stige nærmere avreise.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 16.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
+            "navn": "Hotel Aulivia Opéra",
+            "notat": "Vurdering 8,0 — billigst av de tre",
+            "omrade": "10. arr. – République, 0,6 km fra Gare de l'Est",
+            "pris": 3971,
+            "prisNatt": 3971,
+            "stjerner": 4
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 16.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
+            "navn": "Le Grand Quartier",
+            "notat": "Vurdering 8,9 — best vurdert av de tre",
+            "omrade": "10. arr. – République, 0,5 km fra Gare de l'Est",
+            "pris": 4069,
+            "prisNatt": 4069,
+            "stjerner": 4
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 16.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
+            "navn": "NH Paris Gare de l'Est",
+            "notat": "Vurdering 8,4 — nærmest stasjonen, kjent kjede",
+            "omrade": "10. arr., 100 m fra Gare de l'Est",
+            "pris": 4425,
+            "prisNatt": 4425,
+            "stjerner": 4
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          },
+          {
+            "navn": "Avinor parkering Alta",
+            "url": "https://www.avinor.no"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "detalj": "ca. 130 km",
+            "fra": "Kautokeino",
+            "til": "Alta lufthavn",
+            "type": "bil",
+            "varighet": "2 t"
+          },
+          {
+            "detalj": "SAS, avgang 14:30",
+            "fra": "Alta",
+            "til": "Oslo",
+            "type": "fly",
+            "varighet": "del av totalreise 5 t 10 min"
+          },
+          {
+            "detalj": "Air France (codeshare SAS), 40 min mellomlanding i Oslo, ankomst 19:40",
+            "fra": "Oslo",
+            "til": "Paris CDG",
+            "type": "fly",
+            "varighet": "5 t 10 min totalt Alta–Paris"
+          },
+          {
+            "detalj": "RER B + metro, eller taxi/VTC",
+            "fra": "Paris CDG",
+            "til": "hotellet",
+            "type": "transfer",
+            "varighet": "45–60 min"
+          }
+        ],
+        "sammendrag": "Alta er billigst som avreisested. Fly SAS/Air France via Oslo (3 943 kr) og hotell nær Gare de l'Est/Parrot HQ (fra 3 971 kr/natt) gir en effektiv én-natts jobbreise. Flypriser på denne ruten kan stige nærmere avreise.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "RATP/Google",
+            "navn": "RER B + metro fra CDG",
+            "notat": "Billigst, ca. 45–60 min til sentrum",
+            "pris": 150
+          },
+          {
+            "id": "t2",
+            "kilde": "Erfaringspris CDG-sentrum",
+            "navn": "Taxi/VTC fra CDG",
+            "notat": "Enklere med bagasje etter lang reisedag",
+            "pris": 750
+          }
+        ]
+      },
       "beskrivelse": "Jeg skal på jobbreise til Paris 20.oktober, skal på møte hos Parrot HQ. Jeg må være der på morgenen den dagen men kan starte på hjemreise på kvelden. Jeg reiser fra Kittilä eller Alta. Finn også overnatting.",
       "budsjett": 0,
-      "dager": 0,
+      "dager": 2,
       "egne": [],
       "endret": "2026-09-16T03:22:10.665Z",
-      "fleks": 3,
+      "fleks": 0,
       "forespurt": "2026-09-16T03:22:10.665Z",
-      "fra": "",
-      "historikk": [],
-      "land": "",
+      "fra": "Alta",
+      "historikk": [
+        {
+          "dato": "2026-09-16T05:15:00.000Z",
+          "metode": "chrome",
+          "total": 10184
+        }
+      ],
+      "land": "Frankrike",
       "lat": 48.86,
       "lon": 2.35,
       "navn": "Paris - Parrot workshop",
       "notat": "",
-      "onsker": "",
+      "onsker": "sentrumsnært, nær Parrot HQ (Gare de l'Est-området), effektiv reise siden det er jobbreise",
       "opprettet": "2026-09-16T03:22:10.665Z",
-      "reisende": 0,
-      "standard": "",
-      "status": "venter",
-      "sted": "",
+      "reisende": 1,
+      "standard": "bra",
+      "status": "beregnet",
+      "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
+      "trengerChrome": false,
       "valg": {}
     }
   ],
   "meta": {
-    "melding": "testkjøring OK, ingenting å regne – lista er tom, legg inn det første reisemålet",
-    "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistSjekk": "2026-09-15T20:16:11.000Z"
+    "sistSjekk": "2026-09-16T05:16:00.000Z",
+    "melding": "1 reisemål regnet ut (Paris - Parrot workshop)",
+    "sistBeregnet": "2026-09-16T05:16:00.000Z",
+    "opprettet": "2026-09-15T20:10:00.000Z"
   }
 }
