@@ -1,0 +1,34 @@
+{
+  "reiser": [
+    {
+      "id": "paris-parrot-workshop-mu3jbk3b",
+      "avreise": "",
+      "beskrivelse": "Jeg skal på jobbreise til Paris 20.oktober, skal på møte hos Parrot HQ. Jeg må være der på morgenen den dagen men kan starte på hjemreise på kvelden. Jeg reiser fra Kittilä eller Alta. Finn også overnatting.",
+      "budsjett": 0,
+      "dager": 0,
+      "egne": [],
+      "endret": "2026-09-16T03:22:10.665Z",
+      "fleks": 3,
+      "forespurt": "2026-09-16T03:22:10.665Z",
+      "fra": "",
+      "historikk": [],
+      "land": "",
+      "lat": 48.86,
+      "lon": 2.35,
+      "navn": "Paris - Parrot workshop",
+      "notat": "",
+      "onsker": "",
+      "opprettet": "2026-09-16T03:22:10.665Z",
+      "reisende": 0,
+      "standard": "",
+      "status": "venter",
+      "sted": "",
+      "valg": {}
+    }
+  ],
+  "meta": {
+    "melding": "testkjøring OK, ingenting å regne – lista er tom, legg inn det første reisemålet",
+    "opprettet": "2026-09-15T20:10:00.000Z",
+    "sistSjekk": "2026-09-15T20:16:11.000Z"
+  }
+}
