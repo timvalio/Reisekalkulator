@@ -470,9 +470,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er fortsatt friske (beregnet tidligere i dag kl. 04:26, under 7 dager gamle, ingen trenger Chrome). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av proxyen på Tims PC (403 Forbidden på CONNECT-tunnelen, bekreftet på nytt med både curl og python urllib) — samme vedvarende blokkering som tidligere kjøringer har meldt, ikke et midlertidig utfall.",
+    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er fortsatt friske (beregnet kl. 04:26, under 7 dager gamle, ingen trenger Chrome, ingen «venter»). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av proxyen på Tims PC (403 Forbidden på CONNECT-tunnelen) — samme vedvarende blokkering som tidligere kjøringer har meldt, ingen skjemasvar kunne hentes. GODT NYTT: de 3 commitene som sto fast forrige kjøring (0ef69d8, 1204d89, 395a914) er nå bekreftet på GitHub (origin/main == lokal HEAD == 395a914, sjekket mot GitHub API) — trolig pushet manuelt av Tim, for det underliggende problemet er IKKE fikset: credential.helper i repoet peker fortsatt på en utløpt økt-sti (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/.git-credentials-reisekalkulator) som ikke finnes i denne økten, så automatiske push fra denne roboten vil trolig feile igjen med mindre Tim peker den til en fast sti inni den tilkoblede mappen (f.eks. .git-credentials-reisekalkulator som allerede ligger i «Tims reisebyrå»-mappen, rett over Reisekalkulator-mappen). Rørte ikke credential-filen eller git config, som instruert.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T08:09:37.000Z"
+    "sistSjekk": "2026-09-17T09:12:29.000Z"
   }
 }
