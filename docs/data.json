@@ -1,7 +1,6 @@
 {
   "reiser": [
     {
-      "id": "paris-parrot-workshop-mu3jbk3b",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -209,7 +208,8 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {}
+      "valg": {},
+      "id": "paris-parrot-workshop-mu3jbk3b"
     },
     {
       "avreise": "2026-10-19",
@@ -434,9 +434,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen — begge reisemål er ferske (beregnet i dag). Skjemasjekk feilet: docs.google.com ble blokkert av nettverksproxyen på Tims PC (403 fra proxy).",
+    "melding": "Ingen reisemål trengte beregning denne kjøringen — begge («Paris - Parrot workshop» og «Paris (Parrot) + Danmark (Upteko)») ble beregnet tidligere i dag og er ikke eldre enn 7 dager, venter ikke, og trenger ikke Chrome på nytt. Skjemasjekk feilet igjen: docs.google.com (og google.com generelt) blokkeres av nettverksproxyen på Tims PC med «403 blocked-by-allowlist». Dette er andre kjøring på rad det skjer, så det er trolig en permanent innstilling — docs.google.com bør legges til i tillatte domener manuelt for at nye skjemasvar skal hentes automatisk.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T11:15:00.000Z"
+    "sistSjekk": "2026-09-17T12:11:39.000Z"
   }
 }
