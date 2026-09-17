@@ -416,9 +416,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er fortsatt friske (beregnet i går, under 7 dager gamle, ingen trenger Chrome). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av proxyen på Tims PC (403 på CONNECT, bekreftet med både python og curl) — samme vedvarende blokkering som forrige kjøring meldte, ikke et midlertidig utfall.",
+    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er fortsatt friske (beregnet tidligere i dag kl. 04:26, under 7 dager gamle, ingen trenger Chrome). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av proxyen på Tims PC (403 Forbidden på CONNECT-tunnelen, bekreftet på nytt med både curl og python urllib) — samme vedvarende blokkering som tidligere kjøringer har meldt, ikke et midlertidig utfall.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T07:09:34.000Z"
+    "sistSjekk": "2026-09-17T08:09:37.000Z"
   }
 }
