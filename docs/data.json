@@ -434,9 +434,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingen reisemål trengte beregning denne kjøringen (begge ferske, beregnet i dag). To driftsproblemer oppdaget, ingen av dem rettet automatisk (krever manuell handling): (1) Skjemasjekk feilet: docs.google.com blokkeres av nettverksproxyen på Tims PC med «403 blocked-by-allowlist» — andre kjøring på rad, trolig permanent, må legges til i tillatte domener. (2) Git push feilet: credential.helper peker på en sti fra en gammel/annen enhetsøkt (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i denne kjøringen, så git finner ingen lagret GitHub-pålogging og feiler i stedet for å spørre interaktivt. Commit ble likevel gjort lokalt (docs/data.json er oppdatert på Tims PC), men er IKKE pushet til GitHub — lesevisningen på nett viser derfor gammel meta-status til noen fikser credential-oppsettet på nytt (rørte ikke credential-filen eller git config selv, som instruert).",
-    "opprettet": "2026-09-15T20:10:00.000Z",
+    "sistSjekk": "2026-09-17T13:13:00.000Z",
+    "melding": "Ingen reisemål trengte beregning denne kjøringen (begge er ferske, beregnet tidligere i dag). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av nettverksproxyens allowlist på Tims PC (403 blocked-by-allowlist) — bekreftet nå at dette er en generell allowlist og ikke Google-spesifikt (også example.com blokkeres, mens github.com fungerer fint). Legg docs.google.com til i tillatte domener for at skjemasjekken skal fungere. Git push feiler fortsatt av samme grunn som sist: credential.helper i repoet peker på en absolutt sti i en tidligere økt (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes lenger i denne kjøringen — dette er strukturelt (hver kjøring får ny øktsti) og vil fortsette til credential-oppsettet fikses med en sti som ikke er øktavhengig. Lokale commits på Tims PC fungerer fortsatt (repoet lå 2 commits foran origin/main før denne kjøringen), men når ikke GitHub, så nettsiden kona bruker kan vise utdatert info til dette fikses. Rørte ikke credential-filen eller git config selv, som instruert. NB: den tilkoblede mappen heter nå «Tims reisebyrå» (ikke «Documents--Tims reisebyrå» som i oppskriften) — brukte riktig sti automatisk denne gangen.",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T12:23:13.000Z"
+    "opprettet": "2026-09-15T20:10:00.000Z"
   }
 }
