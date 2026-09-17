@@ -434,9 +434,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingen reisemål trengte beregning denne kjøringen — begge («Paris - Parrot workshop» og «Paris (Parrot) + Danmark (Upteko)») ble beregnet tidligere i dag og er ikke eldre enn 7 dager, venter ikke, og trenger ikke Chrome på nytt. Skjemasjekk feilet igjen: docs.google.com (og google.com generelt) blokkeres av nettverksproxyen på Tims PC med «403 blocked-by-allowlist». Dette er andre kjøring på rad det skjer, så det er trolig en permanent innstilling — docs.google.com bør legges til i tillatte domener manuelt for at nye skjemasvar skal hentes automatisk.",
+    "melding": "Ingen reisemål trengte beregning denne kjøringen (begge ferske, beregnet i dag). To driftsproblemer oppdaget, ingen av dem rettet automatisk (krever manuell handling): (1) Skjemasjekk feilet: docs.google.com blokkeres av nettverksproxyen på Tims PC med «403 blocked-by-allowlist» — andre kjøring på rad, trolig permanent, må legges til i tillatte domener. (2) Git push feilet: credential.helper peker på en sti fra en gammel/annen enhetsøkt (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i denne kjøringen, så git finner ingen lagret GitHub-pålogging og feiler i stedet for å spørre interaktivt. Commit ble likevel gjort lokalt (docs/data.json er oppdatert på Tims PC), men er IKKE pushet til GitHub — lesevisningen på nett viser derfor gammel meta-status til noen fikser credential-oppsettet på nytt (rørte ikke credential-filen eller git config selv, som instruert).",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T12:11:39.000Z"
+    "sistSjekk": "2026-09-17T12:23:13.000Z"
   }
 }
