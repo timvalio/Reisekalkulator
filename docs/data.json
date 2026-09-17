@@ -1,7 +1,6 @@
 {
   "reiser": [
     {
-      "id": "paris-parrot-workshop-mu3jbk3b",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -209,10 +208,10 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {}
+      "valg": {},
+      "id": "paris-parrot-workshop-mu3jbk3b"
     },
     {
-      "id": "upteko-dk-t4k9wr",
       "avreise": "2026-10-20",
       "beregning": {
         "antakelser": [
@@ -412,13 +411,14 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Odense",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "upteko-dk-t4k9wr"
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er begge friske fra i går (16.–17.9.), ingen står som «venter» eller trenger ny pris ennå. Skjemasvar ikke sjekket — docs.google.com er fortsatt blokkert av nettverksregler på Tims PC (samme som forrige kjøring). Git-push til GitHub feilet igjen (kommer ikke forbi pålogging i en ikke-interaktiv shell) — lesevisningen er bygget lokalt, men den publiserte siden har ikke fått siste endringer ennå.",
+    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er begge fortsatt friske (beregnet natt til 17.9., under 7 dager gamle, ingen trenger Chrome). Skjemasjekk feilet: docs.google.com blokkeres av nettverksreglene på Tims PC (proxy ga 403) — samme som forrige kjøring, ser ut som en vedvarende blokkering og ikke et midlertidig utfall.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T05:06:05.000Z"
+    "sistSjekk": "2026-09-17T06:12:26.000Z"
   }
 }
