@@ -416,9 +416,9 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne (ingen ventende reisemål). Lesevisning oppdatert med gjeldende priser: Paris - Parrot workshop (9 061 kr) og Danmark – Upteko/Odense (7 794 kr). Kunne ikke sjekke skjemasvar denne kjøringen — docs.google.com er blokkert av nettverksregler både i skyen og på Tims PC; prøves igjen neste kjøring.",
+    "melding": "Ingenting nytt å beregne denne kjøringen — Paris og Danmark–Upteko er begge friske fra i går (16.–17.9.), ingen står som «venter» eller trenger ny pris ennå. Skjemasvar ikke sjekket — docs.google.com er fortsatt blokkert av nettverksregler på Tims PC (samme som forrige kjøring). Git-push til GitHub feilet igjen (kommer ikke forbi pålogging i en ikke-interaktiv shell) — lesevisningen er bygget lokalt, men den publiserte siden har ikke fått siste endringer ennå.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "sistSjekk": "2026-09-17T04:49:10.000Z"
+    "sistSjekk": "2026-09-17T05:06:05.000Z"
   }
 }
