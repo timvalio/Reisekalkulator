@@ -1,6 +1,7 @@
 {
   "reiser": [
     {
+      "id": "paris-parrot-workshop-mu3jbk3b",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -208,10 +209,10 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {},
-      "id": "paris-parrot-workshop-mu3jbk3b"
+      "valg": {}
     },
     {
+      "id": "upteko-dk-t4k9wr",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -429,14 +430,13 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Paris + Odense",
-      "trengerChrome": false,
-      "id": "upteko-dk-t4k9wr"
+      "trengerChrome": false
     }
   ],
   "meta": {
-    "sistSjekk": "2026-09-17T13:13:00.000Z",
-    "melding": "Ingen reisemål trengte beregning denne kjøringen (begge er ferske, beregnet tidligere i dag). Skjemasjekk feilet igjen: docs.google.com blokkeres fortsatt av nettverksproxyens allowlist på Tims PC (403 blocked-by-allowlist) — bekreftet nå at dette er en generell allowlist og ikke Google-spesifikt (også example.com blokkeres, mens github.com fungerer fint). Legg docs.google.com til i tillatte domener for at skjemasjekken skal fungere. Git push feiler fortsatt av samme grunn som sist: credential.helper i repoet peker på en absolutt sti i en tidligere økt (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes lenger i denne kjøringen — dette er strukturelt (hver kjøring får ny øktsti) og vil fortsette til credential-oppsettet fikses med en sti som ikke er øktavhengig. Lokale commits på Tims PC fungerer fortsatt (repoet lå 2 commits foran origin/main før denne kjøringen), men når ikke GitHub, så nettsiden kona bruker kan vise utdatert info til dette fikses. Rørte ikke credential-filen eller git config selv, som instruert. NB: den tilkoblede mappen heter nå «Tims reisebyrå» (ikke «Documents--Tims reisebyrå» som i oppskriften) — brukte riktig sti automatisk denne gangen.",
+    "melding": "Ingen reisemål trengte beregning denne kjøringen (begge fortsatt ferske fra i dag). Skjemasjekk feilet igjen: docs.google.com er fortsatt blokkert av nettverksproxyens allowlist på Tims PC (bekreftet på nytt: docs.google.com blokkert, github.com fungerer fint) — legg docs.google.com til i tillatte domener for at skjemaet skal virke. Git push feiler fortsatt (\"could not read Username for 'https://github.com'\") — samme strukturelle credential-problem som sist (credential.helper finner ikke gyldige credentials i denne økten). Lokale commits hoper seg opp og pusher ikke til GitHub, så nettsiden kona bruker kan vise utdatert info til credential-oppsettet fikses på Tims PC. Rørte ikke credential-filen eller git config selv, som instruert.",
+    "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-17T04:26:56.000Z",
-    "opprettet": "2026-09-15T20:10:00.000Z"
+    "sistSjekk": "2026-09-17T14:12:32.000Z"
   }
 }
