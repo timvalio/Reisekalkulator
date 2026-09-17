@@ -5,12 +5,13 @@
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
-          "Returflyet (20:30 fra Paris, ankomst Alta 13:55 neste dag) er bekreftet fra et eget søk på enkeltbillett Paris–Alta 20. oktober — Google Flights lot meg ikke bekrefte nøyaktig klokkeslett for returen i selve tur/retur-kombinasjonen på 3 943 kr, så prisen for hjemreisen kan avvike noe fra denne.",
+          "Returflyet (20:30 fra Paris, ankomst Alta 13:55 neste dag) er bekreftet fra et eget søk på enkeltbillett Paris–Alta 20. oktober — Google Flights lot meg ikke bekrefte nøyaktig klokkeslett for returen i selve tur/retur-kombinasjonen, så prisen for hjemreisen kan avvike noe fra denne.",
           "Det finnes ingen rask kveldsforbindelse Paris–Alta — realistiske returflyvninger krever lang mellomlanding/overnatting i Oslo, så hjemkomst blir ettermiddagen 21. oktober, ikke samme kveld som avreise fra Paris.",
           "Alta er valgt fremfor Kittilä: kortere kjøretid (2 t mot 3 t) og rimeligere flyforbindelse.",
           "Fant ingen gode hotellalternativer ned mot 1 000 kr/natt nær Parrot-kontoret — billigste gode alternativ ligger på ca. 2 200 kr/natt i oktober 2026.",
           "Reisen er beregnet for 1 person, ingen reisefølge nevnt.",
-          "Transfer CDG–hotell er et anslag, ikke sjekket i sanntid."
+          "Transfer CDG–hotell er et anslag, ikke sjekket i sanntid.",
+          "Hotel Modern Est (forrige runde sitt h2) dukket ikke opp i dagens søk (trolig utsolgt for disse datoene) — erstattet med Moris Grands Boulevards, som har meget gode anmeldelser."
         ],
         "daglig": [
           {
@@ -19,7 +20,7 @@
             "prisDag": 500
           }
         ],
-        "dato": "2026-09-16T07:08:48.000Z",
+        "dato": "2026-09-17T04:26:56.000Z",
         "faste": [
           {
             "navn": "Parkering Alta lufthavn",
@@ -35,58 +36,58 @@
         "fly": [
           {
             "id": "f1",
-            "kilde": "Google Flights 16.9.2026",
+            "kilde": "Google Flights 17.9.2026",
             "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Paris%20on%202026-10-19%20through%202026-10-20",
             "navn": "SAS / Air France via Oslo",
             "notat": "Avgang Alta 14:30, ankomst Paris CDG 19:40. Retur ca. 20:30 fra Paris, ankomst Alta 13:55 neste dag (se antakelser)",
-            "pris": 3943,
+            "pris": 3796,
             "rute": "Alta–Oslo–Paris CDG",
             "selskap": "SAS/Air France"
           },
           {
             "id": "f2",
-            "kilde": "Google Flights 16.9.2026",
+            "kilde": "Google Flights 17.9.2026",
             "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Paris%20on%202026-10-19%20through%202026-10-20",
             "navn": "SAS via Tromsø/Oslo/Arlanda",
             "notat": "Avgang Alta 07:30, ankomst Paris 16:35, 3 mellomlandinger — reserve om f1 blir fulltegnet",
-            "pris": 4298,
+            "pris": 4150,
             "rute": "Alta–Tromsø–Oslo–Stockholm–Paris CDG",
             "selskap": "SAS"
           }
         ],
-        "forslag": "Fly Alta–Paris med SAS/Air France (via Oslo) koster 3 943 kr tur-retur — avgang Alta 14:30, ankomst Paris CDG 19:40. Det finnes dessverre ingen rask kveldsforbindelse hjem igjen: realistiske returflyvninger fra Paris kvelden 20. oktober lander i Alta først 13:55 dagen etter (21. oktober) på grunn av lang mellomlanding i Oslo, så regn med to reisedøgn hjemover selv om hotellet bare trengs én natt. Av hotell nær Parrot-kontoret ved Gare de l'Est er Belta Hotel (2 194 kr) og Hotel Modern Est (2 363 kr) de rimeligste gode alternativene jeg fant — ingenting godt helt ned mot 1 000 kr i dette området nå. NH Paris Gare de l'Est (4 425 kr) er et finere alternativ rett ved stasjonen. Kjør fra Kautokeino kl. 11:30 for å nå flyet med en times margin.",
+        "forslag": "Fly Alta–Paris med SAS/Air France (via Oslo) koster 3 796 kr tur-retur — avgang Alta 14:30, ankomst Paris CDG 19:40. Det finnes dessverre ingen rask kveldsforbindelse hjem igjen: realistiske returflyvninger fra Paris kvelden 20. oktober lander i Alta først 13:55 dagen etter (21. oktober) på grunn av lang mellomlanding i Oslo, så regn med to reisedøgn hjemover selv om hotellet bare trengs én natt. Av hotell nær Parrot-kontoret ved Gare de l'Est er Belta Hotel (2 195 kr) og Moris Grands Boulevards (2 411 kr, meget gode anmeldelser) de rimeligste gode alternativene jeg fant nå — ingenting godt helt ned mot 1 000 kr i dette området. NH Paris Gare de l'Est (4 427 kr) er et finere alternativ rett ved stasjonen. Kjør fra Kautokeino kl. 11:30 for å nå flyet med en times margin.",
         "hotell": [
           {
             "id": "h1",
-            "kilde": "Booking.com 16.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Quai+de+Jemmapes%2C+Paris",
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
             "navn": "Belta Hotel",
             "notat": "Vurdering 7,8 (534 anmeldelser) — rimeligste gode alternativ funnet, ikke ned mot 1 000 kr",
             "omrade": "10. arrondissement, nær Gare de l'Est",
-            "pris": 2194,
-            "prisNatt": 2194,
+            "pris": 2195,
+            "prisNatt": 2195,
             "stjerner": 3
           },
           {
             "id": "h2",
-            "kilde": "Booking.com 16.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Quai+de+Jemmapes%2C+Paris",
-            "navn": "Hotel Modern Est",
-            "notat": "Vurdering 7,7 (2 766 anmeldelser) — godt etablert, nest rimeligste gode alternativ",
-            "omrade": "10. arrondissement, nær Gare de l'Est",
-            "pris": 2363,
-            "prisNatt": 2363,
-            "stjerner": 3
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
+            "navn": "Moris Grands Boulevards",
+            "notat": "Vurdering 8,8 (2 685 anmeldelser) — meget gode anmeldelser; erstatter Hotel Modern Est som ikke var å finne i dagens søk",
+            "omrade": "10. arrondissement, 0,9 km fra Gare de l'Est",
+            "pris": 2411,
+            "prisNatt": 2411,
+            "stjerner": 4
           },
           {
             "id": "h3",
-            "kilde": "Booking.com 16.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Quai+de+Jemmapes%2C+Paris",
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
             "navn": "NH Paris Gare de l'Est",
-            "notat": "Vurdering 8,4 (1 386 anmeldelser) — finere alternativ, rett ved stasjonen og kort vei til kontoret",
+            "notat": "Vurdering 8,4 (1 388 anmeldelser) — finere alternativ, rett ved stasjonen og kort vei til kontoret",
             "omrade": "10. arrondissement, 100 m fra Gare de l'Est",
-            "pris": 4425,
-            "prisNatt": 4425,
+            "pris": 4427,
+            "prisNatt": 4427,
             "stjerner": 4
           }
         ],
@@ -152,7 +153,7 @@
             "varighet": "2 t kjøring"
           }
         ],
-        "sammendrag": "Alta–Paris t/r 3 943 kr, hotell nær Gare de l'Est fra 2 194 kr/natt. Hjemreise krever overnatting i Oslo — hjemme først ettermiddag 21. okt.",
+        "sammendrag": "Alta–Paris t/r 3 796 kr, hotell nær Gare de l'Est fra 2 195 kr/natt. Hjemreise krever overnatting i Oslo — hjemme først ettermiddag 21. okt.",
         "transport": [
           {
             "id": "t1",
@@ -170,13 +171,13 @@
           }
         ]
       },
-      "beskrivelse": "Jeg skal på jobbreise til Paris 20.oktober, skal på møte hos Parrot HQ. Jeg må være der på morgenen den dagen men kan starte på hjemreise på kvelden. Jeg reiser fra Kittilä eller Alta. Finn også overnatting.",
+      "beskrivelse": "Jeg skal på jobbreise til Paris 20.oktober, skal på møte hos Parrot HQ. Jeg må være der på morgenen den dagen men kan starte på hjemreise på kvelden. Jeg reiser fra Kittilä eller Alta. Finn også overnatting. Jeg reiser alene.",
       "budsjett": 0,
       "dager": 3,
       "egne": [],
-      "endret": "2026-09-16T07:08:48.000Z",
+      "endret": "2026-09-16T09:33:19.395Z",
       "fleks": 0,
-      "forespurt": "2026-09-16T03:22:10.665Z",
+      "forespurt": "2026-09-16T09:33:19.395Z",
       "fra": "Alta",
       "historikk": [
         {
@@ -188,6 +189,11 @@
           "dato": "2026-09-16T07:08:48.000Z",
           "metode": "chrome",
           "total": 9207
+        },
+        {
+          "dato": "2026-09-17T04:26:56.000Z",
+          "metode": "chrome",
+          "total": 9061
         }
       ],
       "land": "Frankrike",
@@ -199,17 +205,220 @@
       "onsker": "sentrumsnært, nær Parrot HQ (Gare de l'Est-området), effektiv reise siden det er jobbreise",
       "opprettet": "2026-09-16T03:22:10.665Z",
       "reisende": 1,
-      "standard": "bra",
+      "standard": "middels",
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
       "valg": {}
+    },
+    {
+      "id": "upteko-dk-t4k9wr",
+      "avreise": "2026-10-20",
+      "beregning": {
+        "antakelser": [
+          "Uke 42 2026 (kontaktens ferieuke hos Upteko) er 12.–18. oktober — besøket er derfor lagt til returen fra Paris-turen (20.–21. oktober), ikke før.",
+          "Reisen er satt opp som en forlengelse av Paris-turen: den starter i Paris kvelden 20. oktober, rett etter Parrot-møtet, ikke i Kautokeino.",
+          "Upteko ApS holder til på Beldringevej 252, 5270 Odense N (ifølge CVR-registeret, flyttet dit 21.8.2026) — nærmeste praktiske flyplass er København, med tog videre til Odense (ca. 1t 15min).",
+          "Én hotellovernatting ved København lufthavn (20.–21. okt) er lagt inn. Hjemkomst i Kautokeino blir rundt midnatt/natt til 22. oktober pga. sen ankomst Alta (22:50) + kjøring.",
+          "Alternativ med bedre margin: én ekstra overnatting ved lufthavnen og morgenfly (09:55) 22. oktober i stedet for kveldsflyet 21. oktober — koster omtrent én hotellnatt mer, se notat under fly f2.",
+          "Lokaltransport Odense stasjon – Upteko (taxi/buss) er et anslag, ikke sjekket i sanntid.",
+          "Reisen er beregnet for 1 person, ingen reisefølge nevnt.",
+          "OBS: Denne oppføringen og Paris-oppføringen er to alternativer å sammenligne («bare Paris» / «Paris + Danmark»), ikke kostnader som skal legges sammen — velges begge, blir Paris-oppføringens hjemfly og noe av parkeringen ved Alta lufthavn overflødig."
+        ],
+        "daglig": [
+          {
+            "navn": "Mat og drikke",
+            "notat": "anslag, 1 reisende, danske priser, 3 reisedøgn",
+            "prisDag": 400
+          }
+        ],
+        "dato": "2026-09-17T04:26:56.000Z",
+        "faste": [
+          {
+            "navn": "Taxi/buss Odense stasjon – Upteko t/r",
+            "notat": "Anslag, ikke sjekket i sanntid",
+            "pris": 450
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 17.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=One%20way%20flights%20from%20Paris%20to%20Copenhagen%20on%202026-10-20",
+            "navn": "Norwegian (begge strekk)",
+            "notat": "Paris CDG–København 21:45–23:40 (2 365 kr) + København–Alta 17:00–22:50 via Oslo (1 409 kr), dagen etter. To enkeltbilletter, samlet pris for 1 person",
+            "pris": 3774,
+            "rute": "Paris (CDG) – København – Alta (via Oslo)",
+            "selskap": "Norwegian"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 17.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=One%20way%20flights%20from%20Copenhagen%20to%20Alta%20on%202026-10-22",
+            "navn": "Samme utreise + morgenfly hjem 22.10 (mer margin)",
+            "notat": "Paris–København som f1 (2 365 kr) + SAS København–Alta 09:55–13:55 via Oslo 22.10 (1 215 kr) = 3 580 kr i flypris, men krever én ekstra hotellnatt ved København lufthavn (se antakelser)",
+            "pris": 3580,
+            "rute": "Paris (CDG) – København – (ekstra natt) – Alta (via Oslo)",
+            "selskap": "Norwegian/SAS"
+          }
+        ],
+        "forslag": "Legg Danmark-besøket til på returen fra Paris, ikke før — kontakten din hos Upteko har ferie hele uke 42 (12.–18. oktober), rett før Paris-turen starter. Rett etter Parrot-møtet 20. oktober tar du kveldsflyet Paris–København (Norwegian, direkte, avgang 21:45), overnatter ved lufthavnen, og tar et tidlig tog til Odense morgenen etter (ca. 1t 15min) — Upteko holder til på Beldringevej i Odense N. Flyet hjem København–Alta går 17:00 samme kveld (21. oktober) via Oslo, men med bagasjehenting og kjøring blir du ikke hjemme i Kautokeino før godt over midnatt.\n\nVil du ha bedre margin på dagen i Odense, kan du legge til én ekstra overnatting ved København lufthavn og ta det tidlige morgenflyet (09:55) 22. oktober i stedet — omtrent samme totalpris siden det billigere flyet nesten dekker den ekstra hotellnatten. Husk at denne turen og Paris-turen er to alternativer å sammenligne, ikke kostnader som skal legges sammen — velger du begge, blir Paris-oppføringens hjemreise og parkering ved Alta lufthavn overflødig.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Copenhagen+Airport",
+            "navn": "Comfort Hotel Copenhagen Airport",
+            "notat": "Vurdering 8,0 (17 480 anmeldelser) — 250 m fra lufthavnen, praktisk for sen ankomst/tidlig avreise",
+            "omrade": "København, ved lufthavnen",
+            "pris": 1870,
+            "prisNatt": 1870,
+            "stjerner": 3
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Copenhagen+Airport",
+            "navn": "Four Points Flex by Sheraton Copenhagen Airport",
+            "notat": "Vurdering 7,7 (2 236 anmeldelser) — rimeligere, 2,3 km fra lufthavnen",
+            "omrade": "København, nær lufthavnen",
+            "pris": 1232,
+            "prisNatt": 1232,
+            "stjerner": 3
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 17.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Copenhagen+Airport",
+            "navn": "Clarion Hotel Copenhagen Airport",
+            "notat": "Vurdering 8,5 (9 915 anmeldelser) — finere alternativ, 150 m fra lufthavnen, frokost inkludert",
+            "omrade": "København, ved lufthavnen",
+            "pris": 3419,
+            "prisNatt": 3419,
+            "stjerner": 4
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          },
+          {
+            "navn": "DSB",
+            "url": "https://www.dsb.dk"
+          },
+          {
+            "navn": "Upteko ApS – CVR-registeret (ownr.dk)",
+            "url": "https://ownr.dk/companies/public-profile/39816466"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "detalj": "Anslått, avhengig av hvor i Paris møtet er",
+            "fra": "Hotell/Parrot-kontoret, Paris",
+            "retning": "ut",
+            "tid": "ca. 19:30 (20.10)",
+            "til": "Paris CDG",
+            "type": "transfer",
+            "varighet": "45–60 min"
+          },
+          {
+            "detalj": "Norwegian, direkte",
+            "fra": "Paris (CDG)",
+            "retning": "ut",
+            "tid": "21:45 (20.10)",
+            "til": "København (CPH)",
+            "type": "fly",
+            "varighet": "1 t 55 min"
+          },
+          {
+            "detalj": "DSB InterCity/Lyn, direkte",
+            "fra": "København lufthavn st.",
+            "retning": "ut",
+            "tid": "ca. 07:00 (21.10)",
+            "til": "Odense st.",
+            "type": "tog",
+            "varighet": "ca. 1 t 15 min"
+          },
+          {
+            "detalj": "DSB InterCity/Lyn, direkte",
+            "fra": "Odense st.",
+            "retning": "hjem",
+            "tid": "ca. 15:00 (21.10)",
+            "til": "København lufthavn st.",
+            "type": "tog",
+            "varighet": "ca. 1 t 15 min"
+          },
+          {
+            "detalj": "Norwegian, 1 mellomlanding Oslo (1 t 40 min)",
+            "fra": "København (CPH)",
+            "retning": "hjem",
+            "tid": "17:00 (21.10)",
+            "til": "Alta (ALF)",
+            "type": "fly",
+            "varighet": "5 t 50 min"
+          },
+          {
+            "detalj": "Ca. 130 km, etter henting av bagasje/bil. Sen ankomst — rundt kl. 01 natt til 22. oktober",
+            "fra": "Alta lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 23:20 (21.10)",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "2 t kjøring"
+          }
+        ],
+        "sammendrag": "Danmark-tur (Odense/Upteko) satt opp rett etter Paris-turen: fly Paris–København–Alta + 1 hotellnatt ved København lufthavn, ca. 7 800 kr for 1 person. Hjemkomst blir natt til 22. oktober.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "DSB 17.9.2026",
+            "navn": "Tog København lufthavn – Odense t/r",
+            "notat": "DSB InterCity/Lyn, standard pris — billigere Orange-billetter kan finnes ved tidlig bestilling (fra 89 kr énveis)",
+            "pris": 500
+          },
+          {
+            "id": "t2",
+            "kilde": "Anslag",
+            "navn": "Leiebil fra København lufthavn (1 dag)",
+            "notat": "Mer fleksibelt enn tog, inkl. anslått drivstoff for ca. 330 km t/r",
+            "pris": 1600
+          }
+        ]
+      },
+      "beskrivelse": "Jeg vurderer å ta turen innom Danmark for å besøke Upteko (dansk droneprodusent jeg samarbeider med om BASE-integrering i deres Swift-drone) på samme reise som Paris-turen til Parrot (avreise fra Kautokeino ca. 19. oktober 2026, hjemme igjen ca. 21. oktober). Det holder med et halvt til ett dags besøk hos Upteko. Legg dette som en egen reise med Danmark som mål, satt opp i tilknytning til Paris-turen (før eller etter, det som gir best/billigst forbindelse) — ikke slå sammen med Paris-reisen. Reiser alene. Min kontakt hos Upteko er på ferie i uke 42 2026, så det besøket bør ikke legges den uken.",
+      "dager": 3,
+      "fleks": 0,
+      "forespurt": "2026-09-16T11:18:48.000Z",
+      "historikk": [
+        {
+          "dato": "2026-09-17T04:26:56.000Z",
+          "metode": "chrome",
+          "total": 7794
+        }
+      ],
+      "land": "Danmark",
+      "lat": 55.4038,
+      "lon": 10.4024,
+      "navn": "Danmark – Upteko (Odense)",
+      "netter": 1,
+      "onsker": "Besøke Upteko i Odense (samarbeid om BASE-integrering i Swift-dronen), et halvt til ett dags besøk, i tilknytning til Paris-turen (ikke slått sammen med den), unngå uke 42 (kontakten på ferie)",
+      "reisende": 1,
+      "standard": "bra",
+      "status": "beregnet",
+      "sted": "Odense",
+      "trengerChrome": false
     }
   ],
   "meta": {
-    "melding": "Paris - Parrot workshop oppdatert etter tilbakemelding (kortere forslag, retur og klokkeslett lagt til, nye hotellalternativer)",
-    "sistBeregnet": "2026-09-16T07:08:48.000Z",
-    "sistSjekk": "2026-09-16T07:08:48.000Z",
-    "opprettet": "2026-09-15T20:10:00.000Z"
+    "melding": "Ingenting nytt å beregne (ingen ventende reisemål). Lesevisning oppdatert med gjeldende priser: Paris - Parrot workshop (9 061 kr) og Danmark – Upteko/Odense (7 794 kr). Kunne ikke sjekke skjemasvar denne kjøringen — docs.google.com er blokkert av nettverksregler både i skyen og på Tims PC; prøves igjen neste kjøring.",
+    "opprettet": "2026-09-15T20:10:00.000Z",
+    "sistBeregnet": "2026-09-17T04:26:56.000Z",
+    "sistSjekk": "2026-09-17T04:49:10.000Z"
   }
 }
