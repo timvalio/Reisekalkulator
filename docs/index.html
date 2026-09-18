@@ -330,8 +330,8 @@ function beregn(r){
   let variant = null, kilde = b, rute = b.rute;
   if (Array.isArray(b.ruteValg) && b.ruteValg.length) { variant = pick(b.ruteValg, r.valg?.rutevalg); if (variant) { kilde = variant; rute = variant.rute || rute; } }
   const fly = pick(kilde.fly, r.valg?.fly), hotell = pick(kilde.hotell, r.valg?.hotell), transport = pick(kilde.transport, r.valg?.transport);
-  const dager = +r.dager || 0;
-  const faste = (b.faste || []).reduce((s, x) => s + (+x.pris || 0), 0);
+  const dager = variant?.dager ?? (+r.dager || 0);
+  const faste = (kilde.faste || b.faste || []).reduce((s, x) => s + (+x.pris || 0), 0);
   const daglig = (b.daglig || []).reduce((s, x) => s + (+x.prisDag || 0), 0) * dager;
   const egne = (r.egne || []).reduce((s, x) => s + (+x.pris || 0), 0);
   const deler = {fly: +fly?.pris || 0, hotell: +hotell?.pris || 0, transport: +transport?.pris || 0, daglig, faste, egne};
