@@ -436,7 +436,8 @@ function stegDatoLabel(s){
 }
 function stegHtml(s){
   const tidVis = s.tid ? s.tid.replace(/\s*\(\d{1,2}\.\d{1,2}\)\s*$/, '') : '';
-  return `<li><span class="ic">${ikon(s.type)}</span>${tidVis ? `<b style="font-weight:600;margin-right:6px">${esc(tidVis)}</b>` : ''}${esc(s.fra || '')}${s.til ? ' → ' + esc(s.til) : ''}${s.detalj || s.varighet ? `<div class="d">${esc([s.detalj, s.varighet].filter(Boolean).join(' · '))}</div>` : ''}</li>`;
+  const tidFull = tidVis + (s.ankomst ? '\u2013' + s.ankomst : '');
+  return `<li><span class="ic">${ikon(s.type)}</span>${tidFull ? `<b style="font-weight:600;margin-right:6px">${esc(tidFull)}</b>` : ''}${esc(s.fra || '')}${s.til ? ' → ' + esc(s.til) : ''}${s.detalj || s.varighet ? `<div class="d">${esc([s.detalj, s.varighet].filter(Boolean).join(' · '))}</div>` : ''}</li>`;
 }
 function altListe(navn, liste, valgtId, type, r){
   if (!Array.isArray(liste) || !liste.length) return `<p class="faded">Ingen alternativer funnet.</p>`;
