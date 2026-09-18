@@ -962,10 +962,10 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen. Alle 4 reisemål er oppdatert (nyeste beregning 17.–18.9), ingen nye skjemasvar siden forrige kjøring.",
+    "melding": "Ingenting nytt å beregne denne kjøringen. Alle 4 reisemål er allerede oppdatert (nyeste beregning 17.–18.9), ingen nye skjemasvar siden forrige kjøring.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-18T03:42:50.000Z",
-    "sistSjekk": "2026-09-18T07:09:40.000Z",
+    "sistSjekk": "2026-09-18T08:10:04.000Z",
     "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
   }
 }
