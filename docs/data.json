@@ -1,11 +1,4 @@
 {
-  "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen. Alle 4 reisemål er oppdatert, ingen nye skjemasvar siden forrige kjøring.",
-    "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-18T03:42:50.000Z",
-    "sistSjekk": "2026-09-18T06:10:40.000Z",
-    "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
-  },
   "reiser": [
     {
       "avreise": "2026-10-19",
@@ -207,7 +200,6 @@
           "total": 9061
         }
       ],
-      "id": "paris-parrot-workshop-mu3jbk3b",
       "land": "Frankrike",
       "lat": 48.86,
       "lon": 2.35,
@@ -221,7 +213,8 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {}
+      "valg": {},
+      "id": "paris-parrot-workshop-mu3jbk3b"
     },
     {
       "avreise": "2026-10-03",
@@ -470,7 +463,6 @@
           "total": 25350
         }
       ],
-      "id": "skjema-gal7x2q",
       "kilde": "skjema",
       "land": "Spania",
       "lat": 36.6203,
@@ -482,7 +474,8 @@
       "standard": "middels",
       "status": "beregnet",
       "sted": "Torremolinos, Costa del Sol",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "skjema-gal7x2q"
     },
     {
       "avreise": "2026-12-18",
@@ -732,7 +725,6 @@
           "total": 67600
         }
       ],
-      "id": "skjema-shz4k9p",
       "kilde": "skjema",
       "land": "Kina",
       "lat": 22.5431,
@@ -744,7 +736,8 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Shenzhen (Futian)",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "skjema-shz4k9p"
     },
     {
       "avreise": "2026-10-19",
@@ -954,7 +947,6 @@
           "total": 13156
         }
       ],
-      "id": "upteko-dk-t4k9wr",
       "land": "Frankrike + Danmark",
       "lat": 55.4038,
       "lon": 10.4024,
@@ -965,7 +957,15 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Paris + Odense",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "upteko-dk-t4k9wr"
     }
-  ]
+  ],
+  "meta": {
+    "melding": "Ingenting nytt å beregne denne kjøringen. Alle 4 reisemål er oppdatert (nyeste beregning 17.–18.9), ingen nye skjemasvar siden forrige kjøring.",
+    "opprettet": "2026-09-15T20:10:00.000Z",
+    "sistBeregnet": "2026-09-18T03:42:50.000Z",
+    "sistSjekk": "2026-09-18T07:09:40.000Z",
+    "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
+  }
 }
