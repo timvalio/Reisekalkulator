@@ -107,6 +107,7 @@
         "metode": "chrome",
         "rute": [
           {
+            "dato": "2026-10-19",
             "detalj": "Ca. 130 km. Avgang 11:30 gir ankomst til flyplassen ca. 13:30 — 1 time før avgang",
             "fra": "Kautokeino",
             "retning": "ut",
@@ -116,6 +117,7 @@
             "varighet": "2 t kjøring"
           },
           {
+            "dato": "2026-10-19",
             "detalj": "SAS/Air France, 1 mellomlanding i Oslo (40 min). Ankomst Paris CDG 19:40",
             "fra": "Alta (ALF)",
             "retning": "ut",
@@ -125,6 +127,7 @@
             "varighet": "5 t 10 min"
           },
           {
+            "dato": "2026-10-19",
             "detalj": "RER B + metro (ca. 150 kr) eller taxi/VTC (700–800 kr). Anslått tid, ikke sjekket i sanntid",
             "fra": "Paris CDG",
             "retning": "ut",
@@ -134,6 +137,7 @@
             "varighet": "45–60 min"
           },
           {
+            "dato": "2026-10-20",
             "detalj": "Scandinavian Airlines via Oslo — lang mellomlanding natten over (ca. 13 t 10 min). Ankomst Alta 13:55 dagen etter, 21. oktober. Ingen rask kveldsforbindelse hjem samme dag finnes på denne ruten",
             "fra": "Paris (CDG)",
             "retning": "hjem",
@@ -143,6 +147,7 @@
             "varighet": "16 t 55 min"
           },
           {
+            "dato": "2026-10-21",
             "detalj": "Ca. 130 km, etter henting av bagasje/bil",
             "fra": "Alta lufthavn",
             "retning": "hjem",
@@ -326,6 +331,7 @@
         "metode": "chrome",
         "rute": [
           {
+            "dato": "2026-10-03",
             "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
             "fra": "Kautokeino",
             "retning": "ut",
@@ -335,6 +341,7 @@
             "varighet": "3 t kjøring"
           },
           {
+            "dato": "2026-10-03",
             "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
             "fra": "Kittilä (KTT)",
             "retning": "ut",
@@ -344,6 +351,7 @@
             "varighet": "8 t 10 min"
           },
           {
+            "dato": "2026-10-03",
             "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
             "fra": "Oslo lufthavn",
             "retning": "ut",
@@ -353,6 +361,7 @@
             "varighet": "10 min"
           },
           {
+            "dato": "2026-10-04",
             "detalj": "SAS, direkte, 4. oktober",
             "fra": "Oslo (OSL)",
             "retning": "ut",
@@ -362,6 +371,7 @@
             "varighet": "4 t 15 min"
           },
           {
+            "dato": "2026-10-04",
             "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
             "fra": "Málaga flyplass",
             "retning": "ut",
@@ -371,6 +381,7 @@
             "varighet": "ca. 30 min"
           },
           {
+            "dato": "2026-10-09",
             "detalj": "Cercanías-tog, 9. oktober",
             "fra": "Torremolinos",
             "retning": "hjem",
@@ -380,6 +391,7 @@
             "varighet": "ca. 30 min"
           },
           {
+            "dato": "2026-10-09",
             "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
             "fra": "Málaga (AGP)",
             "retning": "hjem",
@@ -389,6 +401,7 @@
             "varighet": "ca. 4 t 45 min"
           },
           {
+            "dato": "2026-10-10",
             "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
             "fra": "Oslo lufthavn",
             "retning": "hjem",
@@ -398,6 +411,7 @@
             "varighet": "10 min"
           },
           {
+            "dato": "2026-10-11",
             "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
             "fra": "Oslo (OSL)",
             "retning": "hjem",
@@ -407,6 +421,7 @@
             "varighet": "ca. 8 t"
           },
           {
+            "dato": "2026-10-11",
             "detalj": "Etter henting av bagasje/bil",
             "fra": "Kittilä lufthavn",
             "retning": "hjem",
@@ -578,6 +593,7 @@
         "metode": "chrome",
         "rute": [
           {
+            "dato": "2026-12-18",
             "detalj": "Ca. 130 km, god margin før avgang 12:15 (18. des.)",
             "fra": "Kautokeino",
             "retning": "ut",
@@ -587,6 +603,7 @@
             "varighet": "2 t kjøring"
           },
           {
+            "dato": "2026-12-18",
             "detalj": "Norwegian, direkte, 18. des.",
             "fra": "Alta (ALF)",
             "retning": "ut",
@@ -596,6 +613,7 @@
             "varighet": "2 t 5 min"
           },
           {
+            "dato": "2026-12-18",
             "detalj": "Lufthansa, 18. des. (ca. ankomst 18:35)",
             "fra": "Oslo (OSL)",
             "retning": "ut",
@@ -605,6 +623,7 @@
             "varighet": "ca. 2 t"
           },
           {
+            "dato": "2026-12-19",
             "detalj": "Air China. Lang mellomlanding i Frankfurt (ca. 17 t) rett før denne strekningen – god anledning til å hvile på transitthotell",
             "fra": "Frankfurt (FRA)",
             "retning": "ut",
@@ -614,6 +633,7 @@
             "varighet": "ca. 11 t 55 min"
           },
           {
+            "dato": "2026-12-20",
             "detalj": "Metro eller taxi, lokal tid",
             "fra": "Shenzhen flyplass",
             "retning": "ut",
@@ -623,6 +643,7 @@
             "varighet": "ca. 30-45 min"
           },
           {
+            "dato": "2027-01-01",
             "detalj": "Metro eller taxi, lokal tid",
             "fra": "hotellet",
             "retning": "hjem",
@@ -632,6 +653,7 @@
             "varighet": "ca. 30-45 min"
           },
           {
+            "dato": "2027-01-01",
             "detalj": "Air China (anslått, samme mønster som utreise)",
             "fra": "Shenzhen (SZX)",
             "retning": "hjem",
@@ -641,6 +663,7 @@
             "varighet": "ca. 12 t"
           },
           {
+            "dato": "2027-01-02",
             "detalj": "Lufthansa, etter ny lang mellomlanding i Frankfurt (anslått)",
             "fra": "Frankfurt (FRA)",
             "retning": "hjem",
@@ -650,6 +673,7 @@
             "varighet": "ca. 2 t"
           },
           {
+            "dato": "2027-01-02",
             "detalj": "Norwegian/SAS (anslått klokkeslett)",
             "fra": "Oslo (OSL)",
             "retning": "hjem",
@@ -659,6 +683,7 @@
             "varighet": "ca. 2 t"
           },
           {
+            "dato": "2027-01-02",
             "detalj": "Etter henting av bagasje/bil – hjemme med en dags margin før 3. januar-fristen",
             "fra": "Alta lufthavn",
             "retning": "hjem",
@@ -937,7 +962,7 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen – alle 4 reisemål er friske (Paris og Danmark fra 17.9, Galinas soltur og Shenzhen-turen fra tidlig i dag), og skjemaet har ingen nye svar (siste behandlede er fortsatt Galinas fra 17.9 kl. 20.51.08). NB: push til GitHub feiler fortsatt – «could not read Username for 'https://github.com'», og credential-filen (.git-credentials-reisekalkulator) ser tom ut (0 byte) ved filsjekk. 6 lokale commits venter på push fra før, leseview for kona har vært utdatert siden 17.9 kl. 11:26 og forblir det til Tim fikser credential-oppsettet på PC-en.",
+    "melding": "Ingenting nytt å beregne denne kjøringen – alle 4 reisemål er friske, og skjemaet har ingen nye svar. Leseview (docs/data.json) er bygget på nytt og commitet lokalt. Interaktivt valg av fly/hotell/transport er nå lagt til på nettsiden (lagres per nettleser).",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-18T03:42:50.000Z",
     "sistSjekk": "2026-09-18T04:31:37.000Z",

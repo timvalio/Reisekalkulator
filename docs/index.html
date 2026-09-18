@@ -315,6 +315,10 @@ function tittel(r){
 }
 
 let reiser = [], meta = null, apen = null, lastet = false;
+function valgKey(id){ return 'rk-valg-' + id; }
+function hentLagretValg(id){ try { const s = localStorage.getItem(valgKey(id)); return s ? JSON.parse(s) : null; } catch (e) { return null; } }
+function lagreValg(id, valg){ try { localStorage.setItem(valgKey(id), JSON.stringify(valg)); } catch (e) {} }
+function bruklagredeValg(){ reiser.forEach(r => { const v = hentLagretValg(r.id); if (v) r.valg = Object.assign({}, r.valg || {}, v); }); }
 let visArk = false, sortering = 'pris';
 try { sortering = localStorage.getItem('rk-sort') || 'pris'; visArk = localStorage.getItem('rk-ark') === '1'; } catch (e) {}
 $('sort').value = sortering; $('visArk').checked = visArk;
@@ -417,7 +421,12 @@ function tegnKart(){
 
 /* ---------- detalj ---------- */
 function ikon(t){ return ({bil:'Bil', fly:'Fly', buss:'Buss', tog:'Tog', ferge:'Ferge', transfer:'Transfer', taxi:'Taxi', gange:'Til fots'})[t] || esc(t || ''); }
-function stegDatoLabel(tid){
+function stegDatoLabel(s){
+  if (s && s.dato) {
+    const d = new Date(s.dato);
+    if (!isNaN(d)) return d.getDate() + '. ' + MND[d.getMonth()];
+  }
+  const tid = s && s.tid;
   if (!tid) return null;
   const m = /\((\d{1,2})\.(\d{1,2})\)/.exec(tid);
   if (!m) return null;
@@ -431,10 +440,15 @@ function stegHtml(s){
 }
 function altListe(navn, liste, valgtId, type, r){
   if (!Array.isArray(liste) || !liste.length) return `<p class="faded">Ingen alternativer funnet.</p>`;
-  return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" style="cursor:default"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
+  if (liste.length < 2) return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" style="cursor:default"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
     <span><span class="n">${esc(a.navn)}${type === 'hotell' && a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : ''}${a.id === valgtId ? ' <span class="d" style="display:inline">— valgt</span>' : ''}</span>
     <span class="d">${esc([a.rute, a.selskap, a.omrade, a.notat].filter(Boolean).join(' · '))}</span>
     ${a.lenke ? `<a href="${esc(a.lenke)}" target="_blank" rel="noopener">Sjekk pris ↗</a>` : ''}${a.kilde ? ` <span class="d" style="display:inline">${esc(a.kilde)}</span>` : ''}</span>
+    <span class="p">${kr(a.pris)}<small>${type === 'hotell' && a.prisNatt ? fmt(a.prisNatt) + ' kr/natt' : fmt((+a.pris || 0) / (r.reisende || 2)) + ' kr pp'}</small></span></div>`).join('');
+  return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" data-rid="${esc(r.id)}" data-cat="${esc(type)}" data-altid="${esc(a.id)}" role="button" tabindex="0"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
+    <span><span class="n">${esc(a.navn)}${type === 'hotell' && a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : ''}${a.id === valgtId ? ' <span class="d" style="display:inline">— valgt</span>' : ''}</span>
+    <span class="d">${esc([a.rute, a.selskap, a.omrade, a.notat].filter(Boolean).join(' · '))}</span>
+    ${a.lenke ? `<a href="${esc(a.lenke)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sjekk pris ↗</a>` : ''}${a.kilde ? ` <span class="d" style="display:inline">${esc(a.kilde)}</span>` : ''}</span>
     <span class="p">${kr(a.pris)}<small>${type === 'hotell' && a.prisNatt ? fmt(a.prisNatt) + ' kr/natt' : fmt((+a.pris || 0) / (r.reisende || 2)) + ' kr pp'}</small></span></div>`).join('');
 }
 function tegnDetalj(){
@@ -467,7 +481,7 @@ function tegnDetalj(){
           let sisteDato = null, gruppe = [];
           const flushGruppe = () => { if (gruppe.length) h += `<ul class="steps">` + gruppe.map(stegHtml).join('') + `</ul>`; gruppe = []; };
           steg.forEach(s => {
-            const dl = stegDatoLabel(s.tid);
+            const dl = stegDatoLabel(s);
             if (dl && dl !== sisteDato) { flushGruppe(); h += `<div style="margin:10px 0 4px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;opacity:.55">${esc(dl)}</div>`; sisteDato = dl; }
             gruppe.push(s);
           });
@@ -504,13 +518,21 @@ function tegnDetalj(){
 function vis(t){ $('notice').innerHTML = t ? `<div class="notice">${esc(t)}</div>` : ''; if (t) setTimeout(() => { if ($('notice').textContent === t) $('notice').innerHTML = ''; }, 7000); }
 function apne(id){ apen = id; tegnDetalj(); $('detSheet').classList.add('open'); $('detSheet').querySelector('.box').scrollTop = 0; tegnKart(); }
 function lukk(hva){ if (hva === 'det') { apen = null; tegnKart(); } $(hva + 'Sheet').classList.remove('open'); }
+function velgAlt(el){
+  const r = reiser.find(x => x.id === el.dataset.rid); if (!r) return;
+  r.valg = Object.assign({}, r.valg || {}, {[el.dataset.cat]: el.dataset.altid});
+  lagreValg(r.id, r.valg);
+  tegnDetalj(); tegnListe(); tegnKart();
+}
 document.addEventListener('click', e => {
   const c = e.target.closest('[data-close]'); if (c) { lukk(c.dataset.close); return; }
+  const va = e.target.closest('.alt[data-altid]'); if (va) { velgAlt(va); return; }
   const k = e.target.closest('.card,[data-id].pin'); if (k) { apne(k.dataset.id); }
 });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && $('detSheet').classList.contains('open')) lukk('det');
   if ((e.key === 'Enter' || e.key === ' ') && e.target.classList?.contains('card')) { e.preventDefault(); apne(e.target.dataset.id); }
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.closest && e.target.closest('.alt[data-altid]')) { e.preventDefault(); velgAlt(e.target.closest('.alt[data-altid]')); }
 });
 $('sort').addEventListener('change', e => { sortering = e.target.value; try { localStorage.setItem('rk-sort', sortering); } catch (err) {} tegnListe(); });
 $('visArk').addEventListener('change', e => { visArk = e.target.checked; try { localStorage.setItem('rk-ark', visArk ? '1' : '0'); } catch (err) {} tegnListe(); tegnKart(); });
@@ -533,6 +555,7 @@ async function lastData(forstegang){
     if (!res.ok) throw new Error('http ' + res.status);
     const d = await res.json();
     reiser = Array.isArray(d.reiser) ? d.reiser : [];
+    bruklagredeValg();
     meta = d.meta || null;
     lastet = true;
     $('notice').innerHTML = '';
