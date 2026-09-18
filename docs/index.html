@@ -327,14 +327,16 @@ $('sort').value = sortering; $('visArk').checked = visArk;
 function beregn(r){
   const b = r.beregning; if (!b) return null;
   const pick = (liste, id) => { if (!Array.isArray(liste) || !liste.length) return null; return liste.find(x => x && x.id === id) || liste[0]; };
-  const fly = pick(b.fly, r.valg?.fly), hotell = pick(b.hotell, r.valg?.hotell), transport = pick(b.transport, r.valg?.transport);
+  let variant = null, kilde = b, rute = b.rute;
+  if (Array.isArray(b.ruteValg) && b.ruteValg.length) { variant = pick(b.ruteValg, r.valg?.rutevalg); if (variant) { kilde = variant; rute = variant.rute || rute; } }
+  const fly = pick(kilde.fly, r.valg?.fly), hotell = pick(kilde.hotell, r.valg?.hotell), transport = pick(kilde.transport, r.valg?.transport);
   const dager = +r.dager || 0;
   const faste = (b.faste || []).reduce((s, x) => s + (+x.pris || 0), 0);
   const daglig = (b.daglig || []).reduce((s, x) => s + (+x.prisDag || 0), 0) * dager;
   const egne = (r.egne || []).reduce((s, x) => s + (+x.pris || 0), 0);
   const deler = {fly: +fly?.pris || 0, hotell: +hotell?.pris || 0, transport: +transport?.pris || 0, daglig, faste, egne};
   const total = Object.values(deler).reduce((s, v) => s + v, 0);
-  return {fly, hotell, transport, deler, total};
+  return {fly, hotell, transport, deler, total, rute, variant};
 }
 function statusInfo(r){
   if (r.status === 'arkivert') return {cls:'ark', txt:'Arkivert'};
@@ -471,12 +473,15 @@ function tegnDetalj(){
     if (be.forslag) h += `<h2 class="sec">Claudes forslag</h2><div class="forslag">${esc(be.forslag)}</div>`;
     else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
     if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>`;
-    if (Array.isArray(be.rute) && be.rute.length) {
-      const harRetning = be.rute.some(s => s && s.retning);
+    if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
+      h += `<h2 class="sec">Reiserekkefølge</h2>` + altListe('rutevalg', be.ruteValg.map(v => ({id: v.id, navn: v.navn, notat: v.notat, pris: v.totalAnslag})), b.variant?.id, 'rutevalg', r);
+    }
+    if (Array.isArray(b.rute) && b.rute.length) {
+      const harRetning = b.rute.some(s => s && s.retning);
       h += `<h2 class="sec">Reiserute</h2>`;
       if (harRetning) {
         [['ut', 'Utreise'], ['hjem', 'Hjemreise']].forEach(([key, lbl]) => {
-          const steg = be.rute.filter(s => (s.retning || 'ut') === key);
+          const steg = b.rute.filter(s => (s.retning || 'ut') === key);
           if (!steg.length) return;
           h += `<h3 style="margin:14px 0 6px;font-size:14px;opacity:.75">${lbl}</h3>`;
           let sisteDato = null, gruppe = [];
@@ -489,13 +494,14 @@ function tegnDetalj(){
           flushGruppe();
         });
       } else {
-        h += `<ul class="steps">` + be.rute.map(stegHtml).join('') + `</ul>`;
+        h += `<ul class="steps">` + b.rute.map(stegHtml).join('') + `</ul>`;
       }
     }
-    const netter = r.netter ?? Math.max(0, (+r.dager || 0) - 1);
-    h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', be.fly, b.fly?.id, 'fly', r);
-    h += `<h2 class="sec">Hotell <small>${netter || '?'} netter</small></h2>` + altListe('hotell', be.hotell, b.hotell?.id, 'hotell', r);
-    h += `<h2 class="sec">Transport på stedet</h2>` + altListe('transport', be.transport, b.transport?.id, 'transport', r);
+    const kilde = b.variant || be;
+    const netter = b.variant?.netter ?? r.netter ?? Math.max(0, (+r.dager || 0) - 1);
+    h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', kilde.fly, b.fly?.id, 'fly', r);
+    h += `<h2 class="sec">Hotell <small>${netter || '?'} netter</small></h2>` + altListe('hotell', kilde.hotell, b.hotell?.id, 'hotell', r);
+    h += `<h2 class="sec">Transport på stedet</h2>` + altListe('transport', kilde.transport, b.transport?.id, 'transport', r);
     const dl = be.daglig || [], fa = be.faste || [];
     if (dl.length || fa.length) {
       h += `<h2 class="sec">Andre utgifter</h2><table class="lines">` +

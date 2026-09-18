@@ -4,31 +4,28 @@
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
-          "Uke 42 2026 (kontaktens ferieuke hos Upteko) er 12.–18. oktober — besøket er derfor lagt til returen fra Paris-turen (20.–21. oktober), ikke før.",
-          "Denne oppføringen viser HELE reiseruten fra Kautokeino og tilbake, og totalprisen dekker BEGGE besøk (Parrot i Paris 20.10 + Upteko i Odense 21.10) samlet — ikke bare et tillegg til Paris-turen.",
-          "Fly, hotell og lokaltransport er hver slått sammen til ÉN post som dekker HELE den kombinerte ruten (flere reisedøgn/strekninger etter hverandre) — ikke alternativer å velge mellom slik de vanligvis er på denne siden. Se notat på hver post for oppdelingen i enkeltstrekninger/-netter.",
+          "Uke 42 2026 (kontaktens ferieuke hos Upteko) er 12.–18. oktober — besøket er derfor lagt til returen fra Paris-turen (20.–21. oktober) i dagens rekkefølge, eller til mandag i den snudde rekkefølgen — begge unngår uke 42.",
+          "Denne oppføringen viser HELE reiseruten fra Kautokeino og tilbake, og totalprisen dekker BEGGE besøk (Parrot i Paris + Upteko i Odense) samlet — ikke bare et tillegg til Paris-turen.",
+          "Du kan nå velge mellom to reiserekkefølger øverst (se «Reiserekkefølge») — resten av siden (rute, fly, hotell, totalpris) oppdateres etter hva du velger.",
           "Den separate «Paris - Parrot workshop»-oppføringen (9 061 kr, ren tur/retur Alta–Paris) står fortsatt som eget alternativ dersom du IKKE besøker Upteko — de to oppføringene skal ikke legges sammen, denne oppføringen er selvstendig og komplett.",
           "Upteko ApS holder til på Beldringevej 252, 5270 Odense N (ifølge CVR-registeret) — nærmeste praktiske flyplass er København, med tog videre til Odense (ca. 1t 15min).",
-          "Én hotellovernatting i Paris (19.–20. okt, nær Parrot-kontoret) og én ved København lufthavn (20.–21. okt) er lagt inn.",
-          "Hjemkomst i Kautokeino blir rundt midnatt/natt til 22. oktober pga. sen ankomst Alta (22:50) + kjøring.",
-          "Alternativ med bedre margin: én ekstra overnatting ved København lufthavn og morgenfly (09:55) 22. oktober i stedet for kveldsflyet 21. oktober — omtrent samme totalpris siden det billigere flyet nesten dekker den ekstra hotellnatten.",
-          "Lokaltransport Odense stasjon – Upteko (taxi/buss) og transfer CDG–hotell er anslag, ikke sjekket i sanntid.",
           "Reisen er beregnet for 1 person, ingen reisefølge nevnt.",
-          "Sjekket 18.9: flypriser svinger mye dag for dag på denne ruten (samme CPH–Alta-fly kostet 1 409 kr 17.9 og 1 901 kr 18.9) — tallene under er et øyeblikksbilde, ikke en fast pris.",
-          "Vurdert alternativ rekkefølge (Upteko mandag, Parrot tirsdag i stedet for omvendt): fly København–Paris er markert billigere enn Paris–København på denne ruten (fra 563–1 272 kr avhengig av avgangstid, mot 2 365–2 672 kr motsatt vei) — trolig fordi Paris–København på kvelden er en mer etterspurt forretningsavgang. Et grovt anslag med dagens priser (Alta–København ca. 1 436 kr + København–Paris morgenfly for tirsdagsmøtet ca. 1 055 kr + Paris–Alta ca. 1 742 kr, samme overnattingsproblem hjemover som i dag) lander på ca. 4 200–4 500 kr i fly mot dagens 5 170 kr (17.9-priser) — men da må trolig hotellnettene også snus (natt ved København før/etter Odense, natt i Paris før hjemreise), og det er ikke sjekket i detalj om togtidene fra Odense rekker frem til et tidlig Paris-fly tirsdag morgen. Bør regnes på skikkelig som egen rute før den erstatter dagens plan."
+          "Sjekket 18.9: flypriser svinger mye dag for dag på denne ruten (samme CPH–Alta-fly kostet 1 409 kr 17.9 og 1 901 kr 18.9) — tallene er et øyeblikksbilde, ikke en fast pris.",
+          "Snudd rekkefølge (Upteko mandag, Parrot tirsdag): København–Paris er markert billigere enn Paris–København på denne ruten (fra 563–1 272 kr, mot 2 365–2 672 kr motsatt vei), og siden Parrot-møtet og hjemreisen da skjer samme dag (tirsdag) trengs ingen Paris-overnatting i det hele tatt — det er hovedgrunnen til at denne rekkefølgen blir vesentlig billigere (ca. 9 276 kr mot 13 156 kr). Forutsetter tidlig avgang fra Kautokeino kl. 04:00 mandag morgen og at Upteko kan møte mandag ettermiddag/kveld (ca. 15:15–18:00) — ikke bekreftet med kontakten. Ikke sjekket i detalj om togtidene faktisk stemmer på dagen.",
+          "Lokaltransport-anslag (taxi/buss Odense, CDG-transfer) er ikke sjekket i sanntid i noen av rekkefølgene."
         ],
         "daglig": [
           {
             "navn": "Mat og drikke",
-            "notat": "anslag, 1 reisende, blandet Frankrike-/Danmark-priser, 3 reisedøgn (19.–21. okt)",
+            "notat": "anslag, 1 reisende, blandet Frankrike-/Danmark-priser, 3 reisedøgn",
             "prisDag": 467
           }
         ],
-        "dato": "2026-09-17T11:30:00.000Z",
+        "dato": "2026-09-18T11:30:00.000Z",
         "faste": [
           {
             "navn": "Parkering Alta lufthavn",
-            "notat": "Makspris 299 kr/døgn, ca. 3 døgn (19.–21. okt, henting sent på kvelden 21.10) (Avinor/OnePark)",
+            "notat": "Makspris 299 kr/døgn, ca. 3 døgn (henting kveld/natt siste dag) (Avinor/OnePark)",
             "pris": 900
           },
           {
@@ -53,7 +50,7 @@
             "selskap": "SAS/Air France + Norwegian"
           }
         ],
-        "forslag": "Hele reisen samlet: kjør fra Kautokeino kl. 11:30 (19. okt) til Alta, fly Alta–Paris (SAS/Air France, 14:30–19:40, enkeltbillett 1 396 kr) og overnatt i Paris (Belta Hotel, 2 195 kr). Etter Parrot-møtet 20. oktober tar du kveldsflyet Paris–København (Norwegian, direkte, 21:45, 2 365 kr), overnatter ved lufthavnen (Comfort Hotel, 1 870 kr), og tar tidlig tog til Odense morgenen etter for Upteko-besøket (ca. 1t 15min, tog t/r 500 kr). Flyet hjem København–Alta går 17:00 samme kveld (21. oktober, 1 409 kr) via Oslo, med bagasjehenting og kjøring blir du hjemme i Kautokeino rundt kl. 01 natt til 22. oktober.\n\nSamlet for hele reisen (fly + hotell + lokaltransport + parkering/drivstoff + mat): 13 156 kr for 1 person. Dette er billigere enn å legge de to separate oppføringene sammen (9 061 + 7 794 = 16 855 kr), siden man da ville betalt for Paris-turens hjemreise i tillegg — her er flyene priset riktig som tre enkeltbilletter i én sammenhengende rute.\n\nFlere hotellalternativer lagt til 18.9 (se under) — du kan klikke mellom dem på siden. På fly-siden svinger prisene mye dag for dag; sjekket 18.9 om det blir billigere å bytte rekkefølge (Upteko mandag, Parrot tirsdag i stedet for omvendt) — se eget notat i antakelser, ser lovende ut men må regnes ferdig før det byttes.",
+        "forslag": "To reiserekkefølger å velge mellom — klikk under «Reiserekkefølge» for å bytte:\n\n**Dagens rekkefølge (Parrot mandag, Upteko tirsdag):** Fly Alta–Paris, møte med Parrot, kveldsfly til København, tog til Odense for Upteko-møtet, fly hjem samme kveld. Krever 2 hotellnetter (Paris + København). Ca. 13 156 kr (billigste hotellkombinasjon: 12 522 kr).\n\n**Snudd rekkefølge (Upteko mandag, Parrot tirsdag):** Tidlig fly Alta–København mandag morgen, tog til Odense for Upteko-møtet samme ettermiddag, tilbake til København for overnatting, tidlig fly til Paris tirsdag morgen for Parrot-møtet, hjemreise samme kveld. Bare 1 hotellnatt trengs (ingen i Paris, siden møte og hjemreise er samme dag) — dette er hovedgrunnen til at denne blir billigere: ca. 9 276 kr. Krever tidlig avgang kl. 04:00 mandag morgen, og at Upteko kan møte mandag ettermiddag/kveld — ikke bekreftet med kontakten ennå.\n\nDen snudde rekkefølgen ser ut til å spare over 3 500 kr, men sjekk med Upteko om mandagstidspunktet passer før du booker noe.",
         "historikk": [
           {
             "dato": "2026-09-17T04:26:56.000Z",
@@ -64,6 +61,11 @@
             "dato": "2026-09-17T09:30:00.000Z",
             "metode": "chrome",
             "total": 13156
+          },
+          {
+            "dato": "2026-09-18T11:30:00.000Z",
+            "metode": "chrome",
+            "total": 9276
           }
         ],
         "hotell": [
@@ -219,7 +221,294 @@
             "varighet": "2 t kjøring"
           }
         ],
-        "sammendrag": "Kombinert reise Kautokeino–Paris–Danmark–Kautokeino: fly Alta–Paris, Paris–København og København–Alta (enkeltbilletter, 5 170 kr samlet), 2 hotellnetter (Paris + København lufthavn, fra 3 431 kr). Dekker både Parrot-møtet i Paris (20. okt) og Upteko-besøket i Odense (21. okt). Totalt fra ca. 12 500–13 156 kr for 1 person avhengig av hotellvalg. Hjemkomst i Kautokeino natt til 22. oktober.",
+        "ruteValg": [
+          {
+            "fly": [
+              {
+                "id": "f1",
+                "kilde": "Google Flights 17.9.2026",
+                "navn": "Kombinert flyrute: Alta–Paris + Paris–København + København–Alta",
+                "notat": "Tre enkeltbilletter (ikke tur/retur, siden hjemreisen går via Danmark): Alta–Paris 14:30–19:40 (SAS/Air France, 1 396 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Alta%20to%20Paris%20on%202026-10-19) + Paris–København 21:45–23:40 (Norwegian, 2 365 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Paris%20to%20Copenhagen%20on%202026-10-20) + København–Alta 17:00–22:50 via Oslo (Norwegian, 1 409 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Copenhagen%20to%20Alta%20on%202026-10-22)",
+                "pris": 5170,
+                "rute": "Alta (ALF) – Paris (CDG) – København (CPH) – Alta (ALF)",
+                "selskap": "SAS/Air France + Norwegian"
+              }
+            ],
+            "hotell": [
+              {
+                "id": "h1",
+                "kilde": "Booking.com 17.9.2026",
+                "navn": "To overnattinger: Belta Hotel (Paris) + Comfort Hotel (København lufthavn)",
+                "notat": "Natt 19.–20. okt: Belta Hotel, nær Parrot-kontoret i Paris (2 195 kr). Natt 20.–21. okt: Comfort Hotel Copenhagen Airport, 250 m fra lufthavnen (1 870 kr)",
+                "omrade": "Paris + København",
+                "pris": 4065,
+                "stjerner": 3
+              },
+              {
+                "id": "h2",
+                "kilde": "Booking.com 18.9.2026",
+                "navn": "To overnattinger: Moris Grands Boulevards (Paris) + Four Points Flex by Sheraton (København lufthavn)",
+                "notat": "Natt 19.–20. okt: Moris Grands Boulevards, 0,9 km fra Gare de l'Est i Paris, vurdering 8,8 (2 411 kr). Natt 20.–21. okt: Four Points Flex by Sheraton Copenhagen Airport, 2,3 km fra lufthavnen, vurdering 7,7 (1 236 kr) — billigere enn h1 og bedre vurdert Paris-hotell",
+                "omrade": "Paris + København",
+                "pris": 3647,
+                "stjerner": 4
+              },
+              {
+                "id": "h3",
+                "kilde": "Booking.com 18.9.2026",
+                "navn": "To overnattinger: Belta Hotel (Paris) + Four Points Flex by Sheraton (København lufthavn)",
+                "notat": "Natt 19.–20. okt: Belta Hotel, nær Parrot-kontoret i Paris (2 195 kr). Natt 20.–21. okt: Four Points Flex by Sheraton Copenhagen Airport, 2,3 km fra lufthavnen, vurdering 7,7 (1 236 kr) — billigste kombinasjon funnet",
+                "omrade": "Paris + København",
+                "pris": 3431,
+                "stjerner": 3
+              }
+            ],
+            "id": "v1",
+            "navn": "Parrot mandag, Upteko tirsdag (dagens rekkefølge)",
+            "netter": 2,
+            "notat": "Paris først, så innom Danmark på hjemveien",
+            "rute": [
+              {
+                "ankomst": "ca. 13:30",
+                "dato": "2026-10-19",
+                "detalj": "Ca. 130 km. Avgang 11:30 gir ankomst til flyplassen ca. 13:30 — 1 time før avgang",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "11:30 (19.10)",
+                "til": "Alta lufthavn",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              },
+              {
+                "ankomst": "19:40",
+                "dato": "2026-10-19",
+                "detalj": "SAS/Air France, 1 mellomlanding i Oslo (40 min). Ankomst Paris CDG 19:40",
+                "fra": "Alta (ALF)",
+                "retning": "ut",
+                "tid": "14:30 (19.10)",
+                "til": "Paris (CDG)",
+                "type": "fly",
+                "varighet": "5 t 10 min"
+              },
+              {
+                "ankomst": "ca. 21:05",
+                "dato": "2026-10-19",
+                "detalj": "RER B + metro (ca. 150 kr) eller taxi/VTC (700–800 kr). Anslått, ikke sjekket i sanntid",
+                "fra": "Paris CDG",
+                "retning": "ut",
+                "tid": "ca. 20:15 (19.10)",
+                "til": "hotellet",
+                "type": "transfer",
+                "varighet": "45–60 min"
+              },
+              {
+                "ankomst": "ca. 20:20",
+                "dato": "2026-10-20",
+                "detalj": "Anslått, avhengig av hvor i Paris møtet er (Parrot-møte 20.10)",
+                "fra": "Hotell/Parrot-kontoret, Paris",
+                "retning": "ut",
+                "tid": "ca. 19:30 (20.10)",
+                "til": "Paris CDG",
+                "type": "transfer",
+                "varighet": "45–60 min"
+              },
+              {
+                "ankomst": "23:40",
+                "dato": "2026-10-20",
+                "detalj": "Norwegian, direkte",
+                "fra": "Paris (CDG)",
+                "retning": "ut",
+                "tid": "21:45 (20.10)",
+                "til": "København (CPH)",
+                "type": "fly",
+                "varighet": "1 t 55 min"
+              },
+              {
+                "ankomst": "ca. 08:15",
+                "dato": "2026-10-21",
+                "detalj": "DSB InterCity/Lyn, direkte (Upteko-besøk i Odense formidag/tidlig ettermiddag)",
+                "fra": "København lufthavn st.",
+                "retning": "ut",
+                "tid": "ca. 07:00 (21.10)",
+                "til": "Odense st.",
+                "type": "tog",
+                "varighet": "ca. 1 t 15 min"
+              },
+              {
+                "ankomst": "ca. 16:15",
+                "dato": "2026-10-21",
+                "detalj": "DSB InterCity/Lyn, direkte",
+                "fra": "Odense st.",
+                "retning": "hjem",
+                "tid": "ca. 15:00 (21.10)",
+                "til": "København lufthavn st.",
+                "type": "tog",
+                "varighet": "ca. 1 t 15 min"
+              },
+              {
+                "ankomst": "22:50",
+                "dato": "2026-10-21",
+                "detalj": "Norwegian, 1 mellomlanding Oslo (1 t 40 min)",
+                "fra": "København (CPH)",
+                "retning": "hjem",
+                "tid": "17:00 (21.10)",
+                "til": "Alta (ALF)",
+                "type": "fly",
+                "varighet": "5 t 50 min"
+              },
+              {
+                "ankomst": "ca. 01:20 (22.10)",
+                "dato": "2026-10-21",
+                "detalj": "Ca. 130 km, etter henting av bagasje/bil. Sen ankomst — rundt kl. 01 natt til 22. oktober",
+                "fra": "Alta lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 23:20 (21.10)",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              }
+            ],
+            "totalAnslag": 13156,
+            "transport": [
+              {
+                "id": "t1",
+                "kilde": "RATP/Google + DSB 17.9.2026",
+                "navn": "Lokaltransport: CDG–hotell (RER B) + tog København–Odense t/r",
+                "notat": "RER B/metro fra CDG til hotellet i Paris, kun ut (150 kr) + DSB InterCity/Lyn København lufthavn–Odense t/r for Upteko-besøket (500 kr)",
+                "pris": 650
+              }
+            ]
+          },
+          {
+            "fly": [
+              {
+                "id": "f1v2",
+                "kilde": "Google Flights 18.9.2026",
+                "navn": "Kombinert flyrute: Alta–København + København–Paris + Paris–Alta",
+                "notat": "Tre enkeltbilletter: Alta–København 07:00–13:40 (Norwegian, 1 172 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Alta%20to%20Copenhagen%20on%202026-10-19) + København–Paris 06:55–09:00 (SAS, 1 055 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Copenhagen%20to%20Paris%20on%202026-10-20) + Paris–Alta 20:30–13:55 via Oslo (SAS, 1 742 kr, google.com/travel/flights?q=One%20way%20flights%20from%20Paris%20to%20Alta%20on%202026-10-21)",
+                "pris": 3969,
+                "rute": "Alta (ALF) – København (CPH) – Paris (CDG) – Alta (ALF)",
+                "selskap": "Norwegian + SAS"
+              }
+            ],
+            "hotell": [
+              {
+                "id": "h1v2",
+                "kilde": "Booking.com 18.9.2026",
+                "navn": "Én overnatting: Four Points Flex by Sheraton (København lufthavn)",
+                "notat": "Natt 19.–20. okt, eneste overnatting i denne rekkefølgen siden Paris-møtet og hjemreisen er samme dag. 2,3 km fra lufthavnen, vurdering 7,7",
+                "omrade": "København",
+                "pris": 1236,
+                "prisNatt": 1236,
+                "stjerner": 3
+              },
+              {
+                "id": "h2v2",
+                "kilde": "Booking.com 18.9.2026",
+                "navn": "Én overnatting: Comfort Hotel Copenhagen Airport",
+                "notat": "Natt 19.–20. okt, 250 m fra lufthavnen, vurdering 8,0 — dyrere men nærmere terminalen",
+                "omrade": "København",
+                "pris": 1887,
+                "prisNatt": 1887,
+                "stjerner": 3
+              }
+            ],
+            "id": "v2",
+            "navn": "Upteko mandag, Parrot tirsdag (snudd rekkefølge)",
+            "netter": 1,
+            "notat": "Danmark først, så Paris — ingen Paris-overnatting nødvendig siden Parrot-møtet og hjemreisen skjer samme dag. Forutsetter tidlig avgang mandag morgen og at Upteko kan møte mandag ettermiddag/kveld (ca. 15:15–18:00) — ikke bekreftet med kontakten.",
+            "rute": [
+              {
+                "ankomst": "ca. 06:00",
+                "dato": "2026-10-19",
+                "detalj": "Ca. 130 km. Tidlig avgang for å rekke morgenflyet 07:00",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "04:00",
+                "til": "Alta lufthavn",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              },
+              {
+                "ankomst": "13:40",
+                "dato": "2026-10-19",
+                "detalj": "Norwegian, 1 mellomlanding (Tromsø/Oslo)",
+                "fra": "Alta (ALF)",
+                "retning": "ut",
+                "tid": "07:00",
+                "til": "København (CPH)",
+                "type": "fly",
+                "varighet": "6 t 40 min"
+              },
+              {
+                "ankomst": "ca. 15:15",
+                "dato": "2026-10-19",
+                "detalj": "DSB InterCity/Lyn, direkte, for Upteko-besøket samme ettermiddag",
+                "fra": "København lufthavn st.",
+                "retning": "ut",
+                "tid": "ca. 14:00",
+                "til": "Odense st.",
+                "type": "tog",
+                "varighet": "ca. 1 t 15 min"
+              },
+              {
+                "ankomst": "ca. 19:15",
+                "dato": "2026-10-19",
+                "detalj": "Tilbake til København for overnatting nær lufthavnen før tidlig fly til Paris tirsdag",
+                "fra": "Odense st.",
+                "retning": "ut",
+                "tid": "ca. 18:00",
+                "til": "København lufthavn st.",
+                "type": "tog",
+                "varighet": "ca. 1 t 15 min"
+              },
+              {
+                "ankomst": "09:00",
+                "dato": "2026-10-20",
+                "detalj": "SAS, direkte (Parrot-møte tirsdag i Paris)",
+                "fra": "København (CPH)",
+                "retning": "ut",
+                "tid": "06:55",
+                "til": "Paris (CDG)",
+                "type": "fly",
+                "varighet": "2 t 5 min"
+              },
+              {
+                "ankomst": "13:55 (21.10)",
+                "dato": "2026-10-20",
+                "detalj": "SAS via Oslo, lang mellomlanding natten over (ca. 13 t). Ingen rask kveldsforbindelse hjem samme dag finnes på denne ruten",
+                "fra": "Paris (CDG)",
+                "retning": "hjem",
+                "tid": "20:30",
+                "til": "Alta (ALF)",
+                "type": "fly",
+                "varighet": "16 t 55 min"
+              },
+              {
+                "ankomst": "ca. 16:15",
+                "dato": "2026-10-21",
+                "detalj": "Ca. 130 km, etter henting av bagasje/bil",
+                "fra": "Alta lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 14:15",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              }
+            ],
+            "totalAnslag": 9276,
+            "transport": [
+              {
+                "id": "t1v2",
+                "kilde": "RATP/Google + DSB 18.9.2026",
+                "navn": "Lokaltransport: tog København–Odense t/r + transfer CDG–Parrot-kontoret t/r",
+                "notat": "DSB InterCity/Lyn København lufthavn–Odense t/r for Upteko-besøket (500 kr) + RER B/metro CDG–sentrum t/r, anslått (300 kr)",
+                "pris": 800
+              }
+            ]
+          }
+        ],
+        "sammendrag": "Kombinert reise Kautokeino–Paris–Danmark–Kautokeino. To reiserekkefølger å velge mellom: dagens (Parrot mandag/Upteko tirsdag, 2 hotellnetter, ca. 13 156 kr) eller snudd (Upteko mandag/Parrot tirsdag, 1 hotellnatt, ca. 9 276 kr — billigere fordi ingen Paris-overnatting trengs). Dekker begge besøk uansett hvilken rekkefølge som velges.",
         "transport": [
           {
             "id": "t1",
@@ -258,6 +547,275 @@
       "sted": "Paris + Odense",
       "trengerChrome": false,
       "id": "upteko-dk-t4k9wr"
+    },
+    {
+      "avreise": "2026-10-03",
+      "beregning": {
+        "antakelser": [
+          "«Uke 40-42» tolket som et fleksibelt vindu (28. september–18. oktober 2026); valgt konkret avreise 3. oktober med 9 dagers varighet (litt over «7-10 dager» for å få nok stranddager etter reisedagene).",
+          "Reisemål valgt til Costa del Sol/Torremolinos i Spania. Sjekket også Gran Canaria og Málaga som direktesøk fra Alta – begge kostet over 16 000 kr og tok over 20 timer med 3 mellomlandinger via Tyskland/Sveits, så disse ble forkastet som «ikke komfortable».",
+          "Kittilä valgt fremfor Alta som avreisested: flybilletten er vesentlig billigere derfra selv med noe lengre kjøretur, og gir samme reisemønster (én overnatting i Oslo hver vei).",
+          "Fly er priset som to enkeltbillett-strekninger (Kittilä–Oslo og Oslo–Málaga) med overnatting i Oslo begge veier, istedenfor én sammenhengende billett – det gir en trygg, uthvilt reise med ankomst i dagslys, mens direkte gjennombooking ga enten svært lange omveier eller sen kveldsankomst.",
+          "Returflyene (Málaga–Oslo og Oslo–Kittilä) er anslåtte klokkeslett basert på tilsvarende ruter motsatt vei, ikke sjekket direkte i Google Flights.",
+          "Hotell i Oslo (2 netter t/r ved flyplassen) er et anslag, ikke sjekket i sanntid.",
+          "Reisen er beregnet for 1 person (Galina reiser alene).",
+          "Standard satt til «middels» iht. ønsket om hotell fra 3 stjerner og oppover.",
+          "Norske borgere trenger ikke visum til Spania (Schengen) – ingen visumkostnad lagt inn."
+        ],
+        "daglig": [
+          {
+            "navn": "Mat og drikke",
+            "notat": "anslag, 1 reisende, spanske priser",
+            "prisDag": 350
+          },
+          {
+            "navn": "Aktiviteter",
+            "notat": "anslag, stranden er gratis, litt shopping/utflukt",
+            "prisDag": 150
+          }
+        ],
+        "dato": "2026-09-18T03:34:29.000Z",
+        "faste": [
+          {
+            "navn": "Parkering Kittilä lufthavn",
+            "notat": "Anslag for 9 døgn, ikke sjekket i sanntid",
+            "pris": 1100
+          },
+          {
+            "navn": "Drivstoff Kautokeino–Kittilä t/r",
+            "notat": "500 km × 2 kr/km",
+            "pris": 1000
+          },
+          {
+            "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+            "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid",
+            "pris": 2200
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+            "navn": "Kittilä–Oslo–Málaga (Finnair + SAS)",
+            "notat": "To enkeltstrekninger: Kittilä-Oslo (5 896 kr, via Helsingfors) + Oslo-Málaga (6 565 kr, direkte). Krever 1 overnatting i Oslo hver vei.",
+            "pris": 12500,
+            "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+            "selskap": "Finnair/SAS"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+            "navn": "Alta–Oslo–Málaga (Widerøe/SAS + SAS)",
+            "notat": "Reserve hvis kortere kjøretur (130 km) foretrekkes fremfor billigst pris. Alta-Oslo 7 687 kr + Oslo-Málaga 6 565 kr, samme opplegg med Oslo-overnatting.",
+            "pris": 14300,
+            "rute": "Alta (ALF) – Oslo (OSL) – Málaga (AGP)",
+            "selskap": "Widerøe/SAS"
+          }
+        ],
+        "forslag": "Costa del Sol (Torremolinos) i Spania passer godt: normalt fortsatt varmt og fint badevann i uke 40-42, og et trygt, lett tilgjengelig reisemål for kvinner som reiser alene. Fly Kittilä–Oslo–Malaga er billigst (ca. 12 500 kr t/r) når du legger inn en overnatting i Oslo begge veier – da unngår du sene, urolige forbindelser og kommer fram i dagslys i stedet. Bo sentralt i Torremolinos: BLUESEA Torremolinos Centro ligger 600 m fra stranden for under 700 kr natten, eller tent Torremolinos (også nær stranden, frokost inkludert) for litt mer standard. Tog fra flyplassen til Torremolinos er billig, trygt og enkelt – du trenger ikke leiebil med mindre du vil utforske mer av kysten på egen hånd.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "BLUESEA Torremolinos Centro",
+            "notat": "Enkeltrom, tilbudspris, gratis avbestilling, betal på stedet. Vurdering 7,3 «Bra».",
+            "omrade": "Torremolinos sentrum, 600 m til stranden",
+            "pris": 3900,
+            "prisNatt": 650,
+            "stjerner": 3
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "tent Torremolinos",
+            "notat": "Inkluderer frokost («unlimited brunch»). Vurdering 8,0 «Meget bra».",
+            "omrade": "Torremolinos sentrum, 650 m til stranden",
+            "pris": 7500,
+            "prisNatt": 1250,
+            "stjerner": 3
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "Hotel Isabel",
+            "notat": "Finere alternativ: suite med sjøutsikt, rett ved stranden. Vurdering 8,7 «Utmerket».",
+            "omrade": "Liggerved stranden i Torremolinos",
+            "pris": 15000,
+            "prisNatt": 2500,
+            "stjerner": 4
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "ankomst": "ca. 08:15",
+            "dato": "2026-10-03",
+            "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
+            "fra": "Kautokeino",
+            "retning": "ut",
+            "tid": "05:15",
+            "til": "Kittilä lufthavn",
+            "type": "bil",
+            "varighet": "3 t kjøring"
+          },
+          {
+            "dato": "2026-10-03",
+            "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
+            "fra": "Kittilä (KTT)",
+            "retning": "ut",
+            "tid": "09:25",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "8 t 10 min"
+          },
+          {
+            "ankomst": "ca. 17:10",
+            "dato": "2026-10-03",
+            "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
+            "fra": "Oslo lufthavn",
+            "retning": "ut",
+            "tid": "ca. 17:00",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
+          },
+          {
+            "ankomst": "ca. 19:20",
+            "dato": "2026-10-04",
+            "detalj": "SAS, direkte, 4. oktober",
+            "fra": "Oslo (OSL)",
+            "retning": "ut",
+            "tid": "15:05",
+            "til": "Málaga (AGP)",
+            "type": "fly",
+            "varighet": "4 t 15 min"
+          },
+          {
+            "ankomst": "ca. 20:15",
+            "dato": "2026-10-04",
+            "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
+            "fra": "Málaga flyplass",
+            "retning": "ut",
+            "tid": "ca. 19:45",
+            "til": "Torremolinos",
+            "type": "tog",
+            "varighet": "ca. 30 min"
+          },
+          {
+            "ankomst": "ca. 10:30",
+            "dato": "2026-10-09",
+            "detalj": "Cercanías-tog, 9. oktober",
+            "fra": "Torremolinos",
+            "retning": "hjem",
+            "tid": "ca. 10:00",
+            "til": "Málaga flyplass",
+            "type": "tog",
+            "varighet": "ca. 30 min"
+          },
+          {
+            "ankomst": "ca. 17:05",
+            "dato": "2026-10-09",
+            "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
+            "fra": "Málaga (AGP)",
+            "retning": "hjem",
+            "tid": "ca. 12:20",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "ca. 4 t 45 min"
+          },
+          {
+            "ankomst": "ca. 17:40",
+            "dato": "2026-10-10",
+            "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
+            "fra": "Oslo lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 17:30",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
+          },
+          {
+            "dato": "2026-10-11",
+            "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
+            "fra": "Oslo (OSL)",
+            "retning": "hjem",
+            "tid": "ca. 10:15",
+            "til": "Kittilä (KTT)",
+            "type": "fly",
+            "varighet": "ca. 8 t"
+          },
+          {
+            "ankomst": "ca. 21:30",
+            "dato": "2026-10-11",
+            "detalj": "Etter henting av bagasje/bil",
+            "fra": "Kittilä lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 18:30",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "3 t kjøring"
+          }
+        ],
+        "sammendrag": "Costa del Sol (Torremolinos) via Kittilä-Oslo-Málaga med 1 overnatting i Oslo hver vei, totalt ca. 25 350 kr for 1 person over 9 dager. Vurdert som tryggest og mest behagelig med dagslys-ankomster i stedet for en sen kveldsforbindelse.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "Anslag basert på normale Cercanías-priser",
+            "lenke": "",
+            "navn": "Cercanías-tog flyplass-Torremolinos t/r + lokalt",
+            "notat": "Billigst og enklest for solo-reisende, trygg og hyppig togforbindelse.",
+            "pris": 150
+          },
+          {
+            "id": "t2",
+            "kilde": "Anslag, ikke sjekket i sanntid",
+            "lenke": "https://www.rentalcars.com",
+            "navn": "Leiebil hele oppholdet (6 dager)",
+            "notat": "Gir frihet til å utforske mer av kysten (Nerja, Marbella), men ikke nødvendig for selve stranden/sentrum.",
+            "pris": 1950
+          }
+        ]
+      },
+      "beskrivelse": "Jeg, Galina, skal reise til en plass hvor det er varmt og jeg kan bade i havet i perioden uke 40-uke 42. Ca 7-10 dager. Jeg liker Hellas, Italia og Spania evt noe annet tilsvarende hvor det er varmt. Finn enkel koselig boende. Komfortabel reisevei ønskes. Det skal være trygt for meg å reise alene. Finn en billig reise, hotell fra 3 stjerner og opp. Hotell ikke langt fra havet.",
+      "dager": 9,
+      "fleks": 15,
+      "forespurt": "2026-09-18T00:00:00.000Z",
+      "fra": "Kittilä",
+      "historikk": [
+        {
+          "dato": "2026-09-18T03:34:29.000Z",
+          "metode": "chrome",
+          "total": 25350
+        }
+      ],
+      "kilde": "skjema",
+      "land": "Spania",
+      "lat": 36.6203,
+      "lon": -4.4998,
+      "navn": "Solreise Costa del Sol (Torremolinos)",
+      "netter": 8,
+      "onsker": "Enkel, koselig bosted nær havet; trygt å reise alene; komfortabel reisevei; billig; hotell fra 3 stjerner",
+      "reisende": 1,
+      "standard": "middels",
+      "status": "beregnet",
+      "sted": "Torremolinos, Costa del Sol",
+      "trengerChrome": false,
+      "id": "skjema-gal7x2q"
     },
     {
       "avreise": "2026-12-18",
@@ -749,282 +1307,13 @@
       "trengerChrome": false,
       "valg": {},
       "id": "paris-parrot-workshop-mu3jbk3b"
-    },
-    {
-      "avreise": "2026-10-03",
-      "beregning": {
-        "antakelser": [
-          "«Uke 40-42» tolket som et fleksibelt vindu (28. september–18. oktober 2026); valgt konkret avreise 3. oktober med 9 dagers varighet (litt over «7-10 dager» for å få nok stranddager etter reisedagene).",
-          "Reisemål valgt til Costa del Sol/Torremolinos i Spania. Sjekket også Gran Canaria og Málaga som direktesøk fra Alta – begge kostet over 16 000 kr og tok over 20 timer med 3 mellomlandinger via Tyskland/Sveits, så disse ble forkastet som «ikke komfortable».",
-          "Kittilä valgt fremfor Alta som avreisested: flybilletten er vesentlig billigere derfra selv med noe lengre kjøretur, og gir samme reisemønster (én overnatting i Oslo hver vei).",
-          "Fly er priset som to enkeltbillett-strekninger (Kittilä–Oslo og Oslo–Málaga) med overnatting i Oslo begge veier, istedenfor én sammenhengende billett – det gir en trygg, uthvilt reise med ankomst i dagslys, mens direkte gjennombooking ga enten svært lange omveier eller sen kveldsankomst.",
-          "Returflyene (Málaga–Oslo og Oslo–Kittilä) er anslåtte klokkeslett basert på tilsvarende ruter motsatt vei, ikke sjekket direkte i Google Flights.",
-          "Hotell i Oslo (2 netter t/r ved flyplassen) er et anslag, ikke sjekket i sanntid.",
-          "Reisen er beregnet for 1 person (Galina reiser alene).",
-          "Standard satt til «middels» iht. ønsket om hotell fra 3 stjerner og oppover.",
-          "Norske borgere trenger ikke visum til Spania (Schengen) – ingen visumkostnad lagt inn."
-        ],
-        "daglig": [
-          {
-            "navn": "Mat og drikke",
-            "notat": "anslag, 1 reisende, spanske priser",
-            "prisDag": 350
-          },
-          {
-            "navn": "Aktiviteter",
-            "notat": "anslag, stranden er gratis, litt shopping/utflukt",
-            "prisDag": 150
-          }
-        ],
-        "dato": "2026-09-18T03:34:29.000Z",
-        "faste": [
-          {
-            "navn": "Parkering Kittilä lufthavn",
-            "notat": "Anslag for 9 døgn, ikke sjekket i sanntid",
-            "pris": 1100
-          },
-          {
-            "navn": "Drivstoff Kautokeino–Kittilä t/r",
-            "notat": "500 km × 2 kr/km",
-            "pris": 1000
-          },
-          {
-            "navn": "Hotell Oslo lufthavn (2 netter t/r)",
-            "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid",
-            "pris": 2200
-          }
-        ],
-        "fly": [
-          {
-            "id": "f1",
-            "kilde": "Google Flights 18.9.2026",
-            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
-            "navn": "Kittilä–Oslo–Málaga (Finnair + SAS)",
-            "notat": "To enkeltstrekninger: Kittilä-Oslo (5 896 kr, via Helsingfors) + Oslo-Málaga (6 565 kr, direkte). Krever 1 overnatting i Oslo hver vei.",
-            "pris": 12500,
-            "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
-            "selskap": "Finnair/SAS"
-          },
-          {
-            "id": "f2",
-            "kilde": "Google Flights 18.9.2026",
-            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
-            "navn": "Alta–Oslo–Málaga (Widerøe/SAS + SAS)",
-            "notat": "Reserve hvis kortere kjøretur (130 km) foretrekkes fremfor billigst pris. Alta-Oslo 7 687 kr + Oslo-Málaga 6 565 kr, samme opplegg med Oslo-overnatting.",
-            "pris": 14300,
-            "rute": "Alta (ALF) – Oslo (OSL) – Málaga (AGP)",
-            "selskap": "Widerøe/SAS"
-          }
-        ],
-        "forslag": "Costa del Sol (Torremolinos) i Spania passer godt: normalt fortsatt varmt og fint badevann i uke 40-42, og et trygt, lett tilgjengelig reisemål for kvinner som reiser alene. Fly Kittilä–Oslo–Malaga er billigst (ca. 12 500 kr t/r) når du legger inn en overnatting i Oslo begge veier – da unngår du sene, urolige forbindelser og kommer fram i dagslys i stedet. Bo sentralt i Torremolinos: BLUESEA Torremolinos Centro ligger 600 m fra stranden for under 700 kr natten, eller tent Torremolinos (også nær stranden, frokost inkludert) for litt mer standard. Tog fra flyplassen til Torremolinos er billig, trygt og enkelt – du trenger ikke leiebil med mindre du vil utforske mer av kysten på egen hånd.",
-        "hotell": [
-          {
-            "id": "h1",
-            "kilde": "Booking.com 18.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
-            "navn": "BLUESEA Torremolinos Centro",
-            "notat": "Enkeltrom, tilbudspris, gratis avbestilling, betal på stedet. Vurdering 7,3 «Bra».",
-            "omrade": "Torremolinos sentrum, 600 m til stranden",
-            "pris": 3900,
-            "prisNatt": 650,
-            "stjerner": 3
-          },
-          {
-            "id": "h2",
-            "kilde": "Booking.com 18.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
-            "navn": "tent Torremolinos",
-            "notat": "Inkluderer frokost («unlimited brunch»). Vurdering 8,0 «Meget bra».",
-            "omrade": "Torremolinos sentrum, 650 m til stranden",
-            "pris": 7500,
-            "prisNatt": 1250,
-            "stjerner": 3
-          },
-          {
-            "id": "h3",
-            "kilde": "Booking.com 18.9.2026",
-            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
-            "navn": "Hotel Isabel",
-            "notat": "Finere alternativ: suite med sjøutsikt, rett ved stranden. Vurdering 8,7 «Utmerket».",
-            "omrade": "Liggerved stranden i Torremolinos",
-            "pris": 15000,
-            "prisNatt": 2500,
-            "stjerner": 4
-          }
-        ],
-        "kilder": [
-          {
-            "navn": "Google Flights",
-            "url": "https://www.google.com/travel/flights"
-          },
-          {
-            "navn": "Booking.com",
-            "url": "https://www.booking.com"
-          }
-        ],
-        "metode": "chrome",
-        "rute": [
-          {
-            "ankomst": "ca. 08:15",
-            "dato": "2026-10-03",
-            "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
-            "fra": "Kautokeino",
-            "retning": "ut",
-            "tid": "05:15",
-            "til": "Kittilä lufthavn",
-            "type": "bil",
-            "varighet": "3 t kjøring"
-          },
-          {
-            "dato": "2026-10-03",
-            "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
-            "fra": "Kittilä (KTT)",
-            "retning": "ut",
-            "tid": "09:25",
-            "til": "Oslo (OSL)",
-            "type": "fly",
-            "varighet": "8 t 10 min"
-          },
-          {
-            "ankomst": "ca. 17:10",
-            "dato": "2026-10-03",
-            "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
-            "fra": "Oslo lufthavn",
-            "retning": "ut",
-            "tid": "ca. 17:00",
-            "til": "hotell ved flyplassen",
-            "type": "bil",
-            "varighet": "10 min"
-          },
-          {
-            "ankomst": "ca. 19:20",
-            "dato": "2026-10-04",
-            "detalj": "SAS, direkte, 4. oktober",
-            "fra": "Oslo (OSL)",
-            "retning": "ut",
-            "tid": "15:05",
-            "til": "Málaga (AGP)",
-            "type": "fly",
-            "varighet": "4 t 15 min"
-          },
-          {
-            "ankomst": "ca. 20:15",
-            "dato": "2026-10-04",
-            "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
-            "fra": "Málaga flyplass",
-            "retning": "ut",
-            "tid": "ca. 19:45",
-            "til": "Torremolinos",
-            "type": "tog",
-            "varighet": "ca. 30 min"
-          },
-          {
-            "ankomst": "ca. 10:30",
-            "dato": "2026-10-09",
-            "detalj": "Cercanías-tog, 9. oktober",
-            "fra": "Torremolinos",
-            "retning": "hjem",
-            "tid": "ca. 10:00",
-            "til": "Málaga flyplass",
-            "type": "tog",
-            "varighet": "ca. 30 min"
-          },
-          {
-            "ankomst": "ca. 17:05",
-            "dato": "2026-10-09",
-            "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
-            "fra": "Málaga (AGP)",
-            "retning": "hjem",
-            "tid": "ca. 12:20",
-            "til": "Oslo (OSL)",
-            "type": "fly",
-            "varighet": "ca. 4 t 45 min"
-          },
-          {
-            "ankomst": "ca. 17:40",
-            "dato": "2026-10-10",
-            "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
-            "fra": "Oslo lufthavn",
-            "retning": "hjem",
-            "tid": "ca. 17:30",
-            "til": "hotell ved flyplassen",
-            "type": "bil",
-            "varighet": "10 min"
-          },
-          {
-            "dato": "2026-10-11",
-            "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
-            "fra": "Oslo (OSL)",
-            "retning": "hjem",
-            "tid": "ca. 10:15",
-            "til": "Kittilä (KTT)",
-            "type": "fly",
-            "varighet": "ca. 8 t"
-          },
-          {
-            "ankomst": "ca. 21:30",
-            "dato": "2026-10-11",
-            "detalj": "Etter henting av bagasje/bil",
-            "fra": "Kittilä lufthavn",
-            "retning": "hjem",
-            "tid": "ca. 18:30",
-            "til": "Kautokeino",
-            "type": "bil",
-            "varighet": "3 t kjøring"
-          }
-        ],
-        "sammendrag": "Costa del Sol (Torremolinos) via Kittilä-Oslo-Málaga med 1 overnatting i Oslo hver vei, totalt ca. 25 350 kr for 1 person over 9 dager. Vurdert som tryggest og mest behagelig med dagslys-ankomster i stedet for en sen kveldsforbindelse.",
-        "transport": [
-          {
-            "id": "t1",
-            "kilde": "Anslag basert på normale Cercanías-priser",
-            "lenke": "",
-            "navn": "Cercanías-tog flyplass-Torremolinos t/r + lokalt",
-            "notat": "Billigst og enklest for solo-reisende, trygg og hyppig togforbindelse.",
-            "pris": 150
-          },
-          {
-            "id": "t2",
-            "kilde": "Anslag, ikke sjekket i sanntid",
-            "lenke": "https://www.rentalcars.com",
-            "navn": "Leiebil hele oppholdet (6 dager)",
-            "notat": "Gir frihet til å utforske mer av kysten (Nerja, Marbella), men ikke nødvendig for selve stranden/sentrum.",
-            "pris": 1950
-          }
-        ]
-      },
-      "beskrivelse": "Jeg, Galina, skal reise til en plass hvor det er varmt og jeg kan bade i havet i perioden uke 40-uke 42. Ca 7-10 dager. Jeg liker Hellas, Italia og Spania evt noe annet tilsvarende hvor det er varmt. Finn enkel koselig boende. Komfortabel reisevei ønskes. Det skal være trygt for meg å reise alene. Finn en billig reise, hotell fra 3 stjerner og opp. Hotell ikke langt fra havet.",
-      "dager": 9,
-      "fleks": 15,
-      "forespurt": "2026-09-18T00:00:00.000Z",
-      "fra": "Kittilä",
-      "historikk": [
-        {
-          "dato": "2026-09-18T03:34:29.000Z",
-          "metode": "chrome",
-          "total": 25350
-        }
-      ],
-      "kilde": "skjema",
-      "land": "Spania",
-      "lat": 36.6203,
-      "lon": -4.4998,
-      "navn": "Solreise Costa del Sol (Torremolinos)",
-      "netter": 8,
-      "onsker": "Enkel, koselig bosted nær havet; trygt å reise alene; komfortabel reisevei; billig; hotell fra 3 stjerner",
-      "reisende": 1,
-      "standard": "middels",
-      "status": "beregnet",
-      "sted": "Torremolinos, Costa del Sol",
-      "trengerChrome": false,
-      "id": "skjema-gal7x2q"
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen. Alle 4 reisemål er oppdatert nylig (17.–18.9, ingen eldre enn 7 dager), ingen har trengerChrome, og ingen nye skjemasvar siden forrige kjøring.",
+    "melding": "Lagt til valgbar snudd reiserekkefølge (Upteko mandag/Parrot tirsdag) for Danmark-turen, interaktivt på siden.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-18T03:42:50.000Z",
-    "sistSjekk": "2026-09-18T11:10:06.000Z",
+    "sistBeregnet": "2026-09-18T11:30:00.000Z",
+    "sistSjekk": "2026-09-18T11:30:00.000Z",
     "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
   }
 }
