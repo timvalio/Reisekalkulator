@@ -212,6 +212,509 @@
       "id": "paris-parrot-workshop-mu3jbk3b"
     },
     {
+      "avreise": "2026-10-03",
+      "beregning": {
+        "antakelser": [
+          "«Uke 40-42» tolket som et fleksibelt vindu (28. september–18. oktober 2026); valgt konkret avreise 3. oktober med 9 dagers varighet (litt over «7-10 dager» for å få nok stranddager etter reisedagene).",
+          "Reisemål valgt til Costa del Sol/Torremolinos i Spania. Sjekket også Gran Canaria og Málaga som direktesøk fra Alta – begge kostet over 16 000 kr og tok over 20 timer med 3 mellomlandinger via Tyskland/Sveits, så disse ble forkastet som «ikke komfortable».",
+          "Kittilä valgt fremfor Alta som avreisested: flybilletten er vesentlig billigere derfra selv med noe lengre kjøretur, og gir samme reisemønster (én overnatting i Oslo hver vei).",
+          "Fly er priset som to enkeltbillett-strekninger (Kittilä–Oslo og Oslo–Málaga) med overnatting i Oslo begge veier, istedenfor én sammenhengende billett – det gir en trygg, uthvilt reise med ankomst i dagslys, mens direkte gjennombooking ga enten svært lange omveier eller sen kveldsankomst.",
+          "Returflyene (Málaga–Oslo og Oslo–Kittilä) er anslåtte klokkeslett basert på tilsvarende ruter motsatt vei, ikke sjekket direkte i Google Flights.",
+          "Hotell i Oslo (2 netter t/r ved flyplassen) er et anslag, ikke sjekket i sanntid.",
+          "Reisen er beregnet for 1 person (Galina reiser alene).",
+          "Standard satt til «middels» iht. ønsket om hotell fra 3 stjerner og oppover.",
+          "Norske borgere trenger ikke visum til Spania (Schengen) – ingen visumkostnad lagt inn."
+        ],
+        "daglig": [
+          {
+            "navn": "Mat og drikke",
+            "notat": "anslag, 1 reisende, spanske priser",
+            "prisDag": 350
+          },
+          {
+            "navn": "Aktiviteter",
+            "notat": "anslag, stranden er gratis, litt shopping/utflukt",
+            "prisDag": 150
+          }
+        ],
+        "dato": "2026-09-18T03:34:29.000Z",
+        "faste": [
+          {
+            "navn": "Parkering Kittilä lufthavn",
+            "notat": "Anslag for 9 døgn, ikke sjekket i sanntid",
+            "pris": 1100
+          },
+          {
+            "navn": "Drivstoff Kautokeino–Kittilä t/r",
+            "notat": "500 km × 2 kr/km",
+            "pris": 1000
+          },
+          {
+            "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+            "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid",
+            "pris": 2200
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+            "navn": "Kittilä–Oslo–Málaga (Finnair + SAS)",
+            "notat": "To enkeltstrekninger: Kittilä-Oslo (5 896 kr, via Helsingfors) + Oslo-Málaga (6 565 kr, direkte). Krever 1 overnatting i Oslo hver vei.",
+            "pris": 12500,
+            "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+            "selskap": "Finnair/SAS"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+            "navn": "Alta–Oslo–Málaga (Widerøe/SAS + SAS)",
+            "notat": "Reserve hvis kortere kjøretur (130 km) foretrekkes fremfor billigst pris. Alta-Oslo 7 687 kr + Oslo-Málaga 6 565 kr, samme opplegg med Oslo-overnatting.",
+            "pris": 14300,
+            "rute": "Alta (ALF) – Oslo (OSL) – Málaga (AGP)",
+            "selskap": "Widerøe/SAS"
+          }
+        ],
+        "forslag": "Costa del Sol (Torremolinos) i Spania passer godt: normalt fortsatt varmt og fint badevann i uke 40-42, og et trygt, lett tilgjengelig reisemål for kvinner som reiser alene. Fly Kittilä–Oslo–Malaga er billigst (ca. 12 500 kr t/r) når du legger inn en overnatting i Oslo begge veier – da unngår du sene, urolige forbindelser og kommer fram i dagslys i stedet. Bo sentralt i Torremolinos: BLUESEA Torremolinos Centro ligger 600 m fra stranden for under 700 kr natten, eller tent Torremolinos (også nær stranden, frokost inkludert) for litt mer standard. Tog fra flyplassen til Torremolinos er billig, trygt og enkelt – du trenger ikke leiebil med mindre du vil utforske mer av kysten på egen hånd.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "BLUESEA Torremolinos Centro",
+            "notat": "Enkeltrom, tilbudspris, gratis avbestilling, betal på stedet. Vurdering 7,3 «Bra».",
+            "omrade": "Torremolinos sentrum, 600 m til stranden",
+            "pris": 3900,
+            "prisNatt": 650,
+            "stjerner": 3
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "tent Torremolinos",
+            "notat": "Inkluderer frokost («unlimited brunch»). Vurdering 8,0 «Meget bra».",
+            "omrade": "Torremolinos sentrum, 650 m til stranden",
+            "pris": 7500,
+            "prisNatt": 1250,
+            "stjerner": 3
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Torremolinos&checkin=2026-10-04&checkout=2026-10-10&group_adults=1&no_rooms=1",
+            "navn": "Hotel Isabel",
+            "notat": "Finere alternativ: suite med sjøutsikt, rett ved stranden. Vurdering 8,7 «Utmerket».",
+            "omrade": "Liggerved stranden i Torremolinos",
+            "pris": 15000,
+            "prisNatt": 2500,
+            "stjerner": 4
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
+            "fra": "Kautokeino",
+            "retning": "ut",
+            "tid": "05:15",
+            "til": "Kittilä lufthavn",
+            "type": "bil",
+            "varighet": "3 t kjøring"
+          },
+          {
+            "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
+            "fra": "Kittilä (KTT)",
+            "retning": "ut",
+            "tid": "09:25",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "8 t 10 min"
+          },
+          {
+            "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
+            "fra": "Oslo lufthavn",
+            "retning": "ut",
+            "tid": "ca. 17:00",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
+          },
+          {
+            "detalj": "SAS, direkte, 4. oktober",
+            "fra": "Oslo (OSL)",
+            "retning": "ut",
+            "tid": "15:05",
+            "til": "Málaga (AGP)",
+            "type": "fly",
+            "varighet": "4 t 15 min"
+          },
+          {
+            "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
+            "fra": "Málaga flyplass",
+            "retning": "ut",
+            "tid": "ca. 19:45",
+            "til": "Torremolinos",
+            "type": "tog",
+            "varighet": "ca. 30 min"
+          },
+          {
+            "detalj": "Cercanías-tog, 9. oktober",
+            "fra": "Torremolinos",
+            "retning": "hjem",
+            "tid": "ca. 10:00",
+            "til": "Málaga flyplass",
+            "type": "tog",
+            "varighet": "ca. 30 min"
+          },
+          {
+            "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
+            "fra": "Málaga (AGP)",
+            "retning": "hjem",
+            "tid": "ca. 12:20",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "ca. 4 t 45 min"
+          },
+          {
+            "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
+            "fra": "Oslo lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 17:30",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
+          },
+          {
+            "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
+            "fra": "Oslo (OSL)",
+            "retning": "hjem",
+            "tid": "ca. 10:15",
+            "til": "Kittilä (KTT)",
+            "type": "fly",
+            "varighet": "ca. 8 t"
+          },
+          {
+            "detalj": "Etter henting av bagasje/bil",
+            "fra": "Kittilä lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 18:30",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "3 t kjøring"
+          }
+        ],
+        "sammendrag": "Costa del Sol (Torremolinos) via Kittilä-Oslo-Málaga med 1 overnatting i Oslo hver vei, totalt ca. 25 350 kr for 1 person over 9 dager. Vurdert som tryggest og mest behagelig med dagslys-ankomster i stedet for en sen kveldsforbindelse.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "Anslag basert på normale Cercanías-priser",
+            "lenke": "",
+            "navn": "Cercanías-tog flyplass-Torremolinos t/r + lokalt",
+            "notat": "Billigst og enklest for solo-reisende, trygg og hyppig togforbindelse.",
+            "pris": 150
+          },
+          {
+            "id": "t2",
+            "kilde": "Anslag, ikke sjekket i sanntid",
+            "lenke": "https://www.rentalcars.com",
+            "navn": "Leiebil hele oppholdet (6 dager)",
+            "notat": "Gir frihet til å utforske mer av kysten (Nerja, Marbella), men ikke nødvendig for selve stranden/sentrum.",
+            "pris": 1950
+          }
+        ]
+      },
+      "beskrivelse": "Jeg, Galina, skal reise til en plass hvor det er varmt og jeg kan bade i havet i perioden uke 40-uke 42. Ca 7-10 dager. Jeg liker Hellas, Italia og Spania evt noe annet tilsvarende hvor det er varmt. Finn enkel koselig boende. Komfortabel reisevei ønskes. Det skal være trygt for meg å reise alene. Finn en billig reise, hotell fra 3 stjerner og opp. Hotell ikke langt fra havet.",
+      "dager": 9,
+      "fleks": 15,
+      "forespurt": "2026-09-18T00:00:00.000Z",
+      "fra": "Kittilä",
+      "historikk": [
+        {
+          "dato": "2026-09-18T03:34:29.000Z",
+          "metode": "chrome",
+          "total": 25350
+        }
+      ],
+      "kilde": "skjema",
+      "land": "Spania",
+      "lat": 36.6203,
+      "lon": -4.4998,
+      "navn": "Solreise Costa del Sol (Torremolinos)",
+      "netter": 8,
+      "onsker": "Enkel, koselig bosted nær havet; trygt å reise alene; komfortabel reisevei; billig; hotell fra 3 stjerner",
+      "reisende": 1,
+      "standard": "middels",
+      "status": "beregnet",
+      "sted": "Torremolinos, Costa del Sol",
+      "trengerChrome": false,
+      "id": "skjema-gal7x2q"
+    },
+    {
+      "avreise": "2026-12-18",
+      "beregning": {
+        "antakelser": [
+          "«Avreise ca. 18. desember» tolket konkret til 18. desember 2026, med 3 dagers fleks. «Tilbake senest 3. januar» er lagt inn med en dags margin – hjemme 2. januar i stedet for helt på fristen.",
+          "Ingen hotellstandard nevnt – satt til «bra» (4 stjerner).",
+          "Alta valgt fremfor Kittilä: direkte fly til Oslo (2 t 5 min) er billigere og enklere med barn enn Kittiläs forbindelser via Helsingfors.",
+          "Fly Oslo–Shenzhen går via Frankfurt med en svært lang mellomlanding (ca. 17 timer) – billigste alternativ med kun 1 mellomlanding. Et alternativ med 2 mellomlandinger (via München/Beijing) er dyrere og har flere overganger med barn, lagt inn som reserve (f2).",
+          "Barnepris (4 år) er anslått til 75 % av voksenpris på alle strekninger – Google Flights-søket ga kun pris for 1 voksen, ikke en bekreftet 3-personers pris, så den reelle prisen kan avvike noe.",
+          "Barnet (4 år) trenger eget sete på alle flystrekninger.",
+          "Norske borgere trenger ikke visum til Kina for turist-/familiebesøk under 30 dager (gjelder t.o.m. 31. desember 2026 iht. regjeringen.no) – lagt inn uten visumkostnad. Forutsetter norsk statsborgerskap for alle tre.",
+          "Av 16 nætter borte er 12 faktiske hotellnetter i Shenzhen – resten er reisedøgn (lange mellomlandinger i Frankfurt begge veier).",
+          "Klokkeslettene for Frankfurt-mellomlandingen og hele hjemreisen er anslått (ca.), ikke hentet direkte fra Google Flights for disse spesifikke strekningene.",
+          "Parkering ved Alta lufthavn i jule-/nyttårsperioden (17 døgn) er et anslag, ikke sjekket i sanntid – kan bli dyrere i høytiden.",
+          "Reisen er beregnet for 3 personer (2 voksne + 1 fireåring)."
+        ],
+        "daglig": [
+          {
+            "navn": "Mat og drikke",
+            "notat": "anslag, 3 reisende, kinesiske priser",
+            "prisDag": 500
+          },
+          {
+            "navn": "Aktiviteter",
+            "notat": "anslag, inngangsbilletter til attraksjoner for 3 personer",
+            "prisDag": 300
+          }
+        ],
+        "dato": "2026-09-18T03:41:45.000Z",
+        "faste": [
+          {
+            "navn": "Parkering Alta lufthavn (17 døgn, jul/nyttår)",
+            "notat": "Anslag, ikke sjekket i sanntid – kan bli dyrere i høytiden",
+            "pris": 1700
+          },
+          {
+            "navn": "Drivstoff Kautokeino–Alta t/r",
+            "notat": "260 km × 2 kr/km",
+            "pris": 520
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Oslo%20to%20Shenzhen%20on%202026-12-18%20through%202027-01-03",
+            "navn": "Alta–Oslo–Frankfurt–Shenzhen (Norwegian + Lufthansa/Air China)",
+            "notat": "For 3 reisende (2 voksne + 1 barn, barn anslått 75 % av voksenpris): Alta-Oslo 9 900 kr + Oslo-Shenzhen 30 500 kr (1 mellomlanding FRA, lang liggetid). Kun 1 voksen-pris bekreftet direkte i Google Flights.",
+            "pris": 40400,
+            "rute": "Alta (ALF) – Oslo (OSL) – Frankfurt (FRA) – Shenzhen (SZX)",
+            "selskap": "Norwegian/Lufthansa/Air China"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Oslo%20to%20Shenzhen%20on%202026-12-18%20through%202027-01-03",
+            "navn": "Alta–Oslo–Shenzhen via München/Beijing (reserve)",
+            "notat": "Kortere total reisetid (23 t 35 min mot 30 t 50 min) men 2 mellomlandinger og vesentlig dyrere – reserve hvis den lange Frankfurt-liggetiden ikke passer familien.",
+            "pris": 57800,
+            "rute": "Alta (ALF) – Oslo (OSL) – München (MUC) – Beijing (PEK) – Shenzhen (SZX)",
+            "selskap": "Lufthansa/Air China"
+          }
+        ],
+        "forslag": "Fra Alta er det billigst og mest komfortabelt: direkte Norwegian-fly til Oslo (12:15), og videre med Lufthansa/Air China via Frankfurt til Shenzhen – dyrere og lengre enn en vanlig Europa-tur (rundt 40 400 kr for hele familien tur/retur), men med bare 1 mellomlanding hver vei i stedet for 2-3. Den lange mellomlandingen i Frankfurt (ca. 17 timer) er egentlig en fordel med en fireåring – bruk den til å sove ordentlig på et transitthotell eller i en lounge i stedet for å telle den som bortkastet tid.\n\nBo på Shenzhen Shanghai Hotel i Futian (854 kr/natt, sentralt, nær metro) eller InterContinental Shenzhen ved Overseas Chinese Town hvis dere vil bo tætt på Window of the World-parken og andre familieattraksjoner. Norske borgere trenger ikke visum for opphold under 30 dager, så det er ikke noe ekstra papirarbeid. Legg inn god margin: fly hjemover 1. januar for å være trygt hjemme 2. januar, en dag før fristen – jul/nyttår er en hektisk reiseperiode med økt risiko for forsinkelser.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Shenzhen&checkin=2026-12-20&checkout=2027-01-01&group_adults=2&group_children=1&age=4",
+            "navn": "Shenzhen Shanghai Hotel",
+            "notat": "Superior Twin Room, gratis opphold for barnet. Vurdering 8,6 «Utmerket». Pris for 12 netter, 2 voksne + 1 barn.",
+            "omrade": "Futian (Huaqiangbei), 2,8 km fra sentrum, nær T-banen",
+            "pris": 10200,
+            "prisNatt": 850,
+            "stjerner": 4
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Shenzhen&checkin=2026-12-20&checkout=2027-01-01&group_adults=2&group_children=1&age=4",
+            "navn": "Holiday Inn Express Shenzhen Futian Center",
+            "notat": "King-rom med ekstra gulvplass, frokost inkludert, gratis opphold for barnet. Vurdering 8,9 «Utmerket».",
+            "omrade": "Futian, 1,7 km fra sentrum",
+            "pris": 14400,
+            "prisNatt": 1200,
+            "stjerner": 4
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 18.9.2026",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Shenzhen&checkin=2026-12-20&checkout=2027-01-01&group_adults=2&group_children=1&age=4",
+            "navn": "InterContinental Shenzhen",
+            "notat": "Finere alternativ, gratis opphold for barnet. Nær familieattraksjoner. Vurdering 8,7 «Utmerket».",
+            "omrade": "Nanshan (Overseas Chinese Town), 7,3 km fra sentrum – rett ved Window of the World-parken",
+            "pris": 22800,
+            "prisNatt": 1900,
+            "stjerner": 5
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          },
+          {
+            "navn": "Regjeringen.no – reiseinformasjon Kina",
+            "url": "https://www.regjeringen.no/no/tema/utenrikssaker/reiseinformasjon/velg-land/reiseinfo_kina/id2414833/"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "detalj": "Ca. 130 km, god margin før avgang 12:15 (18. des.)",
+            "fra": "Kautokeino",
+            "retning": "ut",
+            "tid": "09:15",
+            "til": "Alta lufthavn",
+            "type": "bil",
+            "varighet": "2 t kjøring"
+          },
+          {
+            "detalj": "Norwegian, direkte, 18. des.",
+            "fra": "Alta (ALF)",
+            "retning": "ut",
+            "tid": "12:15",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "2 t 5 min"
+          },
+          {
+            "detalj": "Lufthansa, 18. des. (ca. ankomst 18:35)",
+            "fra": "Oslo (OSL)",
+            "retning": "ut",
+            "tid": "16:35",
+            "til": "Frankfurt (FRA)",
+            "type": "fly",
+            "varighet": "ca. 2 t"
+          },
+          {
+            "detalj": "Air China. Lang mellomlanding i Frankfurt (ca. 17 t) rett før denne strekningen – god anledning til å hvile på transitthotell",
+            "fra": "Frankfurt (FRA)",
+            "retning": "ut",
+            "tid": "ca. 11:30 (19. des.)",
+            "til": "Shenzhen (SZX)",
+            "type": "fly",
+            "varighet": "ca. 11 t 55 min"
+          },
+          {
+            "detalj": "Metro eller taxi, lokal tid",
+            "fra": "Shenzhen flyplass",
+            "retning": "ut",
+            "tid": "ca. 08:00 (20. des.)",
+            "til": "hotellet",
+            "type": "transfer",
+            "varighet": "ca. 30-45 min"
+          },
+          {
+            "detalj": "Metro eller taxi, lokal tid",
+            "fra": "hotellet",
+            "retning": "hjem",
+            "tid": "ca. 08:00 (1. jan.)",
+            "til": "Shenzhen flyplass",
+            "type": "transfer",
+            "varighet": "ca. 30-45 min"
+          },
+          {
+            "detalj": "Air China (anslått, samme mønster som utreise)",
+            "fra": "Shenzhen (SZX)",
+            "retning": "hjem",
+            "tid": "ca. 10:30 (1. jan.)",
+            "til": "Frankfurt (FRA)",
+            "type": "fly",
+            "varighet": "ca. 12 t"
+          },
+          {
+            "detalj": "Lufthansa, etter ny lang mellomlanding i Frankfurt (anslått)",
+            "fra": "Frankfurt (FRA)",
+            "retning": "hjem",
+            "tid": "ca. 08:00 (2. jan.)",
+            "til": "Oslo (OSL)",
+            "type": "fly",
+            "varighet": "ca. 2 t"
+          },
+          {
+            "detalj": "Norwegian/SAS (anslått klokkeslett)",
+            "fra": "Oslo (OSL)",
+            "retning": "hjem",
+            "tid": "ca. 11:00 (2. jan.)",
+            "til": "Alta (ALF)",
+            "type": "fly",
+            "varighet": "ca. 2 t"
+          },
+          {
+            "detalj": "Etter henting av bagasje/bil – hjemme med en dags margin før 3. januar-fristen",
+            "fra": "Alta lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 13:30 (2. jan.)",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "2 t kjøring"
+          }
+        ],
+        "sammendrag": "Familietur til Shenzhen via Alta-Oslo-Frankfurt, med lang men billig mellomlanding i Frankfurt begge veier. Totalt ca. 67 600 kr for 3 personer over 17 dager (12 hotellnetter), hjemme 2. januar med en dags margin før fristen 3. januar.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "Anslag, ikke sjekket i sanntid",
+            "lenke": "",
+            "navn": "T-bane og taxi i Shenzhen",
+            "notat": "Shenzhen har et svært utbygd og billig T-banenett – dekker det meste av behovet.",
+            "pris": 1200
+          },
+          {
+            "id": "t2",
+            "kilde": "Anslag, ikke sjekket i sanntid",
+            "lenke": "",
+            "navn": "Privatsjåfør/dagsturer for utflukter",
+            "notat": "Praktisk for lengre utflukter (f.eks. Window of the World, OCT) med en fireåring.",
+            "pris": 1800
+          }
+        ]
+      },
+      "beskrivelse": "Vi skal til Shenzhen i jula, avreise ca ved 18. desember og tilbake senest 3. januar. Vi reiser fra Alta elle Kittilä. 2 voksne og 1 fireåring. Kan du finne en god pakke for hele turen?",
+      "dager": 17,
+      "fleks": 3,
+      "forespurt": "2026-09-18T00:00:00.000Z",
+      "fra": "Alta",
+      "historikk": [
+        {
+          "dato": "2026-09-18T03:41:45.000Z",
+          "metode": "chrome",
+          "total": 67600
+        }
+      ],
+      "kilde": "skjema",
+      "land": "Kina",
+      "lat": 22.5431,
+      "lon": 114.0579,
+      "navn": "Familietur til Shenzhen (jul/nyttår)",
+      "netter": 12,
+      "onsker": "God pakke for hele turen, 2 voksne og 1 fireåring",
+      "reisende": 3,
+      "standard": "bra",
+      "status": "beregnet",
+      "sted": "Shenzhen (Futian)",
+      "trengerChrome": false,
+      "id": "skjema-shz4k9p"
+    },
+    {
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -434,9 +937,10 @@
     }
   ],
   "meta": {
-    "sistSjekk": "2026-09-17T16:13:12.000Z",
-    "melding": "Ingen reisemål trengte beregning denne kjøringen – begge er friske fra i dag (under 7 dager gamle), ingen med status «venter» eller trengerChrome. Skjemasjekk feilet: docs.google.com fortsatt blokkert av proxyens allowlist på Tims PC (403 ved CONNECT), samme kjente problem som sist – ingen nye skjemasvar kunne hentes.",
+    "melding": "Ingenting nytt å beregne denne kjøringen – alle 4 reisemål er friske (Paris og Danmark fra 17.9, Galinas soltur og Shenzhen-turen fra tidlig i dag), og skjemaet har ingen nye svar (siste behandlede er fortsatt Galinas fra 17.9 kl. 20.51.08). NB: push til GitHub feiler fortsatt – «could not read Username for 'https://github.com'», og credential-filen (.git-credentials-reisekalkulator) ser tom ut (0 byte) ved filsjekk. 6 lokale commits venter på push fra før, leseview for kona har vært utdatert siden 17.9 kl. 11:26 og forblir det til Tim fikser credential-oppsettet på PC-en.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-17T04:26:56.000Z"
+    "sistBeregnet": "2026-09-18T03:42:50.000Z",
+    "sistSjekk": "2026-09-18T04:31:37.000Z",
+    "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
   }
 }
