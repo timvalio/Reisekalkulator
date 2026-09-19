@@ -1735,7 +1735,7 @@
     }
   ],
   "meta": {
-    "melding": "Ingenting å beregne denne kjøringen: alle 5 reisemål er «beregnet» og under 7 dager gamle, ingen venter/trenger Chrome. Ingen nye skjemasvar siden forrige kjøring.",
+    "melding": "Ingenting å beregne denne kjøringen – alle 5 reisemål er «beregnet» og ferske (under 7 dager), ingen venter/trenger Chrome, ingen nye skjemasvar. Lesevisningen ble bygget på nytt og committet lokalt, men «git push» feilet med samme kjente årsak som før (credential-helperen mangler gyldig GitHub-pålogging i denne økten) – 2 committer ligger klare lokalt og pushes automatisk så snart en økt har tilgang. Underveis oppdaget og rettet jeg selv en feil: første ombygging av data.json brukte en database-snapshot fra FØR forrige økts LAAX-bildefiks (commit d994464) var hentet inn, og reverterte dermed de 15 hotellbildene til de ødelagte bstatic.com-lenkene. Dette ble oppdaget og rettet lokalt før noe ble pushet, så det som faktisk ligger på GitHub nå er fortsatt korrekt. Tim: en engangs manuell GitHub-pålogging på PC-en (kjør 'git push' og lagre et personal access token) løser push-problemet varig.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-19T06:55:00.000Z",
     "sistSjekk": "2026-09-19T07:09:57.000Z",
