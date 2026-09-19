@@ -546,7 +546,7 @@
         "forslag": "Bosted er nå kraftig utvidet og delt i tre nivåer (budsjett/medium/bedre), alle sjekket på Booking.com for 21.–25. januar 2027, 6 voksne:\n\nBUDSJETT (5 alt., 12 900–16 100 kr totalt for gruppen): rimeligste alternativ er Abitaziun Patgific i Trin og Casa Biala Dimora i Vigens, begge ca. 12 940 kr. Disse ligger 1,7–2,9 km fra Laax-heisen (nabolandsbyer i dalen) – krever bil/buss hver dag, men er under halve prisen av forrige forslag.\n\nMEDIUM (5 alt., 17 500–24 250 kr totalt): best kompromiss er Apartment Villa Waldpark i Flims (17 498 kr, 1 km til heisen, 9,3 i vurdering) – nå satt som standardvalg. Andre gode alternativ: Haus 2 og Alp Resort Ski In/Ski Out i Laax-Murschetg (500 m til heisen).\n\nBEDRE (5 alt., 25 100–91 000 kr totalt): rocksresort og Edelweiss Ferienwohnung (begge ca. 7 000 kr/natt, 50–150 m til heisen) er fortsatt med, pluss Modern Alpine Retreat (10/10 i vurdering, 650 m, 27 268 kr) og Prada Laax by Quokka 360 (150 m, delt badstue, 25 085 kr). Me and All Hotel Flims by Hyatt (91 000 kr) er tatt med som luksusalternativ.\n\nTog fra Zürich lufthavn til Laax (ca. 4 900 kr t/r for alle 6) er klart billigere enn privat minibuss-transfer (ca. 18 000 kr t/r), men sistnevnte er enklere med skiutstyr og bagasje for seks personer.",
         "hotell": [
           {
-            "bilde": "img/laax/h4_waldpark.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604851805.webp",
             "id": "h4",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -558,7 +558,7 @@
             "prisNatt": 4375
           },
           {
-            "bilde": "img/laax/h5_abitaziun.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/528310766.webp",
             "id": "h5",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -570,7 +570,7 @@
             "prisNatt": 3235
           },
           {
-            "bilde": "img/laax/h6_casabiala.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/497350999.webp",
             "id": "h6",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -582,7 +582,7 @@
             "prisNatt": 3235
           },
           {
-            "bilde": "img/laax/h7_casavia.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553573358.webp",
             "id": "h7",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -594,7 +594,7 @@
             "prisNatt": 3590
           },
           {
-            "bilde": "img/laax/h8_ratia.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/281286766.webp",
             "id": "h8",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -606,7 +606,7 @@
             "prisNatt": 3779
           },
           {
-            "bilde": "img/laax/h9_panorama.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/810217336.webp",
             "id": "h9",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -618,7 +618,7 @@
             "prisNatt": 4037
           },
           {
-            "bilde": "img/laax/h10_sleek.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671367111.webp",
             "id": "h10",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -630,7 +630,7 @@
             "prisNatt": 5062
           },
           {
-            "bilde": "img/laax/h11_haus2.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/669303528.webp",
             "id": "h11",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -642,7 +642,7 @@
             "prisNatt": 5497
           },
           {
-            "bilde": "img/laax/h12_alpresort.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315606023.webp",
             "id": "h12",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -654,7 +654,7 @@
             "prisNatt": 5960
           },
           {
-            "bilde": "img/laax/h13_t3mira.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/365579480.webp",
             "id": "h13",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -666,7 +666,7 @@
             "prisNatt": 6060
           },
           {
-            "bilde": "img/laax/h1_rocksresort.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465320542.webp",
             "id": "h1",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -679,7 +679,7 @@
             "stjerner": 4
           },
           {
-            "bilde": "img/laax/h2_edelweiss.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
             "id": "h2",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -692,7 +692,7 @@
             "stjerner": 3
           },
           {
-            "bilde": "img/laax/h3_hyatt.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/829399517.webp",
             "id": "h3",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -705,7 +705,7 @@
             "stjerner": 4
           },
           {
-            "bilde": "img/laax/h14_prada.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
             "id": "h14",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -717,7 +717,7 @@
             "prisNatt": 6271
           },
           {
-            "bilde": "img/laax/h15_modern.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
             "id": "h15",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
