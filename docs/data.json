@@ -1344,10 +1344,10 @@
     }
   ],
   "meta": {
-    "melding": "Ingen nye skjemasvar siden forrige kjøring. Ingen reisemål med status «venter», ingen trenger Chrome på nytt, og alle 4 beregninger er ferske (under 7 dager) — ingenting beregnet denne runden.",
+    "melding": "Lagt til valgbar snudd reiserekkefølge (Upteko mandag/Parrot tirsdag) for Danmark-turen, interaktivt på siden.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-18T11:45:00.000Z",
-    "sistSjekk": "2026-09-18T21:12:00.000Z",
+    "sistBeregnet": "2026-09-18T11:30:00.000Z",
+    "sistSjekk": "2026-09-18T11:30:00.000Z",
     "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
   }
 }
