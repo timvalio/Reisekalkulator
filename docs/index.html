@@ -153,6 +153,10 @@ h2.sec small{font-family:var(--body);font-size:13px;color:var(--muted);font-weig
 .alt .p{margin-left:auto;text-align:right;white-space:nowrap;font-weight:600;font-size:15px}
 .alt .p small{display:block;font-weight:500;color:var(--muted);font-size:11.5px}
 .alt a{font-size:12px}
+.alt .thumb{width:56px;height:56px;border-radius:8px;object-fit:cover;flex:none;cursor:pointer}
+.hottabs{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.hottab{border:1px solid var(--line);background:var(--panel);color:var(--muted);font:inherit;font-weight:600;font-size:12.5px;padding:6px 14px;border-radius:99px;cursor:pointer}
+.hottab.on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
 .steps{margin:8px 0 0;padding:0;list-style:none;border-left:2px solid var(--line);margin-left:9px}
 .steps li{position:relative;padding:3px 0 3px 22px;font-size:14px}
 .steps li::before{content:"";position:absolute;left:-7px;top:11px;width:10px;height:10px;border-radius:50%;background:var(--panel);border:2px solid var(--accent)}
@@ -266,6 +270,18 @@ details.how li{margin:4px 0}
       <button class="x" data-close="det" aria-label="Lukk">×</button>
     </div>
     <div class="box-b" id="detBody"></div>
+  </div>
+</div>
+
+<!-- Hotelldetaljer (snakkeboble) -->
+<div class="sheet" id="hotellSheet" role="dialog" aria-modal="true" aria-labelledby="hotellTittel">
+  <div class="bg" data-close="hotell"></div>
+  <div class="box">
+    <div class="box-h">
+      <div><h2 id="hotellTittel">Hotell</h2><div class="sub" id="hotellSub"></div></div>
+      <button class="x" data-close="hotell" aria-label="Lukk">×</button>
+    </div>
+    <div class="box-b" id="hotellBody"></div>
   </div>
 </div>
 
@@ -442,18 +458,34 @@ function stegHtml(s){
   const tidFull = tidVis + (s.ankomst ? '\u2013' + s.ankomst : '');
   return `<li><span class="ic">${ikon(s.type)}</span>${tidFull ? `<b style="font-weight:600;margin-right:6px">${esc(tidFull)}</b>` : ''}${esc(s.fra || '')}${s.til ? ' → ' + esc(s.til) : ''}${s.detalj || s.varighet ? `<div class="d">${esc([s.detalj, s.varighet].filter(Boolean).join(' · '))}</div>` : ''}</li>`;
 }
+const altCache = {};
 function altListe(navn, liste, valgtId, type, r){
   if (!Array.isArray(liste) || !liste.length) return `<p class="faded">Ingen alternativer funnet.</p>`;
-  if (liste.length < 2) return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" style="cursor:default"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
-    <span><span class="n">${esc(a.navn)}${type === 'hotell' && a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : ''}${a.id === valgtId ? ' <span class="d" style="display:inline">— valgt</span>' : ''}</span>
+  if (type === 'hotell') liste.forEach(a => { if (a && a.id) altCache[r.id + '|' + a.id] = a; });
+  const thumb = a => (type === 'hotell' && a.bilde) ? `<img src="${esc(a.bilde)}" alt="" class="thumb" loading="lazy" onclick="event.stopPropagation();apneHotell('${esc(r.id)}','${esc(a.id)}')">` : '';
+  const navnHtml = a => `<span class="n"${type === 'hotell' ? ` onclick="event.stopPropagation();apneHotell('${esc(r.id)}','${esc(a.id)}')" style="cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px"` : ''}>${esc(a.navn)}${type === 'hotell' && a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : ''}${a.id === valgtId ? ' <span class="d" style="display:inline">— valgt</span>' : ''}</span>`;
+  if (liste.length < 2) return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" style="cursor:default">${thumb(a)}<span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
+    <span>${navnHtml(a)}
     <span class="d">${esc([a.rute, a.selskap, a.omrade, a.notat].filter(Boolean).join(' · '))}</span>
     ${a.lenke ? `<a href="${esc(a.lenke)}" target="_blank" rel="noopener">Sjekk pris ↗</a>` : ''}${a.kilde ? ` <span class="d" style="display:inline">${esc(a.kilde)}</span>` : ''}</span>
     <span class="p">${kr(a.pris)}<small>${type === 'hotell' && a.prisNatt ? fmt(a.prisNatt) + ' kr/natt' : fmt((+a.pris || 0) / (r.reisende || 2)) + ' kr pp'}</small></span></div>`).join('');
-  return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" data-rid="${esc(r.id)}" data-cat="${esc(type)}" data-altid="${esc(a.id)}" role="button" tabindex="0"><span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
-    <span><span class="n">${esc(a.navn)}${type === 'hotell' && a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : ''}${a.id === valgtId ? ' <span class="d" style="display:inline">— valgt</span>' : ''}</span>
+  return liste.map(a => `<div class="alt${a.id === valgtId ? ' on' : ''}" data-rid="${esc(r.id)}" data-cat="${esc(type)}" data-altid="${esc(a.id)}" role="button" tabindex="0">${thumb(a)}<span aria-hidden="true" style="margin-top:3px;color:var(--accent);font-weight:700">${a.id === valgtId ? '✓' : ''}</span>
+    <span>${navnHtml(a)}
     <span class="d">${esc([a.rute, a.selskap, a.omrade, a.notat].filter(Boolean).join(' · '))}</span>
     ${a.lenke ? `<a href="${esc(a.lenke)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Sjekk pris ↗</a>` : ''}${a.kilde ? ` <span class="d" style="display:inline">${esc(a.kilde)}</span>` : ''}</span>
     <span class="p">${kr(a.pris)}<small>${type === 'hotell' && a.prisNatt ? fmt(a.prisNatt) + ' kr/natt' : fmt((+a.pris || 0) / (r.reisende || 2)) + ' kr pp'}</small></span></div>`).join('');
+}
+function hotellSeksjon(liste, valgtId, r){
+  if (!Array.isArray(liste) || !liste.length || !liste.some(a => a && a.kategori)) return altListe('hotell', liste, valgtId, 'hotell', r);
+  const REKKEFOLGE = ['budsjett', 'medium', 'bedre'];
+  const NAVN = {budsjett: 'Budsjett', medium: 'Medium', bedre: 'Bedre'};
+  const kats = REKKEFOLGE.filter(k => liste.some(a => a.kategori === k));
+  liste.forEach(a => { if (a.kategori && !kats.includes(a.kategori)) kats.push(a.kategori); });
+  const valgtKat = liste.find(a => a.id === valgtId)?.kategori;
+  const aktiv = (r._hotellTab && kats.includes(r._hotellTab)) ? r._hotellTab : (valgtKat || kats[0]);
+  r._hotellTab = aktiv;
+  const faner = kats.map(k => `<button type="button" class="hottab${k === aktiv ? ' on' : ''}" data-rid="${esc(r.id)}" data-hottab="${esc(k)}">${esc(NAVN[k] || k)}</button>`).join('');
+  return `<div class="hottabs">${faner}</div>` + altListe('hotell', liste.filter(a => a.kategori === aktiv), valgtId, 'hotell', r);
 }
 function tegnDetalj(){
   const r = reiser.find(x => x.id === apen); if (!r) { lukk('det'); return; }
@@ -501,7 +533,7 @@ function tegnDetalj(){
     const kilde = b.variant || be;
     const netter = b.variant?.netter ?? r.netter ?? Math.max(0, (+r.dager || 0) - 1);
     h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', kilde.fly, b.fly?.id, 'fly', r);
-    h += `<h2 class="sec">Hotell <small>${netter || '?'} netter</small></h2>` + altListe('hotell', kilde.hotell, b.hotell?.id, 'hotell', r);
+    h += `<h2 class="sec">Hotell <small>${netter || '?'} netter</small></h2>` + hotellSeksjon(kilde.hotell, b.hotell?.id, r);
     h += `<h2 class="sec">Transport på stedet</h2>` + altListe('transport', kilde.transport, b.transport?.id, 'transport', r);
     const dl = be.daglig || [], fa = be.faste || [];
     if (dl.length || fa.length) {
@@ -532,13 +564,34 @@ function velgAlt(el){
   lagreValg(r.id, r.valg);
   tegnDetalj(); tegnListe(); tegnKart();
 }
+function velgHotellTab(el){
+  const r = reiser.find(x => x.id === el.dataset.rid); if (!r) return;
+  r._hotellTab = el.dataset.hottab;
+  tegnDetalj();
+}
+function apneHotell(rid, altid){
+  const a = altCache[rid + '|' + altid]; if (!a) return;
+  const r = reiser.find(x => x.id === rid);
+  $('hotellTittel').textContent = a.navn + (a.stjerner ? ' ' + '★'.repeat(Math.min(5, +a.stjerner || 0)) : '');
+  $('hotellSub').textContent = a.omrade || '';
+  $('hotellBody').innerHTML = `
+    ${a.bilde ? `<img src="${esc(a.bilde)}" alt="" style="width:100%;border-radius:12px;margin:10px 0 16px;display:block">` : ''}
+    <div class="total"><div class="t">${kr(a.pris)}</div><div class="s">${a.prisNatt ? fmt(a.prisNatt) + ' kr/natt' : (r ? fmt((+a.pris || 0) / (r.reisende || 2)) + ' kr per person' : '')}</div></div>
+    ${a.notat ? `<p style="line-height:1.5;margin-top:16px">${esc(a.notat)}</p>` : ''}
+    ${a.kilde ? `<p class="faded" style="margin-top:8px">${esc(a.kilde)}</p>` : ''}
+    ${a.lenke ? `<a href="${esc(a.lenke)}" target="_blank" rel="noopener" style="display:inline-block;margin-top:16px;font-weight:600;color:var(--accent)">Sjekk pris / book ↗</a>` : ''}
+  `;
+  $('hotellSheet').classList.add('open');
+}
 document.addEventListener('click', e => {
   const c = e.target.closest('[data-close]'); if (c) { lukk(c.dataset.close); return; }
+  const ht = e.target.closest('[data-hottab]'); if (ht) { velgHotellTab(ht); return; }
   const va = e.target.closest('.alt[data-altid]'); if (va) { velgAlt(va); return; }
   const k = e.target.closest('.card,[data-id].pin'); if (k) { apne(k.dataset.id); }
 });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && $('detSheet').classList.contains('open')) lukk('det');
+  if (e.key === 'Escape' && $('hotellSheet') && $('hotellSheet').classList.contains('open')) lukk('hotell');
   if ((e.key === 'Enter' || e.key === ' ') && e.target.classList?.contains('card')) { e.preventDefault(); apne(e.target.dataset.id); }
   if ((e.key === 'Enter' || e.key === ' ') && e.target.closest && e.target.closest('.alt[data-altid]')) { e.preventDefault(); velgAlt(e.target.closest('.alt[data-altid]')); }
 });
