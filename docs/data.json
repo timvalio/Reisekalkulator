@@ -505,7 +505,9 @@
           "Som ønsket er mat, aktiviteter og heiskort fortsatt IKKE inkludert i totalprisen.",
           "NYTT 19.9.2026: Bosted er nå re-sjekket bredt på Booking.com (sortert på pris, 6 voksne, 21.–25. jan. 2027, samme datoer) etter tilbakemelding om at forrige forslag var for dyrt. Fant 15 konkrete alternativer fordelt på budsjett/medium/bedre – alle priser er totalpris for hele gruppen i 4 netter, med bilde og direkte Booking-lenke. Airbnb/Hotels.com ble også forsøkt, men Booking.com hadde klart best utvalg og priser for denne gruppestørrelsen på disse datoene.",
           "Budsjettalternativene (12 900–16 100 kr totalt, dvs. under halvparten av forrige forslag) ligger IKKE i selve Laax/Flims, men i nabolandsbyer i Surselva-dalen (Trin, Vigens, Schluein, Ilanz, Sagogn) 1,7–2,9 km fra nærmeste skiheis – man trenger bil/buss til bakken hver dag. For Abitaziun Patgific i Trin oppgir ikke Booking konkret avstand til skiheis i meter/km; stedet har topp beliggenhetsscore (10/10) for Trin, men Trin er en egen landsby et stykke fra selve Laax.",
-          "Default/anbefalt valg er nå satt til et medium-alternativ (Apartment Villa Waldpark, Flims, 1 km til heisen, 17 498 kr) i stedet for det dyreste forslaget – gir en vesentlig billigere standardpris samtidig som avstanden til bakken holdes kort. Alle 15 alternativ er valgbare i appen (budsjett/medium/bedre-faner)."
+          "Default/anbefalt valg er nå satt til et medium-alternativ (Apartment Villa Waldpark, Flims, 1 km til heisen, 17 498 kr) i stedet for det dyreste forslaget – gir en vesentlig billigere standardpris samtidig som avstanden til bakken holdes kort. Alle 15 alternativ er valgbare i appen (budsjett/medium/bedre-faner).",
+          "NYTT 19.9.2026: Sjekket bredere enn Booking.com (Airbnb, Vrbo/Expedia, LAAX' egen hotelloversikt) for 21.–25. jan – fant et bedre alternativ på Airbnb (Marmotta, Laax Dorf, 10 735 kr, 4,74/5 i 77 anmeldelser, Superhost) som nå er satt som nytt standardvalg i budsjett-kategorien, under tidligere billigste (Abitaziun Patgific, 12 940 kr).",
+          "NYTT 19.9.2026: Sammenlignet fly- og hotellpriser for alle 8 mulige tors.–man. helger i januar og februar 2027 (Google Flights prisspor + Booking.com sortert på pris). Januar og tidlig februar (7.–11. jan til og med 11.–15. feb) ligger alle innenfor samme prisnivå (fly 1830–2030 kr/person, billigste hotell 11 800–13 700 kr). De to siste helgene i februar (18.–22. feb og 25. feb–1. mars) er tydelig dyrere på fly (2470–2575 kr/person, dvs. 3600–4200 kr mer for gruppen) – sammenfaller trolig med norsk/sveitsisk vinterferie. Bygget en «Velg helg»-velger med tre forhåndshentede alternativer (nåværende 21.–25. jan, billigst hotell 7.–11. jan, billigst fly 4.–8. feb); si fra om flere helger skal fylles ut med samme detaljnivå."
         ],
         "daglig": [],
         "dato": "2026-09-19T06:55:00.000Z",
@@ -546,7 +548,19 @@
         "forslag": "Bosted er nå kraftig utvidet og delt i tre nivåer (budsjett/medium/bedre), alle sjekket på Booking.com for 21.–25. januar 2027, 6 voksne:\n\nBUDSJETT (5 alt., 12 900–16 100 kr totalt for gruppen): rimeligste alternativ er Abitaziun Patgific i Trin og Casa Biala Dimora i Vigens, begge ca. 12 940 kr. Disse ligger 1,7–2,9 km fra Laax-heisen (nabolandsbyer i dalen) – krever bil/buss hver dag, men er under halve prisen av forrige forslag.\n\nMEDIUM (5 alt., 17 500–24 250 kr totalt): best kompromiss er Apartment Villa Waldpark i Flims (17 498 kr, 1 km til heisen, 9,3 i vurdering) – nå satt som standardvalg. Andre gode alternativ: Haus 2 og Alp Resort Ski In/Ski Out i Laax-Murschetg (500 m til heisen).\n\nBEDRE (5 alt., 25 100–91 000 kr totalt): rocksresort og Edelweiss Ferienwohnung (begge ca. 7 000 kr/natt, 50–150 m til heisen) er fortsatt med, pluss Modern Alpine Retreat (10/10 i vurdering, 650 m, 27 268 kr) og Prada Laax by Quokka 360 (150 m, delt badstue, 25 085 kr). Me and All Hotel Flims by Hyatt (91 000 kr) er tatt med som luksusalternativ.\n\nTog fra Zürich lufthavn til Laax (ca. 4 900 kr t/r for alle 6) er klart billigere enn privat minibuss-transfer (ca. 18 000 kr t/r), men sistnevnte er enklere med skiutstyr og bagasje for seks personer.",
         "hotell": [
           {
-            "bilde": "img/laax/h4_waldpark.jpg",
+            "bilde": "img/laax/h16_marmotta.jpg",
+            "id": "h16",
+            "kategori": "budsjett",
+            "kilde": "Airbnb 19.9.2026 (Chrome)",
+            "lenke": "https://www.airbnb.no/rooms/34495194?adults=6&check_in=2027-01-21&check_out=2027-01-25",
+            "navn": "Marmotta, (Laax Dorf)",
+            "notat": "6 gjester, 2 soverom, 4 senger, 2 bad. Vurdering 4,74 (77 anmeldelser), Superhost i 7 år. Kostnadsfri kansellering. Billigst av alt vi har funnet på tvers av Booking.com, Airbnb, Vrbo/Expedia og LAAX' egen hotelloversikt for denne helgen.",
+            "omrade": "Laax Dorf, 3-roms leilighet",
+            "pris": 10735,
+            "prisNatt": 2684
+          },
+          {
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604851805.webp",
             "id": "h4",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -558,7 +572,7 @@
             "prisNatt": 4375
           },
           {
-            "bilde": "img/laax/h5_abitaziun.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/528310766.webp",
             "id": "h5",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -570,7 +584,7 @@
             "prisNatt": 3235
           },
           {
-            "bilde": "img/laax/h6_casabiala.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/497350999.webp",
             "id": "h6",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -582,7 +596,7 @@
             "prisNatt": 3235
           },
           {
-            "bilde": "img/laax/h7_casavia.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553573358.webp",
             "id": "h7",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -594,7 +608,7 @@
             "prisNatt": 3590
           },
           {
-            "bilde": "img/laax/h8_ratia.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/281286766.webp",
             "id": "h8",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -606,7 +620,7 @@
             "prisNatt": 3779
           },
           {
-            "bilde": "img/laax/h9_panorama.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/810217336.webp",
             "id": "h9",
             "kategori": "budsjett",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -618,7 +632,7 @@
             "prisNatt": 4037
           },
           {
-            "bilde": "img/laax/h10_sleek.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671367111.webp",
             "id": "h10",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -630,7 +644,7 @@
             "prisNatt": 5062
           },
           {
-            "bilde": "img/laax/h11_haus2.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/669303528.webp",
             "id": "h11",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -642,7 +656,7 @@
             "prisNatt": 5497
           },
           {
-            "bilde": "img/laax/h12_alpresort.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315606023.webp",
             "id": "h12",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -654,7 +668,7 @@
             "prisNatt": 5960
           },
           {
-            "bilde": "img/laax/h13_t3mira.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/365579480.webp",
             "id": "h13",
             "kategori": "medium",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -666,7 +680,7 @@
             "prisNatt": 6060
           },
           {
-            "bilde": "img/laax/h1_rocksresort.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465320542.webp",
             "id": "h1",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -679,7 +693,7 @@
             "stjerner": 4
           },
           {
-            "bilde": "img/laax/h2_edelweiss.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
             "id": "h2",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -692,7 +706,7 @@
             "stjerner": 3
           },
           {
-            "bilde": "img/laax/h3_hyatt.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/829399517.webp",
             "id": "h3",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -705,7 +719,7 @@
             "stjerner": 4
           },
           {
-            "bilde": "img/laax/h14_prada.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
             "id": "h14",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -717,7 +731,7 @@
             "prisNatt": 6271
           },
           {
-            "bilde": "img/laax/h15_modern.jpg",
+            "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
             "id": "h15",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
@@ -825,6 +839,773 @@
             "varighet": "2 t kjøring"
           }
         ],
+        "ruteValg": [
+          {
+            "dager": 5,
+            "faste": [
+              {
+                "navn": "Parkering Alta lufthavn (2 biler)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
+                "pris": 3000
+              },
+              {
+                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
+                "notat": "260 km × 2 kr/km × 2 biler.",
+                "pris": 1040
+              }
+            ],
+            "fly": [
+              {
+                "id": "f1",
+                "kilde": "Google Flights 19.9.2026 (Chrome, bekreftet kombinasjon)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-01-21%20through%202027-01-25",
+                "navn": "Alta–Zürich t/r via Tromsø+Oslo, for 6 personer",
+                "notat": "Utreise 07:25–18:10 (3 mellomlandinger, 10t45min). Hjemreise 13:00–21:55 (2 mellomlandinger, 8t55min) – bekreftet samme dag som avreise fra Laax, ingen ekstra hjemreisedag. Valgt fremfor en billigere kombinasjon (se antakelser).",
+                "pris": 17900,
+                "rute": "Alta (ALF) – Tromsø – Oslo – Zürich (ZRH)",
+                "selskap": "SAS/Norwegian"
+              },
+              {
+                "id": "f2",
+                "kilde": "Google Flights 19.9.2026 (Chrome)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-01-21%20through%202027-01-25",
+                "navn": "Alta–Zürich t/r, alternativ SAS-rute via Tromsø+Oslo+København, for 6 personer",
+                "notat": "Utreise 07:25–19:40 (3 mellomlandinger, 12t15min), marginalt billigere enn f1 – men vi rakk ikke bekrefte at returflyet i denne kombinasjonen også lander samme dag. Bruk f1 med mindre dette sjekkes nærmere.",
+                "pris": 17600,
+                "rute": "Alta (ALF) – Tromsø – Oslo – København – Zürich (ZRH)",
+                "selskap": "SAS"
+              }
+            ],
+            "hotell": [
+              {
+                "bilde": "img/laax/h16_marmotta.jpg",
+                "id": "h16",
+                "kategori": "budsjett",
+                "kilde": "Airbnb 19.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/34495194?adults=6&check_in=2027-01-21&check_out=2027-01-25",
+                "navn": "Marmotta, (Laax Dorf)",
+                "notat": "6 gjester, 2 soverom, 4 senger, 2 bad. Vurdering 4,74 (77 anmeldelser), Superhost i 7 år. Kostnadsfri kansellering. Billigst av alt vi har funnet på tvers av Booking.com, Airbnb, Vrbo/Expedia og LAAX' egen hotelloversikt for denne helgen.",
+                "omrade": "Laax Dorf, 3-roms leilighet",
+                "pris": 10735,
+                "prisNatt": 2684
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604851805.webp",
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Apartment+Villa+Waldpark+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Apartment Villa Waldpark by Interhome",
+                "notat": "Leilighet, 3 soverom, 2 bad, 85 m², plass til 6. Vurdering 9,3 (3 eksterne omtaler). Gratis avbestilling. Anbefalt standardvalg – god balanse mellom pris og avstand til heisen.",
+                "omrade": "Flims, 1 km til nærmeste skiheis",
+                "pris": 17498,
+                "prisNatt": 4375
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/528310766.webp",
+                "id": "h5",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/abitaziun-patgific.no.html",
+                "navn": "Abitaziun Patgific",
+                "notat": "Leilighet, 2 soverom, 63 m², plass til 6. Vurdering 9,4 «Fantastisk» (15 omtaler), beliggenhetsscore 10/10. Gratis avbestilling. Booking oppgir ikke avstand til skiheis i tall – Trin er en egen landsby et stykke fra Laax, regn med bil/buss.",
+                "omrade": "Trin (Surselva-dalen, et stykke fra Laax)",
+                "pris": 12940,
+                "prisNatt": 3235
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/497350999.webp",
+                "id": "h6",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-biala-dimora-ski-in-out.no.html",
+                "navn": "Casa Biala Dimora",
+                "notat": "Chalet, 3 soverom, 2 bad, 125 m², plass til 6. Vurdering 8,6 «Utmerket» (17 omtaler). Gratis avbestilling. Til tross for navnet («Ski IN/OUT») oppgir Booking 2,4 km til nærmeste skiheis.",
+                "omrade": "Vigens, 2,4 km til nærmeste skiheis",
+                "pris": 12941,
+                "prisNatt": 3235
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553573358.webp",
+                "id": "h7",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-via-vitg-sut.no.html",
+                "navn": "Casa Via vitg sut",
+                "notat": "Leilighet, 3 soverom, 80 m², 5 senger – plass til 6. Vurdering 8,0 (kun 1 omtale, usikkert grunnlag). Gratis avbestilling.",
+                "omrade": "Schluein, 1,7 km til nærmeste skiheis",
+                "pris": 14360,
+                "prisNatt": 3590
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/281286766.webp",
+                "id": "h8",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/ratia.no.html",
+                "navn": "Hotel Rätia",
+                "notat": "Vanlige hotellrom (2 dobbeltrom, ett med eget bad), ikke leilighet. Vurdering 8,0 «Meget bra», solid grunnlag med 714 omtaler. Gratis avbestilling.",
+                "omrade": "Ilanz, 2,9 km til nærmeste skiheis",
+                "pris": 15116,
+                "prisNatt": 3779
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/810217336.webp",
+                "id": "h9",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Apartment+Panorama+Sagogn&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Apartment Panorama nähe Skigebiet Laax",
+                "notat": "Leilighet med fjellutsikt, 2 soverom, 65 m², plass til 6. Vurdering 9,3 (4 omtaler). Gratis avbestilling.",
+                "omrade": "Sagogn, 2,2 km til nærmeste skiheis",
+                "pris": 16146,
+                "prisNatt": 4037
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671367111.webp",
+                "id": "h10",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Sleek+Mountain+Escape+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Sleek Mountain Escape Light and Airy",
+                "notat": "Leilighet, 2 soverom, 2 bad, 80 m², 5 senger – plass til 6. Vurdering 9,1 «Fantastisk» (13 omtaler). Rabattert pris (ordinær 22 181 kr). Gratis avbestilling.",
+                "omrade": "Flims, 700 m til nærmeste skiheis",
+                "pris": 20249,
+                "prisNatt": 5062
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/669303528.webp",
+                "id": "h11",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Haus+2+Laax-Murschetg&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Haus 2 – Gemütliches 5 Zimmer Haus",
+                "notat": "Hel leilighet, 4 soverom, 3 bad, 114 m², plass til 6, hage. Vurdering 9,2 «Fantastisk» (6 omtaler), beliggenhet 9,5. Gratis avbestilling.",
+                "omrade": "Laax-Murschetg, 500 m til nærmeste skiheis",
+                "pris": 21986,
+                "prisNatt": 5497
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315606023.webp",
+                "id": "h12",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Alp+Resort+Ski+In+Ski+Out+Laax&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Alp Resort Ski In/Ski Out (4.5-roms, maks 7 pers.)",
+                "notat": "Leilighet, 3 soverom, 2 bad, 93 m², badestamp. Vurdering 9,2 «Fantastisk» (11 omtaler). Rabattert pris (ordinær 26 338 kr). Gratis avbestilling.",
+                "omrade": "Laax-Murschetg, 500 m til nærmeste skiheis",
+                "pris": 23841,
+                "prisNatt": 5960
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/365579480.webp",
+                "id": "h13",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=T3+Hotel+Mira+Val+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "T3 Hotel Mira Val",
+                "notat": "Vanlige hotellrom (ikke leilighet), frokost inkludert. Vurdering 7,8 «Bra», solid grunnlag med 336 omtaler – noe lavere score enn de andre alternativene.",
+                "omrade": "Flims, 600 m til nærmeste skiheis",
+                "pris": 24240,
+                "prisNatt": 6060
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465320542.webp",
+                "id": "h1",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+                "navn": "rocksresort",
+                "notat": "Leilighet med 3 soverom, 2 bad, 89 m², 4 senger (2 enkelt, 2 store dobbelt) – plass til 6. Vurdering 8,7 «Utmerket» (480 anmeldelser). Gratis avbestilling.",
+                "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
+                "pris": 28000,
+                "prisNatt": 7000,
+                "stjerner": 4
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
+                "id": "h2",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+                "navn": "Edelweiss Ferienwohnung, Stenna Bergblick",
+                "notat": "Leilighet med 2 soverom, 68 m², 3 senger (1 dobbelt, 2 store dobbelt) – plass til 6. Vurdering 10/10, men bare 1 anmeldelse så langt (usikkert grunnlag). Gratis parkering og avbestilling.",
+                "omrade": "Flims/Laax, 50 m til nærmeste skiheis",
+                "pris": 28681,
+                "prisNatt": 7170,
+                "stjerner": 3
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/829399517.webp",
+                "id": "h3",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+                "navn": "Me and All Hotel Flims, by Hyatt",
+                "notat": "Luksusalternativ: 3 rom med kingsize-seng og fjellutsikt, frokost inkludert, spa. Vurdering 8,9 «Utmerket» (981 anmeldelser), beliggenhet 9,7. Gratis avbestilling, ingen forskuddsbetaling.",
+                "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
+                "pris": 91000,
+                "prisNatt": 22750,
+                "stjerner": 4
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
+                "id": "h14",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Prada+Laax+Quokka+360&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Prada Laax by Quokka 360",
+                "notat": "Leilighet, 2 soverom, 60 m², delt badstue. Vurdering 8,8 «Utmerket». Gratis avbestilling.",
+                "omrade": "Laax, 150 m til nærmeste skiheis",
+                "pris": 25085,
+                "prisNatt": 6271
+              },
+              {
+                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
+                "id": "h15",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/searchresults.html?ss=Modern+Alpine+Retreat+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "navn": "Modern Alpine Retreat Garden and Panoramic Views",
+                "notat": "Leilighet, 3 soverom, 2 bad, 140 m², hage, panoramautsikt. Vurdering 10/10 «Over all forventning». Gratis avbestilling.",
+                "omrade": "Flims, 650 m til nærmeste skiheis",
+                "pris": 27268,
+                "prisNatt": 6817,
+                "stjerner": 4
+              }
+            ],
+            "id": "helg-21jan",
+            "navn": "Tors. 21. – man. 25. januar 2027",
+            "netter": 4,
+            "notat": "Nåværende valg. Billigste bekreftede overnatting nå 10 735 kr (Marmotta, Airbnb) + fly 17 900 kr = ca. 28 635 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 06:25",
+                "dato": "2027-01-21",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "04:25",
+                "til": "Alta lufthavn",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              },
+              {
+                "ankomst": "18:10",
+                "dato": "2027-01-21",
+                "detalj": "SAS/Norwegian, 3 mellomlandinger (Tromsø, Oslo, Stockholm Arlanda).",
+                "fra": "Alta (ALF)",
+                "retning": "ut",
+                "tid": "07:25",
+                "til": "Zürich (ZRH)",
+                "type": "fly",
+                "varighet": "10 t 45 min"
+              },
+              {
+                "ankomst": "ca. 20:30",
+                "dato": "2027-01-21",
+                "detalj": "SBB-tog fra flyplassens egen stasjon, bytte i Chur/Ilanz. Anslått avgangstid etter bagasje; ikke sjekket mot rutetabell for denne datoen.",
+                "fra": "Zürich lufthavn",
+                "retning": "ut",
+                "tid": "ca. 18:40",
+                "til": "Laax",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "ca. 10:50",
+                "dato": "2027-01-25",
+                "detalj": "For å nå 13:00-flyet med god margin til innsjekk.",
+                "fra": "Laax",
+                "retning": "hjem",
+                "tid": "ca. 09:00",
+                "til": "Zürich lufthavn",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "21:55",
+                "dato": "2027-01-25",
+                "detalj": "SAS/Norwegian, 2 mellomlandinger (Oslo, Tromsø). Ankomst samme dag som avreise fra Laax.",
+                "fra": "Zürich (ZRH)",
+                "retning": "hjem",
+                "tid": "13:00",
+                "til": "Alta (ALF)",
+                "type": "fly",
+                "varighet": "8 t 55 min"
+              },
+              {
+                "ankomst": "ca. 00:25 (26.01)",
+                "dato": "2027-01-25",
+                "detalj": "Ca. 130 km, etter henting av bagasje/biler. 2 biler.",
+                "fra": "Alta lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 22:25",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              }
+            ],
+            "totalAnslag": 37575,
+            "transport": [
+              {
+                "id": "t1",
+                "kilde": "Google-søk/Omio 19.9.2026 (laveste annonserte SBB-pris)",
+                "lenke": "https://www.omio.com/trains/zurich-airport/laax-vsrhp",
+                "navn": "Tog Zürich lufthavn–Laax t/r, alle 6 (SBB)",
+                "notat": "Fra 38 EUR enkeltvei per person (laveste sparepris) × 2 × 6 personer, omregnet til NOK. Faktisk pris avhenger av valgt avgang nærmere reisedatoen. Billigere enn forrige anslag på 6 500 kr.",
+                "pris": 4900
+              },
+              {
+                "id": "t2",
+                "kilde": "Ski-lifts.com (ikke re-sjekket denne kjøringen)",
+                "lenke": "https://www.ski-lifts.com/transfers/laax/",
+                "navn": "Privat minibuss-transfer Zürich lufthavn–Laax t/r (4–8 personer)",
+                "notat": "Dør-til-dør, enklere med skiutstyr/bagasje for 6 personer. Samme anslag som forrige kjøring – fortsatt ikke en bekreftet pris.",
+                "pris": 18000
+              }
+            ]
+          },
+          {
+            "dager": 5,
+            "faste": [
+              {
+                "navn": "Parkering Alta lufthavn (2 biler)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
+                "pris": 3000
+              },
+              {
+                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
+                "notat": "260 km × 2 kr/km × 2 biler.",
+                "pris": 1040
+              }
+            ],
+            "fly": [
+              {
+                "id": "w2f1",
+                "kilde": "Google Flights 19.9.2026 (Chrome, bekreftet kombinasjon)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-01-07%20through%202027-01-11",
+                "navn": "Alta–Zürich t/r via Tromsø+Oslo, for 6 personer",
+                "notat": "Utreise 07:25–18:10 (3 mellomlandinger, Tromsø/Oslo/Arlanda, 10t45min). Hjemreise 13:00–21:55 (2 mellomlandinger, Oslo/Tromsø, 8t55min) – bekreftet samme dag som avreise fra Laax.",
+                "pris": 20802,
+                "rute": "Alta (ALF) – Tromsø – Oslo – Zürich (ZRH)",
+                "selskap": "SAS"
+              }
+            ],
+            "hotell": [
+              {
+                "id": "w2h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/2-5-room-apartment-in-center-of-flims-ski-in-out.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Flims 2 Room Apartment in Center Ski in-out TrulloVista",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Flims sentrum",
+                "pris": 11795,
+                "prisNatt": 2949
+              },
+              {
+                "id": "w2h2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/large-and-comfortable-house-with-garden.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Large and comfortable house with Garden",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Flims",
+                "pris": 12184,
+                "prisNatt": 3046
+              },
+              {
+                "id": "w2h3",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-biala-dimora-ski-in-out.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Casa Biala Dimora - Ski IN/OUT",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Vigens, 2,4 km til skiheis",
+                "pris": 12941,
+                "prisNatt": 3235
+              },
+              {
+                "id": "w2h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-via-vitg-sut.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Casa Via vitg sut",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Schluein, 1,7 km til skiheis",
+                "pris": 14360,
+                "prisNatt": 3590
+              },
+              {
+                "id": "w2h5",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/ratia-ilanz.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Hotel Rätia",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Ilanz, 2,9 km til skiheis",
+                "pris": 15116,
+                "prisNatt": 3779
+              },
+              {
+                "id": "w2h6",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Landgasthof zum Glenner",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Ilanz/Glion",
+                "pris": 17223,
+                "prisNatt": 4306
+              },
+              {
+                "id": "w2h7",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-crap.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Casa Crap",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surselva-området",
+                "pris": 17223,
+                "prisNatt": 4306
+              },
+              {
+                "id": "w2h8",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Hotel Garni Postigliun Andiast",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Andiast",
+                "pris": 17498,
+                "prisNatt": 4374
+              },
+              {
+                "id": "w2h9",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/renovated-3-room-apartment-near-laax-ski-resort.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "navn": "Apartment Panorama nähe Skigebiet Laax",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Sagogn, 2,2 km til skiheis",
+                "pris": 18895,
+                "prisNatt": 4724
+              }
+            ],
+            "id": "helg-07jan",
+            "navn": "Tors. 7. – man. 11. januar 2027",
+            "netter": 4,
+            "notat": "Billigste overnatting av alle 8 sjekkede helger i jan/feb (fra 11 795 kr), men fly noe dyrere enn 4.–8. feb. Hotellutvalget her er en lettere oversikt (9 alternativer, ingen bilder ennå) – si fra om du vil ha samme fulle bildeutvalg som for 21.–25. jan.",
+            "rute": [
+              {
+                "ankomst": "ca. 06:25",
+                "dato": "2027-01-07",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "04:25",
+                "til": "Alta lufthavn",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              },
+              {
+                "ankomst": "18:10",
+                "dato": "2027-01-07",
+                "detalj": "SAS, 3 mellomlandinger (Tromsø, Oslo, Arlanda).",
+                "fra": "Alta (ALF)",
+                "retning": "ut",
+                "tid": "07:25",
+                "til": "Zürich (ZRH)",
+                "type": "fly",
+                "varighet": "10 t 45 min"
+              },
+              {
+                "ankomst": "ca. 20:30",
+                "dato": "2027-01-07",
+                "detalj": "SBB-tog fra flyplassens egen stasjon, bytte i Chur/Ilanz. Anslått avgangstid, ikke sjekket mot rutetabell for denne datoen.",
+                "fra": "Zürich lufthavn",
+                "retning": "ut",
+                "tid": "ca. 18:40",
+                "til": "Laax",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "ca. 10:50",
+                "dato": "2027-01-11",
+                "detalj": "For å nå 13:00-flyet med god margin til innsjekk.",
+                "fra": "Laax",
+                "retning": "hjem",
+                "tid": "ca. 09:00",
+                "til": "Zürich lufthavn",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "21:55",
+                "dato": "2027-01-11",
+                "detalj": "SAS, 2 mellomlandinger (Oslo, Tromsø). Ankomst samme dag som avreise fra Laax.",
+                "fra": "Zürich (ZRH)",
+                "retning": "hjem",
+                "tid": "13:00",
+                "til": "Alta (ALF)",
+                "type": "fly",
+                "varighet": "8 t 55 min"
+              },
+              {
+                "ankomst": "ca. 00:25 (12.01)",
+                "dato": "2027-01-11",
+                "detalj": "Ca. 130 km, etter henting av bagasje/biler. 2 biler.",
+                "fra": "Alta lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 22:25",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              }
+            ],
+            "totalAnslag": 41537,
+            "transport": [
+              {
+                "id": "t1",
+                "kilde": "Google-søk/Omio 19.9.2026 (laveste annonserte SBB-pris)",
+                "lenke": "https://www.omio.com/trains/zurich-airport/laax-vsrhp",
+                "navn": "Tog Zürich lufthavn–Laax t/r, alle 6 (SBB)",
+                "notat": "Fra 38 EUR enkeltvei per person (laveste sparepris) × 2 × 6 personer, omregnet til NOK. Faktisk pris avhenger av valgt avgang nærmere reisedatoen. Billigere enn forrige anslag på 6 500 kr.",
+                "pris": 4900
+              },
+              {
+                "id": "t2",
+                "kilde": "Ski-lifts.com (ikke re-sjekket denne kjøringen)",
+                "lenke": "https://www.ski-lifts.com/transfers/laax/",
+                "navn": "Privat minibuss-transfer Zürich lufthavn–Laax t/r (4–8 personer)",
+                "notat": "Dør-til-dør, enklere med skiutstyr/bagasje for 6 personer. Samme anslag som forrige kjøring – fortsatt ikke en bekreftet pris.",
+                "pris": 18000
+              }
+            ]
+          },
+          {
+            "dager": 5,
+            "faste": [
+              {
+                "navn": "Parkering Alta lufthavn (2 biler)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
+                "pris": 3000
+              },
+              {
+                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
+                "notat": "260 km × 2 kr/km × 2 biler.",
+                "pris": 1040
+              }
+            ],
+            "fly": [
+              {
+                "id": "w3f1",
+                "kilde": "Google Flights 19.9.2026 (Chrome, bekreftet kombinasjon)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-02-04%20through%202027-02-08",
+                "navn": "Alta–Zürich t/r via Tromsø+Oslo+København, for 6 personer",
+                "notat": "Utreise 07:25–19:40 (3 mellomlandinger, Tromsø/Oslo/København, 12t15min). Hjemreise 10:25–21:55 (3 mellomlandinger, København/Oslo/Tromsø, 11t30min) – bekreftet samme dag som avreise fra Laax. Billigste fly av alle 8 sjekkede helger.",
+                "pris": 16314,
+                "rute": "Alta (ALF) – Tromsø – Oslo – København – Zürich (ZRH)",
+                "selskap": "SAS"
+              }
+            ],
+            "hotell": [
+              {
+                "id": "w3h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/large-and-comfortable-house-with-garden.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Large and comfortable house with Garden",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Flims",
+                "pris": 12184,
+                "prisNatt": 3046
+              },
+              {
+                "id": "w3h2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/ratia-ilanz.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Hotel Rätia",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Ilanz, 2,9 km til skiheis",
+                "pris": 16673,
+                "prisNatt": 4168
+              },
+              {
+                "id": "w3h3",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Landgasthof zum Glenner",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Ilanz/Glion",
+                "pris": 17498,
+                "prisNatt": 4374
+              },
+              {
+                "id": "w3h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Hotel Garni Postigliun Andiast",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Andiast",
+                "pris": 19101,
+                "prisNatt": 4775
+              },
+              {
+                "id": "w3h5",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/l-39-angolo-dei-sapori.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "L'ANGOLO DEI SAPORI",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surselva-området",
+                "pris": 19334,
+                "prisNatt": 4834
+              },
+              {
+                "id": "w3h6",
+                "kategori": "medium",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/casa-crap.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Casa Crap",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surselva-området",
+                "pris": 19879,
+                "prisNatt": 4970
+              },
+              {
+                "id": "w3h7",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/restaurant-pizzeria-sternen.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Sternen B&B & Ristorante",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surselva-området",
+                "pris": 20612,
+                "prisNatt": 5153
+              },
+              {
+                "id": "w3h8",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/ustria-parlatsch.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Hotel Ustria Parlatsch",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surselva-området",
+                "pris": 22433,
+                "prisNatt": 5608
+              },
+              {
+                "id": "w3h9",
+                "kategori": "bedre",
+                "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lenke": "https://www.booking.com/hotel/ch/surselva-surcuolm.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "navn": "Hotel Surselva",
+                "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
+                "omrade": "Surcuolm",
+                "pris": 24185,
+                "prisNatt": 6046
+              }
+            ],
+            "id": "helg-04feb",
+            "navn": "Tors. 4. – man. 8. februar 2027",
+            "netter": 4,
+            "notat": "Billigste fly av alle 8 sjekkede helger (2 719 kr/person t/r). Hotellutvalget her er en lettere oversikt (9 alternativer, ingen bilder ennå) – si fra om du vil ha samme fulle bildeutvalg som for 21.–25. jan.",
+            "rute": [
+              {
+                "ankomst": "ca. 06:25",
+                "dato": "2027-02-04",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "04:25",
+                "til": "Alta lufthavn",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              },
+              {
+                "ankomst": "19:40",
+                "dato": "2027-02-04",
+                "detalj": "SAS, 3 mellomlandinger (Tromsø, Oslo, København).",
+                "fra": "Alta (ALF)",
+                "retning": "ut",
+                "tid": "07:25",
+                "til": "Zürich (ZRH)",
+                "type": "fly",
+                "varighet": "12 t 15 min"
+              },
+              {
+                "ankomst": "ca. 22:00",
+                "dato": "2027-02-04",
+                "detalj": "SBB-tog fra flyplassens egen stasjon, bytte i Chur/Ilanz. Anslått avgangstid, ikke sjekket mot rutetabell for denne datoen.",
+                "fra": "Zürich lufthavn",
+                "retning": "ut",
+                "tid": "ca. 20:10",
+                "til": "Laax",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "ca. 06:35",
+                "dato": "2027-02-08",
+                "detalj": "Tidlig avgang for å nå 10:25-flyet med god margin.",
+                "fra": "Laax",
+                "retning": "hjem",
+                "tid": "ca. 04:45",
+                "til": "Zürich lufthavn",
+                "type": "tog",
+                "varighet": "ca. 1 t 50 min"
+              },
+              {
+                "ankomst": "21:55",
+                "dato": "2027-02-08",
+                "detalj": "SAS, 3 mellomlandinger (København, Oslo, Tromsø). Ankomst samme dag som avreise fra Laax.",
+                "fra": "Zürich (ZRH)",
+                "retning": "hjem",
+                "tid": "10:25",
+                "til": "Alta (ALF)",
+                "type": "fly",
+                "varighet": "11 t 30 min"
+              },
+              {
+                "ankomst": "ca. 00:25 (09.02)",
+                "dato": "2027-02-08",
+                "detalj": "Ca. 130 km, etter henting av bagasje/biler. 2 biler.",
+                "fra": "Alta lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 22:25",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "2 t kjøring"
+              }
+            ],
+            "totalAnslag": 37438,
+            "transport": [
+              {
+                "id": "t1",
+                "kilde": "Google-søk/Omio 19.9.2026 (laveste annonserte SBB-pris)",
+                "lenke": "https://www.omio.com/trains/zurich-airport/laax-vsrhp",
+                "navn": "Tog Zürich lufthavn–Laax t/r, alle 6 (SBB)",
+                "notat": "Fra 38 EUR enkeltvei per person (laveste sparepris) × 2 × 6 personer, omregnet til NOK. Faktisk pris avhenger av valgt avgang nærmere reisedatoen. Billigere enn forrige anslag på 6 500 kr.",
+                "pris": 4900
+              },
+              {
+                "id": "t2",
+                "kilde": "Ski-lifts.com (ikke re-sjekket denne kjøringen)",
+                "lenke": "https://www.ski-lifts.com/transfers/laax/",
+                "navn": "Privat minibuss-transfer Zürich lufthavn–Laax t/r (4–8 personer)",
+                "notat": "Dør-til-dør, enklere med skiutstyr/bagasje for 6 personer. Samme anslag som forrige kjøring – fortsatt ikke en bekreftet pris.",
+                "pris": 18000
+              }
+            ]
+          }
+        ],
+        "ruteValgLabel": "Velg helg",
         "sammendrag": "Skitur til LAAX for 6 voksne, 21.–25. januar 2027. Bosted er nå kategorisert i budsjett/medium/bedre (15 alternativer totalt) etter tilbakemelding om at forrige forslag var for dyrt. Med nytt standardvalg (medium-leilighet, 1 km til heisen) blir totalen ca. 44 300 kr for fly, bosted og transport (mat/heiskort/aktiviteter ikke inkludert) – ca. 10 500 kr billigere enn forrige forslag. Billigste bosted-alternativ alene koster under halvparten av det dyreste, men ligger 1,7–2,9 km fra bakken.",
         "transport": [
           {

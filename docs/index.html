@@ -507,7 +507,7 @@ function tegnDetalj(){
     else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
     if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a => `<li>${esc(a)}</li>`).join('')}</ul></div>`;
     if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
-      h += `<h2 class="sec">Reiserekkefølge</h2>` + altListe('rutevalg', be.ruteValg.map(v => ({id: v.id, navn: v.navn, notat: v.notat, pris: v.totalAnslag})), b.variant?.id, 'rutevalg', r);
+      h += `<h2 class="sec">${esc(be.ruteValgLabel || 'Reiserekkefølge')}</h2>` + altListe('rutevalg', be.ruteValg.map(v => ({id: v.id, navn: v.navn, notat: v.notat, pris: v.totalAnslag})), b.variant?.id, 'rutevalg', r);
     }
     if (Array.isArray(b.rute) && b.rute.length) {
       const harRetning = b.rute.some(s => s && s.retning);
