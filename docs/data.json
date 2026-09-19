@@ -491,6 +491,239 @@
       "id": "skjema-gal7x2q"
     },
     {
+      "avreise": "2027-01-21",
+      "beregning": {
+        "antakelser": [
+          "Ingen konkret uke oppgitt utover «januar eller februar» – beholder valgt dato fra forrige kjøring: torsdag 21.–mandag 25. januar 2027 (5 dager/4 netter).",
+          "Chrome var tilgjengelig denne kjøringen – fly- og hotellpriser er nå bekreftet med Google Flights og Booking.com, ikke lenger websøk-anslag.",
+          "Billigste flykombinasjon som lander i Alta SAMME dag som gruppen drar fra Laax (mandag 25.) koster ca. 17 900 kr for alle 6 – valgt som f1. Den aller billigste kombinasjonen Google Flights viste (fra ca. 11 200 kr) er utelatt fordi returflyet der har en over 20 timer lang mellomlanding i Oslo og lander i Alta først tirsdag 26. januar – det hadde kostet gruppen en ekstra dag borte for en besparelse på bare et par tusen kroner totalt.",
+          "Flyprisene Alta–Zürich svingte overraskende mye i løpet av selve søket (samme flyvning ble vist til alt fra ca. 18 000 til over 24 000 kr ved ulike søk rett etter hverandre) – tallene er et øyeblikksbilde, ikke en fastpris, og bør sjekkes på nytt nærmere bookingtidspunktet.",
+          "Ingen direkterute finnes Alta–Zürich; alle alternativer har minst 1, som regel 2–3 mellomlandinger (typisk via Tromsø/Oslo, eller via Frankfurt).",
+          "Gruppe på 6 med skiutstyr: regnet med 2 biler Kautokeino–Alta t/r, som dobler både parkerings- og drivstoffkostnaden sammenlignet med forrige kjørings anslag (som kun regnet med én bil).",
+          "Hotellprisene i Laax/Flims i skisesongen er langt over den vanlige «1000 kr/natt»-målsettingen – billigste brukbare alternativer med kort vei til heisen ligger på ca. 7 000 kr/natt for hele leiligheten (6 personer). Ingenting i nærheten av 1 000 kr/natt finnes på stedet i januar.",
+          "Tog Zürich lufthavn–Laax er oppdatert til ca. 4 900 kr t/r for alle 6 (ned fra 6 500 kr forrige gang), basert på laveste annonserte SBB-pris (fra 38 EUR enkeltvei per person, omregnet med dagens kurs) – faktisk pris avhenger av valgt avgangstid.",
+          "Privat minibuss-transfer er IKKE re-sjekket denne kjøringen (samme anslag som sist, 18 000 kr t/r) – fortsatt ikke en bekreftet pris.",
+          "Som ønsket er mat, aktiviteter og heiskort fortsatt IKKE inkludert i totalprisen."
+        ],
+        "daglig": [],
+        "dato": "2026-09-19T05:33:24.000Z",
+        "faste": [
+          {
+            "navn": "Parkering Alta lufthavn (2 biler)",
+            "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
+            "pris": 3000
+          },
+          {
+            "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
+            "notat": "260 km × 2 kr/km × 2 biler.",
+            "pris": 1040
+          }
+        ],
+        "fly": [
+          {
+            "id": "f1",
+            "kilde": "Google Flights 19.9.2026 (Chrome, bekreftet kombinasjon)",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-01-21%20through%202027-01-25",
+            "navn": "Alta–Zürich t/r via Tromsø+Oslo, for 6 personer",
+            "notat": "Utreise 07:25–18:10 (3 mellomlandinger, 10t45min). Hjemreise 13:00–21:55 (2 mellomlandinger, 8t55min) – bekreftet samme dag som avreise fra Laax, ingen ekstra hjemreisedag. Valgt fremfor en billigere kombinasjon (se antakelser).",
+            "pris": 17900,
+            "rute": "Alta (ALF) – Tromsø – Oslo – Zürich (ZRH)",
+            "selskap": "SAS/Norwegian"
+          },
+          {
+            "id": "f2",
+            "kilde": "Google Flights 19.9.2026 (Chrome)",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Alta%20to%20Zurich%20on%202027-01-21%20through%202027-01-25",
+            "navn": "Alta–Zürich t/r, alternativ SAS-rute via Tromsø+Oslo+København, for 6 personer",
+            "notat": "Utreise 07:25–19:40 (3 mellomlandinger, 12t15min), marginalt billigere enn f1 – men vi rakk ikke bekrefte at returflyet i denne kombinasjonen også lander samme dag. Bruk f1 med mindre dette sjekkes nærmere.",
+            "pris": 17600,
+            "rute": "Alta (ALF) – Tromsø – Oslo – København – Zürich (ZRH)",
+            "selskap": "SAS"
+          }
+        ],
+        "forslag": "Nå bekreftet med Google Flights: billigste flykombinasjon som kommer hjem samme dag som planlagt (mandag 25. januar) er Alta–Zürich t/r for alle 6, ca. 17 900 kr, med tidlig avgang fra Kautokeino kl. 04:25 og hjemkomst rundt midnatt. Vær obs på at Google Flights også viste en enda billigere kombinasjon – den er bevisst utelatt fordi returflyet der lander i Alta først dagen etter (tirsdag), på grunn av en svært lang mellomlanding i Oslo.\n\nFor bosted er rocksresort (150 m til heisen, 3-roms leilighet, 4 stjerner) og Edelweiss Ferienwohnung (50 m til heisen, 2-roms leilighet) begge rundt 7 000 kr/natt for hele gruppen – ingenting nær 1 000 kr/natt finnes i Laax i skisesongen. Det finere alternativet, Me and All Hotel Flims by Hyatt (rett ved gondolen, spa, frokost inkludert), koster til sammenligning over 22 000 kr/natt. Tog fra Zürich lufthavn til Laax (ca. 4 900 kr t/r for alle 6) er klart billigere enn privat minibuss-transfer (ca. 18 000 kr t/r), men sistnevnte er enklere med skiutstyr og bagasje for seks personer.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+            "navn": "rocksresort",
+            "notat": "Leilighet med 3 soverom, 2 bad, 89 m², 4 senger (2 enkelt, 2 store dobbelt) – plass til 6. Vurdering 8,7 «Utmerket» (493 anmeldelser). Gratis avbestilling.",
+            "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
+            "pris": 28000,
+            "prisNatt": 7000,
+            "stjerner": 4
+          },
+          {
+            "id": "h2",
+            "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+            "navn": "Edelweiss Ferienwohnung, Stenna Bergblick",
+            "notat": "Leilighet med 2 soverom, 68 m², 3 senger (1 dobbelt, 2 store dobbelt) – plass til 6. Vurdering 10/10, men bare 1 anmeldelse så langt (usikkert grunnlag). Gratis parkering og avbestilling.",
+            "omrade": "Flims/Laax, 50 m til nærmeste skiheis",
+            "pris": 28600,
+            "prisNatt": 7150,
+            "stjerner": 3
+          },
+          {
+            "id": "h3",
+            "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+            "navn": "Me and All Hotel Flims, by Hyatt",
+            "notat": "Finere alternativ: 3 rom med kingsize-seng og fjellutsikt, frokost inkludert, spa. Vurdering 8,9 «Utmerket» (981 anmeldelser), beliggenhet 9,7. Gratis avbestilling, ingen forskuddsbetaling.",
+            "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
+            "pris": 91000,
+            "prisNatt": 22750,
+            "stjerner": 4
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Google Flights",
+            "url": "https://www.google.com/travel/flights"
+          },
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          },
+          {
+            "navn": "SBB/Omio (tog Zürich lufthavn-Laax)",
+            "url": "https://www.omio.com/trains/zurich-airport/laax-vsrhp"
+          },
+          {
+            "navn": "Ski-lifts.com (transfer Zürich-Laax)",
+            "url": "https://www.ski-lifts.com/transfers/laax/"
+          },
+          {
+            "navn": "Google Finance (EUR/NOK-kurs)",
+            "url": "https://www.google.com/search?q=EUR+NOK+exchange+rate"
+          },
+          {
+            "navn": "Avinor parkering Alta",
+            "url": "https://www.avinor.no"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "ankomst": "ca. 06:25",
+            "dato": "2027-01-21",
+            "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+            "fra": "Kautokeino",
+            "retning": "ut",
+            "tid": "04:25",
+            "til": "Alta lufthavn",
+            "type": "bil",
+            "varighet": "2 t kjøring"
+          },
+          {
+            "ankomst": "18:10",
+            "dato": "2027-01-21",
+            "detalj": "SAS/Norwegian, 3 mellomlandinger (Tromsø, Oslo, Stockholm Arlanda).",
+            "fra": "Alta (ALF)",
+            "retning": "ut",
+            "tid": "07:25",
+            "til": "Zürich (ZRH)",
+            "type": "fly",
+            "varighet": "10 t 45 min"
+          },
+          {
+            "ankomst": "ca. 20:30",
+            "dato": "2027-01-21",
+            "detalj": "SBB-tog fra flyplassens egen stasjon, bytte i Chur/Ilanz. Anslått avgangstid etter bagasje; ikke sjekket mot rutetabell for denne datoen.",
+            "fra": "Zürich lufthavn",
+            "retning": "ut",
+            "tid": "ca. 18:40",
+            "til": "Laax",
+            "type": "tog",
+            "varighet": "ca. 1 t 50 min"
+          },
+          {
+            "ankomst": "ca. 10:50",
+            "dato": "2027-01-25",
+            "detalj": "For å nå 13:00-flyet med god margin til innsjekk.",
+            "fra": "Laax",
+            "retning": "hjem",
+            "tid": "ca. 09:00",
+            "til": "Zürich lufthavn",
+            "type": "tog",
+            "varighet": "ca. 1 t 50 min"
+          },
+          {
+            "ankomst": "21:55",
+            "dato": "2027-01-25",
+            "detalj": "SAS/Norwegian, 2 mellomlandinger (Oslo, Tromsø). Ankomst samme dag som avreise fra Laax.",
+            "fra": "Zürich (ZRH)",
+            "retning": "hjem",
+            "tid": "13:00",
+            "til": "Alta (ALF)",
+            "type": "fly",
+            "varighet": "8 t 55 min"
+          },
+          {
+            "ankomst": "ca. 00:25 (26.01)",
+            "dato": "2027-01-25",
+            "detalj": "Ca. 130 km, etter henting av bagasje/biler. 2 biler.",
+            "fra": "Alta lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 22:25",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "2 t kjøring"
+          }
+        ],
+        "sammendrag": "Skitur til LAAX for 6 voksne, 21.–25. januar 2027 – nå priset med Google Flights og Booking.com (Chrome) i stedet for websøk-anslag. Totalt ca. 54 800 kr for fly, bosted og transport (mat/heiskort/aktiviteter ikke inkludert), vesentlig høyere enn forrige anslag siden dette inkluderer bekreftede flypriser og to biler for gruppen.",
+        "transport": [
+          {
+            "id": "t1",
+            "kilde": "Google-søk/Omio 19.9.2026 (laveste annonserte SBB-pris)",
+            "lenke": "https://www.omio.com/trains/zurich-airport/laax-vsrhp",
+            "navn": "Tog Zürich lufthavn–Laax t/r, alle 6 (SBB)",
+            "notat": "Fra 38 EUR enkeltvei per person (laveste sparepris) × 2 × 6 personer, omregnet til NOK. Faktisk pris avhenger av valgt avgang nærmere reisedatoen. Billigere enn forrige anslag på 6 500 kr.",
+            "pris": 4900
+          },
+          {
+            "id": "t2",
+            "kilde": "Ski-lifts.com (ikke re-sjekket denne kjøringen)",
+            "lenke": "https://www.ski-lifts.com/transfers/laax/",
+            "navn": "Privat minibuss-transfer Zürich lufthavn–Laax t/r (4–8 personer)",
+            "notat": "Dør-til-dør, enklere med skiutstyr/bagasje for 6 personer. Samme anslag som forrige kjøring – fortsatt ikke en bekreftet pris.",
+            "pris": 18000
+          }
+        ]
+      },
+      "beskrivelse": "Jeg, Tim, skal til LAAX i Sveits og stå på ski en langhelg i bakkene der. Januar eller februar. Utreise onsdag eller torsdag og retur søndag eller mandag. Vi er 6 voksne. Finn noen gode alternativer vi kan vurdere med boende og transport. Ikke ta med mat og andre kostnader. Sjekk boende mange plasser: booking, hotels, airbnb etc. Finn billigste og finn også komfortable alternativer. Gjerne bo i gangavstand til skiheis.",
+      "dager": 5,
+      "fleks": 0,
+      "forespurt": "2026-09-19T01:04:13.000Z",
+      "fra": "Alta",
+      "historikk": [
+        {
+          "dato": "2026-09-19T01:20:00.000Z",
+          "metode": "web",
+          "total": 26520
+        },
+        {
+          "dato": "2026-09-19T05:33:24.000Z",
+          "metode": "chrome",
+          "total": 54840
+        }
+      ],
+      "kilde": "skjema",
+      "land": "Sveits",
+      "lat": 46.8189,
+      "lon": 9.2601,
+      "navn": "Skitur til LAAX, Sveits",
+      "netter": 4,
+      "onsker": "Ski-in/ski-out eller gangavstand til skiheis; billigste og komfortable bo-alternativer sjekket på Booking/Hotels/Airbnb; mat og andre kostnader (heiskort, aktiviteter) skal IKKE inkluderes i totalprisen",
+      "reisende": 6,
+      "standard": "middels",
+      "status": "beregnet",
+      "sted": "Laax (Flims Laax Falera)",
+      "trengerChrome": false,
+      "id": "skjema-laax9k2m"
+    },
+    {
       "avreise": "2026-12-18",
       "beregning": {
         "antakelser": [
@@ -1344,10 +1577,10 @@
     }
   ],
   "meta": {
-    "melding": "Lagt til valgbar snudd reiserekkefølge (Upteko mandag/Parrot tirsdag) for Danmark-turen, interaktivt på siden.",
+    "melding": "Skitur til LAAX (Sveits, 6 voksne) nå prissatt med Google Flights/Booking.com: ca. 54 800 kr. Push til GitHub gjenopprettet denne kjøringen.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-18T11:30:00.000Z",
-    "sistSjekk": "2026-09-18T11:30:00.000Z",
-    "sisteSkjemaSvar": "17.09.2026 kl. 20.51.08"
+    "sistBeregnet": "2026-09-19T05:33:24.000Z",
+    "sistSjekk": "2026-09-19T06:30:00.000Z",
+    "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
