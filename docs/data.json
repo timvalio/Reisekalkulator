@@ -63,40 +63,40 @@
             "id": "h4",
             "kategori": "medium",
             "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lat": 67.8048107,
             "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+            "lon": 24.8079476,
             "navn": "Levi Suites Unna Mànnu",
             "notat": "Leilighet, sentral. Vurdering 9,1 «Fantastisk».",
             "omrade": "150 m fra sentrum",
             "pris": 2612,
-            "prisNatt": 1306,
-            "lat": 67.8048107,
-            "lon": 24.8079476
+            "prisNatt": 1306
           },
           {
             "id": "h5",
             "kategori": "bedre",
             "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lat": 67.8077608,
             "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+            "lon": 24.8044316,
             "navn": "Lapland Hotels Sirkantähti",
             "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
             "omrade": "100 m fra Levi sentrum",
             "pris": 5430,
-            "prisNatt": 2715,
-            "lat": 67.8077608,
-            "lon": 24.8044316
+            "prisNatt": 2715
           },
           {
             "id": "h6",
             "kategori": "bedre",
             "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lat": 67.8081619,
             "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+            "lon": 24.8098712,
             "navn": "Hotel Hullu Poro",
             "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
             "omrade": "300 m fra Levi sentrum",
             "pris": 5841,
-            "prisNatt": 2920,
-            "lat": 67.8081619,
-            "lon": 24.8098712
+            "prisNatt": 2920
           }
         ],
         "kilder": [
@@ -187,40 +187,40 @@
                 "id": "h4",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8048107,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8079476,
                 "navn": "Levi Suites Unna Mànnu",
                 "notat": "Leilighet, sentral. Vurdering 9,1 «Fantastisk».",
                 "omrade": "150 m fra sentrum",
                 "pris": 2612,
-                "prisNatt": 1306,
-                "lat": 67.8048107,
-                "lon": 24.8079476
+                "prisNatt": 1306
               },
               {
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5430,
-                "prisNatt": 2715,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2715
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-02&checkout=2026-10-04&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5841,
-                "prisNatt": 2920,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2920
               }
             ],
             "id": "helg-02okt",
@@ -313,27 +313,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-09&checkout=2026-10-11&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5430,
-                "prisNatt": 2715,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2715
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-09&checkout=2026-10-11&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2774
               }
             ],
             "id": "helg-09okt",
@@ -426,27 +426,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-16&checkout=2026-10-18&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5473,
-                "prisNatt": 2736,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2736
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-16&checkout=2026-10-18&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2774
               }
             ],
             "id": "helg-16okt",
@@ -539,27 +539,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-23&checkout=2026-10-25&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5473,
-                "prisNatt": 2736,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2736
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-23&checkout=2026-10-25&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2774
               }
             ],
             "id": "helg-23okt",
@@ -652,27 +652,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-30&checkout=2026-11-01&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5084,
-                "prisNatt": 2542,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2542
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-10-30&checkout=2026-11-01&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2774
               }
             ],
             "id": "helg-30okt",
@@ -765,27 +765,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8081619,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-06&checkout=2026-11-08&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8098712,
                 "navn": "Hotel Hullu Poro",
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774,
-                "lat": 67.8081619,
-                "lon": 24.8098712
+                "prisNatt": 2774
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-06&checkout=2026-11-08&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5927,
-                "prisNatt": 2964,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 2964
               }
             ],
             "id": "helg-06nov",
@@ -834,27 +834,27 @@
                 "id": "h1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8075588,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7991527,
                 "navn": "Levilehto Apartments",
                 "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser). Avgiftsfri parkering.",
                 "omrade": "150 m fra Levi sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4651,
-                "prisNatt": 2326,
-                "lat": 67.8075588,
-                "lon": 24.7991527
+                "prisNatt": 2326
               },
               {
                 "id": "h2",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8064435,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7997726,
                 "navn": "Polar Star Apartments",
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser). Bærekraftssertifikat, avgiftsfri parkering.",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5365,
-                "prisNatt": 2682,
-                "lat": 67.8064435,
-                "lon": 24.7997726
+                "prisNatt": 2682
               },
               {
                 "id": "h3",
@@ -882,27 +882,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell (ikke leilighet), sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 10524,
-                "prisNatt": 5262,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 5262
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.7993909,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8123781,
                 "navn": "Hotel Levi Panorama",
                 "notat": "Ekte hotell, høyere standard. Vurdering 9,0 «Fantastisk».",
                 "omrade": "0,9 km fra Levi sentrum",
                 "pris": 14864,
-                "prisNatt": 7432,
-                "lat": 67.7993909,
-                "lon": 24.8123781
+                "prisNatt": 7432
               }
             ],
             "id": "helg-13nov",
@@ -973,53 +973,53 @@
                 "id": "h3",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8082627,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8064092,
                 "navn": "Moonlight 214",
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 4316,
-                "prisNatt": 2158,
-                "lat": 67.8082627,
-                "lon": 24.8064092
+                "prisNatt": 2158
               },
               {
                 "id": "h4",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8064435,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7997726,
                 "navn": "Polar Star Apartments",
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4391,
-                "prisNatt": 2196,
-                "lat": 67.8064435,
-                "lon": 24.7997726
+                "prisNatt": 2196
               },
               {
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 6706,
-                "prisNatt": 3353,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 3353
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8056086,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.806669,
                 "navn": "Break Sokos Hotel Levi",
                 "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
                 "omrade": "Levi sentrum",
                 "pris": 7506,
-                "prisNatt": 3753,
-                "lat": 67.8056086,
-                "lon": 24.806669
+                "prisNatt": 3753
               }
             ],
             "id": "helg-20nov",
@@ -1079,27 +1079,27 @@
                 "id": "h2",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8082627,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8064092,
                 "navn": "Moonlight 214",
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 4316,
-                "prisNatt": 2158,
-                "lat": 67.8082627,
-                "lon": 24.8064092
+                "prisNatt": 2158
               },
               {
                 "id": "h3",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8064435,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7997726,
                 "navn": "Polar Star Apartments",
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4391,
-                "prisNatt": 2196,
-                "lat": 67.8064435,
-                "lon": 24.7997726
+                "prisNatt": 2196
               },
               {
                 "id": "h4",
@@ -1116,27 +1116,27 @@
                 "id": "h5",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 6901,
-                "prisNatt": 3450,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 3450
               },
               {
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8056086,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.806669,
                 "navn": "Break Sokos Hotel Levi",
                 "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
                 "omrade": "Levi sentrum",
                 "pris": 7506,
-                "prisNatt": 3753,
-                "lat": 67.8056086,
-                "lon": 24.806669
+                "prisNatt": 3753
               }
             ],
             "id": "helg-27nov",
@@ -1196,27 +1196,27 @@
                 "id": "h2",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8064435,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7997726,
                 "navn": "Polar Star Apartments",
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5365,
-                "prisNatt": 2682,
-                "lat": 67.8064435,
-                "lon": 24.7997726
+                "prisNatt": 2682
               },
               {
                 "id": "h3",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8075588,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.7991527,
                 "navn": "Levilehto Apartments",
                 "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser).",
                 "omrade": "150 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5624,
-                "prisNatt": 2812,
-                "lat": 67.8075588,
-                "lon": 24.7991527
+                "prisNatt": 2812
               },
               {
                 "id": "h4",
@@ -1244,14 +1244,14 @@
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8056086,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.806669,
                 "navn": "Break Sokos Hotel Levi",
                 "notat": "Ekte hotell, kjent kjede – markant dyrere denne helgen (adventsesong).",
                 "omrade": "Levi sentrum",
                 "pris": 23655,
-                "prisNatt": 11828,
-                "lat": 67.8056086,
-                "lon": 24.806669
+                "prisNatt": 11828
               }
             ],
             "id": "helg-04des",
@@ -1333,14 +1333,14 @@
                 "id": "h4",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8082627,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8064092,
                 "navn": "Moonlight 214",
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket».",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 6511,
-                "prisNatt": 3256,
-                "lat": 67.8082627,
-                "lon": 24.8064092
+                "prisNatt": 3256
               },
               {
                 "id": "h5",
@@ -1357,14 +1357,14 @@
                 "id": "h6",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lat": 67.8077608,
                 "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "lon": 24.8044316,
                 "navn": "Lapland Hotels Sirkantähti",
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 13109,
-                "prisNatt": 6554,
-                "lat": 67.8077608,
-                "lon": 24.8044316
+                "prisNatt": 6554
               }
             ],
             "id": "helg-11des",
@@ -1493,15 +1493,15 @@
           {
             "id": "h1",
             "kilde": "Booking.com 17.9.2026",
+            "lat": 48.8740736,
             "lenke": "https://www.booking.com/searchresults.html?ss=Gare+de+l%27Est%2C+Paris",
+            "lon": 2.3625485,
             "navn": "Belta Hotel",
             "notat": "Vurdering 7,8 (534 anmeldelser) — rimeligste gode alternativ funnet, ikke ned mot 1 000 kr",
             "omrade": "10. arrondissement, nær Gare de l'Est",
             "pris": 2195,
             "prisNatt": 2195,
-            "stjerner": 3,
-            "lat": 48.8740736,
-            "lon": 2.3625485
+            "stjerner": 3
           },
           {
             "id": "h2",
@@ -1736,14 +1736,14 @@
             "id": "u1b1",
             "kategori": "budsjett",
             "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lat": 36.625296,
             "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
+            "lon": -4.4988767,
             "navn": "Hostal Guillot",
             "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
             "omrade": "Torremolinos sentrum, 450 m fra sentrum",
             "pris": 2812,
-            "prisNatt": 469,
-            "lat": 36.625296,
-            "lon": -4.4988767
+            "prisNatt": 469
           },
           {
             "id": "u1b2",
@@ -1760,14 +1760,14 @@
             "id": "u1b3",
             "kategori": "budsjett",
             "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lat": 36.6244535,
             "lenke": "https://www.booking.com/hotel/es/bluesea-torremolinos-centro.no.html",
+            "lon": -4.5010772,
             "navn": "BLUESEA Torremolinos Centro",
             "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
             "omrade": "Torremolinos sentrum, 500 m fra sentrum",
             "pris": 3675,
-            "prisNatt": 613,
-            "lat": 36.6244535,
-            "lon": -4.5010772
+            "prisNatt": 613
           },
           {
             "id": "u1m1",
@@ -1806,27 +1806,27 @@
             "id": "u1h1",
             "kategori": "bedre",
             "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+            "lat": 36.6059698,
             "lenke": "https://www.booking.com/hotel/es/pez-espada.no.html",
+            "lon": -4.507405,
             "navn": "Medplaya Hotel Pez Espada",
             "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
             "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
             "pris": 17444,
-            "prisNatt": 2181,
-            "lat": 36.6059698,
-            "lon": -4.507405
+            "prisNatt": 2181
           },
           {
             "id": "u1h2",
             "kategori": "bedre",
             "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+            "lat": 36.6279706,
             "lenke": "https://www.booking.com/hotel/es/isabel.no.html",
+            "lon": -4.4918583,
             "navn": "Hotel Isabel",
             "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
             "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
             "pris": 20502,
-            "prisNatt": 2563,
-            "lat": 36.6279706,
-            "lon": -4.4918583
+            "prisNatt": 2563
           },
           {
             "id": "u1h3",
@@ -2008,14 +2008,14 @@
                 "id": "u1b1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lat": 36.625296,
                 "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
+                "lon": -4.4988767,
                 "navn": "Hostal Guillot",
                 "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2812,
-                "prisNatt": 469,
-                "lat": 36.625296,
-                "lon": -4.4988767
+                "prisNatt": 469
               },
               {
                 "id": "u1b2",
@@ -2032,14 +2032,14 @@
                 "id": "u1b3",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lat": 36.6244535,
                 "lenke": "https://www.booking.com/hotel/es/bluesea-torremolinos-centro.no.html",
+                "lon": -4.5010772,
                 "navn": "BLUESEA Torremolinos Centro",
                 "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
                 "omrade": "Torremolinos sentrum, 500 m fra sentrum",
                 "pris": 3675,
-                "prisNatt": 613,
-                "lat": 36.6244535,
-                "lon": -4.5010772
+                "prisNatt": 613
               },
               {
                 "id": "u1m1",
@@ -2078,27 +2078,27 @@
                 "id": "u1h1",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lat": 36.6059698,
                 "lenke": "https://www.booking.com/hotel/es/pez-espada.no.html",
+                "lon": -4.507405,
                 "navn": "Medplaya Hotel Pez Espada",
                 "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
                 "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
                 "pris": 17444,
-                "prisNatt": 2181,
-                "lat": 36.6059698,
-                "lon": -4.507405
+                "prisNatt": 2181
               },
               {
                 "id": "u1h2",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lat": 36.6279706,
                 "lenke": "https://www.booking.com/hotel/es/isabel.no.html",
+                "lon": -4.4918583,
                 "navn": "Hotel Isabel",
                 "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
                 "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
                 "pris": 20502,
-                "prisNatt": 2563,
-                "lat": 36.6279706,
-                "lon": -4.4918583
+                "prisNatt": 2563
               },
               {
                 "id": "u1h3",
@@ -2379,14 +2379,14 @@
                 "id": "u0h3",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lat": 36.6417936,
                 "lenke": "https://www.booking.com/hotel/es/smy-costa-del-sol.no.html",
+                "lon": -4.4816084,
                 "navn": "Occidental Torremolinos Playa",
                 "notat": "4-stjerners. Vurdering 8,2 «Meget bra» (2 260 anmeldelser).",
                 "omrade": "Torremolinos, 2,6 km fra sentrum, ved stranden",
                 "pris": 27637,
-                "prisNatt": 3455,
-                "lat": 36.6417936,
-                "lon": -4.4816084
+                "prisNatt": 3455
               }
             ],
             "id": "uke0",
@@ -2568,14 +2568,14 @@
                 "id": "u2b1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lat": 36.625296,
                 "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
+                "lon": -4.4988767,
                 "navn": "Hostal Guillot",
                 "notat": "Vurdering 7,9 – billigste OG best vurderte av alle ni uker×kategorier sjekket.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2650,
-                "prisNatt": 442,
-                "lat": 36.625296,
-                "lon": -4.4988767
+                "prisNatt": 442
               },
               {
                 "id": "u2b2",
@@ -2636,14 +2636,14 @@
                 "id": "u2h1",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lat": 36.6133026,
                 "lenke": "https://www.booking.com/hotel/es/ms-aguamarina.no.html",
+                "lon": -4.5011197,
                 "navn": "MS Aguamarina Costa del Sol",
                 "notat": "Vurdering 8,3 «Meget bra» (1 225 anmeldelser), juniorsuite med delvis sjøutsikt.",
                 "omrade": "Torremolinos, 500 m fra sentrum, 200 m fra stranden",
                 "pris": 16565,
-                "prisNatt": 2071,
-                "lat": 36.6133026,
-                "lon": -4.5011197
+                "prisNatt": 2071
               },
               {
                 "id": "u2h2",
@@ -2660,14 +2660,14 @@
                 "id": "u2h3",
                 "kategori": "bedre",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lat": 36.6209068,
                 "lenke": "https://www.booking.com/hotel/es/melia-costa-del-sol.no.html",
+                "lon": -4.4963563,
                 "navn": "Meliá Costa del Sol",
                 "notat": "4-stjerners flaggskiphotell. Vurdering 8,6 «Utmerket» (1 625 anmeldelser), dobbeltrom deluxe med sjøutsikt. Best beliggenhet av alle sjekket (150 m fra sentrum, rett ved stranden).",
                 "omrade": "Torremolinos, 150 m fra sentrum, ved stranden",
                 "pris": 27754,
-                "prisNatt": 3469,
-                "lat": 36.6209068,
-                "lon": -4.4963563
+                "prisNatt": 3469
               }
             ],
             "id": "uke2",
@@ -2998,15 +2998,15 @@
             "id": "h1",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lat": 46.8197342,
             "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+            "lon": 9.2637997,
             "navn": "rocksresort",
             "notat": "Leilighet med 3 soverom, 2 bad, 89 m², 4 senger (2 enkelt, 2 store dobbelt) – plass til 6. Vurdering 8,7 «Utmerket» (480 anmeldelser). Gratis avbestilling.",
             "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
             "pris": 28000,
             "prisNatt": 7000,
-            "stjerner": 4,
-            "lat": 46.8197342,
-            "lon": 9.2637997
+            "stjerner": 4
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
@@ -3026,29 +3026,29 @@
             "id": "h3",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lat": 46.8331175,
             "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+            "lon": 9.2824627,
             "navn": "Me and All Hotel Flims, by Hyatt",
             "notat": "Luksusalternativ: 3 rom med kingsize-seng og fjellutsikt, frokost inkludert, spa. Vurdering 8,9 «Utmerket» (981 anmeldelser), beliggenhet 9,7. Gratis avbestilling, ingen forskuddsbetaling.",
             "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
             "pris": 91000,
             "prisNatt": 22750,
-            "stjerner": 4,
-            "lat": 46.8331175,
-            "lon": 9.2824627
+            "stjerner": 4
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
             "id": "h14",
             "kategori": "bedre",
             "kilde": "Booking.com 19.9.2026 (Chrome)",
+            "lat": 46.8215455,
             "lenke": "https://www.booking.com/searchresults.html?ss=Prada+Laax+Quokka+360&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+            "lon": 9.2638832,
             "navn": "Prada Laax by Quokka 360",
             "notat": "Leilighet, 2 soverom, 60 m², delt badstue. Vurdering 8,8 «Utmerket». Gratis avbestilling.",
             "omrade": "Laax, 150 m til nærmeste skiheis",
             "pris": 25085,
-            "prisNatt": 6271,
-            "lat": 46.8215455,
-            "lon": 9.2638832
+            "prisNatt": 6271
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
@@ -3066,38 +3066,38 @@
           {
             "kategori": "medium",
             "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+            "lat": 46.7746061,
             "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+            "lon": 9.2143329,
             "navn": "Landgasthof zum Glenner",
             "notat": "3 dobbeltrom (trengs for 6 pers.). Vurdering 8,3 «Meget bra» (353 anmeldelser). Gratis avbestilling.",
             "omrade": "Ilanz",
             "pris": 17223,
-            "prisNatt": 4306,
-            "lat": 46.7746061,
-            "lon": 9.2143329
+            "prisNatt": 4306
           },
           {
             "kategori": "medium",
             "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+            "lat": 46.7833882,
             "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+            "lon": 9.1116562,
             "navn": "Hotel Garni Postigliun Andiast",
             "notat": "2 store dobbeltrom. Vurdering 8,8 «Utmerket» (45 anmeldelser). 1 km fra heisen, gratis parkering.",
             "omrade": "Andiast, 1 km fra nærmeste skiheis",
             "pris": 17498,
-            "prisNatt": 4375,
-            "lat": 46.7833882,
-            "lon": 9.1116562
+            "prisNatt": 4375
           },
           {
             "kategori": "medium",
             "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+            "lat": 46.7774506,
             "lenke": "https://www.booking.com/hotel/ch/haus-der-begegnung-kloster-ilanz.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+            "lon": 9.1993601,
             "navn": "Kloster Ilanz",
             "notat": "Vurdering 9,0 «Fantastisk» (963 anmeldelser), frokost inkludert.",
             "omrade": "Ilanz, 3 km fra nærmeste skiheis",
             "pris": 18102,
-            "prisNatt": 4526,
-            "lat": 46.7774506,
-            "lon": 9.1993601
+            "prisNatt": 4526
           },
           {
             "kategori": "medium",
@@ -3325,15 +3325,15 @@
                 "id": "h1",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.8197342,
                 "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+                "lon": 9.2637997,
                 "navn": "rocksresort",
                 "notat": "Leilighet med 3 soverom, 2 bad, 89 m², 4 senger (2 enkelt, 2 store dobbelt) – plass til 6. Vurdering 8,7 «Utmerket» (480 anmeldelser). Gratis avbestilling.",
                 "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
                 "pris": 28000,
                 "prisNatt": 7000,
-                "stjerner": 4,
-                "lat": 46.8197342,
-                "lon": 9.2637997
+                "stjerner": 4
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
@@ -3353,29 +3353,29 @@
                 "id": "h3",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.8331175,
                 "lenke": "https://www.booking.com/searchresults.html?ss=Laax%2C+Switzerland&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=2&group_children=0",
+                "lon": 9.2824627,
                 "navn": "Me and All Hotel Flims, by Hyatt",
                 "notat": "Luksusalternativ: 3 rom med kingsize-seng og fjellutsikt, frokost inkludert, spa. Vurdering 8,9 «Utmerket» (981 anmeldelser), beliggenhet 9,7. Gratis avbestilling, ingen forskuddsbetaling.",
                 "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
                 "pris": 91000,
                 "prisNatt": 22750,
-                "stjerner": 4,
-                "lat": 46.8331175,
-                "lon": 9.2824627
+                "stjerner": 4
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
                 "id": "h14",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.8215455,
                 "lenke": "https://www.booking.com/searchresults.html?ss=Prada+Laax+Quokka+360&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
+                "lon": 9.2638832,
                 "navn": "Prada Laax by Quokka 360",
                 "notat": "Leilighet, 2 soverom, 60 m², delt badstue. Vurdering 8,8 «Utmerket». Gratis avbestilling.",
                 "omrade": "Laax, 150 m til nærmeste skiheis",
                 "pris": 25085,
-                "prisNatt": 6271,
-                "lat": 46.8215455,
-                "lon": 9.2638832
+                "prisNatt": 6271
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
@@ -3394,40 +3394,40 @@
                 "id": "h17",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lat": 46.7746061,
                 "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "lon": 9.2143329,
                 "navn": "Landgasthof zum Glenner",
                 "notat": "3 dobbeltrom (trengs for 6 pers.). Vurdering 8,3 «Meget bra» (353 anmeldelser). Gratis avbestilling.",
                 "omrade": "Ilanz",
                 "pris": 17223,
-                "prisNatt": 4306,
-                "lat": 46.7746061,
-                "lon": 9.2143329
+                "prisNatt": 4306
               },
               {
                 "id": "h18",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lat": 46.7833882,
                 "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "lon": 9.1116562,
                 "navn": "Hotel Garni Postigliun Andiast",
                 "notat": "2 store dobbeltrom. Vurdering 8,8 «Utmerket» (45 anmeldelser). 1 km fra heisen, gratis parkering.",
                 "omrade": "Andiast, 1 km fra nærmeste skiheis",
                 "pris": 17498,
-                "prisNatt": 4375,
-                "lat": 46.7833882,
-                "lon": 9.1116562
+                "prisNatt": 4375
               },
               {
                 "id": "h19",
                 "kategori": "medium",
                 "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lat": 46.7774506,
                 "lenke": "https://www.booking.com/hotel/ch/haus-der-begegnung-kloster-ilanz.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "lon": 9.1993601,
                 "navn": "Kloster Ilanz",
                 "notat": "Vurdering 9,0 «Fantastisk» (963 anmeldelser), frokost inkludert.",
                 "omrade": "Ilanz, 3 km fra nærmeste skiheis",
                 "pris": 18102,
-                "prisNatt": 4526,
-                "lat": 46.7774506,
-                "lon": 9.1993601
+                "prisNatt": 4526
               },
               {
                 "id": "h20",
@@ -3625,14 +3625,14 @@
                 "id": "w2h6",
                 "kategori": "medium",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.7746061,
                 "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "lon": 9.2143329,
                 "navn": "Landgasthof zum Glenner",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Ilanz/Glion",
                 "pris": 17223,
-                "prisNatt": 4306,
-                "lat": 46.7746061,
-                "lon": 9.2143329
+                "prisNatt": 4306
               },
               {
                 "id": "w2h7",
@@ -3649,14 +3649,14 @@
                 "id": "w2h8",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.7833882,
                 "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-01-07;checkout=2027-01-11;group_adults=6",
+                "lon": 9.1116562,
                 "navn": "Hotel Garni Postigliun Andiast",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Andiast",
                 "pris": 17498,
-                "prisNatt": 4374,
-                "lat": 46.7833882,
-                "lon": 9.1116562
+                "prisNatt": 4374
               },
               {
                 "id": "w2h9",
@@ -3810,27 +3810,27 @@
                 "id": "w3h3",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.7746061,
                 "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "lon": 9.2143329,
                 "navn": "Landgasthof zum Glenner",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Ilanz/Glion",
                 "pris": 17498,
-                "prisNatt": 4374,
-                "lat": 46.7746061,
-                "lon": 9.2143329
+                "prisNatt": 4374
               },
               {
                 "id": "w3h4",
                 "kategori": "medium",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.7833882,
                 "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "lon": 9.1116562,
                 "navn": "Hotel Garni Postigliun Andiast",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Andiast",
                 "pris": 19101,
-                "prisNatt": 4775,
-                "lat": 46.7833882,
-                "lon": 9.1116562
+                "prisNatt": 4775
               },
               {
                 "id": "w3h5",
@@ -3869,27 +3869,27 @@
                 "id": "w3h8",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.8316374,
                 "lenke": "https://www.booking.com/hotel/ch/ustria-parlatsch.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "lon": 9.343491,
                 "navn": "Hotel Ustria Parlatsch",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Surselva-området",
                 "pris": 22433,
-                "prisNatt": 5608,
-                "lat": 46.8316374,
-                "lon": 9.343491
+                "prisNatt": 5608
               },
               {
                 "id": "w3h9",
                 "kategori": "bedre",
                 "kilde": "Booking.com 19.9.2026 (Chrome)",
+                "lat": 46.8175768,
                 "lenke": "https://www.booking.com/hotel/ch/surselva-surcuolm.no.html?checkin=2027-02-04;checkout=2027-02-08;group_adults=6",
+                "lon": 9.2651088,
                 "navn": "Hotel Surselva",
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Surcuolm",
                 "pris": 24185,
-                "prisNatt": 6046,
-                "lat": 46.8175768,
-                "lon": 9.2651088
+                "prisNatt": 6046
               }
             ],
             "id": "helg-04feb",
@@ -4110,15 +4110,15 @@
           {
             "id": "h1",
             "kilde": "Booking.com 18.9.2026",
+            "lat": 22.5438564,
             "lenke": "https://www.booking.com/searchresults.html?ss=Shenzhen&checkin=2026-12-20&checkout=2027-01-01&group_adults=2&group_children=1&age=4",
+            "lon": 114.0768347,
             "navn": "Shenzhen Shanghai Hotel",
             "notat": "Superior Twin Room, gratis opphold for barnet. Vurdering 8,6 «Utmerket». Pris for 12 netter, 2 voksne + 1 barn.",
             "omrade": "Futian (Huaqiangbei), 2,8 km fra sentrum, nær T-banen",
             "pris": 10200,
             "prisNatt": 850,
-            "stjerner": 4,
-            "lat": 22.5438564,
-            "lon": 114.0768347
+            "stjerner": 4
           },
           {
             "id": "h2",
@@ -4134,15 +4134,15 @@
           {
             "id": "h3",
             "kilde": "Booking.com 18.9.2026",
+            "lat": 22.5351906,
             "lenke": "https://www.booking.com/searchresults.html?ss=Shenzhen&checkin=2026-12-20&checkout=2027-01-01&group_adults=2&group_children=1&age=4",
+            "lon": 113.9798469,
             "navn": "InterContinental Shenzhen",
             "notat": "Finere alternativ, gratis opphold for barnet. Nær familieattraksjoner. Vurdering 8,7 «Utmerket».",
             "omrade": "Nanshan (Overseas Chinese Town), 7,3 km fra sentrum – rett ved Window of the World-parken",
             "pris": 22800,
             "prisNatt": 1900,
-            "stjerner": 5,
-            "lat": 22.5351906,
-            "lon": 113.9798469
+            "stjerner": 5
           }
         ],
         "kilder": [
@@ -4900,10 +4900,10 @@
     }
   ],
   "meta": {
-    "melding": "STOR OPPDATERING 20.9.2026: Tim ba om et nytt trepanel-grensesnitt for skrivebord (liste til venstre, kart øverst til høyre som zoomer til det som er valgt, detaljer nederst til høyre med bilde og åpne-i-ny-fane-lenke) — samme mønster som han bygger i klassetur-prosjektet. Mobilvisningen er uendret (kort + full skuff som før). I tillegg er 26 av 76 hoteller på tvers av alle turer geokodet (ekte koordinater via OpenStreetMap/Nominatim) så kartet kan zoome helt inn på dem — resten (stort sett private utleieleiligheter fra Booking.com) mangler i OpenStreetMap og får derfor ikke nøyaktig plassering ennå; kartet viser da byen/reisemålet i stedet, tydelig merket. Hotellbilder er IKKE hentet ennå (ingen bilde-URL-er er lagret) — detaljpanelet viser en tydelig «ingen bilde ennå»-boks i stedet for å finne på noe.",
+    "melding": "Ingenting nytt å beregne denne kjøringen – alle 6 reisemål har status «beregnet», ingen trenger Chrome på nytt, og ingen er eldre enn 7 dager (nyeste i dag, eldste fra 17.9). Ingen nye skjemasvar siden sist.",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-20T12:00:00.000Z",
-    "sistSjekk": "2026-09-20T12:00:00.000Z",
+    "sistSjekk": "2026-09-20T08:09:30.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
