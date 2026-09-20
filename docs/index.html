@@ -80,6 +80,45 @@ label.chk{display:flex;gap:6px;align-items:center;font-size:13.5px;color:var(--m
 .map-empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:14px;text-align:center;padding:20px}
 .map-note{position:absolute;left:10px;bottom:8px;font-size:11.5px;color:var(--muted);background:var(--panel);padding:2px 8px;border-radius:5px;opacity:.9}
 
+/* split (desktop three-panel) */
+.split{display:none}
+@media (min-width:980px){
+  #mobileWrap{display:none}
+  .split{display:grid;grid-template-columns:360px 1fr;gap:14px;max-width:1400px;margin:18px auto 0;padding:0 20px;height:calc(100vh - 190px);min-height:520px}
+}
+.split-list{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow-y:auto;padding:8px}
+.split-right{display:flex;flex-direction:column;gap:0;min-height:0}
+.split-map{flex:0 0 42%;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--ground);position:relative}
+.split-mapnote{font-size:11.5px;color:var(--muted);padding:6px 2px 0}
+.split-detail{flex:1;min-height:0;overflow-y:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-top:10px;padding:16px 20px}
+.tnode{border-bottom:1px solid var(--line)}
+.tnode:last-child{border-bottom:0}
+.thead{display:flex;align-items:center;gap:8px;width:100%;border:0;background:transparent;padding:10px 8px;cursor:pointer;text-align:left;border-radius:8px}
+.thead:hover{background:var(--ground)}
+.thead.selected{background:var(--accent-soft)}
+.thead .chev{flex:none;width:14px;color:var(--muted);transition:transform .12s;font-size:11px}
+.tnode.open .thead .chev{transform:rotate(90deg)}
+.thead .ttxt{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.thead .tname{font-weight:600;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.thead .tsub{font-size:11.5px;color:var(--muted)}
+.thead .tprice{flex:none;font-size:13px;font-weight:600;font-family:var(--display)}
+.tbody{padding:0 0 6px 20px}
+.tcat{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:8px 0 2px;padding:0 8px}
+.trow{display:flex;align-items:center;gap:8px;width:100%;border:0;background:transparent;padding:6px 8px;cursor:pointer;text-align:left;border-radius:7px;font-size:12.5px}
+.trow:hover{background:var(--ground)}
+.trow.selected{background:var(--accent);color:var(--accent-ink)}
+.trow .rn{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trow .rp{flex:none;font-weight:600}
+.trow .rcheck{flex:none;width:12px;color:var(--accent);font-weight:700}
+.trow.selected .rcheck{color:var(--accent-ink)}
+.sdet-img{width:100%;border-radius:10px;display:block;margin-bottom:14px;max-height:280px;object-fit:cover}
+.sdet-nofoto{border:1px dashed var(--line);border-radius:10px;padding:20px;text-align:center;color:var(--muted);font-size:13px;margin-bottom:14px}
+.sdet-total{font-size:26px;font-weight:600;font-family:var(--display)}
+.sdet-link{display:inline-block;margin-top:12px;font-weight:600;color:var(--accent)}
+.hkpin{transform:translate(-50%,-100%);background:var(--panel);color:var(--ink);border:1.5px solid var(--accent);border-radius:6px;padding:3px 8px;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.25);position:relative;cursor:pointer}
+.hkpin::after{content:'';position:absolute;left:50%;bottom:-6px;transform:translateX(-50%);border:6px solid transparent;border-top-color:var(--accent)}
+.hkpin.valgt{background:var(--accent);color:var(--accent-ink)}
+
 /* cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;margin-top:18px}
 .card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 17px 14px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:4px;box-shadow:var(--shadow);transition:border-color .12s,transform .12s}
@@ -234,7 +273,7 @@ details.how li{margin:4px 0}
   </select>
 </div></div>
 
-<div class="wrap">
+<div class="wrap" id="mobileWrap">
   <div id="notice"></div>
   <div class="map" id="map">
     <svg id="mapsvg" viewBox="-30 -110 90 60" preserveAspectRatio="none" aria-hidden="true">
@@ -245,7 +284,20 @@ details.how li{margin:4px 0}
     <div class="map-note" id="mapnote"></div>
   </div>
   <div id="liste"></div>
+</div>
 
+<div class="split" id="split">
+  <aside class="split-list">
+    <div class="split-tree" id="splitTree"></div>
+  </aside>
+  <section class="split-right">
+    <div class="split-map" id="splitMap"></div>
+    <div class="split-mapnote" id="splitMapNote"></div>
+    <div class="split-detail" id="splitDetail"></div>
+  </section>
+</div>
+
+<div class="wrap">
   <footer>
     <p id="claudestatus">Claude har ikke sjekket ennå.</p>
     <p>Totalprisen er for alle reisende på turen: reise tur/retur (avreisested kan variere fra reise til reise), hotell, transport på stedet, faste utgifter som parkering, og et anslag for mat og aktiviteter per dag. Flypriser og hotellpriser er hentet fra nettet den datoen som står på reisemålet — de endrer seg, så sjekk lenken før dere bestiller. Ingenting bestilles herfra.</p>
@@ -285,6 +337,8 @@ details.how li{margin:4px 0}
   </div>
 </div>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 'use strict';
 const HOME = {navn:'Kautokeino', lat:69.012, lon:23.041};
@@ -583,6 +637,150 @@ function apneHotell(rid, altid){
   `;
   $('hotellSheet').classList.add('open');
 }
+/* ---------- split (desktop tre-panel) ---------- */
+let splitOpen = new Set(), splitValgt = null, splitMap = null, splitMarkers = [], splitRoute = null;
+function splitKilde(r, be){
+  if (Array.isArray(be.ruteValg) && be.ruteValg.length) { const id = r.valg?.rutevalg; return be.ruteValg.find(v => v.id === id) || be.ruteValg[0]; }
+  return be;
+}
+function tegnSplitTre(){
+  const el = $('splitTree'); if (!el) return;
+  const liste = synlige();
+  if (!liste.length) { el.innerHTML = '<p class="faded" style="padding:12px">Ingen reisemål ennå.</p>'; return; }
+  el.innerHTML = liste.map(r => {
+    const be = r.beregning || {}, b = beregn(r), open = splitOpen.has(r.id), kilde = splitKilde(r, be);
+    let inner = '';
+    if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
+      inner += `<div class="tcat">${esc(be.ruteValgLabel || 'Velg helg/uke')}</div>` +
+        be.ruteValg.map(v => `<button type="button" class="trow${splitValgt && splitValgt.rid===r.id && splitValgt.type==='rutevalg' && splitValgt.altid===v.id ? ' selected':''}" data-split="1" data-rid="${esc(r.id)}" data-type="rutevalg" data-altid="${esc(v.id)}"><span class="rcheck">${kilde.id===v.id?'✓':''}</span><span class="rn">${esc(v.navn)}</span><span class="rp">${kr(v.totalAnslag)}</span></button>`).join('');
+    }
+    [['fly','Fly'],['hotell','Hotell'],['transport','Transport']].forEach(([type,label]) => {
+      const arr = kilde[type]; if (!Array.isArray(arr) || !arr.length) return;
+      const valgtId = type==='fly' ? b?.fly?.id : type==='hotell' ? b?.hotell?.id : b?.transport?.id;
+      inner += `<div class="tcat">${esc(label)}</div>` +
+        arr.map(a => `<button type="button" class="trow${splitValgt && splitValgt.rid===r.id && splitValgt.type===type && splitValgt.altid===a.id ? ' selected':''}" data-split="1" data-rid="${esc(r.id)}" data-type="${type}" data-altid="${esc(a.id)}"><span class="rcheck">${a.id===valgtId?'✓':''}</span><span class="rn">${esc(a.navn)}</span><span class="rp">${kr(a.pris)}</span></button>`).join('');
+    });
+    const st = statusInfo(r);
+    return `<div class="tnode${open?' open':''}" data-rid="${esc(r.id)}">
+      <button type="button" class="thead${splitValgt && splitValgt.rid===r.id && splitValgt.type==='trip' ? ' selected':''}" data-split="1" data-rid="${esc(r.id)}" data-type="trip">
+        <span class="chev">▸</span>
+        <span class="ttxt"><span class="tname">${esc(tittel(r))}</span><span class="tsub">${esc([r.sted||r.land, st.txt].filter(Boolean).join(' · '))}</span></span>
+        <span class="tprice">${b ? kr(b.total) : '–'}</span>
+      </button>
+      <div class="tbody" ${open?'':'hidden'}>${inner || '<p class="faded" style="padding:6px 8px;font-size:12px">Ingen alternativer ennå.</p>'}</div>
+    </div>`;
+  }).join('');
+}
+function splitVelg(rid, type, altid){
+  const r = reiser.find(x => x.id === rid); if (!r) return;
+  if (type !== 'trip') { r.valg = Object.assign({}, r.valg || {}, {[type]: altid}); lagreValg(r.id, r.valg); }
+  splitOpen.add(rid);
+  splitValgt = {rid, type, altid: altid || null};
+  tegnSplitTre(); tegnSplitDetalj(); tegnSplitKart();
+}
+function splitToggle(rid){ if (splitOpen.has(rid)) splitOpen.delete(rid); else splitOpen.add(rid); tegnSplitTre(); }
+function splitTripHtml(r, be){
+  const b = beregn(r);
+  let h = `<h2 style="font-size:22px;font-family:var(--display);margin-bottom:4px">${esc(tittel(r))}</h2>`;
+  h += `<p class="faded" style="margin:0 0 10px">${esc([r.sted, r.land].filter(Boolean).join(', '))}</p>`;
+  if (r.beskrivelse) h += `<blockquote class="besk">${esc(r.beskrivelse)}</blockquote>`;
+  if (r.onsker) h += `<p class="faded" style="margin:8px 0 0">Ønsker: ${esc(r.onsker)}</p>`;
+  if (b) {
+    h += `<div class="sdet-total" style="margin-top:14px">${kr(b.total)}</div><div class="faded">${fmt(b.total/(r.reisende||2))} kr per person · ${r.dager||'?'} dager</div>`;
+    if (be.forslag) h += `<h2 class="sec">Claudes forslag</h2><div class="forslag">${esc(be.forslag)}</div>`;
+    else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
+    const ant = Array.isArray(be.antakelser) ? be.antakelser.filter(Boolean) : [];
+    if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a=>`<li>${esc(a)}</li>`).join('')}</ul></div>`;
+    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + b.rute.map(stegHtml).join('') + `</ul>`;
+  } else {
+    h += `<div class="notice${r.status==='feil'?' bad':' warn'}">${r.status==='feil' ? esc(r.feilmelding||'Claude fant ikke priser for dette reisemålet.') : 'Venter på at Claude regner ut turen.'}</div>`;
+  }
+  h += `<p class="faded" style="margin-top:14px;font-size:12px">Velg fly, hotell og transport i listen til venstre.</p>`;
+  if (Array.isArray(be.kilder) && be.kilder.length) h += `<div class="kilder">Kilder: ` + be.kilder.map(k => k.url ? `<a href="${esc(k.url)}" target="_blank" rel="noopener">${esc(k.navn||k.url)}</a>` : esc(k.navn)).join('') + `</div>`;
+  return h;
+}
+function splitVariantHtml(r, v){
+  let h = `<h2 style="font-size:20px;font-family:var(--display);margin-bottom:4px">${esc(v.navn)}</h2><div class="sdet-total">${kr(v.totalAnslag)}</div>`;
+  if (v.notat) h += `<p style="margin-top:10px;line-height:1.5">${esc(v.notat)}</p>`;
+  if (Array.isArray(v.rute) && v.rute.length) h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + v.rute.map(stegHtml).join('') + `</ul>`;
+  return h;
+}
+function splitAltHtml(r, a, type){
+  let h = (type === 'hotell' && a.bilde) ? `<img class="sdet-img" src="${esc(a.bilde)}" alt="">` : (type === 'hotell' ? `<div class="sdet-nofoto">Ingen bilde lagret for dette alternativet ennå.</div>` : '');
+  h += `<h2 style="font-size:20px;font-family:var(--display);margin-bottom:2px">${esc(a.navn)}${a.stjerner ? ' ' + '★'.repeat(Math.min(5,+a.stjerner||0)) : ''}</h2>`;
+  if (a.omrade) h += `<p class="faded" style="margin:0 0 8px">${esc(a.omrade)}</p>`;
+  h += `<div class="sdet-total">${kr(a.pris)}</div><div class="faded">${type==='hotell' && a.prisNatt ? fmt(a.prisNatt)+' kr/natt' : fmt((+a.pris||0)/(r.reisende||2))+' kr per person'}</div>`;
+  if (a.notat) h += `<p style="margin-top:12px;line-height:1.5">${esc(a.notat)}</p>`;
+  if (a.kilde) h += `<p class="faded" style="margin-top:8px">${esc(a.kilde)}</p>`;
+  if (a.lenke) h += `<a class="sdet-link" href="${esc(a.lenke)}" target="_blank" rel="noopener">Åpne i ny fane / sjekk pris ↗</a>`;
+  if (type === 'hotell' && !(isFinite(+a.lat) && isFinite(+a.lon))) h += `<p class="faded" style="margin-top:10px;font-size:12px">Nøyaktig plassering ikke bekreftet ennå — kartet viser reisemålets by.</p>`;
+  return h;
+}
+function tegnSplitDetalj(){
+  const el = $('splitDetail'); if (!el) return;
+  if (!splitValgt) { el.innerHTML = '<p class="faded">Velg et reisemål i listen til venstre for å se detaljer her.</p>'; return; }
+  const r = reiser.find(x => x.id === splitValgt.rid); if (!r) { el.innerHTML = ''; return; }
+  const be = r.beregning || {}, kilde = splitKilde(r, be), {type, altid} = splitValgt;
+  if (type === 'trip') el.innerHTML = splitTripHtml(r, be);
+  else if (type === 'rutevalg') { const v = (be.ruteValg||[]).find(x => x.id === altid); el.innerHTML = v ? splitVariantHtml(r, v) : '<p class="faded">Fant ikke alternativet.</p>'; }
+  else { const arr = kilde[type]; const a = Array.isArray(arr) ? arr.find(x => x.id === altid) : null; el.innerHTML = a ? splitAltHtml(r, a, type) : '<p class="faded">Fant ikke alternativet.</p>'; }
+}
+function splitKlarLeaflet(){ return typeof L !== 'undefined'; }
+function splitFjernMarkorer(){ splitMarkers.forEach(m => m.remove()); splitMarkers = []; if (splitRoute) { splitRoute.remove(); splitRoute = null; } }
+function splitPrisIcon(tekst, valgt){ return L.divIcon({className:'', html:`<div class="hkpin${valgt?' valgt':''}">${esc(tekst)}</div>`, iconSize:[1,1], iconAnchor:[0,6]}); }
+function tegnSplitKart(){
+  const el = $('splitMap'), note = $('splitMapNote'); if (!el) return;
+  if (!splitKlarLeaflet()) return;
+  if (!splitMap) {
+    splitMap = L.map(el, {scrollWheelZoom:false});
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'}).addTo(splitMap);
+  }
+  splitFjernMarkorer();
+  const trips = synlige().filter(r => r.status !== 'arkivert');
+  const homeIcon = () => L.divIcon({className:'', html:`<div class="hkpin" style="background:var(--ink);color:var(--panel)">${esc(HOME.navn)}</div>`, iconAnchor:[0,6]});
+  if (!splitValgt) {
+    const pts = trips.map(r => ({r, k: koord(r)})).filter(p => p.k);
+    splitMarkers.push(L.marker([HOME.lat, HOME.lon], {icon: homeIcon()}).addTo(splitMap));
+    const bounds = [[HOME.lat, HOME.lon]];
+    pts.forEach(p => {
+      const b = beregn(p.r);
+      const m = L.marker(p.k, {icon: splitPrisIcon(tittel(p.r) + (b ? ' · ' + kr(b.total) : ''), false)}).addTo(splitMap);
+      m.on('click', () => { splitOpen.add(p.r.id); splitVelg(p.r.id, 'trip', null); });
+      splitMarkers.push(m); bounds.push(p.k);
+    });
+    if (bounds.length > 1) splitMap.fitBounds(bounds, {padding:[30,30]}); else splitMap.setView(bounds[0], 5);
+    if (note) note.textContent = pts.length ? 'Klikk et reisemål i listen eller på kartet.' : '';
+    return;
+  }
+  const r = reiser.find(x => x.id === splitValgt.rid); if (!r) return;
+  const be = r.beregning || {}, dest = koord(r);
+  let noteTxt = '';
+  if (splitValgt.type === 'hotell') {
+    const kilde = splitKilde(r, be);
+    const a = (kilde.hotell || []).find(x => x.id === splitValgt.altid);
+    if (a && isFinite(+a.lat) && isFinite(+a.lon)) {
+      splitMarkers.push(L.marker([+a.lat, +a.lon], {icon: splitPrisIcon(kr(a.pris), true)}).addTo(splitMap));
+      splitMap.flyTo([+a.lat, +a.lon], 15, {animate:true, duration:0.8});
+      if (note) note.textContent = a.navn;
+      return;
+    }
+    noteTxt = 'Nøyaktig plassering ikke bekreftet for «' + (a ? a.navn : 'dette alternativet') + '» — viser reisemålets by.';
+  }
+  if (note) note.textContent = noteTxt;
+  if (dest) {
+    splitMarkers.push(L.marker(dest, {icon: splitPrisIcon(tittel(r), true)}).addTo(splitMap));
+    splitMarkers.push(L.marker([HOME.lat, HOME.lon], {icon: homeIcon()}).addTo(splitMap));
+    splitRoute = L.polyline([[HOME.lat, HOME.lon], dest], {color:'#0F6E8C', dashArray:'6 6', opacity:.7}).addTo(splitMap);
+    splitMap.flyToBounds([[HOME.lat, HOME.lon], dest], {padding:[30,30], animate:true, duration:0.8});
+  }
+}
+document.addEventListener('click', e => {
+  const th = e.target.closest('.thead[data-split]');
+  if (th) { splitToggle(th.dataset.rid); splitVelg(th.dataset.rid, 'trip', null); return; }
+  const tr = e.target.closest('.trow[data-split]');
+  if (tr) { splitVelg(tr.dataset.rid, tr.dataset.type, tr.dataset.altid); return; }
+});
+
 document.addEventListener('click', e => {
   const c = e.target.closest('[data-close]'); if (c) { lukk(c.dataset.close); return; }
   const ht = e.target.closest('[data-hottab]'); if (ht) { velgHotellTab(ht); return; }
@@ -597,9 +795,9 @@ document.addEventListener('keydown', e => {
 });
 $('sort').addEventListener('change', e => { sortering = e.target.value; try { localStorage.setItem('rk-sort', sortering); } catch (err) {} tegnListe(); });
 $('visArk').addEventListener('change', e => { visArk = e.target.checked; try { localStorage.setItem('rk-ark', visArk ? '1' : '0'); } catch (err) {} tegnListe(); tegnKart(); });
-let rs = null; window.addEventListener('resize', () => { clearTimeout(rs); rs = setTimeout(tegnKart, 150); });
+let rs = null; window.addEventListener('resize', () => { clearTimeout(rs); rs = setTimeout(() => { tegnKart(); if (splitMap) splitMap.invalidateSize(); }, 150); });
 
-function tegnAlt(){ tegnListe(); tegnKart(); if (apen && $('detSheet').classList.contains('open')) { const a = document.activeElement; const erNotat = a && a.id === 'notat'; if (!erNotat && !(a && a.dataset && a.dataset.egen !== undefined) && !(a && a.id && a.id.startsWith('d_'))) tegnDetalj(); } }
+function tegnAlt(){ tegnListe(); tegnKart(); tegnSplitTre(); tegnSplitKart(); tegnSplitDetalj(); if (apen && $('detSheet').classList.contains('open')) { const a = document.activeElement; const erNotat = a && a.id === 'notat'; if (!erNotat && !(a && a.dataset && a.dataset.egen !== undefined) && !(a && a.id && a.id.startsWith('d_'))) tegnDetalj(); } }
 function tegnStatus(){
   if (!meta) { $('claudestatus').textContent = 'Claude har ikke sjekket lista ennå.'; return; }
   const deler = [];
@@ -608,7 +806,7 @@ function tegnStatus(){
   $('claudestatus').textContent = deler.join(' — ') + '.';
 }
 
-tegnListe(); tegnKart(); tegnStatus();
+tegnListe(); tegnKart(); tegnStatus(); tegnSplitTre(); tegnSplitKart(); tegnSplitDetalj();
 
 async function lastData(forstegang){
   try {

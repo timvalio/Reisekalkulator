@@ -68,7 +68,9 @@
             "notat": "Leilighet, sentral. Vurdering 9,1 «Fantastisk».",
             "omrade": "150 m fra sentrum",
             "pris": 2612,
-            "prisNatt": 1306
+            "prisNatt": 1306,
+            "lat": 67.8048107,
+            "lon": 24.8079476
           },
           {
             "id": "h5",
@@ -79,7 +81,9 @@
             "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
             "omrade": "100 m fra Levi sentrum",
             "pris": 5430,
-            "prisNatt": 2715
+            "prisNatt": 2715,
+            "lat": 67.8077608,
+            "lon": 24.8044316
           },
           {
             "id": "h6",
@@ -90,7 +94,9 @@
             "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
             "omrade": "300 m fra Levi sentrum",
             "pris": 5841,
-            "prisNatt": 2920
+            "prisNatt": 2920,
+            "lat": 67.8081619,
+            "lon": 24.8098712
           }
         ],
         "kilder": [
@@ -186,7 +192,9 @@
                 "notat": "Leilighet, sentral. Vurdering 9,1 «Fantastisk».",
                 "omrade": "150 m fra sentrum",
                 "pris": 2612,
-                "prisNatt": 1306
+                "prisNatt": 1306,
+                "lat": 67.8048107,
+                "lon": 24.8079476
               },
               {
                 "id": "h5",
@@ -197,7 +205,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5430,
-                "prisNatt": 2715
+                "prisNatt": 2715,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -208,7 +218,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5841,
-                "prisNatt": 2920
+                "prisNatt": 2920,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               }
             ],
             "id": "helg-02okt",
@@ -306,7 +318,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5430,
-                "prisNatt": 2715
+                "prisNatt": 2715,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -317,7 +331,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774
+                "prisNatt": 2774,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               }
             ],
             "id": "helg-09okt",
@@ -415,7 +431,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5473,
-                "prisNatt": 2736
+                "prisNatt": 2736,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -426,7 +444,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774
+                "prisNatt": 2774,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               }
             ],
             "id": "helg-16okt",
@@ -524,7 +544,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5473,
-                "prisNatt": 2736
+                "prisNatt": 2736,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -535,7 +557,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774
+                "prisNatt": 2774,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               }
             ],
             "id": "helg-23okt",
@@ -633,7 +657,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5084,
-                "prisNatt": 2542
+                "prisNatt": 2542,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -644,7 +670,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774
+                "prisNatt": 2774,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               }
             ],
             "id": "helg-30okt",
@@ -742,7 +770,9 @@
                 "notat": "Ekte hotell, kjent. Vurdering 8,3 «Meget bra».",
                 "omrade": "300 m fra Levi sentrum",
                 "pris": 5549,
-                "prisNatt": 2774
+                "prisNatt": 2774,
+                "lat": 67.8081619,
+                "lon": 24.8098712
               },
               {
                 "id": "h6",
@@ -753,7 +783,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 5927,
-                "prisNatt": 2964
+                "prisNatt": 2964,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               }
             ],
             "id": "helg-06nov",
@@ -807,7 +839,9 @@
                 "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser). Avgiftsfri parkering.",
                 "omrade": "150 m fra Levi sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4651,
-                "prisNatt": 2326
+                "prisNatt": 2326,
+                "lat": 67.8075588,
+                "lon": 24.7991527
               },
               {
                 "id": "h2",
@@ -818,7 +852,9 @@
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser). Bærekraftssertifikat, avgiftsfri parkering.",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5365,
-                "prisNatt": 2682
+                "prisNatt": 2682,
+                "lat": 67.8064435,
+                "lon": 24.7997726
               },
               {
                 "id": "h3",
@@ -851,7 +887,9 @@
                 "notat": "Ekte hotell (ikke leilighet), sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 10524,
-                "prisNatt": 5262
+                "prisNatt": 5262,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -862,7 +900,9 @@
                 "notat": "Ekte hotell, høyere standard. Vurdering 9,0 «Fantastisk».",
                 "omrade": "0,9 km fra Levi sentrum",
                 "pris": 14864,
-                "prisNatt": 7432
+                "prisNatt": 7432,
+                "lat": 67.7993909,
+                "lon": 24.8123781
               }
             ],
             "id": "helg-13nov",
@@ -938,7 +978,9 @@
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 4316,
-                "prisNatt": 2158
+                "prisNatt": 2158,
+                "lat": 67.8082627,
+                "lon": 24.8064092
               },
               {
                 "id": "h4",
@@ -949,7 +991,9 @@
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4391,
-                "prisNatt": 2196
+                "prisNatt": 2196,
+                "lat": 67.8064435,
+                "lon": 24.7997726
               },
               {
                 "id": "h5",
@@ -960,7 +1004,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 6706,
-                "prisNatt": 3353
+                "prisNatt": 3353,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -971,7 +1017,9 @@
                 "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
                 "omrade": "Levi sentrum",
                 "pris": 7506,
-                "prisNatt": 3753
+                "prisNatt": 3753,
+                "lat": 67.8056086,
+                "lon": 24.806669
               }
             ],
             "id": "helg-20nov",
@@ -1036,7 +1084,9 @@
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 4316,
-                "prisNatt": 2158
+                "prisNatt": 2158,
+                "lat": 67.8082627,
+                "lon": 24.8064092
               },
               {
                 "id": "h3",
@@ -1047,7 +1097,9 @@
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 4391,
-                "prisNatt": 2196
+                "prisNatt": 2196,
+                "lat": 67.8064435,
+                "lon": 24.7997726
               },
               {
                 "id": "h4",
@@ -1069,7 +1121,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 6901,
-                "prisNatt": 3450
+                "prisNatt": 3450,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               },
               {
                 "id": "h6",
@@ -1080,7 +1134,9 @@
                 "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
                 "omrade": "Levi sentrum",
                 "pris": 7506,
-                "prisNatt": 3753
+                "prisNatt": 3753,
+                "lat": 67.8056086,
+                "lon": 24.806669
               }
             ],
             "id": "helg-27nov",
@@ -1145,7 +1201,9 @@
                 "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
                 "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5365,
-                "prisNatt": 2682
+                "prisNatt": 2682,
+                "lat": 67.8064435,
+                "lon": 24.7997726
               },
               {
                 "id": "h3",
@@ -1156,7 +1214,9 @@
                 "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser).",
                 "omrade": "150 m fra sentrum, 450 m fra nærmeste skiheis",
                 "pris": 5624,
-                "prisNatt": 2812
+                "prisNatt": 2812,
+                "lat": 67.8075588,
+                "lon": 24.7991527
               },
               {
                 "id": "h4",
@@ -1189,7 +1249,9 @@
                 "notat": "Ekte hotell, kjent kjede – markant dyrere denne helgen (adventsesong).",
                 "omrade": "Levi sentrum",
                 "pris": 23655,
-                "prisNatt": 11828
+                "prisNatt": 11828,
+                "lat": 67.8056086,
+                "lon": 24.806669
               }
             ],
             "id": "helg-04des",
@@ -1276,7 +1338,9 @@
                 "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket».",
                 "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
                 "pris": 6511,
-                "prisNatt": 3256
+                "prisNatt": 3256,
+                "lat": 67.8082627,
+                "lon": 24.8064092
               },
               {
                 "id": "h5",
@@ -1298,7 +1362,9 @@
                 "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
                 "omrade": "100 m fra Levi sentrum",
                 "pris": 13109,
-                "prisNatt": 6554
+                "prisNatt": 6554,
+                "lat": 67.8077608,
+                "lon": 24.8044316
               }
             ],
             "id": "helg-11des",
@@ -1433,7 +1499,9 @@
             "omrade": "10. arrondissement, nær Gare de l'Est",
             "pris": 2195,
             "prisNatt": 2195,
-            "stjerner": 3
+            "stjerner": 3,
+            "lat": 48.8740736,
+            "lon": 2.3625485
           },
           {
             "id": "h2",
@@ -1673,7 +1741,9 @@
             "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
             "omrade": "Torremolinos sentrum, 450 m fra sentrum",
             "pris": 2812,
-            "prisNatt": 469
+            "prisNatt": 469,
+            "lat": 36.625296,
+            "lon": -4.4988767
           },
           {
             "id": "u1b2",
@@ -1695,7 +1765,9 @@
             "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
             "omrade": "Torremolinos sentrum, 500 m fra sentrum",
             "pris": 3675,
-            "prisNatt": 613
+            "prisNatt": 613,
+            "lat": 36.6244535,
+            "lon": -4.5010772
           },
           {
             "id": "u1m1",
@@ -1739,7 +1811,9 @@
             "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
             "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
             "pris": 17444,
-            "prisNatt": 2181
+            "prisNatt": 2181,
+            "lat": 36.6059698,
+            "lon": -4.507405
           },
           {
             "id": "u1h2",
@@ -1750,7 +1824,9 @@
             "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
             "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
             "pris": 20502,
-            "prisNatt": 2563
+            "prisNatt": 2563,
+            "lat": 36.6279706,
+            "lon": -4.4918583
           },
           {
             "id": "u1h3",
@@ -1937,7 +2013,9 @@
                 "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2812,
-                "prisNatt": 469
+                "prisNatt": 469,
+                "lat": 36.625296,
+                "lon": -4.4988767
               },
               {
                 "id": "u1b2",
@@ -1959,7 +2037,9 @@
                 "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
                 "omrade": "Torremolinos sentrum, 500 m fra sentrum",
                 "pris": 3675,
-                "prisNatt": 613
+                "prisNatt": 613,
+                "lat": 36.6244535,
+                "lon": -4.5010772
               },
               {
                 "id": "u1m1",
@@ -2003,7 +2083,9 @@
                 "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
                 "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
                 "pris": 17444,
-                "prisNatt": 2181
+                "prisNatt": 2181,
+                "lat": 36.6059698,
+                "lon": -4.507405
               },
               {
                 "id": "u1h2",
@@ -2014,7 +2096,9 @@
                 "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
                 "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
                 "pris": 20502,
-                "prisNatt": 2563
+                "prisNatt": 2563,
+                "lat": 36.6279706,
+                "lon": -4.4918583
               },
               {
                 "id": "u1h3",
@@ -2300,7 +2384,9 @@
                 "notat": "4-stjerners. Vurdering 8,2 «Meget bra» (2 260 anmeldelser).",
                 "omrade": "Torremolinos, 2,6 km fra sentrum, ved stranden",
                 "pris": 27637,
-                "prisNatt": 3455
+                "prisNatt": 3455,
+                "lat": 36.6417936,
+                "lon": -4.4816084
               }
             ],
             "id": "uke0",
@@ -2487,7 +2573,9 @@
                 "notat": "Vurdering 7,9 – billigste OG best vurderte av alle ni uker×kategorier sjekket.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2650,
-                "prisNatt": 442
+                "prisNatt": 442,
+                "lat": 36.625296,
+                "lon": -4.4988767
               },
               {
                 "id": "u2b2",
@@ -2553,7 +2641,9 @@
                 "notat": "Vurdering 8,3 «Meget bra» (1 225 anmeldelser), juniorsuite med delvis sjøutsikt.",
                 "omrade": "Torremolinos, 500 m fra sentrum, 200 m fra stranden",
                 "pris": 16565,
-                "prisNatt": 2071
+                "prisNatt": 2071,
+                "lat": 36.6133026,
+                "lon": -4.5011197
               },
               {
                 "id": "u2h2",
@@ -2575,7 +2665,9 @@
                 "notat": "4-stjerners flaggskiphotell. Vurdering 8,6 «Utmerket» (1 625 anmeldelser), dobbeltrom deluxe med sjøutsikt. Best beliggenhet av alle sjekket (150 m fra sentrum, rett ved stranden).",
                 "omrade": "Torremolinos, 150 m fra sentrum, ved stranden",
                 "pris": 27754,
-                "prisNatt": 3469
+                "prisNatt": 3469,
+                "lat": 36.6209068,
+                "lon": -4.4963563
               }
             ],
             "id": "uke2",
@@ -2912,7 +3004,9 @@
             "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
             "pris": 28000,
             "prisNatt": 7000,
-            "stjerner": 4
+            "stjerner": 4,
+            "lat": 46.8197342,
+            "lon": 9.2637997
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
@@ -2938,7 +3032,9 @@
             "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
             "pris": 91000,
             "prisNatt": 22750,
-            "stjerner": 4
+            "stjerner": 4,
+            "lat": 46.8331175,
+            "lon": 9.2824627
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
@@ -2950,7 +3046,9 @@
             "notat": "Leilighet, 2 soverom, 60 m², delt badstue. Vurdering 8,8 «Utmerket». Gratis avbestilling.",
             "omrade": "Laax, 150 m til nærmeste skiheis",
             "pris": 25085,
-            "prisNatt": 6271
+            "prisNatt": 6271,
+            "lat": 46.8215455,
+            "lon": 9.2638832
           },
           {
             "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
@@ -2973,7 +3071,9 @@
             "notat": "3 dobbeltrom (trengs for 6 pers.). Vurdering 8,3 «Meget bra» (353 anmeldelser). Gratis avbestilling.",
             "omrade": "Ilanz",
             "pris": 17223,
-            "prisNatt": 4306
+            "prisNatt": 4306,
+            "lat": 46.7746061,
+            "lon": 9.2143329
           },
           {
             "kategori": "medium",
@@ -2983,7 +3083,9 @@
             "notat": "2 store dobbeltrom. Vurdering 8,8 «Utmerket» (45 anmeldelser). 1 km fra heisen, gratis parkering.",
             "omrade": "Andiast, 1 km fra nærmeste skiheis",
             "pris": 17498,
-            "prisNatt": 4375
+            "prisNatt": 4375,
+            "lat": 46.7833882,
+            "lon": 9.1116562
           },
           {
             "kategori": "medium",
@@ -2993,7 +3095,9 @@
             "notat": "Vurdering 9,0 «Fantastisk» (963 anmeldelser), frokost inkludert.",
             "omrade": "Ilanz, 3 km fra nærmeste skiheis",
             "pris": 18102,
-            "prisNatt": 4526
+            "prisNatt": 4526,
+            "lat": 46.7774506,
+            "lon": 9.1993601
           },
           {
             "kategori": "medium",
@@ -3227,7 +3331,9 @@
                 "omrade": "Laax, 150 m til nærmeste skiheis, direkte adkomst til skiløypene",
                 "pris": 28000,
                 "prisNatt": 7000,
-                "stjerner": 4
+                "stjerner": 4,
+                "lat": 46.8197342,
+                "lon": 9.2637997
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/692194656.webp",
@@ -3253,7 +3359,9 @@
                 "omrade": "Flims, 50 m til nærmeste skiheis, rett ved gondolen",
                 "pris": 91000,
                 "prisNatt": 22750,
-                "stjerner": 4
+                "stjerner": 4,
+                "lat": 46.8331175,
+                "lon": 9.2824627
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/766111302.webp",
@@ -3265,7 +3373,9 @@
                 "notat": "Leilighet, 2 soverom, 60 m², delt badstue. Vurdering 8,8 «Utmerket». Gratis avbestilling.",
                 "omrade": "Laax, 150 m til nærmeste skiheis",
                 "pris": 25085,
-                "prisNatt": 6271
+                "prisNatt": 6271,
+                "lat": 46.8215455,
+                "lon": 9.2638832
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/890874813.webp",
@@ -3289,7 +3399,9 @@
                 "notat": "3 dobbeltrom (trengs for 6 pers.). Vurdering 8,3 «Meget bra» (353 anmeldelser). Gratis avbestilling.",
                 "omrade": "Ilanz",
                 "pris": 17223,
-                "prisNatt": 4306
+                "prisNatt": 4306,
+                "lat": 46.7746061,
+                "lon": 9.2143329
               },
               {
                 "id": "h18",
@@ -3300,7 +3412,9 @@
                 "notat": "2 store dobbeltrom. Vurdering 8,8 «Utmerket» (45 anmeldelser). 1 km fra heisen, gratis parkering.",
                 "omrade": "Andiast, 1 km fra nærmeste skiheis",
                 "pris": 17498,
-                "prisNatt": 4375
+                "prisNatt": 4375,
+                "lat": 46.7833882,
+                "lon": 9.1116562
               },
               {
                 "id": "h19",
@@ -3311,7 +3425,9 @@
                 "notat": "Vurdering 9,0 «Fantastisk» (963 anmeldelser), frokost inkludert.",
                 "omrade": "Ilanz, 3 km fra nærmeste skiheis",
                 "pris": 18102,
-                "prisNatt": 4526
+                "prisNatt": 4526,
+                "lat": 46.7774506,
+                "lon": 9.1993601
               },
               {
                 "id": "h20",
@@ -3514,7 +3630,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Ilanz/Glion",
                 "pris": 17223,
-                "prisNatt": 4306
+                "prisNatt": 4306,
+                "lat": 46.7746061,
+                "lon": 9.2143329
               },
               {
                 "id": "w2h7",
@@ -3536,7 +3654,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Andiast",
                 "pris": 17498,
-                "prisNatt": 4374
+                "prisNatt": 4374,
+                "lat": 46.7833882,
+                "lon": 9.1116562
               },
               {
                 "id": "w2h9",
@@ -3695,7 +3815,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Ilanz/Glion",
                 "pris": 17498,
-                "prisNatt": 4374
+                "prisNatt": 4374,
+                "lat": 46.7746061,
+                "lon": 9.2143329
               },
               {
                 "id": "w3h4",
@@ -3706,7 +3828,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Andiast",
                 "pris": 19101,
-                "prisNatt": 4775
+                "prisNatt": 4775,
+                "lat": 46.7833882,
+                "lon": 9.1116562
               },
               {
                 "id": "w3h5",
@@ -3750,7 +3874,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Surselva-området",
                 "pris": 22433,
-                "prisNatt": 5608
+                "prisNatt": 5608,
+                "lat": 46.8316374,
+                "lon": 9.343491
               },
               {
                 "id": "w3h9",
@@ -3761,7 +3887,9 @@
                 "notat": "Priser sortert lavest først på Booking.com for disse datoene. Bilde ikke hentet ennå for denne helgen (kan gjøres på forespørsel).",
                 "omrade": "Surcuolm",
                 "pris": 24185,
-                "prisNatt": 6046
+                "prisNatt": 6046,
+                "lat": 46.8175768,
+                "lon": 9.2651088
               }
             ],
             "id": "helg-04feb",
@@ -3988,7 +4116,9 @@
             "omrade": "Futian (Huaqiangbei), 2,8 km fra sentrum, nær T-banen",
             "pris": 10200,
             "prisNatt": 850,
-            "stjerner": 4
+            "stjerner": 4,
+            "lat": 22.5438564,
+            "lon": 114.0768347
           },
           {
             "id": "h2",
@@ -4010,7 +4140,9 @@
             "omrade": "Nanshan (Overseas Chinese Town), 7,3 km fra sentrum – rett ved Window of the World-parken",
             "pris": 22800,
             "prisNatt": 1900,
-            "stjerner": 5
+            "stjerner": 5,
+            "lat": 22.5351906,
+            "lon": 113.9798469
           }
         ],
         "kilder": [
@@ -4768,10 +4900,10 @@
     }
   ],
   "meta": {
-    "melding": "Levi, Finland UTVIDET 20.9.2026 etter Tims ønske: nå listet ALLE 11 helger (fre-søn) fra sesongåpning 2. oktober til 13. desember 2026, ikke bare midten av november til midten av desember. OBS: skiføret er kun bekreftet godt fra 13. november og utover (Tims opprinnelige antakelse) – for de 6 nye helgene i oktober/tidlig november er billig overnatting sjekket, men selve skiføret/løypeåpningen er IKKE spesifikt verifisert utover at sesongen åpner 2. okt på lagret snø. Billigst i kroner er faktisk oktoberhelgene (fra ca. 1 980-2 380 kr for budsjettovernatting), men usikkerheten om snøforhold gjør at november/desember trolig er tryggere valg. Standardvisning er satt til første helg (2.-4. okt). Øvrige 5 reisemål er uendret denne runden. MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon, og den mangler også slette-tilgang i mappen – begge bør fikses manuelt (se tidligere statusmeldinger), ellers hoper commits og lock-filer seg opp.",
+    "melding": "STOR OPPDATERING 20.9.2026: Tim ba om et nytt trepanel-grensesnitt for skrivebord (liste til venstre, kart øverst til høyre som zoomer til det som er valgt, detaljer nederst til høyre med bilde og åpne-i-ny-fane-lenke) — samme mønster som han bygger i klassetur-prosjektet. Mobilvisningen er uendret (kort + full skuff som før). I tillegg er 26 av 76 hoteller på tvers av alle turer geokodet (ekte koordinater via OpenStreetMap/Nominatim) så kartet kan zoome helt inn på dem — resten (stort sett private utleieleiligheter fra Booking.com) mangler i OpenStreetMap og får derfor ikke nøyaktig plassering ennå; kartet viser da byen/reisemålet i stedet, tydelig merket. Hotellbilder er IKKE hentet ennå (ingen bilde-URL-er er lagret) — detaljpanelet viser en tydelig «ingen bilde ennå»-boks i stedet for å finne på noe.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T11:00:00.000Z",
-    "sistSjekk": "2026-09-20T11:00:00.000Z",
+    "sistBeregnet": "2026-09-20T12:00:00.000Z",
+    "sistSjekk": "2026-09-20T12:00:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
