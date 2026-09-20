@@ -239,7 +239,8 @@
           "Uken før (26.9-4.10) har omtrent samme flypriser som denne uken, men et dyrere og dårligere vurdert billigste hotellalternativ – derfor ikke satt som anbefalt uke.",
           "RETTET 20.9.2026: Forrige oppdatering brøt opp «denne uken» i tre separate rutevalg (budsjett/komfort/premium) i stedet for å gi budsjett/medium/bedre-kategorier PER uke slik LAAX-turen har det – dette ga bare 1 hotell synlig per kategori og ingen faner. Rettet nå: 3 rutevalg (uken før / denne uken / uken etter), hver med 9 hotellalternativer fordelt på budsjett/medium/bedre (3 i hver), pluss to flyalternativer (trygg standardrute og et billigere alternativ) – samme struktur og dybde som LAAX-turen.",
           "Fly-prisen for den trygge standardruten (Kittilä–Oslo–Málaga, 12 500 kr) er kun direkte bekreftet for 3.-11. okt – for uken før og uken etter er samme pris antatt uendret (flyprisene svinger vanligvis lite mellom nabouker), ikke re-sjekket separat i denne kjøringen.",
-          "Billig-fly-alternativene for uken før og uken etter (5 030 kr og 5 234 kr) er kun hentet fra Google Flights' «Billigst»-fane uten å sjekke om de – i likhet med det billigste funnet for denne uken – krever en ubehagelig overnatting på flyplassen. Anta samme risiko til dette er verifisert."
+          "Billig-fly-alternativene for uken før og uken etter (5 030 kr og 5 234 kr) er kun hentet fra Google Flights' «Billigst»-fane uten å sjekke om de – i likhet med det billigste funnet for denne uken – krever en ubehagelig overnatting på flyplassen. Anta samme risiko til dette er verifisert.",
+          "RETTET 20.9.2026 (2): «Bedre»-kategorien besto feilaktig av Airbnb-leiligheter, ikke ekte hoteller. Byttet ut med 4-stjerners hoteller (Booking.com, sortert på gjesteomtaler og pris) med god beliggenhet nær sentrum/stranden i alle tre uker (Meliá Costa del Sol, SOL by Meliá Don Pablo/Don Marco, Hotel Isabel, Medplaya Pez Espada, BLUESEA Alborán, Occidental Torremolinos Playa, MS Aguamarina). Airbnb brukes nå kun i budsjett/medium-kategoriene, aldri i bedre."
         ],
         "daglig": [
           {
@@ -253,7 +254,7 @@
             "prisDag": 150
           }
         ],
-        "dato": "2026-09-20T05:10:00.000Z",
+        "dato": "2026-09-20T06:00:00.000Z",
         "faste": [
           {
             "navn": "Parkering Kittilä lufthavn",
@@ -364,35 +365,35 @@
           {
             "id": "u1h1",
             "kategori": "bedre",
-            "kilde": "Airbnb 20.9.2026 (Chrome)",
-            "lenke": "https://www.airbnb.no/rooms/1346459866684039271",
-            "navn": "Carmela Playa",
-            "notat": "Privat leilighet, vurdering 4,84 (81 anmeldelser).",
-            "omrade": "Torremolinos, nær stranden",
-            "pris": 4892,
-            "prisNatt": 815
+            "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+            "lenke": "https://www.booking.com/hotel/es/pez-espada.no.html",
+            "navn": "Medplaya Hotel Pez Espada",
+            "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
+            "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
+            "pris": 17444,
+            "prisNatt": 2181
           },
           {
             "id": "u1h2",
             "kategori": "bedre",
-            "kilde": "Airbnb 20.9.2026 (Chrome)",
-            "lenke": "https://www.airbnb.no/rooms/705621477717088453",
-            "navn": "Fin studioleilighet med utsikt, sentralt",
-            "notat": "Privat studio med eget kjøkken. Vurdering 4,93 (67 anmeldelser).",
-            "omrade": "Torremolinos sentrum",
-            "pris": 5936,
-            "prisNatt": 989
+            "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+            "lenke": "https://www.booking.com/hotel/es/isabel.no.html",
+            "navn": "Hotel Isabel",
+            "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
+            "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
+            "pris": 20502,
+            "prisNatt": 2563
           },
           {
             "id": "u1h3",
             "kategori": "bedre",
-            "kilde": "Airbnb 20.9.2026 (Chrome)",
-            "lenke": "https://www.airbnb.no/rooms/837583044924498864",
-            "navn": "Casa Dalias – Sea Views",
-            "notat": "Leilighet med sjøutsikt, finest i utvalget. Vurdering 4,94 (118 anmeldelser).",
-            "omrade": "Torremolinos, sjøutsikt",
-            "pris": 7490,
-            "prisNatt": 1248
+            "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+            "lenke": "https://www.booking.com/hotel/es/sol-don-pablo.no.html",
+            "navn": "SOL by Meliá Torremolinos Don Pablo",
+            "notat": "4-stjerners. Vurdering 8,7 «Utmerket» (1 706 anmeldelser), superior rom med sjøutsikt.",
+            "omrade": "Torremolinos, 0,5 km fra sentrum, ved stranden",
+            "pris": 26542,
+            "prisNatt": 3318
           }
         ],
         "kilder": [
@@ -628,35 +629,35 @@
               {
                 "id": "u1h1",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/1346459866684039271",
-                "navn": "Carmela Playa",
-                "notat": "Privat leilighet, vurdering 4,84 (81 anmeldelser).",
-                "omrade": "Torremolinos, nær stranden",
-                "pris": 4892,
-                "prisNatt": 815
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/pez-espada.no.html",
+                "navn": "Medplaya Hotel Pez Espada",
+                "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (3 187 anmeldelser).",
+                "omrade": "Carihuela, Torremolinos, 2 km fra sentrum, ved stranden",
+                "pris": 17444,
+                "prisNatt": 2181
               },
               {
                 "id": "u1h2",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/705621477717088453",
-                "navn": "Fin studioleilighet med utsikt, sentralt",
-                "notat": "Privat studio med eget kjøkken. Vurdering 4,93 (67 anmeldelser).",
-                "omrade": "Torremolinos sentrum",
-                "pris": 5936,
-                "prisNatt": 989
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/isabel.no.html",
+                "navn": "Hotel Isabel",
+                "notat": "Vurdering 8,7 «Utmerket» (1 699 anmeldelser), suite med sjøutsikt.",
+                "omrade": "Torremolinos, 0,9 km fra sentrum, ved stranden",
+                "pris": 20502,
+                "prisNatt": 2563
               },
               {
                 "id": "u1h3",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/837583044924498864",
-                "navn": "Casa Dalias – Sea Views",
-                "notat": "Leilighet med sjøutsikt, finest i utvalget. Vurdering 4,94 (118 anmeldelser).",
-                "omrade": "Torremolinos, sjøutsikt",
-                "pris": 7490,
-                "prisNatt": 1248
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/sol-don-pablo.no.html",
+                "navn": "SOL by Meliá Torremolinos Don Pablo",
+                "notat": "4-stjerners. Vurdering 8,7 «Utmerket» (1 706 anmeldelser), superior rom med sjøutsikt.",
+                "omrade": "Torremolinos, 0,5 km fra sentrum, ved stranden",
+                "pris": 26542,
+                "prisNatt": 3318
               }
             ],
             "id": "uke1",
@@ -903,35 +904,35 @@
               {
                 "id": "u0h1",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/35218583",
-                "navn": "Luksusleilig med basseng og utsikt mot havet",
-                "notat": "Privat leilighet med basseng og havutsikt – vurdering 4,93 (28 anmeldelser). Billigere enn flere av budsjett-hotellene, en fin overraskelse.",
-                "omrade": "Torremolinos, sjøutsikt + basseng",
-                "pris": 3605,
-                "prisNatt": 601
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/bluesea-alboran-adults-only-ex-hotel-md-torremolinos.no.html",
+                "navn": "BLUESEA Alborán Adults Only",
+                "notat": "4-stjerners, kun voksne. Vurdering 8,2 «Meget bra» (2 473 anmeldelser).",
+                "omrade": "Carihuela, Torremolinos, 1,6 km fra sentrum, 100 m fra stranden",
+                "pris": 15475,
+                "prisNatt": 1934
               },
               {
                 "id": "u0h2",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/1470979434710322719",
-                "navn": "Studio i sentrum.",
-                "notat": "Vurdering 5,0 (41 anmeldelser).",
-                "omrade": "Torremolinos sentrum",
-                "pris": 4699,
-                "prisNatt": 783
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/don-marco.no.html",
+                "navn": "SOL by Meliá Torremolinos Don Marco – Adults Recommended",
+                "notat": "4-stjerners. Vurdering 8,5 «Meget bra» (633 anmeldelser).",
+                "omrade": "Torremolinos, 0,6 km fra sentrum, ved stranden",
+                "pris": 30966,
+                "prisNatt": 3871
               },
               {
                 "id": "u0h3",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/640644691431722538",
-                "navn": "På havet, fantastisk utsikt og parkering",
-                "notat": "Vurdering 4,94 (120 anmeldelser), egen parkering.",
-                "omrade": "Torremolinos, ved havet",
-                "pris": 4757,
-                "prisNatt": 793
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/smy-costa-del-sol.no.html",
+                "navn": "Occidental Torremolinos Playa",
+                "notat": "4-stjerners. Vurdering 8,2 «Meget bra» (2 260 anmeldelser).",
+                "omrade": "Torremolinos, 2,6 km fra sentrum, ved stranden",
+                "pris": 27637,
+                "prisNatt": 3455
               }
             ],
             "id": "uke0",
@@ -1178,35 +1179,35 @@
               {
                 "id": "u2h1",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/621807585397868823",
-                "navn": "Magisk strandleilighet i hjertet av Torremolinos",
-                "notat": "Privat leilighet, vurdering 4,89 (175 anmeldelser).",
-                "omrade": "Torremolinos, ved stranden",
-                "pris": 4444,
-                "prisNatt": 741
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/ms-aguamarina.no.html",
+                "navn": "MS Aguamarina Costa del Sol",
+                "notat": "Vurdering 8,3 «Meget bra» (1 225 anmeldelser), juniorsuite med delvis sjøutsikt.",
+                "omrade": "Torremolinos, 500 m fra sentrum, 200 m fra stranden",
+                "pris": 16565,
+                "prisNatt": 2071
               },
               {
                 "id": "u2h2",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/52358265",
-                "navn": "ColinaMar",
-                "notat": "Vurdering 4,94 (186 anmeldelser).",
-                "omrade": "Torremolinos",
-                "pris": 4125,
-                "prisNatt": 688
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/sol-don-pablo.no.html",
+                "navn": "SOL by Meliá Torremolinos Don Pablo",
+                "notat": "4-stjerners. Vurdering 8,7 «Utmerket» (1 706 anmeldelser), superior rom med sjøutsikt.",
+                "omrade": "Torremolinos, 0,5 km fra sentrum, ved stranden",
+                "pris": 25504,
+                "prisNatt": 3188
               },
               {
                 "id": "u2h3",
                 "kategori": "bedre",
-                "kilde": "Airbnb 20.9.2026 (Chrome)",
-                "lenke": "https://www.airbnb.no/rooms/19191588",
-                "navn": "Penthouse med terrasse W/San Miguel Torremolinos Centro",
-                "notat": "Penthouse med terrasse, vurdering 4,97 (124 anmeldelser) – høyest vurderte bedre-alternativ.",
-                "omrade": "Torremolinos sentrum",
-                "pris": 4590,
-                "prisNatt": 765
+                "kilde": "Booking.com 20.9.2026 (Chrome, 4-5 stjerner, sortert på gjesteomtaler og pris)",
+                "lenke": "https://www.booking.com/hotel/es/melia-costa-del-sol.no.html",
+                "navn": "Meliá Costa del Sol",
+                "notat": "4-stjerners flaggskiphotell. Vurdering 8,6 «Utmerket» (1 625 anmeldelser), dobbeltrom deluxe med sjøutsikt. Best beliggenhet av alle sjekket (150 m fra sentrum, rett ved stranden).",
+                "omrade": "Torremolinos, 150 m fra sentrum, ved stranden",
+                "pris": 27754,
+                "prisNatt": 3469
               }
             ],
             "id": "uke2",
@@ -1381,6 +1382,11 @@
         },
         {
           "dato": "2026-09-20T05:10:00.000Z",
+          "metode": "chrome",
+          "total": 24262
+        },
+        {
+          "dato": "2026-09-20T06:00:00.000Z",
           "metode": "chrome",
           "total": 24262
         }
@@ -3425,10 +3431,10 @@
     }
   ],
   "meta": {
-    "melding": "Solreise Costa del Sol RETTET 20.9.2026: forrige «Velg pakke»-versjon (5 alternativer) hadde feil struktur – kombinerte uke og nivå i samme rutevalg med bare 1 hotell hver, så budsjett/medium/bedre-fanene forsvant. Rettet nå til samme mønster som LAAX: «Velg uke» (uken før / denne uken / uken etter), hver uke med budsjett/medium/bedre-faner à 3 hotellalternativer (9 per uke, 27 totalt, fra Booking.com og Airbnb) + to flyalternativer (trygg standardrute / billigere med flybytte). Fant også og fjernet en gjenglemt .git/index.lock fra 19.9. som hadde blokkert commit/push i flere kjøringer på rad – automatikken bør nå kunne committe normalt igjen. fiks_git_las.bat og _to_delete/ er urørt i påvente av Tims vurdering.",
+    "melding": "Solreise Costa del Sol oppdatert 20.9.2026: «Velg uke»-struktur (budsjett/medium/bedre-faner per uke, samme mønster som LAAX) er nå komplett rettet – «bedre»-kategorien besto feilaktig av Airbnb-leiligheter, byttet ut med ekte 4-stjerners hoteller med god beliggenhet (Meliá Costa del Sol, SOL by Meliá Don Pablo/Don Marco, Hotel Isabel, Medplaya Pez Espada, BLUESEA Alboran, Occidental Torremolinos Playa, MS Aguamarina), alle fra Booking.com. Airbnb brukes nå kun i budsjett/medium, aldri i bedre – standard som gjelder for alle reiser videre. Fant og fjernet en gjenglemt .git/index.lock fra 19.9. som hadde blokkert commit/push i flere kjøringer på rad – automatikken bør nå kunne committe normalt igjen. fiks_git_las.bat og _to_delete/ er urørt i påvente av Tims vurdering.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T05:10:00.000Z",
-    "sistSjekk": "2026-09-20T05:10:00.000Z",
+    "sistBeregnet": "2026-09-20T06:00:00.000Z",
+    "sistSjekk": "2026-09-20T06:00:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
