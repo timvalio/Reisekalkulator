@@ -1,6 +1,714 @@
 {
   "reiser": [
     {
+      "avreise": "2026-11-13",
+      "beregning": {
+        "antakelser": [
+          "Levi åpner alpin- og langrennssesongen fredag 2. oktober 2026 (bekreftet via levi.fi og SnowBrains), med lagret snø fra i fjor («snow farming», ca. 300 000 m³). Med snøkanoner og stadig kaldere vær utover høsten er det realistisk med god skiføre fra midten av november, som Tim antok.",
+          "Alle fem helger fra midten av november til midten av desember 2026 er sjekket: 13.-15. nov, 20.-22. nov, 27.-29. nov, 4.-6. des og 11.-13. des – alle fredag til søndag som ønsket.",
+          "Kautokeino–Levi er en direkte kjøretur på ca. 217 km / 2 t 37 min (Google Maps, Rute 93/79) – ingen flyreise nødvendig, i motsetning til turene til LAAX og Costa del Sol.",
+          "1 bil er lagt til grunn for gruppen på 5 personer, kun drivstoff (2 kr/km) – ingen bomkostnad er sjekket spesifikt.",
+          "Bosted er sjekket på Booking.com for alle fem helger, sortert på pris, for 5 voksne. Budsjett/medium er stort sett selvhushold-leiligheter og hytter (chalet); bedre er ekte hoteller (Lapland Hotels Sirkantähti, Break Sokos Hotel Levi, Hotel Levi Panorama) – disse er vesentlig dyrere enn leilighetsalternativene.",
+          "Prisnivået stiger tydelig fra desember (adventsesong) – spesielt for ekte hoteller: Break Sokos Hotel Levi går fra 7 506 kr (november) til 23 655 kr (4.-6. des). De to novemberhelgene 20.-22. og 27.-29. er klart billigst.",
+          "Mat, heiskort og aktiviteter er IKKE inkludert i totalprisen, i tråd med ønsket.",
+          "Airbnb er ikke sjekket separat denne runden – Booking.com har svært mange selvhushold-leiligheter/hytter i Levi som trolig dekker samme marked."
+        ],
+        "daglig": [],
+        "dato": "2026-09-20T10:00:00.000Z",
+        "faste": [
+          {
+            "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+            "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+            "pris": 868
+          }
+        ],
+        "fly": [],
+        "forslag": "Sjekket alle fem helger fra midte av november til midte av desember 2026 for 5 personer, kjøretur fra Kautokeino (ingen fly nødvendig).\n\nBILLIGST: helgene 20.-22. november og 27.-29. november, med budsjett-leiligheter fra 3 445-4 305 kr for 2 netter + 868 kr drivstoff = ca. 4 300-5 200 kr totalt for hele gruppen.\n\n13.-15. november er noe dyrere (budsjett fra 4 651 kr), trolig fordi sesongen akkurat har startet.\n\nDesember-helgene (4.-6. og 11.-13.) er tydelig dyrere, spesielt for ekte hoteller (bedre-kategorien) – Break Sokos Hotel Levi går fra 7 506 kr i november til 23 655 kr i starten av desember.\n\nStandard er satt til budsjett/medium-leiligheter med kjøkken og badstue, alle i gang- eller kjøreavstand til skiheis (150 m-1,7 km). Bytt helg og kategori fritt for å se hvordan totalen endrer seg.",
+        "hotell": [
+          {
+            "id": "h1",
+            "kategori": "budsjett",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Levilehto Apartments",
+            "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser). Avgiftsfri parkering.",
+            "omrade": "150 m fra Levi sentrum, 450 m fra nærmeste skiheis",
+            "pris": 4651,
+            "prisNatt": 2326
+          },
+          {
+            "id": "h2",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Polar Star Apartments",
+            "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser). Bærekraftssertifikat, avgiftsfri parkering.",
+            "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
+            "pris": 5365,
+            "prisNatt": 2682
+          },
+          {
+            "id": "h3",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Puuhapirtti by Aavalevi",
+            "notat": "Leilighet m/badstue, 3 soverom, 68 m², 6 senger. Vurdering 10 (1 anmeldelse – nytt på Booking.com).",
+            "omrade": "0,8 km fra sentrum, 1,1 km fra nærmeste skiheis",
+            "pris": 5604,
+            "prisNatt": 2802
+          },
+          {
+            "id": "h4",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Levin Sudenpesä by Holiday in Lapland",
+            "notat": "Leilighet m/2 soverom, 57 m², 5 senger. Vurdering 8,6 «Utmerket» (7 anmeldelser). Gratis avbestilling.",
+            "omrade": "400 m fra sentrum, 750 m fra nærmeste skiheis",
+            "pris": 5765,
+            "prisNatt": 2882
+          },
+          {
+            "id": "h5",
+            "kategori": "bedre",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Lapland Hotels Sirkantähti",
+            "notat": "Ekte hotell (ikke leilighet), sentralt. Vurdering 8,2 «Meget bra».",
+            "omrade": "100 m fra Levi sentrum",
+            "pris": 10524,
+            "prisNatt": 5262
+          },
+          {
+            "id": "h6",
+            "kategori": "bedre",
+            "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+            "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+            "navn": "Hotel Levi Panorama",
+            "notat": "Ekte hotell, høyere standard. Vurdering 9,0 «Fantastisk».",
+            "omrade": "0,9 km fra Levi sentrum",
+            "pris": 14864,
+            "prisNatt": 7432
+          }
+        ],
+        "kilder": [
+          {
+            "navn": "Booking.com",
+            "url": "https://www.booking.com"
+          },
+          {
+            "navn": "levi.fi (sesongåpning)",
+            "url": "https://www.levi.fi/en/events/winter-season-opening-2026-2027/"
+          },
+          {
+            "navn": "Google Maps (kjørerute Kautokeino-Levi)",
+            "url": "https://www.google.com/maps/dir/Kautokeino,+Norway/Levi,+Kittil%C3%A4,+Finland"
+          }
+        ],
+        "metode": "chrome",
+        "rute": [
+          {
+            "ankomst": "ca. 12:00",
+            "dato": "2026-11-13",
+            "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+            "fra": "Kautokeino",
+            "retning": "ut",
+            "tid": "09:00",
+            "til": "Levi (Sirkka)",
+            "type": "bil",
+            "varighet": "ca. 2 t 37 min"
+          },
+          {
+            "ankomst": "ca. 15:30",
+            "dato": "2026-11-15",
+            "detalj": "Retur samme vei.",
+            "fra": "Levi (Sirkka)",
+            "retning": "hjem",
+            "tid": "ca. 13:00",
+            "til": "Kautokeino",
+            "type": "bil",
+            "varighet": "ca. 2 t 37 min"
+          }
+        ],
+        "ruteValg": [
+          {
+            "dager": 3,
+            "faste": [
+              {
+                "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+                "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+                "pris": 868
+              }
+            ],
+            "fly": [],
+            "hotell": [
+              {
+                "id": "h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levilehto Apartments",
+                "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser). Avgiftsfri parkering.",
+                "omrade": "150 m fra Levi sentrum, 450 m fra nærmeste skiheis",
+                "pris": 4651,
+                "prisNatt": 2326
+              },
+              {
+                "id": "h2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Polar Star Apartments",
+                "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser). Bærekraftssertifikat, avgiftsfri parkering.",
+                "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
+                "pris": 5365,
+                "prisNatt": 2682
+              },
+              {
+                "id": "h3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Puuhapirtti by Aavalevi",
+                "notat": "Leilighet m/badstue, 3 soverom, 68 m², 6 senger. Vurdering 10 (1 anmeldelse – nytt på Booking.com).",
+                "omrade": "0,8 km fra sentrum, 1,1 km fra nærmeste skiheis",
+                "pris": 5604,
+                "prisNatt": 2802
+              },
+              {
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levin Sudenpesä by Holiday in Lapland",
+                "notat": "Leilighet m/2 soverom, 57 m², 5 senger. Vurdering 8,6 «Utmerket» (7 anmeldelser). Gratis avbestilling.",
+                "omrade": "400 m fra sentrum, 750 m fra nærmeste skiheis",
+                "pris": 5765,
+                "prisNatt": 2882
+              },
+              {
+                "id": "h5",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Lapland Hotels Sirkantähti",
+                "notat": "Ekte hotell (ikke leilighet), sentralt. Vurdering 8,2 «Meget bra».",
+                "omrade": "100 m fra Levi sentrum",
+                "pris": 10524,
+                "prisNatt": 5262
+              },
+              {
+                "id": "h6",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-13&checkout=2026-11-15&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Hotel Levi Panorama",
+                "notat": "Ekte hotell, høyere standard. Vurdering 9,0 «Fantastisk».",
+                "omrade": "0,9 km fra Levi sentrum",
+                "pris": 14864,
+                "prisNatt": 7432
+              }
+            ],
+            "id": "helg-13nov",
+            "navn": "Fre. 13. – søn. 15. november 2026",
+            "netter": 2,
+            "notat": "Moderat prisnivå – tidlig i sesongen. Alle priser sjekket ferske for denne datoen. Billigste bekreftede overnatting 4651 kr (Levilehto Apartments) + drivstoff 868 kr = ca. 5519 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 12:00",
+                "dato": "2026-11-13",
+                "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "09:00",
+                "til": "Levi (Sirkka)",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              },
+              {
+                "ankomst": "ca. 15:30",
+                "dato": "2026-11-15",
+                "detalj": "Retur samme vei.",
+                "fra": "Levi (Sirkka)",
+                "retning": "hjem",
+                "tid": "ca. 13:00",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              }
+            ],
+            "totalAnslag": 5519,
+            "transport": []
+          },
+          {
+            "dager": 3,
+            "faste": [
+              {
+                "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+                "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+                "pris": 868
+              }
+            ],
+            "fly": [],
+            "hotell": [
+              {
+                "id": "h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levin Ykköspaikka A8",
+                "notat": "Leilighet m/2 soverom, 53 m², 5 senger. Vurdering 8,8 «Utmerket» (16 anmeldelser). Avgiftsfri parkering.",
+                "omrade": "3 km fra sentrum, 150 m fra nærmeste skiheis (direkte adkomst til skiløypene)",
+                "pris": 3445,
+                "prisNatt": 1722
+              },
+              {
+                "id": "h2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "LeviBooking Moonlight Levi apt 112",
+                "notat": "Leilighet m/2 soverom, 42 m², 5 senger. Vurdering 8,7 «Utmerket» (150 anmeldelser). Avgiftsfri parkering.",
+                "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
+                "pris": 4305,
+                "prisNatt": 2152
+              },
+              {
+                "id": "h3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Moonlight 214",
+                "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
+                "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
+                "pris": 4316,
+                "prisNatt": 2158
+              },
+              {
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Polar Star Apartments",
+                "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
+                "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
+                "pris": 4391,
+                "prisNatt": 2196
+              },
+              {
+                "id": "h5",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Lapland Hotels Sirkantähti",
+                "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
+                "omrade": "100 m fra Levi sentrum",
+                "pris": 6706,
+                "prisNatt": 3353
+              },
+              {
+                "id": "h6",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-20&checkout=2026-11-22&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Break Sokos Hotel Levi",
+                "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
+                "omrade": "Levi sentrum",
+                "pris": 7506,
+                "prisNatt": 3753
+              }
+            ],
+            "id": "helg-20nov",
+            "navn": "Fre. 20. – søn. 22. november 2026",
+            "netter": 2,
+            "notat": "Billigste av de fem helgene sjekket – tydelig lavsesong-vindu før desember. Billigste bekreftede overnatting 3445 kr (Levin Ykköspaikka A8) + drivstoff 868 kr = ca. 4313 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 12:00",
+                "dato": "2026-11-20",
+                "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "09:00",
+                "til": "Levi (Sirkka)",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              },
+              {
+                "ankomst": "ca. 15:30",
+                "dato": "2026-11-22",
+                "detalj": "Retur samme vei.",
+                "fra": "Levi (Sirkka)",
+                "retning": "hjem",
+                "tid": "ca. 13:00",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              }
+            ],
+            "totalAnslag": 4313,
+            "transport": []
+          },
+          {
+            "dager": 3,
+            "faste": [
+              {
+                "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+                "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+                "pris": 868
+              }
+            ],
+            "fly": [],
+            "hotell": [
+              {
+                "id": "h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "LeviBooking Moonlight Levi apt 112",
+                "notat": "Leilighet m/2 soverom, 42 m², 5 senger. Vurdering 8,7 «Utmerket» (150 anmeldelser).",
+                "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
+                "pris": 4305,
+                "prisNatt": 2152
+              },
+              {
+                "id": "h2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Moonlight 214",
+                "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket» (26 anmeldelser).",
+                "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
+                "pris": 4316,
+                "prisNatt": 2158
+              },
+              {
+                "id": "h3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Polar Star Apartments",
+                "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
+                "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
+                "pris": 4391,
+                "prisNatt": 2196
+              },
+              {
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Holiday Home Levi star 915 by Interhome",
+                "notat": "Feriebolig. Vurdering 8,0 «Meget bra» (5 anmeldelser).",
+                "omrade": "250 m fra sentrum",
+                "pris": 4608,
+                "prisNatt": 2304
+              },
+              {
+                "id": "h5",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Lapland Hotels Sirkantähti",
+                "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
+                "omrade": "100 m fra Levi sentrum",
+                "pris": 6901,
+                "prisNatt": 3450
+              },
+              {
+                "id": "h6",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-11-27&checkout=2026-11-29&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Break Sokos Hotel Levi",
+                "notat": "Ekte hotell, kjent kjede. Vurdering 8,9 «Utmerket».",
+                "omrade": "Levi sentrum",
+                "pris": 7506,
+                "prisNatt": 3753
+              }
+            ],
+            "id": "helg-27nov",
+            "navn": "Fre. 27. – søn. 29. november 2026",
+            "netter": 2,
+            "notat": "Nesten identisk prisnivå som helgen før – fortsatt lavsesong. Billigste bekreftede overnatting 4305 kr (LeviBooking Moonlight Levi apt 112) + drivstoff 868 kr = ca. 5173 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 12:00",
+                "dato": "2026-11-27",
+                "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "09:00",
+                "til": "Levi (Sirkka)",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              },
+              {
+                "ankomst": "ca. 15:30",
+                "dato": "2026-11-29",
+                "detalj": "Retur samme vei.",
+                "fra": "Levi (Sirkka)",
+                "retning": "hjem",
+                "tid": "ca. 13:00",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              }
+            ],
+            "totalAnslag": 5173,
+            "transport": []
+          },
+          {
+            "dager": 3,
+            "faste": [
+              {
+                "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+                "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+                "pris": 868
+              }
+            ],
+            "fly": [],
+            "hotell": [
+              {
+                "id": "h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Ojuspirtti 26A Levi",
+                "notat": "Chalet, 1 soverom, 45 m², 4 senger. Vurdering 8,4 «Meget bra». Avgiftsfri parkering.",
+                "omrade": "1,6 km fra sentrum",
+                "pris": 5354,
+                "prisNatt": 2677
+              },
+              {
+                "id": "h2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Polar Star Apartments",
+                "notat": "Leilighet m/1 soverom, 45 m². Vurdering 8,7 «Utmerket» (707 anmeldelser).",
+                "omrade": "250 m fra sentrum, 450 m fra nærmeste skiheis",
+                "pris": 5365,
+                "prisNatt": 2682
+              },
+              {
+                "id": "h3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levilehto Apartments",
+                "notat": "Leilighet m/2 soverom og badstue, 46 m², 4 senger. Vurdering 9,0 «Fantastisk» (1353 anmeldelser).",
+                "omrade": "150 m fra sentrum, 450 m fra nærmeste skiheis",
+                "pris": 5624,
+                "prisNatt": 2812
+              },
+              {
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Holiday Home Kolonen by Interhome",
+                "notat": "Feriebolig. Vurdering 9,0 «Fantastisk» (6 anmeldelser).",
+                "omrade": "2,2 km fra sentrum, 1,4 km fra nærmeste skiheis",
+                "pris": 5819,
+                "prisNatt": 2910
+              },
+              {
+                "id": "h5",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levi Black Apartments",
+                "notat": "Høyere standard leilighet. Vurdering 8,5 «Meget bra».",
+                "omrade": "2,1 km fra sentrum",
+                "pris": 12006,
+                "prisNatt": 6003
+              },
+              {
+                "id": "h6",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-04&checkout=2026-12-06&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Break Sokos Hotel Levi",
+                "notat": "Ekte hotell, kjent kjede – markant dyrere denne helgen (adventsesong).",
+                "omrade": "Levi sentrum",
+                "pris": 23655,
+                "prisNatt": 11828
+              }
+            ],
+            "id": "helg-04des",
+            "navn": "Fre. 4. – søn. 6. desember 2026",
+            "netter": 2,
+            "notat": "Tydelig prishopp fra november – trolig adventshelg/julemarked-etterspørsel. Ekte hoteller er spesielt mye dyrere (Break Sokos fra 7 506 til 23 655 kr). Billigste bekreftede overnatting 5354 kr (Ojuspirtti 26A Levi) + drivstoff 868 kr = ca. 6222 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 12:00",
+                "dato": "2026-12-04",
+                "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "09:00",
+                "til": "Levi (Sirkka)",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              },
+              {
+                "ankomst": "ca. 15:30",
+                "dato": "2026-12-06",
+                "detalj": "Retur samme vei.",
+                "fra": "Levi (Sirkka)",
+                "retning": "hjem",
+                "tid": "ca. 13:00",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              }
+            ],
+            "totalAnslag": 6222,
+            "transport": []
+          },
+          {
+            "dager": 3,
+            "faste": [
+              {
+                "navn": "Drivstoff Kautokeino–Levi t/r (1 bil)",
+                "notat": "217 km enveis (Google Maps, ca. 2 t 37 min via Rute 93/79) × 2 (t/r) × 2 kr/km, 1 bil for gruppen på 5.",
+                "pris": 868
+              }
+            ],
+            "fly": [],
+            "hotell": [
+              {
+                "id": "h1",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Ojuspirtti 26A Levi",
+                "notat": "Chalet, 1 soverom, 45 m², 4 senger. Vurdering 8,4 «Meget bra». Avgiftsfri parkering.",
+                "omrade": "1,6 km fra sentrum",
+                "pris": 5354,
+                "prisNatt": 2677
+              },
+              {
+                "id": "h2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Hullun Mustikka Levi",
+                "notat": "Vurdering 9,5 «Over all forventning» – billigst, men et stykke unna sentrum/heis.",
+                "omrade": "6,4 km fra sentrum",
+                "pris": 4975,
+                "prisNatt": 2488
+              },
+              {
+                "id": "h3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Aurinkorinne 2 A10 by Holiday in Lapland",
+                "notat": "Leilighet m/2 soverom, 43 m², 3 senger. Vurdering 9,0 «Fantastisk».",
+                "omrade": "4,2 km fra sentrum, 350 m fra nærmeste skiheis",
+                "pris": 6143,
+                "prisNatt": 3072
+              },
+              {
+                "id": "h4",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Moonlight 214",
+                "notat": "Leilighet m/1 soverom, 27 m², 3 senger. Vurdering 8,9 «Utmerket».",
+                "omrade": "200 m fra sentrum, 500 m fra nærmeste skiheis",
+                "pris": 6511,
+                "prisNatt": 3256
+              },
+              {
+                "id": "h5",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Levi Black Apartments",
+                "notat": "Høyere standard leilighet. Vurdering 8,5 «Meget bra».",
+                "omrade": "2,1 km fra sentrum",
+                "pris": 12006,
+                "prisNatt": 6003
+              },
+              {
+                "id": "h6",
+                "kategori": "bedre",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 5 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/searchresults.no.html?ss=Levi%2C+Finland&checkin=2026-12-11&checkout=2026-12-13&group_adults=5&no_rooms=1&order=price&lang=no",
+                "navn": "Lapland Hotels Sirkantähti",
+                "notat": "Ekte hotell, sentralt. Vurdering 8,2 «Meget bra».",
+                "omrade": "100 m fra Levi sentrum",
+                "pris": 13109,
+                "prisNatt": 6554
+              }
+            ],
+            "id": "helg-11des",
+            "navn": "Fre. 11. – søn. 13. desember 2026",
+            "netter": 2,
+            "notat": "Fortsatt høyere prisnivå enn november – nærmer seg jul/nyttår-sesongen. Billigste bekreftede overnatting 4975 kr (Hullun Mustikka Levi) + drivstoff 868 kr = ca. 5843 kr for reise og bosted.",
+            "rute": [
+              {
+                "ankomst": "ca. 12:00",
+                "dato": "2026-12-11",
+                "detalj": "Ca. 217 km via Rute 93 og Rute 79. Direkte kjøring, ingen flyreise nødvendig.",
+                "fra": "Kautokeino",
+                "retning": "ut",
+                "tid": "09:00",
+                "til": "Levi (Sirkka)",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              },
+              {
+                "ankomst": "ca. 15:30",
+                "dato": "2026-12-13",
+                "detalj": "Retur samme vei.",
+                "fra": "Levi (Sirkka)",
+                "retning": "hjem",
+                "tid": "ca. 13:00",
+                "til": "Kautokeino",
+                "type": "bil",
+                "varighet": "ca. 2 t 37 min"
+              }
+            ],
+            "totalAnslag": 5843,
+            "transport": []
+          }
+        ],
+        "ruteValgLabel": "Velg helg",
+        "sammendrag": "Skitur til Levi i Finland for 5 personer, en helg (fre-søn) mellom midten av november og midten av desember 2026 – direkte kjøretur fra Kautokeino (ca. 2 t 37 min), ingen fly. Alle fem aktuelle helger er sjekket; billigst er 20.-22. og 27.-29. november med totalpris fra ca. 4 300 kr for hele gruppen (budsjett-leilighet + drivstoff). Desember er merkbart dyrere.",
+        "transport": []
+      },
+      "beskrivelse": "Jeg, Tim, vil finne turer til Levi i Finland nå i vinter, fra når det er sannsynlig at det er nok snø i bakken (trolig fra midten av november). Fredag til søndag. Vi er 5 personer. Prøv alle helger fra midten av november til midten av desember.",
+      "dager": 3,
+      "fleks": 0,
+      "forespurt": "2026-09-20T09:30:00.000Z",
+      "fra": "Kautokeino",
+      "historikk": [
+        {
+          "dato": "2026-09-20T10:00:00.000Z",
+          "metode": "chrome",
+          "total": 5519
+        }
+      ],
+      "kilde": "chat",
+      "land": "Finland",
+      "lat": 67.8058,
+      "lon": 24.811,
+      "navn": "Skitur til Levi, Finland",
+      "netter": 2,
+      "onsker": "Nok snø til å stå på ski; helst gangavstand eller kort kjøring til skiheis; billigste og komfortable bo-alternativer sjekket på Booking/Airbnb; mat og andre kostnader (heiskort, aktiviteter) skal IKKE inkluderes i totalprisen.",
+      "reisende": 5,
+      "standard": "budsjett/medium",
+      "status": "beregnet",
+      "sted": "Levi (Kittilä)",
+      "trengerChrome": false,
+      "id": "levi-finland-7i80c6"
+    },
+    {
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -3400,10 +4108,10 @@
     }
   ],
   "meta": {
-    "melding": "LAAX rettet 20.9.2026 (4 runder, se historikk i turens egne antakelser). Siste runde: Tim presiserte at gruppen faktisk er 1 voksen + fire 15-åringer + en 12-åring (ikke 6 voksne), at kun 1 bil parkeres ved Alta lufthavn (ikke 2), og at drivstoff ikke skal inkluderes i totalprisen. Alt dette er rettet. Merk: siden privatsone-kravet nå er løsere (sofaer/madrasser ok), kan billigere boalternativer finnes enn det som er sjekket – bør vurderes ved neste hotellsøk. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt.",
+    "melding": "NY TUR lagt til 20.9.2026: Skitur til Levi, Finland for 5 personer. Tim ba om å sjekke alle helger (fre-søn) fra midten av november til midten av desember 2026, fra når det trolig er nok snø. Levi åpner sesongen 2. oktober 2026 (snow farming), så alle fem helgene 13.-15. nov, 20.-22. nov, 27.-29. nov, 4.-6. des og 11.-13. des er sjekket. Direkte kjøretur fra Kautokeino (217 km, ca. 2 t 37 min), ingen fly. Billigst er 20.-22. og 27.-29. november (fra ca. 4 300 kr totalt for gruppen). Desember er merkbart dyrere, spesielt ekte hoteller. LAAX rettet 20.9.2026 (4 runder, se turens egne antakelser): siste runde presiserte riktig gruppesammensetning (1 voksen + fire 15-åringer + en 12-åring), kun 1 bil parkert, og ingen drivstoffkostnad. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T09:00:00.000Z",
-    "sistSjekk": "2026-09-20T09:00:00.000Z",
+    "sistBeregnet": "2026-09-20T10:00:00.000Z",
+    "sistSjekk": "2026-09-20T10:00:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
