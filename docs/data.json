@@ -1,7 +1,6 @@
 {
   "reiser": [
     {
-      "id": "paris-parrot-workshop-mu3jbk3b",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -219,10 +218,10 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {}
+      "valg": {},
+      "id": "paris-parrot-workshop-mu3jbk3b"
     },
     {
-      "id": "skjema-gal7x2q",
       "avreise": "2026-10-03",
       "beregning": {
         "antakelser": [
@@ -1403,10 +1402,10 @@
       "standard": "middels",
       "status": "beregnet",
       "sted": "Torremolinos, Costa del Sol",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "skjema-gal7x2q"
     },
     {
-      "id": "skjema-laax9k2m",
       "avreise": "2027-01-21",
       "beregning": {
         "antakelser": [
@@ -1423,10 +1422,11 @@
           "Budsjettalternativene (12 900–16 100 kr totalt, dvs. under halvparten av forrige forslag) ligger IKKE i selve Laax/Flims, men i nabolandsbyer i Surselva-dalen (Trin, Vigens, Schluein, Ilanz, Sagogn) 1,7–2,9 km fra nærmeste skiheis – man trenger bil/buss til bakken hver dag. For Abitaziun Patgific i Trin oppgir ikke Booking konkret avstand til skiheis i meter/km; stedet har topp beliggenhetsscore (10/10) for Trin, men Trin er en egen landsby et stykke fra selve Laax.",
           "Default/anbefalt valg er nå satt til et medium-alternativ (Apartment Villa Waldpark, Flims, 1 km til heisen, 17 498 kr) i stedet for det dyreste forslaget – gir en vesentlig billigere standardpris samtidig som avstanden til bakken holdes kort. Alle 15 alternativ er valgbare i appen (budsjett/medium/bedre-faner).",
           "NYTT 19.9.2026: Sjekket bredere enn Booking.com (Airbnb, Vrbo/Expedia, LAAX' egen hotelloversikt) for 21.–25. jan – fant et bedre alternativ på Airbnb (Marmotta, Laax Dorf, 10 735 kr, 4,74/5 i 77 anmeldelser, Superhost) som nå er satt som nytt standardvalg i budsjett-kategorien, under tidligere billigste (Abitaziun Patgific, 12 940 kr).",
-          "NYTT 19.9.2026: Sammenlignet fly- og hotellpriser for alle 8 mulige tors.–man. helger i januar og februar 2027 (Google Flights prisspor + Booking.com sortert på pris). Januar og tidlig februar (7.–11. jan til og med 11.–15. feb) ligger alle innenfor samme prisnivå (fly 1830–2030 kr/person, billigste hotell 11 800–13 700 kr). De to siste helgene i februar (18.–22. feb og 25. feb–1. mars) er tydelig dyrere på fly (2470–2575 kr/person, dvs. 3600–4200 kr mer for gruppen) – sammenfaller trolig med norsk/sveitsisk vinterferie. Bygget en «Velg helg»-velger med tre forhåndshentede alternativer (nåværende 21.–25. jan, billigst hotell 7.–11. jan, billigst fly 4.–8. feb); si fra om flere helger skal fylles ut med samme detaljnivå."
+          "NYTT 19.9.2026: Sammenlignet fly- og hotellpriser for alle 8 mulige tors.–man. helger i januar og februar 2027 (Google Flights prisspor + Booking.com sortert på pris). Januar og tidlig februar (7.–11. jan til og med 11.–15. feb) ligger alle innenfor samme prisnivå (fly 1830–2030 kr/person, billigste hotell 11 800–13 700 kr). De to siste helgene i februar (18.–22. feb og 25. feb–1. mars) er tydelig dyrere på fly (2470–2575 kr/person, dvs. 3600–4200 kr mer for gruppen) – sammenfaller trolig med norsk/sveitsisk vinterferie. Bygget en «Velg helg»-velger med tre forhåndshentede alternativer (nåværende 21.–25. jan, billigst hotell 7.–11. jan, billigst fly 4.–8. feb); si fra om flere helger skal fylles ut med samme detaljnivå.",
+          "RETTET 20.9.2026: Medium-kategorien for «denne helgen» (21.-25. jan) inneholdt ikke de billigste tilgjengelige alternativene i det prissjiktet – nytt søk (Booking.com, 6 voksne, sortert på pris) fant fire billigere/bedre vurderte steder som var oversett (Landgasthof zum Glenner 17 223 kr, Hotel Garni Postigliun Andiast 17 498 kr, Kloster Ilanz 18 102 kr, Large and comfortable house with Garden 18 711 kr). Medium går nå fra 17 223-20 095 kr istedenfor forrige 17 498-24 240 kr, med jevnt over bedre vurderinger (8,3-9,3 mot tidligere ned til 7,8)."
         ],
         "daglig": [],
-        "dato": "2026-09-19T06:55:00.000Z",
+        "dato": "2026-09-20T07:00:00.000Z",
         "faste": [
           {
             "navn": "Parkering Alta lufthavn (2 biler)",
@@ -1806,18 +1806,6 @@
                 "prisNatt": 2684
               },
               {
-                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/604851805.webp",
-                "id": "h4",
-                "kategori": "medium",
-                "kilde": "Booking.com 19.9.2026 (Chrome)",
-                "lenke": "https://www.booking.com/searchresults.html?ss=Apartment+Villa+Waldpark+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
-                "navn": "Apartment Villa Waldpark by Interhome",
-                "notat": "Leilighet, 3 soverom, 2 bad, 85 m², plass til 6. Vurdering 9,3 (3 eksterne omtaler). Gratis avbestilling. Anbefalt standardvalg – god balanse mellom pris og avstand til heisen.",
-                "omrade": "Flims, 1 km til nærmeste skiheis",
-                "pris": 17498,
-                "prisNatt": 4375
-              },
-              {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/528310766.webp",
                 "id": "h5",
                 "kategori": "budsjett",
@@ -1876,54 +1864,6 @@
                 "omrade": "Sagogn, 2,2 km til nærmeste skiheis",
                 "pris": 16146,
                 "prisNatt": 4037
-              },
-              {
-                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/671367111.webp",
-                "id": "h10",
-                "kategori": "medium",
-                "kilde": "Booking.com 19.9.2026 (Chrome)",
-                "lenke": "https://www.booking.com/searchresults.html?ss=Sleek+Mountain+Escape+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
-                "navn": "Sleek Mountain Escape Light and Airy",
-                "notat": "Leilighet, 2 soverom, 2 bad, 80 m², 5 senger – plass til 6. Vurdering 9,1 «Fantastisk» (13 omtaler). Rabattert pris (ordinær 22 181 kr). Gratis avbestilling.",
-                "omrade": "Flims, 700 m til nærmeste skiheis",
-                "pris": 20249,
-                "prisNatt": 5062
-              },
-              {
-                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/669303528.webp",
-                "id": "h11",
-                "kategori": "medium",
-                "kilde": "Booking.com 19.9.2026 (Chrome)",
-                "lenke": "https://www.booking.com/searchresults.html?ss=Haus+2+Laax-Murschetg&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
-                "navn": "Haus 2 – Gemütliches 5 Zimmer Haus",
-                "notat": "Hel leilighet, 4 soverom, 3 bad, 114 m², plass til 6, hage. Vurdering 9,2 «Fantastisk» (6 omtaler), beliggenhet 9,5. Gratis avbestilling.",
-                "omrade": "Laax-Murschetg, 500 m til nærmeste skiheis",
-                "pris": 21986,
-                "prisNatt": 5497
-              },
-              {
-                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/315606023.webp",
-                "id": "h12",
-                "kategori": "medium",
-                "kilde": "Booking.com 19.9.2026 (Chrome)",
-                "lenke": "https://www.booking.com/searchresults.html?ss=Alp+Resort+Ski+In+Ski+Out+Laax&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
-                "navn": "Alp Resort Ski In/Ski Out (4.5-roms, maks 7 pers.)",
-                "notat": "Leilighet, 3 soverom, 2 bad, 93 m², badestamp. Vurdering 9,2 «Fantastisk» (11 omtaler). Rabattert pris (ordinær 26 338 kr). Gratis avbestilling.",
-                "omrade": "Laax-Murschetg, 500 m til nærmeste skiheis",
-                "pris": 23841,
-                "prisNatt": 5960
-              },
-              {
-                "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/365579480.webp",
-                "id": "h13",
-                "kategori": "medium",
-                "kilde": "Booking.com 19.9.2026 (Chrome)",
-                "lenke": "https://www.booking.com/searchresults.html?ss=T3+Hotel+Mira+Val+Flims&checkin=2027-01-21&checkout=2027-01-25&group_adults=6&no_rooms=1&group_children=0",
-                "navn": "T3 Hotel Mira Val",
-                "notat": "Vanlige hotellrom (ikke leilighet), frokost inkludert. Vurdering 7,8 «Bra», solid grunnlag med 336 omtaler – noe lavere score enn de andre alternativene.",
-                "omrade": "Flims, 600 m til nærmeste skiheis",
-                "pris": 24240,
-                "prisNatt": 6060
               },
               {
                 "bilde": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465320542.webp",
@@ -1988,6 +1928,56 @@
                 "pris": 27268,
                 "prisNatt": 6817,
                 "stjerner": 4
+              },
+              {
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/ch/landgasthof-zum-glenner-ilanz-glion.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "navn": "Landgasthof zum Glenner",
+                "notat": "3 dobbeltrom (trengs for 6 pers.). Vurdering 8,3 «Meget bra» (353 anmeldelser). Gratis avbestilling.",
+                "omrade": "Ilanz",
+                "pris": 17223,
+                "prisNatt": 4306
+              },
+              {
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/ch/postigliun.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "navn": "Hotel Garni Postigliun Andiast",
+                "notat": "2 store dobbeltrom. Vurdering 8,8 «Utmerket» (45 anmeldelser). 1 km fra heisen, gratis parkering.",
+                "omrade": "Andiast, 1 km fra nærmeste skiheis",
+                "pris": 17498,
+                "prisNatt": 4375
+              },
+              {
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/ch/haus-der-begegnung-kloster-ilanz.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "navn": "Kloster Ilanz",
+                "notat": "Vurdering 9,0 «Fantastisk» (963 anmeldelser), frokost inkludert.",
+                "omrade": "Ilanz, 3 km fra nærmeste skiheis",
+                "pris": 18102,
+                "prisNatt": 4526
+              },
+              {
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/ch/large-and-comfortable-house-with-garden.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "navn": "Large and comfortable house with Garden",
+                "notat": "Villa med 3 soverom, 120 m². Vurdering 9,3 «Fantastisk» (3 anmeldelser, nytt på Booking.com).",
+                "omrade": "Domat",
+                "pris": 18711,
+                "prisNatt": 4678
+              },
+              {
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, 6 voksne, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/ch/sleek-mountain-escape-light-and-airy.no.html?checkin=2027-01-21;checkout=2027-01-25;group_adults=6",
+                "navn": "Sleek Mountain Escape Light and Airy",
+                "notat": "Leilighet, 2 soverom, 2 bad, 80 m². Vurdering 9,1 «Fantastisk» (13 anmeldelser).",
+                "omrade": "Flims, 700 m fra nærmeste skiheis",
+                "pris": 20095,
+                "prisNatt": 5024
               }
             ],
             "id": "helg-21jan",
@@ -2575,10 +2565,10 @@
       "standard": "middels",
       "status": "beregnet",
       "sted": "Laax (Flims Laax Falera)",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "skjema-laax9k2m"
     },
     {
-      "id": "skjema-shz4k9p",
       "avreise": "2026-12-18",
       "beregning": {
         "antakelser": [
@@ -2845,10 +2835,10 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Shenzhen (Futian)",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "skjema-shz4k9p"
     },
     {
-      "id": "upteko-dk-t4k9wr",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -3427,14 +3417,15 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Paris + Odense",
-      "trengerChrome": false
+      "trengerChrome": false,
+      "id": "upteko-dk-t4k9wr"
     }
   ],
   "meta": {
-    "melding": "Ingenting nytt å beregne denne kjøringen: alle 5 reisemål er «beregnet», nyeste beregning er bare 1 dag gammel og ingen er over 7 dager, så ingen trengte Chrome-oppdatering. Ingen nye skjemasvar (siste behandlede er fortsatt 19.9. kl. 01.04.13).",
+    "melding": "LAAX rettet 20.9.2026: medium-kategorien for «denne helgen» (21.-25. jan) manglet de billigste tilgjengelige alternativene – nytt søk (Booking.com, 6 voksne, sortert på pris) fant fire oversette, billigere og bedre vurderte steder (Landgasthof zum Glenner, Hotel Garni Postigliun Andiast, Kloster Ilanz, Large and comfortable house with Garden). Medium går nå fra 17 223-20 095 kr istedenfor 17 498-24 240 kr. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt slik denne kjøringen nettopp gjorde.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T06:00:00.000Z",
-    "sistSjekk": "2026-09-20T05:12:20.000Z",
+    "sistBeregnet": "2026-09-20T07:00:00.000Z",
+    "sistSjekk": "2026-09-20T07:00:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
