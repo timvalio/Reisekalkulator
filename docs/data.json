@@ -1425,20 +1425,16 @@
           "NYTT 19.9.2026: Sammenlignet fly- og hotellpriser for alle 8 mulige tors.–man. helger i januar og februar 2027 (Google Flights prisspor + Booking.com sortert på pris). Januar og tidlig februar (7.–11. jan til og med 11.–15. feb) ligger alle innenfor samme prisnivå (fly 1830–2030 kr/person, billigste hotell 11 800–13 700 kr). De to siste helgene i februar (18.–22. feb og 25. feb–1. mars) er tydelig dyrere på fly (2470–2575 kr/person, dvs. 3600–4200 kr mer for gruppen) – sammenfaller trolig med norsk/sveitsisk vinterferie. Bygget en «Velg helg»-velger med tre forhåndshentede alternativer (nåværende 21.–25. jan, billigst hotell 7.–11. jan, billigst fly 4.–8. feb); si fra om flere helger skal fylles ut med samme detaljnivå.",
           "RETTET 20.9.2026: Medium-kategorien for «denne helgen» (21.-25. jan) inneholdt ikke de billigste tilgjengelige alternativene i det prissjiktet – nytt søk (Booking.com, 6 voksne, sortert på pris) fant fire billigere/bedre vurderte steder som var oversett (Landgasthof zum Glenner 17 223 kr, Hotel Garni Postigliun Andiast 17 498 kr, Kloster Ilanz 18 102 kr, Large and comfortable house with Garden 18 711 kr). Medium går nå fra 17 223-20 095 kr istedenfor forrige 17 498-24 240 kr, med jevnt over bedre vurderinger (8,3-9,3 mot tidligere ned til 7,8).",
           "RETTET 20.9.2026 (2): forrige retting av medium-kategorien oppdaterte kun kopien i «Velg helg»-strukturen (ruteValg), ikke den øverste standardvisningen (som appen faktisk bruker før man evt. bytter helg) – «Claudes forslag»-teksten var også fortsatt utdatert. Begge er nå synkronisert med de riktige, billigere medium-alternativene.",
-          "RETTET 20.9.2026 (3): de fem nye medium-alternativene manglet «id»-felt (i motsetning til alle andre hotellalternativer), noe som fikk appen til å vise ALLE fem som «valgt» samtidig i medium-fanen. Har nå fått unike id-er (h17-h21)."
+          "RETTET 20.9.2026 (3): de fem nye medium-alternativene manglet «id»-felt (i motsetning til alle andre hotellalternativer), noe som fikk appen til å vise ALLE fem som «valgt» samtidig i medium-fanen. Har nå fått unike id-er (h17-h21).",
+          "RETTET 20.9.2026 (4): Tim presiserte at gruppen faktisk er 1 voksen + fire 15-åringer + en 12-åring (ikke 6 voksne), at kun 1 bil parkeres ved Alta lufthavn (ikke 2), og at drivstoff ikke skal inkluderes i totalprisen. Parkeringskostnaden er halvert til 1 bil, drivstofflinjen er fjernet helt, og reiserute-teksten er oppdatert. Ettersom det ikke lenger er krav om stor privatsone (sofaer/madrasser er greit), kan det finnes enda billigere boalternativer enn det som er sjekket til nå – dette bør vurderes ved neste hotellsøk-runde."
         ],
         "daglig": [],
-        "dato": "2026-09-20T08:00:00.000Z",
+        "dato": "2026-09-20T09:00:00.000Z",
         "faste": [
           {
-            "navn": "Parkering Alta lufthavn (2 biler)",
-            "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
-            "pris": 3000
-          },
-          {
-            "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
-            "notat": "260 km × 2 kr/km × 2 biler.",
-            "pris": 1040
+            "navn": "Parkering Alta lufthavn (1 bil)",
+            "notat": "Makspris 299 kr/døgn × 5 døgn × 1 bil – kun én bil parkeres (rettet 20.9.2026 etter Tims beskjed).",
+            "pris": 1495
           }
         ],
         "fly": [
@@ -1683,7 +1679,7 @@
           {
             "ankomst": "ca. 06:25",
             "dato": "2027-01-21",
-            "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+            "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 1 bil for gruppen på 6 (1 voksen, fire 15-åringer, en 12-åring).",
             "fra": "Kautokeino",
             "retning": "ut",
             "tid": "04:25",
@@ -1752,14 +1748,9 @@
             "dager": 5,
             "faste": [
               {
-                "navn": "Parkering Alta lufthavn (2 biler)",
-                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
-                "pris": 3000
-              },
-              {
-                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
-                "notat": "260 km × 2 kr/km × 2 biler.",
-                "pris": 1040
+                "navn": "Parkering Alta lufthavn (1 bil)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 1 bil – kun én bil parkeres (rettet 20.9.2026 etter Tims beskjed).",
+                "pris": 1495
               }
             ],
             "fly": [
@@ -1985,7 +1976,7 @@
               {
                 "ankomst": "ca. 06:25",
                 "dato": "2027-01-21",
-                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 1 bil for gruppen på 6 (1 voksen, fire 15-åringer, en 12-åring).",
                 "fra": "Kautokeino",
                 "retning": "ut",
                 "tid": "04:25",
@@ -2073,14 +2064,9 @@
             "dager": 5,
             "faste": [
               {
-                "navn": "Parkering Alta lufthavn (2 biler)",
-                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
-                "pris": 3000
-              },
-              {
-                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
-                "notat": "260 km × 2 kr/km × 2 biler.",
-                "pris": 1040
+                "navn": "Parkering Alta lufthavn (1 bil)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 1 bil – kun én bil parkeres (rettet 20.9.2026 etter Tims beskjed).",
+                "pris": 1495
               }
             ],
             "fly": [
@@ -2204,7 +2190,7 @@
               {
                 "ankomst": "ca. 06:25",
                 "dato": "2027-01-07",
-                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 1 bil for gruppen på 6 (1 voksen, fire 15-åringer, en 12-åring).",
                 "fra": "Kautokeino",
                 "retning": "ut",
                 "tid": "04:25",
@@ -2292,14 +2278,9 @@
             "dager": 5,
             "faste": [
               {
-                "navn": "Parkering Alta lufthavn (2 biler)",
-                "notat": "Makspris 299 kr/døgn × 5 døgn × 2 biler – gruppe på 6 med skiutstyr trenger to biler til/fra Alta.",
-                "pris": 3000
-              },
-              {
-                "navn": "Drivstoff Kautokeino–Alta t/r (2 biler)",
-                "notat": "260 km × 2 kr/km × 2 biler.",
-                "pris": 1040
+                "navn": "Parkering Alta lufthavn (1 bil)",
+                "notat": "Makspris 299 kr/døgn × 5 døgn × 1 bil – kun én bil parkeres (rettet 20.9.2026 etter Tims beskjed).",
+                "pris": 1495
               }
             ],
             "fly": [
@@ -2423,7 +2404,7 @@
               {
                 "ankomst": "ca. 06:25",
                 "dato": "2027-02-04",
-                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 2 biler for gruppen på 6.",
+                "detalj": "Ca. 130 km. Tidlig avgang for å nå 07:25-flyet med en times margin. 1 bil for gruppen på 6 (1 voksen, fire 15-åringer, en 12-åring).",
                 "fra": "Kautokeino",
                 "retning": "ut",
                 "tid": "04:25",
@@ -2529,7 +2510,7 @@
           }
         ]
       },
-      "beskrivelse": "Jeg, Tim, skal til LAAX i Sveits og stå på ski en langhelg i bakkene der. Januar eller februar. Utreise onsdag eller torsdag og retur søndag eller mandag. Vi er 6 voksne. Finn noen gode alternativer vi kan vurdere med boende og transport. Ikke ta med mat og andre kostnader. Sjekk boende mange plasser: booking, hotels, airbnb etc. Finn billigste og finn også komfortable alternativer. Gjerne bo i gangavstand til skiheis.",
+      "beskrivelse": "Jeg, Tim, skal til LAAX i Sveits og stå på ski en langhelg i bakkene der. Januar eller februar. Utreise onsdag eller torsdag og retur søndag eller mandag. Vi er 1 voksen, fire 15-åringer og en 12-åring (6 personer totalt). Finn noen gode alternativer vi kan vurdere med boende og transport. Ikke ta med mat og andre kostnader. Sjekk boende mange plasser: booking, hotels, airbnb etc. Finn billigste og finn også komfortable alternativer. Gjerne bo i gangavstand til skiheis.",
       "dager": 5,
       "fleks": 0,
       "forespurt": "2026-09-19T01:04:13.000Z",
@@ -2557,7 +2538,7 @@
       "lon": 9.2601,
       "navn": "Skitur til LAAX, Sveits",
       "netter": 4,
-      "onsker": "Ski-in/ski-out eller gangavstand til skiheis; billigste og komfortable bo-alternativer sjekket på Booking/Hotels/Airbnb; mat og andre kostnader (heiskort, aktiviteter) skal IKKE inkluderes i totalprisen",
+      "onsker": "Ski-in/ski-out eller gangavstand til skiheis; billigste og komfortable bo-alternativer sjekket på Booking/Hotels/Airbnb; mat og andre kostnader (heiskort, aktiviteter) skal IKKE inkluderes i totalprisen RETTET 20.9.2026: Bare 1 bil parkeres ved Alta lufthavn, og drivstoff skal ikke inkluderes i totalprisen. Gruppen er 1 voksen, fire 15-åringer og en 12-åring – ikke krav om egen privatsone per person, kan sove på sofaer/madrasser e.l.",
       "reisende": 6,
       "standard": "middels",
       "status": "beregnet",
@@ -3419,10 +3400,10 @@
     }
   ],
   "meta": {
-    "melding": "LAAX rettet 20.9.2026 (3 runder): 1) medium-kategorien for «denne helgen» (21.-25. jan) manglet de billigste tilgjengelige alternativene – fant fire oversette, billigere og bedre vurderte steder (Landgasthof zum Glenner, Hotel Garni Postigliun Andiast, Kloster Ilanz, Large and comfortable house with Garden). Medium går nå fra 17 223-20 095 kr istedenfor 17 498-24 240 kr. 2) glemte først å synkronisere toppnivå-hotell-listen (som appen faktisk viser som standard) og «Claudes forslag»-teksten med denne endringen – rettet. 3) de nye medium-alternativene manglet «id»-felt, som fikk appen til å vise alle fem som «valgt» samtidig i medium-fanen – har nå fått unike id-er. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt.",
+    "melding": "LAAX rettet 20.9.2026 (4 runder, se historikk i turens egne antakelser). Siste runde: Tim presiserte at gruppen faktisk er 1 voksen + fire 15-åringer + en 12-åring (ikke 6 voksne), at kun 1 bil parkeres ved Alta lufthavn (ikke 2), og at drivstoff ikke skal inkluderes i totalprisen. Alt dette er rettet. Merk: siden privatsone-kravet nå er løsere (sofaer/madrasser ok), kan billigere boalternativer finnes enn det som er sjekket – bør vurderes ved neste hotellsøk. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T08:00:00.000Z",
-    "sistSjekk": "2026-09-20T08:00:00.000Z",
+    "sistBeregnet": "2026-09-20T09:00:00.000Z",
+    "sistSjekk": "2026-09-20T09:00:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
