@@ -236,9 +236,10 @@
           "Norske borgere trenger ikke visum til Spania (Schengen) – ingen visumkostnad lagt inn.",
           "NYTT 20.9.2026: Sjekket bredere enn Booking.com etter tilbakemelding om at forrige forslag var for dyrt og ikke sjekket alle kilder – la til Airbnb (private studioleiligheter, 5 900-8 100 kr for 6 netter) og Vrbo (dekker ikke Torremolinos sentrum godt – nærmeste treff lå 11-17 mi/18-27 km unna med få anmeldelser, ikke brukt).",
           "NYTT 20.9.2026: Fant en betydelig billigere flykombinasjon (Finnair/easyJet via Helsingfors+Milano, 6 713 kr t/r) som faktisk ankommer Málaga SAMME DAG som avreise (22:50) – billigere OG raskere enn dagens trygge rute, men krever selvbetjent flybytte (egen bagasjehåndtering) mellom to selskap og gir sen kveldsankomst. Individuelle etappetider for denne ruten (særlig hjemreisen) er ikke bekreftet i detalj, kun aggregert pris/reisetid fra Google Flights.",
-          "NYTT 20.9.2026: Bygget en «Velg pakke»-velger med 3 alternativer for denne uken (budsjett/komfort/premium – ulik kombinasjon av fly og bosted) pluss billigste funn for uken før (26.9-4.10) og uken etter (10.-18.10). Uken etter (10.-18. okt) kom ut som both billigst og best vurdert av alle fem pakkene.",
           "Uken før (26.9-4.10) har omtrent samme flypriser som denne uken, men et dyrere og dårligere vurdert billigste hotellalternativ – derfor ikke satt som anbefalt uke.",
-          "Standard/default-valg er nå satt til budsjett-pakken for denne uken (16 275 kr) i stedet for den dyrere komfort-ruten (27 386 kr) – bytt til komfort/premium i velgeren hvis du prioriterer en tryggere, mer avslappet reise uten flybytte."
+          "RETTET 20.9.2026: Forrige oppdatering brøt opp «denne uken» i tre separate rutevalg (budsjett/komfort/premium) i stedet for å gi budsjett/medium/bedre-kategorier PER uke slik LAAX-turen har det – dette ga bare 1 hotell synlig per kategori og ingen faner. Rettet nå: 3 rutevalg (uken før / denne uken / uken etter), hver med 9 hotellalternativer fordelt på budsjett/medium/bedre (3 i hver), pluss to flyalternativer (trygg standardrute og et billigere alternativ) – samme struktur og dybde som LAAX-turen.",
+          "Fly-prisen for den trygge standardruten (Kittilä–Oslo–Málaga, 12 500 kr) er kun direkte bekreftet for 3.-11. okt – for uken før og uken etter er samme pris antatt uendret (flyprisene svinger vanligvis lite mellom nabouker), ikke re-sjekket separat i denne kjøringen.",
+          "Billig-fly-alternativene for uken før og uken etter (5 030 kr og 5 234 kr) er kun hentet fra Google Flights' «Billigst»-fane uten å sjekke om de – i likhet med det billigste funnet for denne uken – krever en ubehagelig overnatting på flyplassen. Anta samme risiko til dette er verifisert."
         ],
         "daglig": [
           {
@@ -252,7 +253,7 @@
             "prisDag": 150
           }
         ],
-        "dato": "2026-09-20T03:55:00.000Z",
+        "dato": "2026-09-20T05:10:00.000Z",
         "faste": [
           {
             "navn": "Parkering Kittilä lufthavn",
@@ -263,32 +264,135 @@
             "navn": "Drivstoff Kautokeino–Kittilä t/r",
             "notat": "500 km × 2 kr/km",
             "pris": 1000
+          },
+          {
+            "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+            "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs på standard-flyet, som mellomlander med overnatting i Oslo begge veier",
+            "pris": 2200
           }
         ],
         "fly": [
           {
-            "id": "fb1",
+            "id": "u1f1",
+            "kilde": "Google Flights 18.9.2026",
+            "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+            "navn": "Kittilä–Oslo–Málaga (Finnair + SAS) – trygg standardrute",
+            "notat": "To enkeltstrekninger med 1 overnatting i Oslo hver vei – dagslys-ankomster, ingen flybytte. Bekreftet pris.",
+            "pris": 12500,
+            "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+            "selskap": "Finnair/SAS"
+          },
+          {
+            "id": "u1f2",
             "kilde": "Google Flights 20.9.2026 (Chrome, «Billigst»-fane)",
             "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Malaga%20on%202026-10-03%20through%202026-10-11",
-            "navn": "Kittilä–Málaga t/r via Helsingfors+Milano (Finnair/easyJet)",
-            "notat": "Ankommer Málaga samme dag som avreise (22:50), ingen overnatting på flyplass. Selvbetjent bytte mellom Finnair og easyJet i Helsingfors og Milano (egen bagasjehåndtering). Mye billigere enn komfort-ruten, men mindre trygg/behagelig for solo-reisende pga. flybytte og sen kveldsankomst.",
+            "navn": "Kittilä–Málaga t/r, billig alternativ (Finnair/easyJet e.l.)",
+            "notat": "Ankommer Málaga samme dag som avreise (22:50), ingen overnatting på flyplass. Selvbetjent bytte mellom Finnair og easyJet i Helsingfors og Milano (egen bagasjehåndtering). Billigere OG raskere enn standardruten, men mindre trygt/behagelig for solo-reisende pga. flybytte og sen kveldsankomst. Individuelle etappetider ikke sjekket i detalj.",
             "pris": 6713,
-            "rute": "Kittilä (KTT) – Helsingfors (HEL) – Milano (MXP) – Málaga (AGP)",
+            "rute": "Kittilä (KTT) – Málaga (AGP), via Helsingfors",
             "selskap": "Finnair/easyJet"
           }
         ],
-        "forslag": "Nå med «Velg pakke»-velger (5 alternativer) etter tilbakemelding om at forrige forslag var for dyrt og ikke sjekket nok kilder:\n\nDENNE UKEN (3.–11. okt), tre pakker:\n• Budsjett (16 275 kr): rimeligere fly Kittilä–Málaga via Helsingfors+Milano (6 713 kr, ankommer samme dag) + Hostal Guillot (2 812 kr, 7,9 i vurdering). Krever selvbetjent flybytte og gir sen kveldsankomst.\n• Komfort (27 386 kr, uendret trygg rute): Kittilä–Oslo–Málaga med 1 overnatting i Oslo hver vei (dagslys-ankomster, ingen flybytte) + privat studioleilighet sentralt.\n• Premium (28 940 kr): samme trygge fly som komfort, men leilighet med sjøutsikt.\n\nUKEN FØR (26. sep.–4. okt.): 15 966 kr, billigst funnet – men hotellutvalget er dyrere og dårligere vurdert enn denne uken.\nUKEN ETTER (10.–18. okt.): 14 634 kr, billigst funnet OG best vurdert av alle fem pakker – rimeligste alternativ totalt sett.\n\nAirbnb og Vrbo er nå sjekket i tillegg til Booking.com – Vrbo hadde ikke konkurransedyktige treff nær Torremolinos sentrum.",
+        "forslag": "RETTET 20.9.2026: forrige versjon hadde feil struktur (kombinerte uke+nivå i separate pakker med bare 1 hotell hver, ingen kategori-faner). Nå riktig, samme mønster som LAAX-turen:\n\nVelg uke: uken før (26.9.–4.10.), denne uken (3.–11.10., default) eller uken etter (10.–18.10.). Hver uke har budsjett/medium/bedre-faner med 3 hotellalternativer i hver (9 totalt per uke), pluss to flyalternativer (trygg standardrute m/Oslo-overnatting, eller et billigere alternativ med flybytte).\n\nDENNE UKEN (default): billigste hotell 2 812 kr (Hostal Guillot, 7,9 i vurdering) + fly 12 500 kr = ca. 24 262 kr totalt for 9 dager.\nUKEN FØR: ca. 25 636 kr – dyrest av de tre, både fly og hotell noe svakere.\nUKEN ETTER: ca. 24 100 kr – billigst totalt, og med det høyest vurderte hotellet av alle ni uker×kategorier (1A - Studio, 9,1).\n\nBytt hotellkategori og fly-alternativ fritt i hver ukefane for å se hvordan totalen endrer seg.",
         "hotell": [
           {
-            "id": "hb1",
+            "id": "u1b1",
             "kategori": "budsjett",
             "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
             "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
             "navn": "Hostal Guillot",
-            "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste alternativene. Gratis avbestilling.",
+            "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
             "omrade": "Torremolinos sentrum, 450 m fra sentrum",
             "pris": 2812,
             "prisNatt": 469
+          },
+          {
+            "id": "u1b2",
+            "kategori": "budsjett",
+            "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lenke": "https://www.booking.com/hotel/es/click-amp-room.no.html",
+            "navn": "Click & Room",
+            "notat": "Billigste på Booking.com denne uken. Vurdering 6,2 (629 anmeldelser).",
+            "omrade": "Torremolinos, 0,7 km fra sentrum",
+            "pris": 2677,
+            "prisNatt": 446
+          },
+          {
+            "id": "u1b3",
+            "kategori": "budsjett",
+            "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lenke": "https://www.booking.com/hotel/es/bluesea-torremolinos-centro.no.html",
+            "navn": "BLUESEA Torremolinos Centro",
+            "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
+            "omrade": "Torremolinos sentrum, 500 m fra sentrum",
+            "pris": 3675,
+            "prisNatt": 613
+          },
+          {
+            "id": "u1m1",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lenke": "https://www.booking.com/hotel/es/estudio-rio-caramel.no.html",
+            "navn": "Estudio Río Caramel",
+            "notat": "Vurdering 8,7 – best vurdert i medium-kategorien denne uken.",
+            "omrade": "Torremolinos sentrum, 450 m fra sentrum",
+            "pris": 4018,
+            "prisNatt": 670
+          },
+          {
+            "id": "u1m2",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lenke": "https://www.booking.com/hotel/es/nch.no.html",
+            "navn": "Nch Hotel Torremolinos",
+            "notat": "Vurdering 7,5.",
+            "omrade": "Torremolinos sentrum, 350 m fra sentrum",
+            "pris": 4002,
+            "prisNatt": 667
+          },
+          {
+            "id": "u1m3",
+            "kategori": "medium",
+            "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+            "lenke": "https://www.booking.com/hotel/es/urban-studio-by-torremolinos-on-line.no.html",
+            "navn": "Urban Studio By Torremolinos On-Line",
+            "notat": "Vurdering 7,1.",
+            "omrade": "Torremolinos, 1 km fra sentrum",
+            "pris": 4030,
+            "prisNatt": 672
+          },
+          {
+            "id": "u1h1",
+            "kategori": "bedre",
+            "kilde": "Airbnb 20.9.2026 (Chrome)",
+            "lenke": "https://www.airbnb.no/rooms/1346459866684039271",
+            "navn": "Carmela Playa",
+            "notat": "Privat leilighet, vurdering 4,84 (81 anmeldelser).",
+            "omrade": "Torremolinos, nær stranden",
+            "pris": 4892,
+            "prisNatt": 815
+          },
+          {
+            "id": "u1h2",
+            "kategori": "bedre",
+            "kilde": "Airbnb 20.9.2026 (Chrome)",
+            "lenke": "https://www.airbnb.no/rooms/705621477717088453",
+            "navn": "Fin studioleilighet med utsikt, sentralt",
+            "notat": "Privat studio med eget kjøkken. Vurdering 4,93 (67 anmeldelser).",
+            "omrade": "Torremolinos sentrum",
+            "pris": 5936,
+            "prisNatt": 989
+          },
+          {
+            "id": "u1h3",
+            "kategori": "bedre",
+            "kilde": "Airbnb 20.9.2026 (Chrome)",
+            "lenke": "https://www.airbnb.no/rooms/837583044924498864",
+            "navn": "Casa Dalias – Sea Views",
+            "notat": "Leilighet med sjøutsikt, finest i utvalget. Vurdering 4,94 (118 anmeldelser).",
+            "omrade": "Torremolinos, sjøutsikt",
+            "pris": 7490,
+            "prisNatt": 1248
           }
         ],
         "kilder": [
@@ -315,54 +419,98 @@
             "varighet": "3 t kjøring"
           },
           {
-            "ankomst": "ca. 22:50",
             "dato": "2026-10-03",
-            "detalj": "Finnair/easyJet, 2 mellomlandinger (Helsingfors, Milano) – selvbetjent bytte mellom flyselskap, egen bagasjehåndtering ved mellomlandingene. Ankommer samme dag, ingen overnatting på flyplass trengs. Individuelle etappetider ikke sjekket i detalj – kun totalpris og total reisetid (14 t 25 min) fra Google Flights.",
+            "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
             "fra": "Kittilä (KTT)",
             "retning": "ut",
             "tid": "09:25",
-            "til": "Málaga (AGP)",
+            "til": "Oslo (OSL)",
             "type": "fly",
-            "varighet": "14 t 25 min"
+            "varighet": "8 t 10 min"
           },
           {
-            "ankomst": "ca. 23:40",
+            "ankomst": "ca. 17:10",
             "dato": "2026-10-03",
-            "detalj": "Cercanías-tog – sen kveldsankomst, sjekk siste avgang nærmere reisedatoen. Vurder taxi hvis toget er stengt så sent.",
+            "detalj": "Overnatting i Oslo for å unngå sen/urolig videreforbindelse",
+            "fra": "Oslo lufthavn",
+            "retning": "ut",
+            "tid": "ca. 17:00",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
+          },
+          {
+            "ankomst": "ca. 19:20",
+            "dato": "2026-10-03",
+            "detalj": "SAS, direkte",
+            "fra": "Oslo (OSL)",
+            "retning": "ut",
+            "tid": "15:05",
+            "til": "Málaga (AGP)",
+            "type": "fly",
+            "varighet": "4 t 15 min"
+          },
+          {
+            "ankomst": "ca. 20:15",
+            "dato": "2026-10-03",
+            "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
             "fra": "Málaga flyplass",
             "retning": "ut",
-            "tid": "ca. 23:10",
+            "tid": "ca. 19:45",
             "til": "Torremolinos",
             "type": "tog",
             "varighet": "ca. 30 min"
           },
           {
-            "ankomst": "ca. 09:00",
-            "dato": "2026-10-11",
-            "detalj": "Cercanías-tog, god margin før hjemreisen",
+            "ankomst": "ca. 10:30",
+            "dato": "2026-10-09",
+            "detalj": "Cercanías-tog",
             "fra": "Torremolinos",
             "retning": "hjem",
-            "tid": "ca. 08:30",
+            "tid": "ca. 10:00",
             "til": "Málaga flyplass",
             "type": "tog",
             "varighet": "ca. 30 min"
           },
           {
-            "dato": "2026-10-11",
-            "detalj": "Samme flyselskaper/mellomlandinger som utreise (Milano/Helsingfors), anslått tilsvarende total reisetid – returetappene er IKKE bekreftet i detalj i denne kjøringen.",
+            "ankomst": "ca. 17:05",
+            "dato": "2026-10-09",
+            "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
             "fra": "Málaga (AGP)",
             "retning": "hjem",
-            "tid": "anslått, ikke bekreftet",
-            "til": "Kittilä (KTT)",
+            "tid": "ca. 12:20",
+            "til": "Oslo (OSL)",
             "type": "fly",
-            "varighet": "ca. 14-15 t (anslag)"
+            "varighet": "ca. 4 t 45 min"
+          },
+          {
+            "ankomst": "ca. 17:40",
+            "dato": "2026-10-10",
+            "detalj": "Overnatting i Oslo",
+            "fra": "Oslo lufthavn",
+            "retning": "hjem",
+            "tid": "ca. 17:30",
+            "til": "hotell ved flyplassen",
+            "type": "bil",
+            "varighet": "10 min"
           },
           {
             "dato": "2026-10-11",
-            "detalj": "Etter henting av bagasje/bil, anslått klokkeslett avhengig av landingstid",
+            "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise)",
+            "fra": "Oslo (OSL)",
+            "retning": "hjem",
+            "tid": "ca. 10:15",
+            "til": "Kittilä (KTT)",
+            "type": "fly",
+            "varighet": "ca. 8 t"
+          },
+          {
+            "ankomst": "ca. 21:30",
+            "dato": "2026-10-11",
+            "detalj": "Etter henting av bagasje/bil",
             "fra": "Kittilä lufthavn",
             "retning": "hjem",
-            "tid": "18:30",
+            "tid": "ca. 18:30",
             "til": "Kautokeino",
             "type": "bil",
             "varighet": "3 t kjøring"
@@ -381,347 +529,140 @@
                 "navn": "Drivstoff Kautokeino–Kittilä t/r",
                 "notat": "500 km × 2 kr/km",
                 "pris": 1000
+              },
+              {
+                "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+                "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs på standard-flyet, som mellomlander med overnatting i Oslo begge veier",
+                "pris": 2200
               }
             ],
             "fly": [
               {
-                "id": "fb1",
+                "id": "u1f1",
+                "kilde": "Google Flights 18.9.2026",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
+                "navn": "Kittilä–Oslo–Málaga (Finnair + SAS) – trygg standardrute",
+                "notat": "To enkeltstrekninger med 1 overnatting i Oslo hver vei – dagslys-ankomster, ingen flybytte. Bekreftet pris.",
+                "pris": 12500,
+                "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+                "selskap": "Finnair/SAS"
+              },
+              {
+                "id": "u1f2",
                 "kilde": "Google Flights 20.9.2026 (Chrome, «Billigst»-fane)",
                 "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Malaga%20on%202026-10-03%20through%202026-10-11",
-                "navn": "Kittilä–Málaga t/r via Helsingfors+Milano (Finnair/easyJet)",
-                "notat": "Ankommer Málaga samme dag som avreise (22:50), ingen overnatting på flyplass. Selvbetjent bytte mellom Finnair og easyJet i Helsingfors og Milano (egen bagasjehåndtering). Mye billigere enn komfort-ruten, men mindre trygg/behagelig for solo-reisende pga. flybytte og sen kveldsankomst.",
+                "navn": "Kittilä–Málaga t/r, billig alternativ (Finnair/easyJet e.l.)",
+                "notat": "Ankommer Málaga samme dag som avreise (22:50), ingen overnatting på flyplass. Selvbetjent bytte mellom Finnair og easyJet i Helsingfors og Milano (egen bagasjehåndtering). Billigere OG raskere enn standardruten, men mindre trygt/behagelig for solo-reisende pga. flybytte og sen kveldsankomst. Individuelle etappetider ikke sjekket i detalj.",
                 "pris": 6713,
-                "rute": "Kittilä (KTT) – Helsingfors (HEL) – Milano (MXP) – Málaga (AGP)",
+                "rute": "Kittilä (KTT) – Málaga (AGP), via Helsingfors",
                 "selskap": "Finnair/easyJet"
               }
             ],
             "hotell": [
               {
-                "id": "hb1",
+                "id": "u1b1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
                 "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
                 "navn": "Hostal Guillot",
-                "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste alternativene. Gratis avbestilling.",
+                "notat": "Vurdering 7,9 «Bra» (1 408 anmeldelser) – godt fundert vurdering, klart bedre enn de aller billigste. Gratis avbestilling.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2812,
                 "prisNatt": 469
-              }
-            ],
-            "id": "uke1-budsjett",
-            "navn": "Denne uken (3.–11. okt) – budsjett",
-            "netter": 8,
-            "notat": "Billigste pakke: rimeligere fly (6 713 kr, ankommer samme dag) + Hostal Guillot (2 812 kr, 7,9 i vurdering). Total ca. 16 275 kr – over 9 000 kr billigere enn den trygge/komfortable ruten, men krever flybytte mellom to selskap og sen kveldsankomst.",
-            "rute": [
-              {
-                "ankomst": "ca. 08:15",
-                "dato": "2026-10-03",
-                "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
-                "fra": "Kautokeino",
-                "retning": "ut",
-                "tid": "05:15",
-                "til": "Kittilä lufthavn",
-                "type": "bil",
-                "varighet": "3 t kjøring"
               },
               {
-                "ankomst": "ca. 22:50",
-                "dato": "2026-10-03",
-                "detalj": "Finnair/easyJet, 2 mellomlandinger (Helsingfors, Milano) – selvbetjent bytte mellom flyselskap, egen bagasjehåndtering ved mellomlandingene. Ankommer samme dag, ingen overnatting på flyplass trengs. Individuelle etappetider ikke sjekket i detalj – kun totalpris og total reisetid (14 t 25 min) fra Google Flights.",
-                "fra": "Kittilä (KTT)",
-                "retning": "ut",
-                "tid": "09:25",
-                "til": "Málaga (AGP)",
-                "type": "fly",
-                "varighet": "14 t 25 min"
+                "id": "u1b2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/click-amp-room.no.html",
+                "navn": "Click & Room",
+                "notat": "Billigste på Booking.com denne uken. Vurdering 6,2 (629 anmeldelser).",
+                "omrade": "Torremolinos, 0,7 km fra sentrum",
+                "pris": 2677,
+                "prisNatt": 446
               },
               {
-                "ankomst": "ca. 23:40",
-                "dato": "2026-10-03",
-                "detalj": "Cercanías-tog – sen kveldsankomst, sjekk siste avgang nærmere reisedatoen. Vurder taxi hvis toget er stengt så sent.",
-                "fra": "Málaga flyplass",
-                "retning": "ut",
-                "tid": "ca. 23:10",
-                "til": "Torremolinos",
-                "type": "tog",
-                "varighet": "ca. 30 min"
+                "id": "u1b3",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/bluesea-torremolinos-centro.no.html",
+                "navn": "BLUESEA Torremolinos Centro",
+                "notat": "Forrige forslags hotell. Vurdering 7,3 (5 082 anmeldelser).",
+                "omrade": "Torremolinos sentrum, 500 m fra sentrum",
+                "pris": 3675,
+                "prisNatt": 613
               },
               {
-                "ankomst": "ca. 09:00",
-                "dato": "2026-10-11",
-                "detalj": "Cercanías-tog, god margin før hjemreisen",
-                "fra": "Torremolinos",
-                "retning": "hjem",
-                "tid": "ca. 08:30",
-                "til": "Málaga flyplass",
-                "type": "tog",
-                "varighet": "ca. 30 min"
-              },
-              {
-                "dato": "2026-10-11",
-                "detalj": "Samme flyselskaper/mellomlandinger som utreise (Milano/Helsingfors), anslått tilsvarende total reisetid – returetappene er IKKE bekreftet i detalj i denne kjøringen.",
-                "fra": "Málaga (AGP)",
-                "retning": "hjem",
-                "tid": "anslått, ikke bekreftet",
-                "til": "Kittilä (KTT)",
-                "type": "fly",
-                "varighet": "ca. 14-15 t (anslag)"
-              },
-              {
-                "dato": "2026-10-11",
-                "detalj": "Etter henting av bagasje/bil, anslått klokkeslett avhengig av landingstid",
-                "fra": "Kittilä lufthavn",
-                "retning": "hjem",
-                "tid": "18:30",
-                "til": "Kautokeino",
-                "type": "bil",
-                "varighet": "3 t kjøring"
-              }
-            ],
-            "totalAnslag": 16275,
-            "transport": [
-              {
-                "id": "t1",
-                "kilde": "Anslag basert på normale Cercanías-priser",
-                "navn": "Cercanías-tog flyplass-Torremolinos t/r + lokalt",
-                "notat": "Billigst og enklest for solo-reisende, trygg og hyppig togforbindelse.",
-                "pris": 150
-              },
-              {
-                "id": "t2",
-                "kilde": "Anslag, ikke sjekket i sanntid",
-                "lenke": "https://www.rentalcars.com",
-                "navn": "Leiebil hele oppholdet (6 dager)",
-                "notat": "Gir frihet til å utforske mer av kysten (Nerja, Marbella), men ikke nødvendig for selve stranden/sentrum.",
-                "pris": 1950
-              }
-            ]
-          },
-          {
-            "dager": 9,
-            "faste": [
-              {
-                "navn": "Parkering Kittilä lufthavn",
-                "notat": "Anslag for 9 døgn, ikke sjekket i sanntid",
-                "pris": 1100
-              },
-              {
-                "navn": "Drivstoff Kautokeino–Kittilä t/r",
-                "notat": "500 km × 2 kr/km",
-                "pris": 1000
-              },
-              {
-                "navn": "Hotell Oslo lufthavn (2 netter t/r)",
-                "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs kun på komfort-/premium-ruten som mellomlander med overnatting i Oslo begge veier",
-                "pris": 2200
-              }
-            ],
-            "fly": [
-              {
-                "id": "f1",
-                "kilde": "Google Flights 18.9.2026",
-                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
-                "navn": "Kittilä–Oslo–Málaga (Finnair + SAS)",
-                "notat": "To enkeltstrekninger: Kittilä-Oslo (5 896 kr, via Helsingfors) + Oslo-Málaga (6 565 kr, direkte). Krever 1 overnatting i Oslo hver vei – trygg, uthvilt reise med dagslys-ankomster.",
-                "pris": 12500,
-                "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
-                "selskap": "Finnair/SAS"
-              }
-            ],
-            "hotell": [
-              {
-                "id": "hk1",
+                "id": "u1m1",
                 "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/estudio-rio-caramel.no.html",
+                "navn": "Estudio Río Caramel",
+                "notat": "Vurdering 8,7 – best vurdert i medium-kategorien denne uken.",
+                "omrade": "Torremolinos sentrum, 450 m fra sentrum",
+                "pris": 4018,
+                "prisNatt": 670
+              },
+              {
+                "id": "u1m2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/nch.no.html",
+                "navn": "Nch Hotel Torremolinos",
+                "notat": "Vurdering 7,5.",
+                "omrade": "Torremolinos sentrum, 350 m fra sentrum",
+                "pris": 4002,
+                "prisNatt": 667
+              },
+              {
+                "id": "u1m3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/urban-studio-by-torremolinos-on-line.no.html",
+                "navn": "Urban Studio By Torremolinos On-Line",
+                "notat": "Vurdering 7,1.",
+                "omrade": "Torremolinos, 1 km fra sentrum",
+                "pris": 4030,
+                "prisNatt": 672
+              },
+              {
+                "id": "u1h1",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/1346459866684039271",
+                "navn": "Carmela Playa",
+                "notat": "Privat leilighet, vurdering 4,84 (81 anmeldelser).",
+                "omrade": "Torremolinos, nær stranden",
+                "pris": 4892,
+                "prisNatt": 815
+              },
+              {
+                "id": "u1h2",
+                "kategori": "bedre",
                 "kilde": "Airbnb 20.9.2026 (Chrome)",
                 "lenke": "https://www.airbnb.no/rooms/705621477717088453",
                 "navn": "Fin studioleilighet med utsikt, sentralt",
-                "notat": "Privat studio med eget kjøkken – mer privatliv og fleksibilitet enn et hotellrom. Vurdering 4,93 (67 anmeldelser).",
+                "notat": "Privat studio med eget kjøkken. Vurdering 4,93 (67 anmeldelser).",
                 "omrade": "Torremolinos sentrum",
                 "pris": 5936,
                 "prisNatt": 989
-              }
-            ],
-            "id": "uke1-komfort",
-            "navn": "Denne uken (3.–11. okt) – komfort",
-            "netter": 8,
-            "notat": "Trygg/behagelig rute (Kittilä–Oslo–Málaga med 1 overnatting i Oslo hver vei, dagslys-ankomster, ingen flybytte) + privat studioleilighet sentralt i Torremolinos. Total ca. 27 386 kr.",
-            "rute": [
-              {
-                "ankomst": "ca. 08:15",
-                "dato": "2026-10-03",
-                "detalj": "Ca. 250 km. Ankomst flyplass ca. 08:15, god margin før avgang 09:25",
-                "fra": "Kautokeino",
-                "retning": "ut",
-                "tid": "05:15",
-                "til": "Kittilä lufthavn",
-                "type": "bil",
-                "varighet": "3 t kjøring"
               },
               {
-                "dato": "2026-10-03",
-                "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
-                "fra": "Kittilä (KTT)",
-                "retning": "ut",
-                "tid": "09:25",
-                "til": "Oslo (OSL)",
-                "type": "fly",
-                "varighet": "8 t 10 min"
-              },
-              {
-                "ankomst": "ca. 17:10",
-                "dato": "2026-10-03",
-                "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
-                "fra": "Oslo lufthavn",
-                "retning": "ut",
-                "tid": "ca. 17:00",
-                "til": "hotell ved flyplassen",
-                "type": "bil",
-                "varighet": "10 min"
-              },
-              {
-                "ankomst": "ca. 19:20",
-                "dato": "2026-10-04",
-                "detalj": "SAS, direkte, 4. oktober",
-                "fra": "Oslo (OSL)",
-                "retning": "ut",
-                "tid": "15:05",
-                "til": "Málaga (AGP)",
-                "type": "fly",
-                "varighet": "4 t 15 min"
-              },
-              {
-                "ankomst": "ca. 20:15",
-                "dato": "2026-10-04",
-                "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
-                "fra": "Málaga flyplass",
-                "retning": "ut",
-                "tid": "ca. 19:45",
-                "til": "Torremolinos",
-                "type": "tog",
-                "varighet": "ca. 30 min"
-              },
-              {
-                "ankomst": "ca. 10:30",
-                "dato": "2026-10-09",
-                "detalj": "Cercanías-tog, 9. oktober",
-                "fra": "Torremolinos",
-                "retning": "hjem",
-                "tid": "ca. 10:00",
-                "til": "Málaga flyplass",
-                "type": "tog",
-                "varighet": "ca. 30 min"
-              },
-              {
-                "ankomst": "ca. 17:05",
-                "dato": "2026-10-09",
-                "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
-                "fra": "Málaga (AGP)",
-                "retning": "hjem",
-                "tid": "ca. 12:20",
-                "til": "Oslo (OSL)",
-                "type": "fly",
-                "varighet": "ca. 4 t 45 min"
-              },
-              {
-                "ankomst": "ca. 17:40",
-                "dato": "2026-10-10",
-                "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
-                "fra": "Oslo lufthavn",
-                "retning": "hjem",
-                "tid": "ca. 17:30",
-                "til": "hotell ved flyplassen",
-                "type": "bil",
-                "varighet": "10 min"
-              },
-              {
-                "dato": "2026-10-11",
-                "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
-                "fra": "Oslo (OSL)",
-                "retning": "hjem",
-                "tid": "ca. 10:15",
-                "til": "Kittilä (KTT)",
-                "type": "fly",
-                "varighet": "ca. 8 t"
-              },
-              {
-                "ankomst": "ca. 21:30",
-                "dato": "2026-10-11",
-                "detalj": "Etter henting av bagasje/bil",
-                "fra": "Kittilä lufthavn",
-                "retning": "hjem",
-                "tid": "ca. 18:30",
-                "til": "Kautokeino",
-                "type": "bil",
-                "varighet": "3 t kjøring"
-              }
-            ],
-            "totalAnslag": 27386,
-            "transport": [
-              {
-                "id": "t1",
-                "kilde": "Anslag basert på normale Cercanías-priser",
-                "navn": "Cercanías-tog flyplass-Torremolinos t/r + lokalt",
-                "notat": "Billigst og enklest for solo-reisende, trygg og hyppig togforbindelse.",
-                "pris": 150
-              },
-              {
-                "id": "t2",
-                "kilde": "Anslag, ikke sjekket i sanntid",
-                "lenke": "https://www.rentalcars.com",
-                "navn": "Leiebil hele oppholdet (6 dager)",
-                "notat": "Gir frihet til å utforske mer av kysten (Nerja, Marbella), men ikke nødvendig for selve stranden/sentrum.",
-                "pris": 1950
-              }
-            ]
-          },
-          {
-            "dager": 9,
-            "faste": [
-              {
-                "navn": "Parkering Kittilä lufthavn",
-                "notat": "Anslag for 9 døgn, ikke sjekket i sanntid",
-                "pris": 1100
-              },
-              {
-                "navn": "Drivstoff Kautokeino–Kittilä t/r",
-                "notat": "500 km × 2 kr/km",
-                "pris": 1000
-              },
-              {
-                "navn": "Hotell Oslo lufthavn (2 netter t/r)",
-                "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs kun på komfort-/premium-ruten som mellomlander med overnatting i Oslo begge veier",
-                "pris": 2200
-              }
-            ],
-            "fly": [
-              {
-                "id": "f1",
-                "kilde": "Google Flights 18.9.2026",
-                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-03%20through%202026-10-11",
-                "navn": "Kittilä–Oslo–Málaga (Finnair + SAS)",
-                "notat": "To enkeltstrekninger: Kittilä-Oslo (5 896 kr, via Helsingfors) + Oslo-Málaga (6 565 kr, direkte). Krever 1 overnatting i Oslo hver vei – trygg, uthvilt reise med dagslys-ankomster.",
-                "pris": 12500,
-                "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
-                "selskap": "Finnair/SAS"
-              }
-            ],
-            "hotell": [
-              {
-                "id": "hp1",
+                "id": "u1h3",
                 "kategori": "bedre",
                 "kilde": "Airbnb 20.9.2026 (Chrome)",
                 "lenke": "https://www.airbnb.no/rooms/837583044924498864",
                 "navn": "Casa Dalias – Sea Views",
-                "notat": "Leilighet med sjøutsikt, vurdering 4,94 (118 anmeldelser) – finere standard enn budsjett-/komfort-pakken.",
+                "notat": "Leilighet med sjøutsikt, finest i utvalget. Vurdering 4,94 (118 anmeldelser).",
                 "omrade": "Torremolinos, sjøutsikt",
                 "pris": 7490,
                 "prisNatt": 1248
               }
             ],
-            "id": "uke1-premium",
-            "navn": "Denne uken (3.–11. okt) – premium",
+            "id": "uke1",
+            "navn": "Denne uken (3. – 11. okt. 2026)",
             "netter": 8,
-            "notat": "Samme trygge/behagelige flyrute som komfort-pakken, men med finere bosted (leilighet med sjøutsikt). Total ca. 28 940 kr.",
+            "notat": "Nåværende valg. Billigste bekreftede overnatting nå 2 812 kr (Hostal Guillot, 7,9 i vurdering) + fly 12 500 kr (trygg standardrute) = ca. 15 312 kr for reise og bosted. Billig fly-alternativ (6 713 kr, ankommer samme dag) finnes i fly-fanen for de som prioriterer pris over komfort.",
             "rute": [
               {
                 "ankomst": "ca. 08:15",
@@ -747,7 +688,7 @@
               {
                 "ankomst": "ca. 17:10",
                 "dato": "2026-10-03",
-                "detalj": "Overnatting i Oslo (natt 3.-4. okt) for å unngå sen/urolig videreforbindelse",
+                "detalj": "Overnatting i Oslo for å unngå sen/urolig videreforbindelse",
                 "fra": "Oslo lufthavn",
                 "retning": "ut",
                 "tid": "ca. 17:00",
@@ -757,8 +698,8 @@
               },
               {
                 "ankomst": "ca. 19:20",
-                "dato": "2026-10-04",
-                "detalj": "SAS, direkte, 4. oktober",
+                "dato": "2026-10-03",
+                "detalj": "SAS, direkte",
                 "fra": "Oslo (OSL)",
                 "retning": "ut",
                 "tid": "15:05",
@@ -768,7 +709,7 @@
               },
               {
                 "ankomst": "ca. 20:15",
-                "dato": "2026-10-04",
+                "dato": "2026-10-03",
                 "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
                 "fra": "Málaga flyplass",
                 "retning": "ut",
@@ -780,7 +721,7 @@
               {
                 "ankomst": "ca. 10:30",
                 "dato": "2026-10-09",
-                "detalj": "Cercanías-tog, 9. oktober",
+                "detalj": "Cercanías-tog",
                 "fra": "Torremolinos",
                 "retning": "hjem",
                 "tid": "ca. 10:00",
@@ -802,7 +743,7 @@
               {
                 "ankomst": "ca. 17:40",
                 "dato": "2026-10-10",
-                "detalj": "Overnatting i Oslo (natt 10.-11. okt)",
+                "detalj": "Overnatting i Oslo",
                 "fra": "Oslo lufthavn",
                 "retning": "hjem",
                 "tid": "ca. 17:30",
@@ -812,7 +753,7 @@
               },
               {
                 "dato": "2026-10-11",
-                "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise), 11. oktober",
+                "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise)",
                 "fra": "Oslo (OSL)",
                 "retning": "hjem",
                 "tid": "ca. 10:15",
@@ -832,7 +773,7 @@
                 "varighet": "3 t kjøring"
               }
             ],
-            "totalAnslag": 28940,
+            "totalAnslag": 24262,
             "transport": [
               {
                 "id": "t1",
@@ -863,37 +804,140 @@
                 "navn": "Drivstoff Kautokeino–Kittilä t/r",
                 "notat": "500 km × 2 kr/km",
                 "pris": 1000
+              },
+              {
+                "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+                "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs på standard-flyet, som mellomlander med overnatting i Oslo begge veier",
+                "pris": 2200
               }
             ],
             "fly": [
               {
-                "id": "f0",
+                "id": "u0f1",
+                "kilde": "Anslag basert på verifisert pris for 3.-11. okt (ikke re-sjekket separat for denne uken)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-09-26%20through%202026-10-04",
+                "navn": "Kittilä–Oslo–Málaga (Finnair + SAS) – trygg standardrute",
+                "notat": "To enkeltstrekninger med 1 overnatting i Oslo hver vei – dagslys-ankomster, ingen flybytte. Prisen er ikke re-sjekket separat for akkurat denne uken, kun antatt lik 3.-11. okt.",
+                "pris": 12500,
+                "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+                "selskap": "Finnair/SAS"
+              },
+              {
+                "id": "u0f2",
                 "kilde": "Google Flights 20.9.2026 (Chrome, «Billigst»-fane)",
                 "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Malaga%20on%202026-09-26%20through%202026-10-04",
-                "navn": "Kittilä–Málaga t/r, billigste funnet (Finnair)",
-                "notat": "Samme prisnivå som denne uken. Ikke sjekket i detalj hvilken spesifikk mellomlandings-kombinasjon dette er – kun laveste pris fra «Billigst»-fanen.",
+                "navn": "Kittilä–Málaga t/r, billig alternativ (Finnair/easyJet e.l.)",
+                "notat": "Billigste funnet for akkurat denne uken. Ikke sjekket i detalj om denne spesifikke kombinasjonen krever overnatting på flyplass slik den billigste for 3.-11. okt gjorde (se antakelser) – anta samme risiko for ubehagelig ventetid til den er verifisert nærmere.",
                 "pris": 5030,
                 "rute": "Kittilä (KTT) – Málaga (AGP), via Helsingfors",
-                "selskap": "Finnair"
+                "selskap": "Finnair/easyJet"
               }
             ],
             "hotell": [
               {
-                "id": "h0",
+                "id": "u0b1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
                 "lenke": "https://www.booking.com/hotel/es/ella-torremolinos-centro.no.html",
                 "navn": "Ella Torremolinos Centro",
-                "notat": "Billigste på Booking.com for disse datoene, men lavere vurdering (5,9) enn de andre pakkene.",
+                "notat": "Vurdering 5,9 – billigste funnet, men lavere vurdering enn de andre.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 4186,
                 "prisNatt": 698
+              },
+              {
+                "id": "u0b2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/carlos-i.no.html",
+                "navn": "Hotel Carlos I",
+                "notat": "Vurdering 7,5 – bedre vurdert enn billigste, liten prisforskjell.",
+                "omrade": "Torremolinos sentrum, 0,7 km fra sentrum",
+                "pris": 4405,
+                "prisNatt": 734
+              },
+              {
+                "id": "u0b3",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/mshome-beach-studio.no.html",
+                "navn": "Mshome Beach Studio",
+                "notat": "Vurdering 6,0.",
+                "omrade": "Torremolinos, 1 km fra sentrum",
+                "pris": 4459,
+                "prisNatt": 743
+              },
+              {
+                "id": "u0m1",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/hostal-virgen-del-rocio-ii.no.html",
+                "navn": "Hostal Virgen del Rocío II",
+                "notat": "Vurdering 6,4.",
+                "omrade": "Torremolinos sentrum, 0,5 km fra sentrum",
+                "pris": 4565,
+                "prisNatt": 761
+              },
+              {
+                "id": "u0m2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/room-nogalera-by-jzr.no.html",
+                "navn": "ROOM Nogalera by JZR",
+                "notat": "Vurdering 7,3.",
+                "omrade": "Torremolinos sentrum, 100 m fra sentrum",
+                "pris": 4651,
+                "prisNatt": 775
+              },
+              {
+                "id": "u0m3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/nogalera.no.html",
+                "navn": "Hotel Nogalera",
+                "notat": "Vurdering 8,1 – best vurdert i medium-kategorien.",
+                "omrade": "Torremolinos sentrum, 300 m fra sentrum",
+                "pris": 4706,
+                "prisNatt": 784
+              },
+              {
+                "id": "u0h1",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/35218583",
+                "navn": "Luksusleilig med basseng og utsikt mot havet",
+                "notat": "Privat leilighet med basseng og havutsikt – vurdering 4,93 (28 anmeldelser). Billigere enn flere av budsjett-hotellene, en fin overraskelse.",
+                "omrade": "Torremolinos, sjøutsikt + basseng",
+                "pris": 3605,
+                "prisNatt": 601
+              },
+              {
+                "id": "u0h2",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/1470979434710322719",
+                "navn": "Studio i sentrum.",
+                "notat": "Vurdering 5,0 (41 anmeldelser).",
+                "omrade": "Torremolinos sentrum",
+                "pris": 4699,
+                "prisNatt": 783
+              },
+              {
+                "id": "u0h3",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/640644691431722538",
+                "navn": "På havet, fantastisk utsikt og parkering",
+                "notat": "Vurdering 4,94 (120 anmeldelser), egen parkering.",
+                "omrade": "Torremolinos, ved havet",
+                "pris": 4757,
+                "prisNatt": 793
               }
             ],
-            "id": "uke0-billigst",
-            "navn": "Uken før (26. sep. – 4. okt. 2026) – billigst",
+            "id": "uke0",
+            "navn": "Uken før (26. sep. – 4. okt. 2026)",
             "netter": 8,
-            "notat": "Fly på samme prisnivå som denne uken (~5 000 kr), men hotellutvalget er dyrere og dårligere vurdert (billigste her: 4 186 kr, 5,9 i vurdering, mot 2 812 kr/7,9 denne uken). Total ca. 15 966 kr – lettere sjekk, kun billigste alternativ på hver plattform, ikke full bildeutvalg.",
+            "notat": "Billigste bekreftede overnatting nå 4 186 kr (Ella Torremolinos Centro) + fly 12 500 kr (trygg standardrute) = ca. 16 686 kr for reise og bosted. Fly på samme nivå som ukene rundt, men noe dyrere/dårligere vurdert bosted enn uken etter.",
             "rute": [
               {
                 "ankomst": "ca. 08:15",
@@ -907,60 +951,104 @@
                 "varighet": "3 t kjøring"
               },
               {
-                "ankomst": "ca. 22:50",
                 "dato": "2026-09-26",
-                "detalj": "Finnair/easyJet, 2 mellomlandinger (Helsingfors, Milano) – selvbetjent bytte mellom flyselskap, egen bagasjehåndtering ved mellomlandingene. Ankommer samme dag, ingen overnatting på flyplass trengs. Individuelle etappetider ikke sjekket i detalj – kun totalpris og total reisetid (14 t 25 min) fra Google Flights.",
+                "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
                 "fra": "Kittilä (KTT)",
                 "retning": "ut",
                 "tid": "09:25",
-                "til": "Málaga (AGP)",
+                "til": "Oslo (OSL)",
                 "type": "fly",
-                "varighet": "14 t 25 min"
+                "varighet": "8 t 10 min"
               },
               {
-                "ankomst": "ca. 23:40",
+                "ankomst": "ca. 17:10",
                 "dato": "2026-09-26",
-                "detalj": "Cercanías-tog – sen kveldsankomst, sjekk siste avgang nærmere reisedatoen. Vurder taxi hvis toget er stengt så sent.",
+                "detalj": "Overnatting i Oslo for å unngå sen/urolig videreforbindelse",
+                "fra": "Oslo lufthavn",
+                "retning": "ut",
+                "tid": "ca. 17:00",
+                "til": "hotell ved flyplassen",
+                "type": "bil",
+                "varighet": "10 min"
+              },
+              {
+                "ankomst": "ca. 19:20",
+                "dato": "2026-09-26",
+                "detalj": "SAS, direkte",
+                "fra": "Oslo (OSL)",
+                "retning": "ut",
+                "tid": "15:05",
+                "til": "Málaga (AGP)",
+                "type": "fly",
+                "varighet": "4 t 15 min"
+              },
+              {
+                "ankomst": "ca. 20:15",
+                "dato": "2026-09-26",
+                "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
                 "fra": "Málaga flyplass",
                 "retning": "ut",
-                "tid": "ca. 23:10",
+                "tid": "ca. 19:45",
                 "til": "Torremolinos",
                 "type": "tog",
                 "varighet": "ca. 30 min"
               },
               {
-                "ankomst": "ca. 09:00",
-                "dato": "2026-10-04",
-                "detalj": "Cercanías-tog, god margin før hjemreisen",
+                "ankomst": "ca. 10:30",
+                "dato": "2026-10-01",
+                "detalj": "Cercanías-tog",
                 "fra": "Torremolinos",
                 "retning": "hjem",
-                "tid": "ca. 08:30",
+                "tid": "ca. 10:00",
                 "til": "Málaga flyplass",
                 "type": "tog",
                 "varighet": "ca. 30 min"
               },
               {
-                "dato": "2026-10-04",
-                "detalj": "Samme flyselskaper/mellomlandinger som utreise (Milano/Helsingfors), anslått tilsvarende total reisetid – returetappene er IKKE bekreftet i detalj i denne kjøringen.",
+                "ankomst": "ca. 17:05",
+                "dato": "2026-10-01",
+                "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
                 "fra": "Málaga (AGP)",
                 "retning": "hjem",
-                "tid": "anslått, ikke bekreftet",
-                "til": "Kittilä (KTT)",
+                "tid": "ca. 12:20",
+                "til": "Oslo (OSL)",
                 "type": "fly",
-                "varighet": "ca. 14-15 t (anslag)"
+                "varighet": "ca. 4 t 45 min"
+              },
+              {
+                "ankomst": "ca. 17:40",
+                "dato": "2026-10-03",
+                "detalj": "Overnatting i Oslo",
+                "fra": "Oslo lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 17:30",
+                "til": "hotell ved flyplassen",
+                "type": "bil",
+                "varighet": "10 min"
               },
               {
                 "dato": "2026-10-04",
-                "detalj": "Etter henting av bagasje/bil, anslått klokkeslett avhengig av landingstid",
+                "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise)",
+                "fra": "Oslo (OSL)",
+                "retning": "hjem",
+                "tid": "ca. 10:15",
+                "til": "Kittilä (KTT)",
+                "type": "fly",
+                "varighet": "ca. 8 t"
+              },
+              {
+                "ankomst": "ca. 21:30",
+                "dato": "2026-10-04",
+                "detalj": "Etter henting av bagasje/bil",
                 "fra": "Kittilä lufthavn",
                 "retning": "hjem",
-                "tid": "18:30",
+                "tid": "ca. 18:30",
                 "til": "Kautokeino",
                 "type": "bil",
                 "varighet": "3 t kjøring"
               }
             ],
-            "totalAnslag": 15966,
+            "totalAnslag": 25636,
             "transport": [
               {
                 "id": "t1",
@@ -991,37 +1079,140 @@
                 "navn": "Drivstoff Kautokeino–Kittilä t/r",
                 "notat": "500 km × 2 kr/km",
                 "pris": 1000
+              },
+              {
+                "navn": "Hotell Oslo lufthavn (2 netter t/r)",
+                "notat": "Anslag, enkeltrom nær Gardermoen, ikke sjekket i sanntid – trengs på standard-flyet, som mellomlander med overnatting i Oslo begge veier",
+                "pris": 2200
               }
             ],
             "fly": [
               {
-                "id": "f2",
+                "id": "u2f1",
+                "kilde": "Anslag basert på verifisert pris for 3.-11. okt (ikke re-sjekket separat for denne uken)",
+                "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Oslo%20on%202026-10-10%20through%202026-10-18",
+                "navn": "Kittilä–Oslo–Málaga (Finnair + SAS) – trygg standardrute",
+                "notat": "To enkeltstrekninger med 1 overnatting i Oslo hver vei – dagslys-ankomster, ingen flybytte. Prisen er ikke re-sjekket separat for akkurat denne uken, kun antatt lik 3.-11. okt.",
+                "pris": 12500,
+                "rute": "Kittilä (KTT) – Oslo (OSL) – Málaga (AGP)",
+                "selskap": "Finnair/SAS"
+              },
+              {
+                "id": "u2f2",
                 "kilde": "Google Flights 20.9.2026 (Chrome, «Billigst»-fane)",
                 "lenke": "https://www.google.com/travel/flights?q=Flights%20from%20Kittila%20to%20Malaga%20on%202026-10-10%20through%202026-10-18",
-                "navn": "Kittilä–Málaga t/r, billigste funnet (Finnair)",
-                "notat": "Samme prisnivå som denne uken. Ikke sjekket i detalj hvilken spesifikk mellomlandings-kombinasjon dette er – kun laveste pris fra «Billigst»-fanen.",
+                "navn": "Kittilä–Málaga t/r, billig alternativ (Finnair/easyJet e.l.)",
+                "notat": "Billigste funnet for akkurat denne uken. Ikke sjekket i detalj om denne spesifikke kombinasjonen krever overnatting på flyplass slik den billigste for 3.-11. okt gjorde (se antakelser) – anta samme risiko for ubehagelig ventetid til den er verifisert nærmere.",
                 "pris": 5234,
                 "rute": "Kittilä (KTT) – Málaga (AGP), via Helsingfors",
-                "selskap": "Finnair"
+                "selskap": "Finnair/easyJet"
               }
             ],
             "hotell": [
               {
-                "id": "h2u",
+                "id": "u2b1",
                 "kategori": "budsjett",
                 "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
                 "lenke": "https://www.booking.com/hotel/es/hostal-guillot.no.html",
                 "navn": "Hostal Guillot",
-                "notat": "Billigste OG best vurderte alternativ av alle 5 pakkene (7,9 i vurdering). Gjør denne uken til den rimeligste av alle sjekket.",
+                "notat": "Vurdering 7,9 – billigste OG best vurderte av alle ni uker×kategorier sjekket.",
                 "omrade": "Torremolinos sentrum, 450 m fra sentrum",
                 "pris": 2650,
                 "prisNatt": 442
+              },
+              {
+                "id": "u2b2",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/torremolinos-habitaciones-privada-en-apartamentos-compartidos.no.html",
+                "navn": "Torremolinos habitaciones privada en apartamentos compartidos",
+                "notat": "Enda billigere, men lavere vurdering (6,3) og lenger fra sentrum (2,5 km).",
+                "omrade": "Torremolinos, 2,5 km fra sentrum",
+                "pris": 2455,
+                "prisNatt": 409
+              },
+              {
+                "id": "u2b3",
+                "kategori": "budsjett",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/click-amp-room.no.html",
+                "navn": "Click & Room",
+                "notat": "Vurdering 6,2.",
+                "omrade": "Torremolinos, 0,7 km fra sentrum",
+                "pris": 2726,
+                "prisNatt": 454
+              },
+              {
+                "id": "u2m1",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/1a-studio-40-m-from-la-carihuela-beach.no.html",
+                "navn": "1A - Studio 40 m from La Carihuela Beach",
+                "notat": "Vurdering 9,1 – høyest vurderte hotell av alle ni uker×kategorier, 40 m fra stranden.",
+                "omrade": "Torremolinos, La Carihuela, 0,9 km fra sentrum",
+                "pris": 3948,
+                "prisNatt": 658
+              },
+              {
+                "id": "u2m2",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/nordik-rooms-village-undredal.no.html",
+                "navn": "Nordik Rooms Village - Torremolinos \"Undredal\"",
+                "notat": "Vurdering 7,8.",
+                "omrade": "Torremolinos, 0,7 km fra sentrum",
+                "pris": 3878,
+                "prisNatt": 646
+              },
+              {
+                "id": "u2m3",
+                "kategori": "medium",
+                "kilde": "Booking.com 20.9.2026 (Chrome, sortert på pris)",
+                "lenke": "https://www.booking.com/hotel/es/piscis24nogalera.no.html",
+                "navn": "Central Estudio Torremolinos - Estudio 3",
+                "notat": "Vurdering 7,4.",
+                "omrade": "Torremolinos sentrum, 400 m fra sentrum",
+                "pris": 3621,
+                "prisNatt": 604
+              },
+              {
+                "id": "u2h1",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/621807585397868823",
+                "navn": "Magisk strandleilighet i hjertet av Torremolinos",
+                "notat": "Privat leilighet, vurdering 4,89 (175 anmeldelser).",
+                "omrade": "Torremolinos, ved stranden",
+                "pris": 4444,
+                "prisNatt": 741
+              },
+              {
+                "id": "u2h2",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/52358265",
+                "navn": "ColinaMar",
+                "notat": "Vurdering 4,94 (186 anmeldelser).",
+                "omrade": "Torremolinos",
+                "pris": 4125,
+                "prisNatt": 688
+              },
+              {
+                "id": "u2h3",
+                "kategori": "bedre",
+                "kilde": "Airbnb 20.9.2026 (Chrome)",
+                "lenke": "https://www.airbnb.no/rooms/19191588",
+                "navn": "Penthouse med terrasse W/San Miguel Torremolinos Centro",
+                "notat": "Penthouse med terrasse, vurdering 4,97 (124 anmeldelser) – høyest vurderte bedre-alternativ.",
+                "omrade": "Torremolinos sentrum",
+                "pris": 4590,
+                "prisNatt": 765
               }
             ],
-            "id": "uke2-billigst",
-            "navn": "Uken etter (10.–18. okt. 2026) – billigst",
+            "id": "uke2",
+            "navn": "Uken etter (10. – 18. okt. 2026)",
             "netter": 8,
-            "notat": "Billigste uke av alle tre sjekket: fly på samme nivå som denne uken (~5 200 kr) OG billigste/best vurderte hotell (Hostal Guillot, 2 650 kr, 7,9). Total ca. 14 634 kr. Lettere sjekk, kun billigste alternativ på hver plattform.",
+            "notat": "Billigste bekreftede overnatting av alle tre uker (2 650 kr, Hostal Guillot, 7,9 i vurdering) + fly 12 500 kr (trygg standardrute) = ca. 15 150 kr for reise og bosted. Også hjem til den best vurderte medium-hotellet av alle sjekket (1A - Studio, 9,1).",
             "rute": [
               {
                 "ankomst": "ca. 08:15",
@@ -1035,60 +1226,104 @@
                 "varighet": "3 t kjøring"
               },
               {
-                "ankomst": "ca. 22:50",
                 "dato": "2026-10-10",
-                "detalj": "Finnair/easyJet, 2 mellomlandinger (Helsingfors, Milano) – selvbetjent bytte mellom flyselskap, egen bagasjehåndtering ved mellomlandingene. Ankommer samme dag, ingen overnatting på flyplass trengs. Individuelle etappetider ikke sjekket i detalj – kun totalpris og total reisetid (14 t 25 min) fra Google Flights.",
+                "detalj": "Finnair via Helsingfors, 1 mellomlanding (4 t 40 min HEL)",
                 "fra": "Kittilä (KTT)",
                 "retning": "ut",
                 "tid": "09:25",
-                "til": "Málaga (AGP)",
+                "til": "Oslo (OSL)",
                 "type": "fly",
-                "varighet": "14 t 25 min"
+                "varighet": "8 t 10 min"
               },
               {
-                "ankomst": "ca. 23:40",
+                "ankomst": "ca. 17:10",
                 "dato": "2026-10-10",
-                "detalj": "Cercanías-tog – sen kveldsankomst, sjekk siste avgang nærmere reisedatoen. Vurder taxi hvis toget er stengt så sent.",
+                "detalj": "Overnatting i Oslo for å unngå sen/urolig videreforbindelse",
+                "fra": "Oslo lufthavn",
+                "retning": "ut",
+                "tid": "ca. 17:00",
+                "til": "hotell ved flyplassen",
+                "type": "bil",
+                "varighet": "10 min"
+              },
+              {
+                "ankomst": "ca. 19:20",
+                "dato": "2026-10-10",
+                "detalj": "SAS, direkte",
+                "fra": "Oslo (OSL)",
+                "retning": "ut",
+                "tid": "15:05",
+                "til": "Málaga (AGP)",
+                "type": "fly",
+                "varighet": "4 t 15 min"
+              },
+              {
+                "ankomst": "ca. 20:15",
+                "dato": "2026-10-10",
+                "detalj": "Cercanías-tog (linje C1), rett fra flyplassterminalen",
                 "fra": "Málaga flyplass",
                 "retning": "ut",
-                "tid": "ca. 23:10",
+                "tid": "ca. 19:45",
                 "til": "Torremolinos",
                 "type": "tog",
                 "varighet": "ca. 30 min"
               },
               {
-                "ankomst": "ca. 09:00",
-                "dato": "2026-10-18",
-                "detalj": "Cercanías-tog, god margin før hjemreisen",
+                "ankomst": "ca. 10:30",
+                "dato": "2026-10-16",
+                "detalj": "Cercanías-tog",
                 "fra": "Torremolinos",
                 "retning": "hjem",
-                "tid": "ca. 08:30",
+                "tid": "ca. 10:00",
                 "til": "Málaga flyplass",
                 "type": "tog",
                 "varighet": "ca. 30 min"
               },
               {
-                "dato": "2026-10-18",
-                "detalj": "Samme flyselskaper/mellomlandinger som utreise (Milano/Helsingfors), anslått tilsvarende total reisetid – returetappene er IKKE bekreftet i detalj i denne kjøringen.",
+                "ankomst": "ca. 17:05",
+                "dato": "2026-10-16",
+                "detalj": "SAS, direkte (anslått klokkeslett, ikke bekreftet)",
                 "fra": "Málaga (AGP)",
                 "retning": "hjem",
-                "tid": "anslått, ikke bekreftet",
-                "til": "Kittilä (KTT)",
+                "tid": "ca. 12:20",
+                "til": "Oslo (OSL)",
                 "type": "fly",
-                "varighet": "ca. 14-15 t (anslag)"
+                "varighet": "ca. 4 t 45 min"
+              },
+              {
+                "ankomst": "ca. 17:40",
+                "dato": "2026-10-17",
+                "detalj": "Overnatting i Oslo",
+                "fra": "Oslo lufthavn",
+                "retning": "hjem",
+                "tid": "ca. 17:30",
+                "til": "hotell ved flyplassen",
+                "type": "bil",
+                "varighet": "10 min"
               },
               {
                 "dato": "2026-10-18",
-                "detalj": "Etter henting av bagasje/bil, anslått klokkeslett avhengig av landingstid",
+                "detalj": "Finnair via Helsingfors (anslått klokkeslett, samme mønster som utreise)",
+                "fra": "Oslo (OSL)",
+                "retning": "hjem",
+                "tid": "ca. 10:15",
+                "til": "Kittilä (KTT)",
+                "type": "fly",
+                "varighet": "ca. 8 t"
+              },
+              {
+                "ankomst": "ca. 21:30",
+                "dato": "2026-10-18",
+                "detalj": "Etter henting av bagasje/bil",
                 "fra": "Kittilä lufthavn",
                 "retning": "hjem",
-                "tid": "18:30",
+                "tid": "ca. 18:30",
                 "til": "Kautokeino",
                 "type": "bil",
                 "varighet": "3 t kjøring"
               }
             ],
-            "totalAnslag": 14634,
+            "totalAnslag": 24100,
             "transport": [
               {
                 "id": "t1",
@@ -1108,7 +1343,7 @@
             ]
           }
         ],
-        "ruteValgLabel": "Velg pakke",
+        "ruteValgLabel": "Velg uke",
         "sammendrag": "Costa del Sol (Torremolinos) via Kittilä-Oslo-Málaga med 1 overnatting i Oslo hver vei, totalt ca. 25 350 kr for 1 person over 9 dager. Vurdert som tryggest og mest behagelig med dagslys-ankomster i stedet for en sen kveldsforbindelse.",
         "transport": [
           {
@@ -1143,6 +1378,11 @@
           "dato": "2026-09-20T03:55:00.000Z",
           "metode": "chrome",
           "total": 16275
+        },
+        {
+          "dato": "2026-09-20T05:10:00.000Z",
+          "metode": "chrome",
+          "total": 24262
         }
       ],
       "kilde": "skjema",
@@ -3185,10 +3425,10 @@
     }
   ],
   "meta": {
-    "melding": "Solreise Costa del Sol oppdatert 20.9.2026: sjekket Airbnb og Vrbo i tillegg til Booking.com, sjekket uken før og uken etter, og bygget en «Velg pakke»-velger (5 alternativer: budsjett/komfort/premium for denne uken + billigst for uken før/etter). Fant også og fjernet en gjenglemt .git/index.lock fra 19.9. som hadde blokkert commit/push i flere kjøringer på rad – automatikken bør nå kunne committe normalt igjen. fiks_git_las.bat og _to_delete/ er urørt i påvente av Tims vurdering.",
+    "melding": "Solreise Costa del Sol RETTET 20.9.2026: forrige «Velg pakke»-versjon (5 alternativer) hadde feil struktur – kombinerte uke og nivå i samme rutevalg med bare 1 hotell hver, så budsjett/medium/bedre-fanene forsvant. Rettet nå til samme mønster som LAAX: «Velg uke» (uken før / denne uken / uken etter), hver uke med budsjett/medium/bedre-faner à 3 hotellalternativer (9 per uke, 27 totalt, fra Booking.com og Airbnb) + to flyalternativer (trygg standardrute / billigere med flybytte). Fant også og fjernet en gjenglemt .git/index.lock fra 19.9. som hadde blokkert commit/push i flere kjøringer på rad – automatikken bør nå kunne committe normalt igjen. fiks_git_las.bat og _to_delete/ er urørt i påvente av Tims vurdering.",
     "opprettet": "2026-09-15T20:10:00.000Z",
-    "sistBeregnet": "2026-09-20T03:55:00.000Z",
-    "sistSjekk": "2026-09-20T04:05:00.000Z",
+    "sistBeregnet": "2026-09-20T05:10:00.000Z",
+    "sistSjekk": "2026-09-20T05:10:00.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
