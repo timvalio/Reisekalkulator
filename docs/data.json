@@ -1,6 +1,7 @@
 {
   "reiser": [
     {
+      "id": "levi-finland-7i80c6",
       "avreise": "2026-11-13",
       "beregning": {
         "antakelser": [
@@ -705,10 +706,10 @@
       "standard": "budsjett/medium",
       "status": "beregnet",
       "sted": "Levi (Kittilä)",
-      "trengerChrome": false,
-      "id": "levi-finland-7i80c6"
+      "trengerChrome": false
     },
     {
+      "id": "paris-parrot-workshop-mu3jbk3b",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -926,10 +927,10 @@
       "status": "beregnet",
       "sted": "Paris (10. arrondissement, ved Gare de l'Est)",
       "trengerChrome": false,
-      "valg": {},
-      "id": "paris-parrot-workshop-mu3jbk3b"
+      "valg": {}
     },
     {
+      "id": "skjema-gal7x2q",
       "avreise": "2026-10-03",
       "beregning": {
         "antakelser": [
@@ -2110,10 +2111,10 @@
       "standard": "middels",
       "status": "beregnet",
       "sted": "Torremolinos, Costa del Sol",
-      "trengerChrome": false,
-      "id": "skjema-gal7x2q"
+      "trengerChrome": false
     },
     {
+      "id": "skjema-laax9k2m",
       "avreise": "2027-01-21",
       "beregning": {
         "antakelser": [
@@ -3251,10 +3252,10 @@
       "standard": "middels",
       "status": "beregnet",
       "sted": "Laax (Flims Laax Falera)",
-      "trengerChrome": false,
-      "id": "skjema-laax9k2m"
+      "trengerChrome": false
     },
     {
+      "id": "skjema-shz4k9p",
       "avreise": "2026-12-18",
       "beregning": {
         "antakelser": [
@@ -3521,10 +3522,10 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Shenzhen (Futian)",
-      "trengerChrome": false,
-      "id": "skjema-shz4k9p"
+      "trengerChrome": false
     },
     {
+      "id": "upteko-dk-t4k9wr",
       "avreise": "2026-10-19",
       "beregning": {
         "antakelser": [
@@ -4103,15 +4104,14 @@
       "standard": "bra",
       "status": "beregnet",
       "sted": "Paris + Odense",
-      "trengerChrome": false,
-      "id": "upteko-dk-t4k9wr"
+      "trengerChrome": false
     }
   ],
   "meta": {
-    "melding": "NY TUR lagt til 20.9.2026: Skitur til Levi, Finland for 5 personer. Tim ba om å sjekke alle helger (fre-søn) fra midten av november til midten av desember 2026, fra når det trolig er nok snø. Levi åpner sesongen 2. oktober 2026 (snow farming), så alle fem helgene 13.-15. nov, 20.-22. nov, 27.-29. nov, 4.-6. des og 11.-13. des er sjekket. Direkte kjøretur fra Kautokeino (217 km, ca. 2 t 37 min), ingen fly. Billigst er 20.-22. og 27.-29. november (fra ca. 4 300 kr totalt for gruppen). Desember er merkbart dyrere, spesielt ekte hoteller. LAAX rettet 20.9.2026 (4 runder, se turens egne antakelser): siste runde presiserte riktig gruppesammensetning (1 voksen + fire 15-åringer + en 12-åring), kun 1 bil parkert, og ingen drivstoffkostnad. Solreise Costa del Sol er fra før rettet med «Velg uke»-struktur og ekte 4-stjerners hoteller i «bedre». MERK: den automatiske kjøringens git-push feiler pga. en credential-helper som peker på en gammel sesjonsmappe (/sessions/rcw-01jqpobrrqdfm84qeqlav7xt/...) som ikke finnes i nåværende sesjon – bør settes opp på nytt med en stabil filsti, ellers hoper commits seg opp ubrukt lokalt til noen pusher dem manuelt.",
+    "melding": "Levi, Finland ble lagt til og beregnet i dag via chat (5 pers.): billigst helgene 20.-22. eller 27.-29. november, fra ca. 4 300 kr for gruppen. Denne planlagte kjøringen fant ellers ingenting å beregne (øvrige 5 reisemål er ferske, ingen nye skjemasvar). Driftsmerknad, IKKE rettet av meg (rører ikke credential-oppsettet): git-push-credential peker fortsatt på en slettet sesjonsmappe. NYTT: kjøringen mangler slette-tilgang i den tilkoblede mappen, så git etterlater låste lock-filer hver gang (40+ har hopet seg opp i .git/) — brukte en mv-omvei nå, bør ryddes/fikses manuelt (slette-tilgang, eller fiks_git_las.bat lokalt).",
     "opprettet": "2026-09-15T20:10:00.000Z",
     "sistBeregnet": "2026-09-20T10:00:00.000Z",
-    "sistSjekk": "2026-09-20T10:00:00.000Z",
+    "sistSjekk": "2026-09-20T06:10:34.000Z",
     "sisteSkjemaSvar": "19.09.2026 kl. 01.04.13"
   }
 }
