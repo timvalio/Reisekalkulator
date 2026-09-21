@@ -101,6 +101,7 @@ label.chk{display:flex;gap:6px;align-items:center;font-size:13.5px;color:var(--m
 .thead .ttxt{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
 .thead .tname{font-weight:600;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .thead .tsub{font-size:11.5px;color:var(--muted)}
+.thead .tmoter{font-size:11.5px;font-weight:700;color:var(--accent);white-space:normal}
 .thead .tprice{flex:none;font-size:13px;font-weight:600;font-family:var(--display)}
 .tbody{padding:0 0 6px 20px}
 .tcat{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:8px 0 2px;padding:0 8px}
@@ -472,7 +473,7 @@ function tegnListe(){
       <div class="row1"><span class="land">${esc(r.land || r.sted || ' ')}</span><span class="pill ${st.cls}"><span class="b"></span>${esc(st.txt)}</span></div>
       <h3>${esc(tittel(r))}</h3>
       ${r.sted && r.land ? `<div class="sted">${esc(r.sted)}</div>` : ''}
-      ${moterKort(b?.variant?.moter || r.beregning?.moter)}
+      ${moterKort(aktiveMoter(r, b))}
       <div class="meta">${esc(meta)}</div>
       ${ruteTekst(r) ? `<div class="rute">${esc(ruteTekst(r))}</div>` : ''}
       ${nums}
@@ -532,14 +533,16 @@ function moterHtml(moter){
   }).join('');
   return `<div class="moter"><div class="moter-tittel">Partnerbesøk</div>${rows}</div>`;
 }
-function moterKort(moter){
+/* Partnerbesøkene som gjelder for valgt reiserekkefølge (variant), ellers reisens egne */
+function aktiveMoter(r, b){ const be = (r && r.beregning) || {}; const v = b && b.variant; return (v && Array.isArray(v.moter) && v.moter.length) ? v.moter : be.moter; }
+function moterKort(moter, cls){
   if (!Array.isArray(moter) || !moter.length) return '';
   const txt = moter.map(m => {
     let dLabel = '';
     if (m.dato) { const d = new Date(m.dato); if (!isNaN(d)) dLabel = d.getDate() + '. ' + MND[d.getMonth()]; }
     return [m.navn, dLabel].filter(Boolean).join(' – ');
   }).join(' · ');
-  return `<div class="moter-kort">${esc(txt)}</div>`;
+  return `<div class="${cls || 'moter-kort'}">${esc(txt)}</div>`;
 }
 function datoNokkel(dato, tid){
   const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(dato || '');
@@ -650,9 +653,9 @@ function tegnDetalj(){
   let h = '';
   const md = [r.avreise ? 'Avreise ' + dato(r.avreise) + (r.fleks > 0 ? ' (±' + (r.fleks >= 30 ? 'hele måneden' : r.fleks + ' dager') + ')' : '') : '', r.dager ? r.dager + ' dager' : '', r.reisende ? r.reisende + ' reisende' : '', STANDARD[r.standard] ? 'hotell: ' + STANDARD[r.standard].toLowerCase() : '', r.fra ? 'fra ' + r.fra : ''].filter(Boolean);
   h += `<p class="faded" style="margin:10px 0 0">${esc(md.length ? md.join(' · ') : 'Claude tolker detaljene fra beskrivelsen')}</p>`;
+  h += moterHtml(aktiveMoter(r, b));
   if (r.beskrivelse) h += `<blockquote class="besk">${esc(r.beskrivelse)}</blockquote>`;
   if (r.onsker) h += `<p class="faded" style="margin:8px 0 0">Ønsker: ${esc(r.onsker)}</p>`;
-  h += moterHtml(be.moter);
   const ant = Array.isArray(be.antakelser) ? be.antakelser.filter(Boolean) : [];
   if (b) {
     const d = b.deler, keys = [['fly','Reise','c1'],['hotell','Hotell','c2'],['transport','Transport på stedet','c3'],['daglig','Mat og aktiviteter','c4'],['faste','Faste utgifter','c5'],['egne','Egne poster','c6']];
@@ -665,7 +668,7 @@ function tegnDetalj(){
     if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
       h += `<h2 class="sec">${esc(be.ruteValgLabel || 'Reiserekkefølge')}</h2>` + altListe('rutevalg', be.ruteValg.map(v => ({id: v.id, navn: v.navn, notat: v.notat, pris: v.totalAnslag})), b.variant?.id, 'rutevalg', r);
     }
-    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, (b.variant && b.variant.moter) || be.moter);
+    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, aktiveMoter(r, b));
     const kilde = b.variant || be;
     const netter = b.variant?.netter ?? r.netter ?? Math.max(0, (+r.dager || 0) - 1);
     h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', kilde.fly, b.fly?.id, 'fly', r);
@@ -746,7 +749,7 @@ function tegnSplitTre(){
     return `<div class="tnode${open?' open':''}" data-rid="${esc(r.id)}">
       <button type="button" class="thead${splitValgt && splitValgt.rid===r.id && splitValgt.type==='trip' ? ' selected':''}" data-split="1" data-rid="${esc(r.id)}" data-type="trip">
         <span class="chev">▸</span>
-        <span class="ttxt"><span class="tname">${esc(tittel(r))}</span><span class="tsub">${esc([r.sted||r.land, st.txt].filter(Boolean).join(' · '))}</span></span>
+        <span class="ttxt"><span class="tname">${esc(tittel(r))}</span>${moterKort(aktiveMoter(r, b), 'tmoter')}<span class="tsub">${esc([r.sted||r.land, st.txt].filter(Boolean).join(' · '))}</span></span>
         <span class="tprice">${b ? kr(b.total) : '–'}</span>
       </button>
       <div class="tbody" ${open?'':'hidden'}>${inner || '<p class="faded" style="padding:6px 8px;font-size:12px">Ingen alternativer ennå.</p>'}</div>
@@ -764,16 +767,16 @@ function splitTripHtml(r, be){
   const b = beregn(r);
   let h = `<h2 style="font-size:22px;font-family:var(--display);margin-bottom:4px">${esc(tittel(r))}</h2>`;
   h += `<p class="faded" style="margin:0 0 10px">${esc([r.sted, r.land].filter(Boolean).join(', '))}</p>`;
+  h += moterHtml(aktiveMoter(r, b));
   if (r.beskrivelse) h += `<blockquote class="besk">${esc(r.beskrivelse)}</blockquote>`;
   if (r.onsker) h += `<p class="faded" style="margin:8px 0 0">Ønsker: ${esc(r.onsker)}</p>`;
-  h += moterHtml(be.moter);
   if (b) {
     h += `<div class="sdet-total" style="margin-top:14px">${kr(b.total)}</div><div class="faded">${fmt(b.total/(r.reisende||2))} kr per person · ${r.dager||'?'} dager</div>`;
     if (be.forslag) h += `<h2 class="sec">Claudes forslag</h2><div class="forslag">${esc(be.forslag)}</div>`;
     else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
     const ant = Array.isArray(be.antakelser) ? be.antakelser.filter(Boolean) : [];
     if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a=>`<li>${esc(a)}</li>`).join('')}</ul></div>`;
-    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, (b.variant && b.variant.moter) || be.moter);
+    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, aktiveMoter(r, b));
   } else {
     h += `<div class="notice${r.status==='feil'?' bad':' warn'}">${r.status==='feil' ? esc(r.feilmelding||'Claude fant ikke priser for dette reisemålet.') : 'Venter på at Claude regner ut turen.'}</div>`;
   }
