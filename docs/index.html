@@ -219,6 +219,13 @@ table.lines tr.sum td{font-weight:600;border-bottom:0}
 .besk{margin:12px 0 0;padding:10px 14px;border-left:3px solid var(--sun);background:var(--sun-soft);border-radius:0 8px 8px 0;font-size:14px;white-space:pre-wrap}
 .forslag{font-size:14.5px;line-height:1.55;white-space:pre-wrap;margin-top:6px}
 .antak{margin-top:10px;padding:10px 12px;border:1px dashed var(--line);border-radius:8px;font-size:13px;color:var(--muted)}
+.moter{margin:12px 0;padding:12px 14px;border-radius:10px;background:var(--accent-soft);border-left:3px solid var(--accent)}
+.moter-tittel{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.mote-row{display:flex;align-items:baseline;gap:8px;font-size:13.5px;padding:3px 0;flex-wrap:wrap}
+.mote-row:not(:last-child){border-bottom:1px dashed var(--line)}
+.mote-navn{font-weight:600;flex:none}
+.mote-dato{color:var(--ink);flex:1;min-width:120px}
+.mote-sted{color:var(--muted);font-size:12px;flex:none}
 .antak b{color:var(--ink);font-weight:600}
 .antak ul{margin:4px 0 0;padding-left:18px}
 .card .besk-k{font-size:13px;color:var(--muted);margin-top:6px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -507,6 +514,15 @@ function stegDatoLabel(s){
   if (mnd < 0 || mnd > 11) return null;
   return dag + '. ' + MND[mnd];
 }
+function moterHtml(moter){
+  if (!Array.isArray(moter) || !moter.length) return '';
+  const rows = moter.map(m => {
+    let dLabel = '';
+    if (m.dato) { const d = new Date(m.dato); if (!isNaN(d)) dLabel = UKEDAG[d.getDay()] + ' ' + d.getDate() + '. ' + MND[d.getMonth()]; }
+    return `<div class="mote-row"><span class="mote-navn">${esc(m.navn)}</span><span class="mote-dato">${esc(dLabel)}</span>${m.sted ? `<span class="mote-sted">${esc(m.sted)}</span>` : ''}</div>`;
+  }).join('');
+  return `<div class="moter"><div class="moter-tittel">Partnerbesøk</div>${rows}</div>`;
+}
 function stegHtml(s){
   const tidVis = s.tid ? s.tid.replace(/\s*\(\d{1,2}\.\d{1,2}\)\s*$/, '') : '';
   const tidFull = tidVis + (s.ankomst ? '\u2013' + s.ankomst : '');
@@ -551,6 +567,7 @@ function tegnDetalj(){
   h += `<p class="faded" style="margin:10px 0 0">${esc(md.length ? md.join(' · ') : 'Claude tolker detaljene fra beskrivelsen')}</p>`;
   if (r.beskrivelse) h += `<blockquote class="besk">${esc(r.beskrivelse)}</blockquote>`;
   if (r.onsker) h += `<p class="faded" style="margin:8px 0 0">Ønsker: ${esc(r.onsker)}</p>`;
+  h += moterHtml(be.moter);
   const ant = Array.isArray(be.antakelser) ? be.antakelser.filter(Boolean) : [];
   if (b) {
     const d = b.deler, keys = [['fly','Reise','c1'],['hotell','Hotell','c2'],['transport','Transport på stedet','c3'],['daglig','Mat og aktiviteter','c4'],['faste','Faste utgifter','c5'],['egne','Egne poster','c6']];
@@ -638,7 +655,7 @@ function apneHotell(rid, altid){
   $('hotellSheet').classList.add('open');
 }
 /* ---------- split (desktop tre-panel) ---------- */
-let splitOpen = new Set(), splitValgt = null, splitMap = null, splitMarkers = [], splitRoute = null;
+let splitOpenId = null, splitValgt = null, splitMap = null, splitMarkers = [], splitRoute = null;
 function splitKilde(r, be){
   if (Array.isArray(be.ruteValg) && be.ruteValg.length) { const id = r.valg?.rutevalg; return be.ruteValg.find(v => v.id === id) || be.ruteValg[0]; }
   return be;
@@ -648,7 +665,7 @@ function tegnSplitTre(){
   const liste = synlige();
   if (!liste.length) { el.innerHTML = '<p class="faded" style="padding:12px">Ingen reisemål ennå.</p>'; return; }
   el.innerHTML = liste.map(r => {
-    const be = r.beregning || {}, b = beregn(r), open = splitOpen.has(r.id), kilde = splitKilde(r, be);
+    const be = r.beregning || {}, b = beregn(r), open = splitOpenId === r.id, kilde = splitKilde(r, be);
     let inner = '';
     if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
       inner += `<div class="tcat">${esc(be.ruteValgLabel || 'Velg helg/uke')}</div>` +
@@ -674,17 +691,17 @@ function tegnSplitTre(){
 function splitVelg(rid, type, altid){
   const r = reiser.find(x => x.id === rid); if (!r) return;
   if (type !== 'trip') { r.valg = Object.assign({}, r.valg || {}, {[type]: altid}); lagreValg(r.id, r.valg); }
-  splitOpen.add(rid);
+  splitOpenId = rid;
   splitValgt = {rid, type, altid: altid || null};
   tegnSplitTre(); tegnSplitDetalj(); tegnSplitKart();
 }
-function splitToggle(rid){ if (splitOpen.has(rid)) splitOpen.delete(rid); else splitOpen.add(rid); tegnSplitTre(); }
 function splitTripHtml(r, be){
   const b = beregn(r);
   let h = `<h2 style="font-size:22px;font-family:var(--display);margin-bottom:4px">${esc(tittel(r))}</h2>`;
   h += `<p class="faded" style="margin:0 0 10px">${esc([r.sted, r.land].filter(Boolean).join(', '))}</p>`;
   if (r.beskrivelse) h += `<blockquote class="besk">${esc(r.beskrivelse)}</blockquote>`;
   if (r.onsker) h += `<p class="faded" style="margin:8px 0 0">Ønsker: ${esc(r.onsker)}</p>`;
+  h += moterHtml(be.moter);
   if (b) {
     h += `<div class="sdet-total" style="margin-top:14px">${kr(b.total)}</div><div class="faded">${fmt(b.total/(r.reisende||2))} kr per person · ${r.dager||'?'} dager</div>`;
     if (be.forslag) h += `<h2 class="sec">Claudes forslag</h2><div class="forslag">${esc(be.forslag)}</div>`;
@@ -700,7 +717,9 @@ function splitTripHtml(r, be){
   return h;
 }
 function splitVariantHtml(r, v){
-  let h = `<h2 style="font-size:20px;font-family:var(--display);margin-bottom:4px">${esc(v.navn)}</h2><div class="sdet-total">${kr(v.totalAnslag)}</div>`;
+  let h = `<h2 style="font-size:20px;font-family:var(--display);margin-bottom:4px">${esc(v.navn)}</h2>`;
+  h += moterHtml(v.moter);
+  h += `<div class="sdet-total">${kr(v.totalAnslag)}</div>`;
   if (v.notat) h += `<p style="margin-top:10px;line-height:1.5">${esc(v.notat)}</p>`;
   if (Array.isArray(v.rute) && v.rute.length) h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + v.rute.map(stegHtml).join('') + `</ul>`;
   return h;
@@ -745,7 +764,7 @@ function tegnSplitKart(){
     pts.forEach(p => {
       const b = beregn(p.r);
       const m = L.marker(p.k, {icon: splitPrisIcon(tittel(p.r) + (b ? ' · ' + kr(b.total) : ''), false)}).addTo(splitMap);
-      m.on('click', () => { splitOpen.add(p.r.id); splitVelg(p.r.id, 'trip', null); });
+      m.on('click', () => { splitVelg(p.r.id, 'trip', null); });
       splitMarkers.push(m); bounds.push(p.k);
     });
     if (bounds.length > 1) splitMap.fitBounds(bounds, {padding:[30,30]}); else splitMap.setView(bounds[0], 5);
@@ -776,7 +795,12 @@ function tegnSplitKart(){
 }
 document.addEventListener('click', e => {
   const th = e.target.closest('.thead[data-split]');
-  if (th) { splitToggle(th.dataset.rid); splitVelg(th.dataset.rid, 'trip', null); return; }
+  if (th) {
+    const rid = th.dataset.rid;
+    if (splitOpenId === rid) { splitOpenId = null; splitValgt = null; tegnSplitTre(); tegnSplitDetalj(); tegnSplitKart(); }
+    else { splitVelg(rid, 'trip', null); }
+    return;
+  }
   const tr = e.target.closest('.trow[data-split]');
   if (tr) { splitVelg(tr.dataset.rid, tr.dataset.type, tr.dataset.altid); return; }
 });
