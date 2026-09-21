@@ -202,6 +202,13 @@ h2.sec small{font-family:var(--body);font-size:13px;color:var(--muted);font-weig
 .steps li::before{content:"";position:absolute;left:-7px;top:11px;width:10px;height:10px;border-radius:50%;background:var(--panel);border:2px solid var(--accent)}
 .steps li .d{color:var(--muted);font-size:12.5px}
 .steps li .ic{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:6px}
+.rute-dag{margin:16px 0 2px;font-size:13px;font-weight:700;color:var(--ink)}
+.rute-dag::first-letter{text-transform:uppercase}
+.rute-dag:first-child{margin-top:8px}
+.rute-retning{margin:14px 0 0;font-size:14px;opacity:.75}
+.steps li.mote-steg{margin:4px 0;padding:8px 10px 8px 22px;background:var(--accent-soft);border-radius:8px;font-weight:600}
+.steps li.mote-steg::before{background:var(--accent);top:14px}
+.steps li.mote-steg .d{display:inline;margin-left:6px;font-weight:500}
 table.lines{width:100%;border-collapse:collapse;margin-top:6px;font-size:14px}
 table.lines td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
 table.lines td:last-child{text-align:right;white-space:nowrap;font-weight:600}
@@ -534,6 +541,73 @@ function moterKort(moter){
   }).join(' · ');
   return `<div class="moter-kort">${esc(txt)}</div>`;
 }
+function datoNokkel(dato, tid){
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(dato || '');
+  if (m) return m[2] + '-' + m[3];
+  const t = /\((\d{1,2})\.(\d{1,2})\)/.exec(tid || '');
+  return t ? t[2].padStart(2, '0') + '-' + t[1].padStart(2, '0') : null;
+}
+function stegTidMin(s){ const m = /(\d{1,2}):(\d{2})/.exec(s && s.tid || ''); return m ? (+m[1]) * 60 + (+m[2]) : null; }
+function moteStegHtml(m){
+  return `<li class="mote-steg"><span class="ic">Møte</span>${esc(m.navn)}${m.sted ? `<span class="d">· ${esc(m.sted)}</span>` : ''}</li>`;
+}
+/* Reiserute gruppert per dag, med partnerbesøk lagt inn i tidslinjen på riktig dag.
+   Brukes av alle visninger (mobilark, skrivebord reise + variant) så forbedringer ikke går tapt. */
+function ruteHtml(rute, moter){
+  if (!Array.isArray(rute) || !rute.length) return '';
+  // Utreise/hjemreise-inndeling brukes bare når den ikke deler en og samme dag i to
+  // (på rundreiser med flere stopp er én sammenhengende dag-for-dag-tidslinje tydeligere).
+  const dagerFor = k => new Set(rute.filter(s => (s.retning || 'ut') === k).map(s => datoNokkel(s.dato, s.tid)).filter(Boolean));
+  const harRetning = rute.some(s => s && s.retning) && ![...dagerFor('ut')].some(k => dagerFor('hjem').has(k));
+  const seksjoner = harRetning
+    ? [['ut', 'Utreise'], ['hjem', 'Hjemreise']].map(([k, l]) => [l, rute.filter(s => (s.retning || 'ut') === k)]).filter(x => x[1].length)
+    : [[null, rute]];
+  const alleMoter = (Array.isArray(moter) ? moter : []).filter(m => m && m.navn && datoNokkel(m.dato));
+  const plassert = new Set();
+  const dagBlokker = seksjoner.map(([lbl, steg]) => {
+    const dager = [];
+    steg.forEach(s => {
+      const key = datoNokkel(s.dato, s.tid), label = stegDatoLabel(s);
+      let d = dager.length && dager[dager.length - 1].key === key ? dager[dager.length - 1] : null;
+      if (!d) { d = {key, label, items: []}; dager.push(d); }
+      d.items.push({steg: s});
+    });
+    alleMoter.forEach((m, i) => {
+      if (plassert.has(i)) return;
+      const d = dager.find(x => x.key === datoNokkel(m.dato));
+      if (!d) return;
+      // Møtet legges etter siste reisesteg som starter før kl. 12 den dagen (ankomst om morgenen),
+      // ellers først på dagen (man er allerede på stedet). Har møtet klokkeslett brukes det.
+      let idx = -1;
+      const mt = stegTidMin({tid: m.tid});
+      d.items.forEach((it, j) => { const t = stegTidMin(it.steg); if (t !== null && t < (mt !== null ? mt : 12 * 60)) idx = j; });
+      d.items.splice(idx + 1, 0, {mote: m});
+      plassert.add(i);
+    });
+    return {lbl, dager};
+  });
+  // Partnerbesøk på dager uten reisesteg får egen dagblokk i kronologisk rekkefølge
+  alleMoter.forEach((m, i) => {
+    if (plassert.has(i)) return;
+    const key = datoNokkel(m.dato), d = new Date(m.dato);
+    const label = isNaN(d) ? '' : UKEDAG[d.getDay()] + ' ' + d.getDate() + '. ' + MND[d.getMonth()];
+    const blokk = {key, label, items: [{mote: m}]};
+    let mål = dagBlokker[dagBlokker.length - 1];
+    for (const b of dagBlokker) { if (b.dager.length && key <= b.dager[b.dager.length - 1].key) { mål = b; break; } }
+    const pos = mål.dager.findIndex(x => x.key && x.key > key);
+    if (pos < 0) mål.dager.push(blokk); else mål.dager.splice(pos, 0, blokk);
+    plassert.add(i);
+  });
+  let h = '';
+  dagBlokker.forEach(({lbl, dager}) => {
+    if (lbl) h += `<h3 class="rute-retning">${esc(lbl)}</h3>`;
+    dager.forEach(d => {
+      if (d.label) h += `<div class="rute-dag">${esc(d.label)}</div>`;
+      h += `<ul class="steps">` + d.items.map(it => it.mote ? moteStegHtml(it.mote) : stegHtml(it.steg)).join('') + `</ul>`;
+    });
+  });
+  return h;
+}
 function stegHtml(s){
   const tidVis = s.tid ? s.tid.replace(/\s*\(\d{1,2}\.\d{1,2}\)\s*$/, '') : '';
   const tidFull = tidVis + (s.ankomst ? '\u2013' + s.ankomst : '');
@@ -591,27 +665,7 @@ function tegnDetalj(){
     if (Array.isArray(be.ruteValg) && be.ruteValg.length > 1) {
       h += `<h2 class="sec">${esc(be.ruteValgLabel || 'Reiserekkefølge')}</h2>` + altListe('rutevalg', be.ruteValg.map(v => ({id: v.id, navn: v.navn, notat: v.notat, pris: v.totalAnslag})), b.variant?.id, 'rutevalg', r);
     }
-    if (Array.isArray(b.rute) && b.rute.length) {
-      const harRetning = b.rute.some(s => s && s.retning);
-      h += `<h2 class="sec">Reiserute</h2>`;
-      if (harRetning) {
-        [['ut', 'Utreise'], ['hjem', 'Hjemreise']].forEach(([key, lbl]) => {
-          const steg = b.rute.filter(s => (s.retning || 'ut') === key);
-          if (!steg.length) return;
-          h += `<h3 style="margin:14px 0 6px;font-size:14px;opacity:.75">${lbl}</h3>`;
-          let sisteDato = null, gruppe = [];
-          const flushGruppe = () => { if (gruppe.length) h += `<ul class="steps">` + gruppe.map(stegHtml).join('') + `</ul>`; gruppe = []; };
-          steg.forEach(s => {
-            const dl = stegDatoLabel(s);
-            if (dl && dl !== sisteDato) { flushGruppe(); h += `<div style="margin:10px 0 4px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;opacity:.55">${esc(dl)}</div>`; sisteDato = dl; }
-            gruppe.push(s);
-          });
-          flushGruppe();
-        });
-      } else {
-        h += `<ul class="steps">` + b.rute.map(stegHtml).join('') + `</ul>`;
-      }
-    }
+    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, (b.variant && b.variant.moter) || be.moter);
     const kilde = b.variant || be;
     const netter = b.variant?.netter ?? r.netter ?? Math.max(0, (+r.dager || 0) - 1);
     h += `<h2 class="sec">Reise tur/retur <small>for ${r.reisende || 2}</small></h2>` + altListe('fly', kilde.fly, b.fly?.id, 'fly', r);
@@ -719,7 +773,7 @@ function splitTripHtml(r, be){
     else if (be.sammendrag) h += `<p class="sammendrag">${esc(be.sammendrag)}</p>`;
     const ant = Array.isArray(be.antakelser) ? be.antakelser.filter(Boolean) : [];
     if (ant.length) h += `<div class="antak"><b>Claude har antatt:</b><ul>${ant.map(a=>`<li>${esc(a)}</li>`).join('')}</ul></div>`;
-    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + b.rute.map(stegHtml).join('') + `</ul>`;
+    if (Array.isArray(b.rute) && b.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(b.rute, (b.variant && b.variant.moter) || be.moter);
   } else {
     h += `<div class="notice${r.status==='feil'?' bad':' warn'}">${r.status==='feil' ? esc(r.feilmelding||'Claude fant ikke priser for dette reisemålet.') : 'Venter på at Claude regner ut turen.'}</div>`;
   }
@@ -732,7 +786,7 @@ function splitVariantHtml(r, v){
   h += moterHtml(v.moter);
   h += `<div class="sdet-total">${kr(v.totalAnslag)}</div>`;
   if (v.notat) h += `<p style="margin-top:10px;line-height:1.5">${esc(v.notat)}</p>`;
-  if (Array.isArray(v.rute) && v.rute.length) h += `<h2 class="sec">Reiserute</h2><ul class="steps">` + v.rute.map(stegHtml).join('') + `</ul>`;
+  if (Array.isArray(v.rute) && v.rute.length) h += `<h2 class="sec">Reiserute</h2>` + ruteHtml(v.rute, v.moter);
   return h;
 }
 function splitAltHtml(r, a, type){
